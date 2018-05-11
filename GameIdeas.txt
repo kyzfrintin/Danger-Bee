@@ -1,0 +1,35 @@
+game objective
+
+-use your pollon to pollonate a full field of luscious flowers
+-
+
+-player starts with a piece of pollon
+-has to use it to pollonate a flower
+-pollonation ability takes 1 pollon
+-each flower has a chance to spawn 1 to 3 more pieces of pollon which help the bee pollonate more flowers
+-flowers grow how?
+
+
+fruit flowers
+
+
+the landscape is all grass but theres a couple flowers
+wind gusts
+birds
+bug nets
+
+
+robot bee. 
+pollon pellets
+bee defenses
+fly faster
+
+
+not every seed you pollonate sprouts and germinates
+you pollonate 10, but only 7 sprout into more flowers
+
+
+
+lower the co2 levels
+make more oxygen
+more co2 makes it hot and cloudy
