@@ -1,4 +1,4 @@
-﻿Log file open, 05/11/18 16:28:29
+﻿Log file open, 05/11/18 10:10:07
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,16 +7,16 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: GameJam
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1613118432) SRandInit(-1613118418).
+LogInit: Display: RandInit(-85092100) SRandInit(-85092100).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
-LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.539600
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.226561
 LogD3D11RHI: Aftermath initialized
-LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
-LogModuleManager: Display: Found up-to-date module file ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudio.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudioEditor.dll (API version 3944462).
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Nicole/Desktop/Danger-Bee/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudio.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Nicole/Desktop/Danger-Bee/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudioEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -127,7 +127,6 @@ LogPluginManager: Mounting plugin DatasmithContent
 LogPluginManager: Mounting plugin AlembicImporter
 LogPluginManager: Mounting plugin CharacterAI
 LogPluginManager: Mounting plugin HTML5Networking
-LogPluginManager: Mounting plugin FMODStudio
 LogPluginManager: Mounting plugin AndroidMedia
 LogPluginManager: Mounting plugin AvfMedia
 LogPluginManager: Mounting plugin ImgMedia
@@ -171,7 +170,8 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  3.400s to configure plugins.
+LogPluginManager: Mounting plugin FMODStudio
+LogStreaming: Display: Took  0.791s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -191,7 +191,7 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am KYLE-PC (192.168.0.12:0)
+LogInit: WinSock: I am DESKTOP-G4STLKH (192.168.1.9:0)
 LogInit: Build: ++UE4+Release-4.19-CL-4033788
 LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -219,12 +219,13 @@ LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
-LogInit: Command Line: 
-LogInit: Base Directory: C:/Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Command Line: -EpicPortal 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.008s to delete old logs.
+LogStreaming: Display: Took  0.002s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2018.05.11-15.28.33:585][  0]LogInit: Selected Device Profile: [Windows]
 [2018.05.11-15.28.33:585][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2018.05.11-15.28.33:635][  0]LogInit: Computer: KYLE-PC
@@ -915,3 +916,1829 @@ LogInit: Object subsystem initialized
 [2018.05.11-15.36.33:081][606]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2018.05.11-15.36.33:105][606]LogExit: Exiting.
 [2018.05.11-15.36.33:188][606]Log file closed, 05/11/18 16:36:33
+=======
+[2018.05.11-14.10.08:936][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.11-14.10.08:936][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.11-14.10.08:945][  0]LogInit: Computer: DESKTOP-G4STLKH
+[2018.05.11-14.10.08:945][  0]LogInit: User: Nicole
+[2018.05.11-14.10.08:945][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.05.11-14.10.08:945][  0]LogInit: High frequency timer resolution =3.515622 MHz
+[2018.05.11-14.10.08:945][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.05.11-14.10.08:945][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.11-14.10.08:945][  0]LogMemory: Process Physical Memory: 276.61 MB used, 276.61 MB peak
+[2018.05.11-14.10.08:945][  0]LogMemory: Process Virtual Memory: 270.22 MB used, 270.22 MB peak
+[2018.05.11-14.10.08:945][  0]LogMemory: Physical Memory: 8747.96 MB used,  7509.73 MB free, 16257.69 MB total
+[2018.05.11-14.10.08:945][  0]LogMemory: Virtual Memory: 700.78 MB used,  7509.73 MB free, 134217728.00 MB total
+[2018.05.11-14.10.08:960][  0]LogInit: Using OS detected language (en-US).
+[2018.05.11-14.10.08:960][  0]LogInit: Using OS detected locale (en-CA).
+[2018.05.11-14.10.08:962][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.05.11-14.10.09:288][  0]LogStreaming: Display: Took  0.328s to EndInitTextLocalization.
+[2018.05.11-14.10.09:289][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.11-14.10.09:311][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.05.11-14.10.09:311][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.05.11-14.10.09:442][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.11-14.10.09:483][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.05.11-14.10.09:483][  0]LogD3D11RHI:       6052/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.05.11-14.10.09:493][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2018.05.11-14.10.09:493][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.05.11-14.10.09:495][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.11-14.10.09:495][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.11-14.10.09:495][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.11-14.10.09:502][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.11-14.10.09:502][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.11-14.10.09:502][  0]LogWindows: EnumDisplayDevices:
+[2018.05.11-14.10.09:502][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.05.11-14.10.09:502][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.05.11-14.10.09:503][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.05.11-14.10.09:503][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.05.11-14.10.09:503][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.05.11-14.10.09:503][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.05.11-14.10.09:503][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2018.05.11-14.10.09:503][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.11-14.10.09:503][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.05.11-14.10.09:503][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.11-14.10.09:503][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.11-14.10.09:503][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.05.11-14.10.09:530][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.05.11-14.10.09:530][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.05.11-14.10.09:530][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.11-14.10.09:555][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.11-14.10.09:602][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../Users/Nicole/Desktop/Danger-Bee/Intermediate/Shaders/WorkingDirectory/18644/).
+[2018.05.11-14.10.09:602][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nicole/AppData/Local/Temp/UnrealShaderWorkingDir/6D73494C4A37C95AD30CF99CE06CE416/'.
+[2018.05.11-14.10.09:774][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.11-14.10.09:785][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.11-14.10.09:796][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.11-14.10.09:806][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.11-14.10.09:820][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.11-14.10.09:831][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.11-14.10.09:842][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.11-14.10.09:852][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.11-14.10.09:858][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.11-14.10.09:867][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.11-14.10.09:876][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.11-14.10.09:885][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.11-14.10.09:894][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.05.11-14.10.09:903][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.11-14.10.09:912][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.11-14.10.09:931][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.11-14.10.09:931][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.11-14.10.09:940][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.11-14.10.09:941][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.11-14.10.09:976][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.11-14.10.09:985][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.11-14.10.09:994][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.11-14.10.10:003][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.11-14.10.10:013][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.11-14.10.10:022][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.11-14.10.10:022][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.11-14.10.10:106][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.05.11-14.10.10:106][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.05.11-14.10.10:106][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.11-14.10.10:653][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.11-14.10.10:708][  0]LogDerivedDataCache: Loaded boot cache 0.05s 74MB C:/Users/Nicole/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.11-14.10.10:708][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nicole/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.05.11-14.10.10:708][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nicole/Desktop/Danger-Bee/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.11-14.10.10:708][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.11-14.10.10:708][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nicole/Desktop/Danger-Bee/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.11-14.10.10:708][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.11-14.10.10:720][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.11-14.10.10:732][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nicole/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.11-14.10.10:732][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.05.11-14.10.10:732][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.05.11-14.10.10:741][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.11-14.10.10:741][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.11-14.10.10:741][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.11-14.10.10:741][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.11-14.10.10:849][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2018.05.11-14.10.11:076][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.11-14.10.11:183][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.11-14.10.11:185][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.11-14.10.11:185][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.11-14.10.11:185][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.11-14.10.11:185][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.11-14.10.11:185][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.11-14.10.11:214][  0]LogNetVersion: GameJam , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2281863040)
+[2018.05.11-14.10.11:581][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 2 prioritized culture(s) in 0.057809 seconds
+[2018.05.11-14.10.11:586][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.05.11-14.10.11:586][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.05.11-14.10.11:586][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.11-14.10.12:886][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.11-14.10.12:912][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.11-14.10.13:109][  0]LogFMOD: FFMODStudioModule startup
+[2018.05.11-14.10.13:109][  0]LogFMOD:  Lib path = '../../../../../../Users/Nicole/Desktop/Danger-Bee/Plugins/FMODStudio/Binaries'
+[2018.05.11-14.10.13:109][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../../../../Users/Nicole/Desktop/Danger-Bee/Plugins/FMODStudio/Binaries/Win64/fmodL64.dll
+[2018.05.11-14.10.13:111][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../../../../Users/Nicole/Desktop/Danger-Bee/Plugins/FMODStudio/Binaries/Win64/fmodstudioL64.dll
+[2018.05.11-14.10.13:139][  0]LogFMOD: Loading strings bank: ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.11-14.10.13:141][  0]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.11-14.10.13:141][  0]LogFMOD: Warning: Failed to load strings bank: ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.11-14.10.13:143][  0]LogFMOD: Default sample rate = 48000
+[2018.05.11-14.10.13:143][  0]LogFMOD: System sample rate = 48000
+[2018.05.11-14.10.13:143][  0]LogFMOD: Matching system sample rate 48000
+[2018.05.11-14.10.13:166][  0]LogFMOD: Default sample rate = 48000
+[2018.05.11-14.10.13:166][  0]LogFMOD: System sample rate = 48000
+[2018.05.11-14.10.13:166][  0]LogFMOD: Matching system sample rate 48000
+[2018.05.11-14.10.13:279][  0]SourceControl: Source control is disabled
+[2018.05.11-14.10.13:279][  0]SourceControl: Source control is disabled
+[2018.05.11-14.10.13:293][  0]SourceControl: Source control is disabled
+[2018.05.11-14.10.13:308][  0]SourceControl: Source control is disabled
+[2018.05.11-14.10.13:698][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.11-14.10.13:797][  0]LogOcInput: OculusInput pre-init called
+[2018.05.11-14.10.13:852][  0]LogFMOD: FFMODStudioEditorModule startup
+[2018.05.11-14.10.13:907][  0]LogEngine: Initializing Engine...
+[2018.05.11-14.10.13:928][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.05.11-14.10.13:929][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.11-14.10.13:929][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.11-14.10.14:107][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.11-14.10.14:154][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.11-14.10.14:159][  0]LogInit: FAudioDevice initialized.
+[2018.05.11-14.10.14:202][  0]LogDerivedDataCache: Saved boot cache 0.04s 74MB C:/Users/Nicole/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.11-14.10.14:212][  0]LogInit: Texture streaming: Enabled
+[2018.05.11-14.10.14:229][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.11-14.10.14:243][  0]LogInit: Transaction tracking system initialized
+[2018.05.11-14.10.14:270][  0]BlueprintLog: New page: Editor Load
+[2018.05.11-14.10.14:336][  0]LocalizationService: Localization service is disabled
+[2018.05.11-14.10.14:415][  0]LogConsoleResponse: Display: 
+[2018.05.11-14.10.14:536][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.11-14.10.14:536][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.11-14.10.14:536][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.11-14.10.14:536][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.11-14.10.14:536][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.11-14.10.14:716][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nicole/Desktop/Danger-Bee/Content/' took 0.01s
+[2018.05.11-14.10.14:846][  0]SourceControl: Source control is disabled
+[2018.05.11-14.10.14:846][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Maps/L_Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.11-14.10.14:846][  0]LightingResults: New page: Lighting Build
+[2018.05.11-14.10.14:848][  0]MapCheck: New page: Map Check
+[2018.05.11-14.10.14:848][  0]LightingResults: New page: Lighting Build
+[2018.05.11-14.10.14:947][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002700796f900, Size=1320, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-14.10.14:956][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002700796f900, Size=1320
+[2018.05.11-14.10.14:956][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002700796a400, Size=1320, Default__BP_Bee_Redo_C Function /Engine/Transient.REINST_BP_Bee_Redo_C_5:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-14.10.14:962][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000270078db200, Size=1312, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-14.10.15:060][  0]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.11-14.10.15:063][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.11-14.10.15:073][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002700796a400, Size=1320
+[2018.05.11-14.10.15:074][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.11-14.10.15:116][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 41.714ms to complete.
+[2018.05.11-14.10.15:116][  0]LogFileHelpers: Loading map 'L_Level01' took 0.270
+[2018.05.11-14.10.15:218][  0]LogCollectionManager: Loaded 0 collections in 0.001717 seconds
+[2018.05.11-14.10.15:257][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nicole/Desktop/Danger-Bee/Saved/Collections/' took 0.01s
+[2018.05.11-14.10.15:257][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nicole/Desktop/Danger-Bee/Content/Developers/Nicole/Collections/' took 0.01s
+[2018.05.11-14.10.15:257][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nicole/Desktop/Danger-Bee/Content/Collections/' took 0.01s
+[2018.05.11-14.10.15:257][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.05.11-14.10.15:264][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2469 classes and 565 folders.
+[2018.05.11-14.10.15:269][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.11-14.10.15:314][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.11-14.10.15:317][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.05.11-14.10.15:333][  0]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.11-14.10.15:335][  0]LogSlate: Took 0.000386 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.11-14.10.15:340][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.11-14.10.15:413][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.05.11-14.10.15:519][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.11-14.10.15:519][  0]LogLoad: (Engine Initialization) Total time: 8.45 seconds
+[2018.05.11-14.10.15:519][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.11-14.10.15:854][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.11-14.10.15:854][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.11-14.10.15:889][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.11-14.10.15:925][  0]LogSlate: Took 0.002311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.11-14.10.16:192][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Nicole/Desktop/Danger-Bee/Content/' took 0.32s
+[2018.05.11-14.10.16:207][  1]LogAssetRegistry: Asset discovery search completed in 5.3802 seconds
+[2018.05.11-14.10.16:208][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.05.11-14.10.16:208][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2018.05.11-14.10.16:861][  3]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.11-14.11.39:522][251]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.11-14.53.24:991][  2]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee rigged wing.fbx)
+[2018.05.11-14.53.25:008][  2]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.05.11-14.53.25:008][  2]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.05.11-14.53.25:008][  2]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.05.11-14.53.25:008][  2]LogFbx: ItemName: Geometry, ItemCount : 2
+[2018.05.11-14.53.25:008][  2]LogFbx: ItemName: Material, ItemCount : 1
+[2018.05.11-14.53.25:008][  2]LogFbx: ItemName: Model, ItemCount : 5
+[2018.05.11-14.53.25:008][  2]LogFbx: ItemName: NodeAttribute, ItemCount : 3
+[2018.05.11-14.53.25:008][  2]LogFbx: ItemName: AnimationCurveNode, ItemCount : 6
+[2018.05.11-14.53.25:008][  2]LogFbx: ItemName: Pose, ItemCount : 1
+[2018.05.11-14.53.25:008][  2]LogFbx: ItemName: Deformer, ItemCount : 3
+[2018.05.11-14.53.25:011][  2]LogFbx: Loading FBX Scene from ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee rigged wing.fbx
+[2018.05.11-14.53.25:020][  2]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-14.53.36:840][  2]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.11-14.53.36:872][  2]LogFbx: Loading FBX Scene from ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee rigged wing.fbx
+[2018.05.11-14.53.36:878][  2]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-14.53.36:879][  2]LogFbx: =================================================
+[2018.05.11-14.53.36:879][  2]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-14.53.36:879][  2]LogFbx: 	Total Deformer Count 723232912.
+[2018.05.11-14.53.36:879][  2]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-14.53.36:879][  2]LogFbx: =================================================
+[2018.05.11-14.53.36:879][  2]LogFbx: 	Attribute () Type (4).
+[2018.05.11-14.53.36:879][  2]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-14.53.36:879][  2]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-14.53.36:879][  2]LogFbx: =================================================
+[2018.05.11-14.53.36:879][  2]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-14.53.36:879][  2]LogFbx: 	Total Deformer Count 723232912.
+[2018.05.11-14.53.36:879][  2]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-14.53.36:879][  2]LogFbx: =================================================
+[2018.05.11-14.53.36:879][  2]LogFbx: 	Attribute () Type (4).
+[2018.05.11-14.53.36:879][  2]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-14.53.36:879][  2]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-14.53.36:881][  2]LogFbx: Valid bind pose for Pose (skinCluster1) - SM_BeeWing_R
+[2018.05.11-14.53.36:882][  2]LogMaterial: Warning: Material /Game/Import/lambert1.lambert1 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.05.11-14.53.36:884][  2]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.05.11-14.53.36:915][  2]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.05.11-14.53.36:915][  2]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.05.11-14.53.36:916][  2]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.05.11-14.53.36:930][  2]LogFbx: Triangulating skeletal mesh SM_BeeWing_R
+[2018.05.11-14.53.36:935][  2]LogFbx: Warning: Bones digested - 2  Depth of hierarchy - 2
+[2018.05.11-14.53.36:938][  2]LogSkeletalMesh: Section 0: 8 vertices, 2 active bones
+[2018.05.11-14.53.36:938][  2]LogSkeletalMesh: Section 0: Material=0, 6 triangles
+[2018.05.11-14.53.36:939][  2]LogSkeletalMesh: Building Skeletal Mesh Bee_rigged_wing...
+[2018.05.11-14.53.36:940][  2]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Import/Bee_rigged_wing.Bee_rigged_wing
+[2018.05.11-14.53.36:941][  2]LogLinker: Can't find file '/Game/Import/Bee_rigged_wing_Skeleton'
+[2018.05.11-14.53.36:941][  2]LogLinker: Can't find file '/Game/Import/Bee_rigged_wing_Skeleton'
+[2018.05.11-14.53.36:943][  2]LogLinker: Can't find file '/Game/Import/Bee_rigged_wing_PhysicsAsset'
+[2018.05.11-14.53.36:944][  2]LogLinker: Can't find file '/Game/Import/Bee_rigged_wing_PhysicsAsset'
+[2018.05.11-14.53.36:951][  2]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.05.11-14.53.36:958][  2]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2018.05.11-14.53.36:958][  2]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.11-14.53.36:970][  2]LogSkeletalMesh: Building Skeletal Mesh Bee_rigged_wing...
+[2018.05.11-14.53.36:970][  2]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Import/Bee_rigged_wing.Bee_rigged_wing
+[2018.05.11-14.53.38:485][154]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.05.11-14.53.39:004][216]LogSlate: Window 'Message Log' being destroyed
+[2018.05.11-14.53.39:007][216]LogSlate: Window 'Message Log' being destroyed
+[2018.05.11-14.53.39:043][221]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.05.11-14.53.39:533][277]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.05.11-14.53.40:927][444]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.05.11-14.53.40:979][450]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.05.11-14.53.42:282][606]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.11-14.53.46:033][ 42]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/L_Level01' took 0.009
+[2018.05.11-14.53.46:035][ 42]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Import/Bee_rigged_wing] ([1] browsable assets)...
+[2018.05.11-14.53.46:044][ 42]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Import/Bee_rigged_wing.Bee_rigged_wing]
+[2018.05.11-14.53.46:044][ 42]OBJ SavePackage: Finished generating thumbnails for package [/Game/Import/Bee_rigged_wing]
+[2018.05.11-14.53.46:044][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Import/Bee_rigged_wing" FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/Bee_rigged_wing_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.05.11-14.53.46:053][ 42]LogSavePackage: Save=7.57ms
+[2018.05.11-14.53.46:053][ 42]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Bee_rigged_wing_Auto14409EDAE4729826456965092CB47FC31.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/Bee_rigged_wing_Auto1.uasset'
+[2018.05.11-14.53.46:054][ 42]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/Bee_rigged_wing_Auto1.uasset
+[2018.05.11-14.53.46:054][ 42]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Import/lambert1] ([1] browsable assets)...
+[2018.05.11-14.53.46:063][ 42]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Import/lambert1.lambert1]
+[2018.05.11-14.53.46:063][ 42]OBJ SavePackage: Finished generating thumbnails for package [/Game/Import/lambert1]
+[2018.05.11-14.53.46:063][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Import/lambert1" FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/lambert1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.05.11-14.53.46:072][ 42]LogSavePackage: Save=8.15ms
+[2018.05.11-14.53.46:072][ 42]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/lambert1_Auto1D1975BE6404CAC1D53680B8BBF533D97.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/lambert1_Auto1.uasset'
+[2018.05.11-14.53.46:073][ 42]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/lambert1_Auto1.uasset
+[2018.05.11-14.53.46:074][ 42]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Import/Bee_rigged_wing_Skeleton] ([1] browsable assets)...
+[2018.05.11-14.53.46:074][ 42]OBJ SavePackage: Finished generating thumbnails for package [/Game/Import/Bee_rigged_wing_Skeleton]
+[2018.05.11-14.53.46:075][ 42]LogSavePackage: Save=1.01ms
+[2018.05.11-14.53.46:076][ 42]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Bee_rigged_wing_Skeleton_Auto167E20A514D12FD36E643C0882CF10109.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/Bee_rigged_wing_Skeleton_Auto1.uasset'
+[2018.05.11-14.53.46:077][ 42]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/Bee_rigged_wing_Skeleton_Auto1.uasset
+[2018.05.11-14.53.46:077][ 42]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Import/Bee_rigged_wing_PhysicsAsset] ([1] browsable assets)...
+[2018.05.11-14.53.46:085][ 42]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Import/Bee_rigged_wing_PhysicsAsset.Bee_rigged_wing_PhysicsAsset]
+[2018.05.11-14.53.46:085][ 42]OBJ SavePackage: Finished generating thumbnails for package [/Game/Import/Bee_rigged_wing_PhysicsAsset]
+[2018.05.11-14.53.46:094][ 42]LogSavePackage: Save=7.00ms
+[2018.05.11-14.53.46:094][ 42]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Bee_rigged_wing_PhysicsAsset_Aut984194E84E93C25008EC70873A7BFD30.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/Bee_rigged_wing_PhysicsAsset_Auto1.uasset'
+[2018.05.11-14.53.46:095][ 42]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/Bee_rigged_wing_PhysicsAsset_Auto1.uasset
+[2018.05.11-14.53.46:095][ 42]LogFileHelpers: Auto-saving content packages took 0.061
+[2018.05.11-14.53.48:590][327]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.05.11-14.53.48:775][327]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.05.11-14.53.48:780][327]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2018.05.11-14.53.48:827][327]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.05.11-14.53.49:066][327]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2018.05.11-14.53.49:077][328]LogRenderer: Reallocating scene render targets to support 1208x588 Format 10 NumSamples 1 (Frame:1).
+[2018.05.11-14.53.52:257][685]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2018.05.11-14.53.52:282][685]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2018.05.11-14.53.52:463][685]LogSlate: Took 0.002240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.11-14.53.53:263][771]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0002 seconds. Added 7 classes and 3 folders.
+[2018.05.11-14.53.53:270][771]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_2.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.05.11-14.53.53:469][771]LogSlate: Took 0.002432 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.11-14.53.54:705][913]LogSlate: Window 'Bee_rigged_wing_PhysicsAsset*' being destroyed
+[2018.05.11-14.53.54:709][913]LogSlate: Window 'Bee_rigged_wing_PhysicsAsset*' being destroyed
+[2018.05.11-14.54.16:343][724]LogSlate: Window 'Message' being destroyed
+[2018.05.11-14.54.16:348][724]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Import/Bee rigged wing.fbx)
+[2018.05.11-14.54.16:350][724]LogEditorFactories: Performing atomic reimport of [C:/Users/Nicole/Desktop/Danger-Bee/Content/Import/Import/Bee rigged wing.fbx]
+[2018.05.11-14.54.16:356][724]LogFbx: Loading FBX Scene from C:/Users/Nicole/Desktop/Danger-Bee/Content/Import/Import/Bee rigged wing.fbx
+[2018.05.11-14.54.16:362][724]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-14.54.16:363][724]LogEditorFactories: Warning: -- import failed
+[2018.05.11-14.54.16:364][724]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2018.05.11-14.54.16:364][724]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2018.05.11-14.54.16:364][724]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2018.05.11-14.54.16:364][724]FBXImport: Warning: No FBX mesh matches the Unreal mesh 'Bee_rigged_wing'. 
+[2018.05.11-14.54.16:370][724]LogSkeletalMesh: Building Skeletal Mesh Bee_rigged_wing...
+[2018.05.11-14.54.16:370][724]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Import/Bee_rigged_wing.Bee_rigged_wing
+[2018.05.11-14.54.20:772][225]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2018.05.11-14.54.20:799][225]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_3.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2018.05.11-14.54.22:679][420]LogSlate: Window 'Bee_rigged_wing_Skeleton*' being destroyed
+[2018.05.11-14.54.22:684][420]LogSlate: Window 'Bee_rigged_wing_Skeleton*' being destroyed
+[2018.05.11-15.03.22:325][ 47]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.11-15.03.22:708][ 47]LogSkeletalMesh: Building Skeletal Mesh Bee_rigged_wing...
+[2018.05.11-15.03.22:708][ 47]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Import/Bee_rigged_wing.Bee_rigged_wing
+[2018.05.11-15.03.22:710][ 47]LogSkeletalMesh: Building Skeletal Mesh Bee_rigged_wing...
+[2018.05.11-15.03.22:710][ 47]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Import/Bee_rigged_wing.Bee_rigged_wing
+[2018.05.11-15.03.22:711][ 47]LogSkeletalMesh: Building Skeletal Mesh Bee_rigged_wing...
+[2018.05.11-15.03.22:711][ 47]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Import/Bee_rigged_wing.Bee_rigged_wing
+[2018.05.11-15.03.32:069][ 99]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee Rig Animation.fbx)
+[2018.05.11-15.03.32:073][ 99]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.05.11-15.03.32:073][ 99]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.05.11-15.03.32:073][ 99]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.05.11-15.03.32:073][ 99]LogFbx: ItemName: Geometry, ItemCount : 3
+[2018.05.11-15.03.32:073][ 99]LogFbx: ItemName: Model, ItemCount : 8
+[2018.05.11-15.03.32:073][ 99]LogFbx: ItemName: NodeAttribute, ItemCount : 5
+[2018.05.11-15.03.32:073][ 99]LogFbx: ItemName: AnimationCurveNode, ItemCount : 13
+[2018.05.11-15.03.32:073][ 99]LogFbx: ItemName: AnimationCurve, ItemCount : 20
+[2018.05.11-15.03.32:076][ 99]LogFbx: Loading FBX Scene from ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee Rig Animation.fbx
+[2018.05.11-15.03.32:083][ 99]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-15.19.57:622][ 99]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.11-15.20.01:657][267]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee animation.fbx)
+[2018.05.11-15.20.01:661][267]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.05.11-15.20.01:661][267]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.05.11-15.20.01:661][267]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.05.11-15.20.01:661][267]LogFbx: ItemName: Geometry, ItemCount : 6
+[2018.05.11-15.20.01:661][267]LogFbx: ItemName: Model, ItemCount : 11
+[2018.05.11-15.20.01:661][267]LogFbx: ItemName: Material, ItemCount : 1
+[2018.05.11-15.20.01:661][267]LogFbx: ItemName: NodeAttribute, ItemCount : 5
+[2018.05.11-15.20.01:661][267]LogFbx: ItemName: AnimationCurveNode, ItemCount : 17
+[2018.05.11-15.20.01:661][267]LogFbx: ItemName: AnimationCurve, ItemCount : 22
+[2018.05.11-15.20.01:661][267]LogFbx: ItemName: Pose, ItemCount : 3
+[2018.05.11-15.20.01:661][267]LogFbx: ItemName: Deformer, ItemCount : 18
+[2018.05.11-15.20.01:665][267]LogFbx: Loading FBX Scene from ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee animation.fbx
+[2018.05.11-15.20.01:673][267]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-15.20.08:876][267]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.11-15.20.08:898][267]LogFbx: Loading FBX Scene from ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee animation.fbx
+[2018.05.11-15.20.08:906][267]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-15.20.08:906][267]LogFbx: =================================================
+[2018.05.11-15.20.08:906][267]LogFbx: Dumping Node START [SM_Bee001] 
+[2018.05.11-15.20.08:906][267]LogFbx: 	Total Deformer Count 562027584.
+[2018.05.11-15.20.08:906][267]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.20.08:906][267]LogFbx: =================================================
+[2018.05.11-15.20.08:906][267]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.20.08:906][267]LogFbx: 		[Node Attribute Child 1] SM_Bee001 (Type Mesh).
+[2018.05.11-15.20.08:906][267]LogFbx: Dumping Node END [SM_Bee001]
+[2018.05.11-15.20.08:906][267]LogFbx: =================================================
+[2018.05.11-15.20.08:906][267]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-15.20.08:906][267]LogFbx: 	Total Deformer Count 118416032.
+[2018.05.11-15.20.08:906][267]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.20.08:906][267]LogFbx: =================================================
+[2018.05.11-15.20.08:906][267]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.20.08:906][267]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-15.20.08:906][267]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-15.20.08:906][267]LogFbx: =================================================
+[2018.05.11-15.20.08:906][267]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-15.20.08:906][267]LogFbx: 	Total Deformer Count 118416032.
+[2018.05.11-15.20.08:906][267]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.20.08:907][267]LogFbx: =================================================
+[2018.05.11-15.20.08:907][267]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.20.08:907][267]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-15.20.08:907][267]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-15.20.08:907][267]LogFbx: =================================================
+[2018.05.11-15.20.08:907][267]LogFbx: Dumping Node START [SM_Bee001] 
+[2018.05.11-15.20.08:907][267]LogFbx: 	Total Deformer Count 562035584.
+[2018.05.11-15.20.08:907][267]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.20.08:907][267]LogFbx: =================================================
+[2018.05.11-15.20.08:907][267]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.20.08:907][267]LogFbx: 		[Node Attribute Child 1] SM_Bee001 (Type Mesh).
+[2018.05.11-15.20.08:907][267]LogFbx: Dumping Node END [SM_Bee001]
+[2018.05.11-15.20.08:907][267]LogFbx: =================================================
+[2018.05.11-15.20.08:907][267]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-15.20.08:907][267]LogFbx: 	Total Deformer Count 118410032.
+[2018.05.11-15.20.08:907][267]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.20.08:907][267]LogFbx: =================================================
+[2018.05.11-15.20.08:907][267]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.20.08:907][267]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-15.20.08:907][267]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-15.20.08:907][267]LogFbx: =================================================
+[2018.05.11-15.20.08:907][267]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-15.20.08:907][267]LogFbx: 	Total Deformer Count 118410032.
+[2018.05.11-15.20.08:907][267]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.20.08:907][267]LogFbx: =================================================
+[2018.05.11-15.20.08:907][267]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.20.08:907][267]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-15.20.08:907][267]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-15.20.08:907][267]LogFbx: =================================================
+[2018.05.11-15.20.08:907][267]LogFbx: Dumping Node START [SM_Bee001] 
+[2018.05.11-15.20.08:907][267]LogFbx: 	Total Deformer Count 562024320.
+[2018.05.11-15.20.08:907][267]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.20.08:907][267]LogFbx: =================================================
+[2018.05.11-15.20.08:907][267]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.20.08:907][267]LogFbx: 		[Node Attribute Child 1] SM_Bee001 (Type Mesh).
+[2018.05.11-15.20.08:907][267]LogFbx: Dumping Node END [SM_Bee001]
+[2018.05.11-15.20.08:907][267]LogFbx: =================================================
+[2018.05.11-15.20.08:907][267]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-15.20.08:907][267]LogFbx: 	Total Deformer Count 118420192.
+[2018.05.11-15.20.08:907][267]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.20.08:907][267]LogFbx: =================================================
+[2018.05.11-15.20.08:907][267]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.20.08:907][267]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-15.20.08:907][267]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-15.20.08:907][267]LogFbx: =================================================
+[2018.05.11-15.20.08:907][267]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-15.20.08:907][267]LogFbx: 	Total Deformer Count 118420192.
+[2018.05.11-15.20.08:907][267]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.20.08:907][267]LogFbx: =================================================
+[2018.05.11-15.20.08:907][267]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.20.08:907][267]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-15.20.08:907][267]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-15.20.08:907][267]LogFbx: Valid bind pose for Pose (skinCluster1) - SM_Bee001
+[2018.05.11-15.20.08:907][267]LogFbx: Valid bind pose for Pose (skinCluster2) - SM_Bee001
+[2018.05.11-15.20.08:907][267]LogFbx: Valid bind pose for Pose (skinCluster3) - SM_Bee001
+[2018.05.11-15.20.08:908][267]LogMaterial: Warning: Material /Game/Import/lambert1.lambert1 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.05.11-15.20.08:909][267]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.05.11-15.20.08:923][267]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.05.11-15.20.08:935][267]LogFbx: Triangulating skeletal mesh SM_Bee001
+[2018.05.11-15.20.08:936][267]LogFbx: Triangulating skeletal mesh SM_BeeWing_R
+[2018.05.11-15.20.08:936][267]LogFbx: Triangulating skeletal mesh SM_BeeWing_R001
+[2018.05.11-15.20.08:938][267]LogFbx: Warning: Bones digested - 5  Depth of hierarchy - 3
+[2018.05.11-15.20.08:939][267]LogSkeletalMesh: Section 0: 50 vertices, 3 active bones
+[2018.05.11-15.20.08:939][267]LogSkeletalMesh: Section 0: Material=0, 60 triangles
+[2018.05.11-15.20.08:939][267]LogSkeletalMesh: Building Skeletal Mesh Bee_animation...
+[2018.05.11-15.20.08:939][267]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Import/Bee_animation.Bee_animation
+[2018.05.11-15.20.08:940][267]LogLinker: Can't find file '/Game/Import/Bee_animation_Skeleton'
+[2018.05.11-15.20.08:940][267]LogLinker: Can't find file '/Game/Import/Bee_animation_Skeleton'
+[2018.05.11-15.20.08:941][267]LogLinker: Can't find file '/Game/Import/Bee_animation_PhysicsAsset'
+[2018.05.11-15.20.08:941][267]LogLinker: Can't find file '/Game/Import/Bee_animation_PhysicsAsset'
+[2018.05.11-15.20.08:945][267]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.05.11-15.20.08:945][267]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.05.11-15.20.08:945][267]LogFbx: =================================================
+[2018.05.11-15.20.08:945][267]LogFbx: Dumping Node START [SM_Bee001] 
+[2018.05.11-15.20.08:945][267]LogFbx: 	Total Deformer Count 551949184.
+[2018.05.11-15.20.08:945][267]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.20.08:945][267]LogFbx: =================================================
+[2018.05.11-15.20.08:945][267]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.20.08:945][267]LogFbx: 		[Node Attribute Child 1] SM_Bee001 (Type Mesh).
+[2018.05.11-15.20.08:945][267]LogFbx: Dumping Node END [SM_Bee001]
+[2018.05.11-15.20.08:945][267]LogFbx: =================================================
+[2018.05.11-15.20.08:945][267]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-15.20.08:945][267]LogFbx: 	Total Deformer Count -1815406352.
+[2018.05.11-15.20.08:945][267]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.20.08:945][267]LogFbx: =================================================
+[2018.05.11-15.20.08:945][267]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.20.08:945][267]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-15.20.08:945][267]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-15.20.08:945][267]LogFbx: =================================================
+[2018.05.11-15.20.08:945][267]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-15.20.08:945][267]LogFbx: 	Total Deformer Count -1815406352.
+[2018.05.11-15.20.08:945][267]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.20.08:945][267]LogFbx: =================================================
+[2018.05.11-15.20.08:945][267]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.20.08:945][267]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-15.20.08:945][267]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-15.20.08:945][267]LogFbx: =================================================
+[2018.05.11-15.20.08:945][267]LogFbx: Dumping Node START [SM_Bee001] 
+[2018.05.11-15.20.08:945][267]LogFbx: 	Total Deformer Count 551954496.
+[2018.05.11-15.20.08:945][267]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.20.08:945][267]LogFbx: =================================================
+[2018.05.11-15.20.08:945][267]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.20.08:945][267]LogFbx: 		[Node Attribute Child 1] SM_Bee001 (Type Mesh).
+[2018.05.11-15.20.08:945][267]LogFbx: Dumping Node END [SM_Bee001]
+[2018.05.11-15.20.08:945][267]LogFbx: =================================================
+[2018.05.11-15.20.08:945][267]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-15.20.08:945][267]LogFbx: 	Total Deformer Count -1815406912.
+[2018.05.11-15.20.08:945][267]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.20.08:945][267]LogFbx: =================================================
+[2018.05.11-15.20.08:945][267]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.20.08:945][267]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-15.20.08:945][267]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-15.20.08:945][267]LogFbx: =================================================
+[2018.05.11-15.20.08:945][267]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-15.20.08:945][267]LogFbx: 	Total Deformer Count -1815406912.
+[2018.05.11-15.20.08:945][267]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.20.08:945][267]LogFbx: =================================================
+[2018.05.11-15.20.08:945][267]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.20.08:945][267]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-15.20.08:945][267]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-15.20.08:945][267]LogFbx: =================================================
+[2018.05.11-15.20.08:945][267]LogFbx: Dumping Node START [SM_Bee001] 
+[2018.05.11-15.20.08:945][267]LogFbx: 	Total Deformer Count 551210048.
+[2018.05.11-15.20.08:945][267]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.20.08:945][267]LogFbx: =================================================
+[2018.05.11-15.20.08:945][267]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.20.08:945][267]LogFbx: 		[Node Attribute Child 1] SM_Bee001 (Type Mesh).
+[2018.05.11-15.20.08:945][267]LogFbx: Dumping Node END [SM_Bee001]
+[2018.05.11-15.20.08:945][267]LogFbx: =================================================
+[2018.05.11-15.20.08:945][267]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-15.20.08:945][267]LogFbx: 	Total Deformer Count -1815396512.
+[2018.05.11-15.20.08:945][267]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.20.08:945][267]LogFbx: =================================================
+[2018.05.11-15.20.08:946][267]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.20.08:946][267]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-15.20.08:946][267]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-15.20.08:946][267]LogFbx: =================================================
+[2018.05.11-15.20.08:946][267]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-15.20.08:946][267]LogFbx: 	Total Deformer Count -1815396512.
+[2018.05.11-15.20.08:946][267]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.20.08:946][267]LogFbx: =================================================
+[2018.05.11-15.20.08:946][267]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.20.08:946][267]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-15.20.08:946][267]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-15.20.08:946][267]LogFbx: SortedLinks :(0) joint1
+[2018.05.11-15.20.08:946][267]LogFbx: SortedLinks :(1) joint2
+[2018.05.11-15.20.08:946][267]LogFbx: SortedLinks :(2) joint3
+[2018.05.11-15.20.08:946][267]LogFbx: SortedLinks :(3) joint4
+[2018.05.11-15.20.08:946][267]LogFbx: SortedLinks :(4) joint5
+[2018.05.11-15.20.08:946][267]LogFbx: Parsing AnimStack Take 001
+[2018.05.11-15.20.08:948][267]LogLinker: Can't find file '/Game/Import/Bee_animation_Anim'
+[2018.05.11-15.20.08:948][267]LogLinker: Can't find file '/Game/Import/Bee_animation_Anim'
+[2018.05.11-15.20.08:960][267]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Import/Bee_animation_Anim.Bee_animation_Anim
+[2018.05.11-15.20.08:962][267]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Bee_animation_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.05.11-15.20.08:964][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:964][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:964][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:964][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:964][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:964][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:964][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:964][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:964][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:964][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:964][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:964][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:964][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:964][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:964][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:965][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:966][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:967][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:968][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:968][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:968][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:968][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:968][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:968][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:968][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.20.08:968][267]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.20.08:971][267]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2018.05.11-15.20.08:971][267]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2018.05.11-15.20.08:971][267]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2018.05.11-15.20.08:971][267]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.11-15.20.08:971][267]FBXImport: Warning: Imported bone transform is different from original. Please check Output Log to see detail of error.  
+[2018.05.11-15.20.08:981][267]LogSkeletalMesh: Building Skeletal Mesh Bee_animation...
+[2018.05.11-15.20.08:982][267]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Import/Bee_animation.Bee_animation
+[2018.05.11-15.20.10:420][427]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.05.11-15.20.10:748][466]LogSlate: Window 'Message Log' being destroyed
+[2018.05.11-15.20.10:753][466]LogSlate: Window 'Message Log' being destroyed
+[2018.05.11-15.20.11:051][502]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.05.11-15.20.11:772][587]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.05.11-15.20.11:788][587]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_4.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2018.05.11-15.20.11:809][587]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_4.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2018.05.11-15.20.12:758][658]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.11-15.20.18:222][131]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/L_Level01' took 0.009
+[2018.05.11-15.20.18:224][131]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Import/Bee_animation] ([1] browsable assets)...
+[2018.05.11-15.20.18:232][131]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Import/Bee_animation.Bee_animation]
+[2018.05.11-15.20.18:232][131]OBJ SavePackage: Finished generating thumbnails for package [/Game/Import/Bee_animation]
+[2018.05.11-15.20.18:232][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Import/Bee_animation" FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/Bee_animation_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.05.11-15.20.18:242][131]LogSavePackage: Save=8.26ms
+[2018.05.11-15.20.18:242][131]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Bee_animation_Auto24D3C1463460B1823941D3CB33B91C635.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/Bee_animation_Auto2.uasset'
+[2018.05.11-15.20.18:242][131]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/Bee_animation_Auto2.uasset
+[2018.05.11-15.20.18:243][131]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Import/lambert1] ([1] browsable assets)...
+[2018.05.11-15.20.18:251][131]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Import/lambert1.lambert1]
+[2018.05.11-15.20.18:252][131]OBJ SavePackage: Finished generating thumbnails for package [/Game/Import/lambert1]
+[2018.05.11-15.20.18:252][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Import/lambert1" FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/lambert1_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.05.11-15.20.18:261][131]LogSavePackage: Save=8.37ms
+[2018.05.11-15.20.18:262][131]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/lambert1_Auto2033D008543B3EFD3FF5845B14D9534CA.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/lambert1_Auto2.uasset'
+[2018.05.11-15.20.18:262][131]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/lambert1_Auto2.uasset
+[2018.05.11-15.20.18:263][131]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Import/Bee_animation_Skeleton] ([1] browsable assets)...
+[2018.05.11-15.20.18:263][131]OBJ SavePackage: Finished generating thumbnails for package [/Game/Import/Bee_animation_Skeleton]
+[2018.05.11-15.20.18:265][131]LogSavePackage: Save=1.00ms
+[2018.05.11-15.20.18:265][131]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Bee_animation_Skeleton_Auto2431411C64965278FA76A1B8F048803A9.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/Bee_animation_Skeleton_Auto2.uasset'
+[2018.05.11-15.20.18:266][131]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/Bee_animation_Skeleton_Auto2.uasset
+[2018.05.11-15.20.18:266][131]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Import/Bee_animation_PhysicsAsset] ([1] browsable assets)...
+[2018.05.11-15.20.18:274][131]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Import/Bee_animation_PhysicsAsset.Bee_animation_PhysicsAsset]
+[2018.05.11-15.20.18:274][131]OBJ SavePackage: Finished generating thumbnails for package [/Game/Import/Bee_animation_PhysicsAsset]
+[2018.05.11-15.20.18:283][131]LogSavePackage: Save=7.48ms
+[2018.05.11-15.20.18:283][131]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Bee_animation_PhysicsAsset_Auto21BA9175747219C6160DD4F90C808DFCB.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/Bee_animation_PhysicsAsset_Auto2.uasset'
+[2018.05.11-15.20.18:284][131]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/Bee_animation_PhysicsAsset_Auto2.uasset
+[2018.05.11-15.20.18:284][131]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Import/Bee_animation_Anim] ([1] browsable assets)...
+[2018.05.11-15.20.18:293][131]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Import/Bee_animation_Anim.Bee_animation_Anim]
+[2018.05.11-15.20.18:293][131]OBJ SavePackage: Finished generating thumbnails for package [/Game/Import/Bee_animation_Anim]
+[2018.05.11-15.20.18:301][131]LogSavePackage: Save=7.36ms
+[2018.05.11-15.20.18:301][131]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Bee_animation_Anim_Auto29BD260D34D70F34765C79A93E4AB9D68.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/Bee_animation_Anim_Auto2.uasset'
+[2018.05.11-15.20.18:302][131]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/Bee_animation_Anim_Auto2.uasset
+[2018.05.11-15.20.18:302][131]LogFileHelpers: Auto-saving content packages took 0.079
+[2018.05.11-15.21.05:763][542]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.11-15.21.05:837][549]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_5.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2018.05.11-15.21.05:858][549]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_5.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2018.05.11-15.21.06:125][549]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.05.11-15.21.16:669][712]LogSlate: Window 'Bee_animation_Anim*' being destroyed
+[2018.05.11-15.21.16:674][712]LogSlate: Window 'Bee_animation_Anim*' being destroyed
+[2018.05.11-15.21.53:991][560]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.11-15.21.54:063][560]LogSkeletalMesh: Building Skeletal Mesh Bee_animation...
+[2018.05.11-15.21.54:064][560]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Import/Bee_animation.Bee_animation
+[2018.05.11-15.21.54:064][560]LogSkeletalMesh: Building Skeletal Mesh Bee_animation...
+[2018.05.11-15.21.54:064][560]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Import/Bee_animation.Bee_animation
+[2018.05.11-15.21.54:066][560]LogSkeletalMesh: Building Skeletal Mesh Bee_animation...
+[2018.05.11-15.21.54:066][560]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Import/Bee_animation.Bee_animation
+[2018.05.11-15.22.01:649][954]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee animation.fbx)
+[2018.05.11-15.22.01:653][954]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.05.11-15.22.01:653][954]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.05.11-15.22.01:653][954]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.05.11-15.22.01:653][954]LogFbx: ItemName: Geometry, ItemCount : 6
+[2018.05.11-15.22.01:653][954]LogFbx: ItemName: Model, ItemCount : 11
+[2018.05.11-15.22.01:653][954]LogFbx: ItemName: Material, ItemCount : 1
+[2018.05.11-15.22.01:653][954]LogFbx: ItemName: NodeAttribute, ItemCount : 5
+[2018.05.11-15.22.01:653][954]LogFbx: ItemName: AnimationCurveNode, ItemCount : 17
+[2018.05.11-15.22.01:653][954]LogFbx: ItemName: AnimationCurve, ItemCount : 22
+[2018.05.11-15.22.01:653][954]LogFbx: ItemName: Pose, ItemCount : 3
+[2018.05.11-15.22.01:653][954]LogFbx: ItemName: Deformer, ItemCount : 18
+[2018.05.11-15.22.01:657][954]LogFbx: Loading FBX Scene from ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee animation.fbx
+[2018.05.11-15.22.01:664][954]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-15.22.02:990][954]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.11-15.22.03:023][954]LogFbx: Loading FBX Scene from ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee animation.fbx
+[2018.05.11-15.22.03:031][954]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-15.22.03:031][954]LogFbx: =================================================
+[2018.05.11-15.22.03:031][954]LogFbx: Dumping Node START [SM_Bee001] 
+[2018.05.11-15.22.03:031][954]LogFbx: 	Total Deformer Count 393469504.
+[2018.05.11-15.22.03:031][954]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.22.03:031][954]LogFbx: =================================================
+[2018.05.11-15.22.03:031][954]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.22.03:031][954]LogFbx: 		[Node Attribute Child 1] SM_Bee001 (Type Mesh).
+[2018.05.11-15.22.03:031][954]LogFbx: Dumping Node END [SM_Bee001]
+[2018.05.11-15.22.03:031][954]LogFbx: =================================================
+[2018.05.11-15.22.03:031][954]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-15.22.03:031][954]LogFbx: 	Total Deformer Count -1819688096.
+[2018.05.11-15.22.03:031][954]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.22.03:031][954]LogFbx: =================================================
+[2018.05.11-15.22.03:031][954]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.22.03:031][954]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-15.22.03:031][954]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-15.22.03:031][954]LogFbx: =================================================
+[2018.05.11-15.22.03:031][954]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-15.22.03:031][954]LogFbx: 	Total Deformer Count -1819688096.
+[2018.05.11-15.22.03:031][954]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.22.03:031][954]LogFbx: =================================================
+[2018.05.11-15.22.03:031][954]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.22.03:031][954]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-15.22.03:031][954]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-15.22.03:031][954]LogFbx: =================================================
+[2018.05.11-15.22.03:031][954]LogFbx: Dumping Node START [SM_Bee001] 
+[2018.05.11-15.22.03:031][954]LogFbx: 	Total Deformer Count 393469504.
+[2018.05.11-15.22.03:031][954]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.22.03:031][954]LogFbx: =================================================
+[2018.05.11-15.22.03:031][954]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.22.03:031][954]LogFbx: 		[Node Attribute Child 1] SM_Bee001 (Type Mesh).
+[2018.05.11-15.22.03:031][954]LogFbx: Dumping Node END [SM_Bee001]
+[2018.05.11-15.22.03:031][954]LogFbx: =================================================
+[2018.05.11-15.22.03:031][954]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-15.22.03:031][954]LogFbx: 	Total Deformer Count -1819684816.
+[2018.05.11-15.22.03:031][954]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.22.03:031][954]LogFbx: =================================================
+[2018.05.11-15.22.03:031][954]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.22.03:031][954]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-15.22.03:031][954]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-15.22.03:031][954]LogFbx: =================================================
+[2018.05.11-15.22.03:031][954]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-15.22.03:031][954]LogFbx: 	Total Deformer Count -1819684816.
+[2018.05.11-15.22.03:031][954]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.22.03:031][954]LogFbx: =================================================
+[2018.05.11-15.22.03:031][954]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.22.03:031][954]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-15.22.03:031][954]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-15.22.03:032][954]LogFbx: =================================================
+[2018.05.11-15.22.03:032][954]LogFbx: Dumping Node START [SM_Bee001] 
+[2018.05.11-15.22.03:032][954]LogFbx: 	Total Deformer Count 393469504.
+[2018.05.11-15.22.03:032][954]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.22.03:032][954]LogFbx: =================================================
+[2018.05.11-15.22.03:032][954]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.22.03:032][954]LogFbx: 		[Node Attribute Child 1] SM_Bee001 (Type Mesh).
+[2018.05.11-15.22.03:032][954]LogFbx: Dumping Node END [SM_Bee001]
+[2018.05.11-15.22.03:032][954]LogFbx: =================================================
+[2018.05.11-15.22.03:032][954]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-15.22.03:032][954]LogFbx: 	Total Deformer Count -1819683856.
+[2018.05.11-15.22.03:032][954]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.22.03:032][954]LogFbx: =================================================
+[2018.05.11-15.22.03:032][954]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.22.03:032][954]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-15.22.03:032][954]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-15.22.03:032][954]LogFbx: =================================================
+[2018.05.11-15.22.03:032][954]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-15.22.03:032][954]LogFbx: 	Total Deformer Count -1819683856.
+[2018.05.11-15.22.03:032][954]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.22.03:032][954]LogFbx: =================================================
+[2018.05.11-15.22.03:032][954]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.22.03:032][954]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-15.22.03:032][954]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-15.22.03:032][954]LogFbx: =================================================
+[2018.05.11-15.22.03:032][954]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-15.22.03:032][954]LogFbx: 	Total Deformer Count -1819683856.
+[2018.05.11-15.22.03:032][954]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.22.03:032][954]LogFbx: =================================================
+[2018.05.11-15.22.03:032][954]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.22.03:032][954]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-15.22.03:032][954]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-15.22.03:032][954]LogFbx: =================================================
+[2018.05.11-15.22.03:032][954]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-15.22.03:032][954]LogFbx: 	Total Deformer Count -1819683856.
+[2018.05.11-15.22.03:032][954]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.22.03:032][954]LogFbx: =================================================
+[2018.05.11-15.22.03:032][954]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.22.03:032][954]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-15.22.03:032][954]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-15.22.03:032][954]LogFbx: Valid bind pose for Pose (skinCluster1) - SM_Bee001
+[2018.05.11-15.22.03:032][954]LogFbx: Valid bind pose for Pose (skinCluster2) - SM_Bee001
+[2018.05.11-15.22.03:032][954]LogFbx: Valid bind pose for Pose (skinCluster3) - SM_Bee001
+[2018.05.11-15.22.03:032][954]LogMaterial: Warning: Material /Game/Import/lambert1.lambert1 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.05.11-15.22.03:034][954]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.05.11-15.22.03:049][954]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.05.11-15.22.03:061][954]LogFbx: Triangulating skeletal mesh SM_Bee001
+[2018.05.11-15.22.03:062][954]LogFbx: Triangulating skeletal mesh SM_BeeWing_R001
+[2018.05.11-15.22.03:062][954]LogFbx: Triangulating skeletal mesh SM_BeeWing_R
+[2018.05.11-15.22.03:062][954]LogFbx: Warning: Bones digested - 5  Depth of hierarchy - 3
+[2018.05.11-15.22.03:063][954]LogSkeletalMesh: Section 0: 50 vertices, 3 active bones
+[2018.05.11-15.22.03:063][954]LogSkeletalMesh: Section 0: Material=0, 60 triangles
+[2018.05.11-15.22.03:064][954]LogSkeletalMesh: Building Skeletal Mesh Bee_animation...
+[2018.05.11-15.22.03:064][954]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Import/Bee_animation.Bee_animation
+[2018.05.11-15.22.03:067][954]LogFbx: =================================================
+[2018.05.11-15.22.03:067][954]LogFbx: Dumping Node START [SM_Bee001] 
+[2018.05.11-15.22.03:067][954]LogFbx: 	Total Deformer Count 549227392.
+[2018.05.11-15.22.03:067][954]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.22.03:067][954]LogFbx: =================================================
+[2018.05.11-15.22.03:067][954]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.22.03:067][954]LogFbx: 		[Node Attribute Child 1] SM_Bee001 (Type Mesh).
+[2018.05.11-15.22.03:067][954]LogFbx: Dumping Node END [SM_Bee001]
+[2018.05.11-15.22.03:067][954]LogFbx: =================================================
+[2018.05.11-15.22.03:067][954]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-15.22.03:067][954]LogFbx: 	Total Deformer Count -1711421024.
+[2018.05.11-15.22.03:067][954]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.22.03:067][954]LogFbx: =================================================
+[2018.05.11-15.22.03:067][954]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.22.03:067][954]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-15.22.03:067][954]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-15.22.03:067][954]LogFbx: =================================================
+[2018.05.11-15.22.03:067][954]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-15.22.03:067][954]LogFbx: 	Total Deformer Count -1711421024.
+[2018.05.11-15.22.03:067][954]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.22.03:067][954]LogFbx: =================================================
+[2018.05.11-15.22.03:067][954]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.22.03:067][954]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-15.22.03:067][954]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-15.22.03:067][954]LogFbx: =================================================
+[2018.05.11-15.22.03:067][954]LogFbx: Dumping Node START [SM_Bee001] 
+[2018.05.11-15.22.03:067][954]LogFbx: 	Total Deformer Count 549227392.
+[2018.05.11-15.22.03:067][954]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.22.03:067][954]LogFbx: =================================================
+[2018.05.11-15.22.03:067][954]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.22.03:067][954]LogFbx: 		[Node Attribute Child 1] SM_Bee001 (Type Mesh).
+[2018.05.11-15.22.03:067][954]LogFbx: Dumping Node END [SM_Bee001]
+[2018.05.11-15.22.03:067][954]LogFbx: =================================================
+[2018.05.11-15.22.03:067][954]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-15.22.03:067][954]LogFbx: 	Total Deformer Count -1711409024.
+[2018.05.11-15.22.03:067][954]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.22.03:067][954]LogFbx: =================================================
+[2018.05.11-15.22.03:067][954]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.22.03:067][954]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-15.22.03:067][954]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-15.22.03:067][954]LogFbx: =================================================
+[2018.05.11-15.22.03:067][954]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-15.22.03:067][954]LogFbx: 	Total Deformer Count -1711409024.
+[2018.05.11-15.22.03:067][954]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.22.03:067][954]LogFbx: =================================================
+[2018.05.11-15.22.03:067][954]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.22.03:067][954]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-15.22.03:067][954]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-15.22.03:067][954]LogFbx: =================================================
+[2018.05.11-15.22.03:067][954]LogFbx: Dumping Node START [SM_Bee001] 
+[2018.05.11-15.22.03:067][954]LogFbx: 	Total Deformer Count 549227392.
+[2018.05.11-15.22.03:067][954]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.22.03:067][954]LogFbx: =================================================
+[2018.05.11-15.22.03:067][954]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.22.03:067][954]LogFbx: 		[Node Attribute Child 1] SM_Bee001 (Type Mesh).
+[2018.05.11-15.22.03:067][954]LogFbx: Dumping Node END [SM_Bee001]
+[2018.05.11-15.22.03:067][954]LogFbx: =================================================
+[2018.05.11-15.22.03:067][954]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-15.22.03:067][954]LogFbx: 	Total Deformer Count -1711415424.
+[2018.05.11-15.22.03:067][954]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.22.03:067][954]LogFbx: =================================================
+[2018.05.11-15.22.03:067][954]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.22.03:067][954]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-15.22.03:067][954]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-15.22.03:067][954]LogFbx: =================================================
+[2018.05.11-15.22.03:067][954]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-15.22.03:067][954]LogFbx: 	Total Deformer Count -1711415424.
+[2018.05.11-15.22.03:067][954]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.22.03:067][954]LogFbx: =================================================
+[2018.05.11-15.22.03:067][954]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.22.03:067][954]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-15.22.03:067][954]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-15.22.03:067][954]LogFbx: =================================================
+[2018.05.11-15.22.03:067][954]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-15.22.03:067][954]LogFbx: 	Total Deformer Count -1711415424.
+[2018.05.11-15.22.03:068][954]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.22.03:068][954]LogFbx: =================================================
+[2018.05.11-15.22.03:068][954]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.22.03:068][954]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-15.22.03:068][954]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-15.22.03:068][954]LogFbx: =================================================
+[2018.05.11-15.22.03:068][954]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-15.22.03:068][954]LogFbx: 	Total Deformer Count -1711415424.
+[2018.05.11-15.22.03:068][954]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.22.03:068][954]LogFbx: =================================================
+[2018.05.11-15.22.03:068][954]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.22.03:068][954]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-15.22.03:068][954]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-15.22.03:068][954]LogFbx: SortedLinks :(0) joint1
+[2018.05.11-15.22.03:068][954]LogFbx: SortedLinks :(1) joint2
+[2018.05.11-15.22.03:068][954]LogFbx: SortedLinks :(2) joint3
+[2018.05.11-15.22.03:068][954]LogFbx: SortedLinks :(3) joint4
+[2018.05.11-15.22.03:068][954]LogFbx: SortedLinks :(4) joint5
+[2018.05.11-15.22.03:068][954]LogFbx: Parsing AnimStack Take 001
+[2018.05.11-15.22.03:071][954]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.05.11-15.22.03:071][954]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.05.11-15.22.03:078][954]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Import/Bee_animation_Anim.Bee_animation_Anim
+[2018.05.11-15.22.03:078][954]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Bee_animation_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.05.11-15.22.03:078][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:078][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:078][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:078][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:078][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:078][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:079][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:080][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:081][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:082][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:082][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:082][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:082][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:082][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:082][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:082][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:082][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:082][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:082][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:082][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:082][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:082][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:082][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:082][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:082][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:082][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:082][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:082][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-15.22.03:082][954]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-15.22.03:085][954]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2018.05.11-15.22.03:085][954]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2018.05.11-15.22.03:085][954]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2018.05.11-15.22.03:085][954]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.11-15.22.03:085][954]FBXImport: Warning: Imported bone transform is different from original. Please check Output Log to see detail of error.  
+[2018.05.11-15.22.03:094][954]LogSkeletalMesh: Building Skeletal Mesh Bee_animation...
+[2018.05.11-15.22.03:095][954]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Import/Bee_animation.Bee_animation
+[2018.05.11-15.22.04:500][109]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.05.11-15.22.05:143][186]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.05.11-15.22.05:423][219]LogSlate: Window 'Message Log' being destroyed
+[2018.05.11-15.22.05:427][219]LogSlate: Window 'Message Log' being destroyed
+[2018.05.11-15.22.05:767][260]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.05.11-15.22.06:742][373]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.Actor_6.DebugSkelMeshComponent_7) Already registered. Aborting.
+[2018.05.11-15.22.06:763][373]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.Actor_6.DebugSkelMeshComponent_7) - call TermArticulated first.
+[2018.05.11-15.22.06:913][373]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.11-15.23.26:007][714]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.11-15.23.28:584][ 21]LogSlate: Window 'Bee_animation_Skeleton*' being destroyed
+[2018.05.11-15.23.28:589][ 21]LogSlate: Window 'Bee_animation_Skeleton*' being destroyed
+[2018.05.11-15.23.34:832][759]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.05.11-15.23.35:965][887]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.11-15.23.35:981][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Import/Bee_animation" FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee_animation.uasset" SILENT=true
+[2018.05.11-15.23.35:990][887]LogSavePackage: Save=8.03ms
+[2018.05.11-15.23.35:990][887]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Bee_animation14988EF04DADEDC61F2DD487D382470D.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee_animation.uasset'
+[2018.05.11-15.23.35:992][887]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee_animation.uasset
+[2018.05.11-15.23.36:008][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Import/lambert1" FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/lambert1.uasset" SILENT=true
+[2018.05.11-15.23.36:017][887]LogSavePackage: Save=8.50ms
+[2018.05.11-15.23.36:017][887]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/lambert1E4DFE5804404AF7D62A67691FA854EF8.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/lambert1.uasset'
+[2018.05.11-15.23.36:019][887]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/lambert1.uasset
+[2018.05.11-15.23.36:022][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Import/Bee_animation_Skeleton" FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee_animation_Skeleton.uasset" SILENT=true
+[2018.05.11-15.23.36:024][887]LogSavePackage: Save=1.04ms
+[2018.05.11-15.23.36:024][887]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Bee_animation_SkeletonC75F9B6C41D992A58AF4F7BD9A589F10.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee_animation_Skeleton.uasset'
+[2018.05.11-15.23.36:025][887]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee_animation_Skeleton.uasset
+[2018.05.11-15.23.36:038][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Import/Bee_animation_PhysicsAsset" FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee_animation_PhysicsAsset.uasset" SILENT=true
+[2018.05.11-15.23.36:046][887]LogSavePackage: Save=7.35ms
+[2018.05.11-15.23.36:046][887]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Bee_animation_PhysicsAssetF0E589104A5A6F0E7AFD539A8B8BCEDA.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee_animation_PhysicsAsset.uasset'
+[2018.05.11-15.23.36:048][887]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee_animation_PhysicsAsset.uasset
+[2018.05.11-15.23.36:061][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Import/Bee_animation_Anim" FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee_animation_Anim.uasset" SILENT=true
+[2018.05.11-15.23.36:070][887]LogSavePackage: Save=7.63ms
+[2018.05.11-15.23.36:070][887]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Bee_animation_AnimCEBD2C804E38BD494A95D8A09625D6A1.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee_animation_Anim.uasset'
+[2018.05.11-15.23.36:072][887]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee_animation_Anim.uasset
+[2018.05.11-15.23.39:056][243]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.11-15.23.49:352][539]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_7.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2018.05.11-15.23.49:379][539]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.Actor_7.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2018.05.11-15.23.51:103][689]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.Actor_8.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2018.05.11-15.23.51:124][689]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.Actor_8.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2018.05.11-15.23.51:382][689]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.05.11-15.24.40:952][341]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.11-15.24.54:033][739]LogSlate: Window 'Bee_animation_Anim' being destroyed
+[2018.05.11-15.24.54:038][739]LogSlate: Window 'Bee_animation_Anim' being destroyed
+[2018.05.11-15.30.18:964][945]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/L_Level01' took 0.011
+[2018.05.11-15.30.18:966][945]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Import/Bee_animation_Skeleton] ([1] browsable assets)...
+[2018.05.11-15.30.18:966][945]OBJ SavePackage: Finished generating thumbnails for package [/Game/Import/Bee_animation_Skeleton]
+[2018.05.11-15.30.18:971][945]LogSavePackage: Save=1.16ms
+[2018.05.11-15.30.18:971][945]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Bee_animation_Skeleton_Auto3F4176B6C4B9C9C081D318992777346F1.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/Bee_animation_Skeleton_Auto3.uasset'
+[2018.05.11-15.30.18:972][945]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/Bee_animation_Skeleton_Auto3.uasset
+[2018.05.11-15.30.18:972][945]LogFileHelpers: Auto-saving content packages took 0.007
+[2018.05.11-15.38.53:944][491]LogFMOD: File has changed: ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.11-15.38.54:043][491]LogFMOD: Loading strings bank: ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.11-15.38.54:045][491]LogFMOD: Skipping asset: bank:/Master Bank.strings
+[2018.05.11-15.38.54:045][491]LogFMOD: Constructing asset: /Game/FMOD/Events/Buzz
+[2018.05.11-15.38.54:045][491]LogFMOD: Skipping asset: bus:/
+[2018.05.11-15.38.54:045][491]LogFMOD: Constructing asset: /Game/FMOD/Banks/Master_Bank
+[2018.05.11-15.38.54:045][491]LogFMOD: Constructing asset: /Game/FMOD/Buses/Reverb
+[2018.05.11-15.38.54:047][491]LogFMOD: Default sample rate = 48000
+[2018.05.11-15.38.54:047][491]LogFMOD: System sample rate = 48000
+[2018.05.11-15.38.54:047][491]LogFMOD: Matching system sample rate 48000
+[2018.05.11-15.38.54:204][491]LogFMOD: Default sample rate = 48000
+[2018.05.11-15.38.54:204][491]LogFMOD: System sample rate = 48000
+[2018.05.11-15.38.54:204][491]LogFMOD: Matching system sample rate 48000
+>>>>>>> 9c258b90fcc6edc6646231c5cbc5f8af89b4577b
