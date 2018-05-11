@@ -2036,3 +2036,16 @@ Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,
 [2018.05.11-15.30.18:971][945]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Bee_animation_Skeleton_Auto3F4176B6C4B9C9C081D318992777346F1.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/Bee_animation_Skeleton_Auto3.uasset'
 [2018.05.11-15.30.18:972][945]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Import/Bee_animation_Skeleton_Auto3.uasset
 [2018.05.11-15.30.18:972][945]LogFileHelpers: Auto-saving content packages took 0.007
+[2018.05.11-15.38.53:944][491]LogFMOD: File has changed: ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.11-15.38.54:043][491]LogFMOD: Loading strings bank: ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.11-15.38.54:045][491]LogFMOD: Skipping asset: bank:/Master Bank.strings
+[2018.05.11-15.38.54:045][491]LogFMOD: Constructing asset: /Game/FMOD/Events/Buzz
+[2018.05.11-15.38.54:045][491]LogFMOD: Skipping asset: bus:/
+[2018.05.11-15.38.54:045][491]LogFMOD: Constructing asset: /Game/FMOD/Banks/Master_Bank
+[2018.05.11-15.38.54:045][491]LogFMOD: Constructing asset: /Game/FMOD/Buses/Reverb
+[2018.05.11-15.38.54:047][491]LogFMOD: Default sample rate = 48000
+[2018.05.11-15.38.54:047][491]LogFMOD: System sample rate = 48000
+[2018.05.11-15.38.54:047][491]LogFMOD: Matching system sample rate 48000
+[2018.05.11-15.38.54:204][491]LogFMOD: Default sample rate = 48000
+[2018.05.11-15.38.54:204][491]LogFMOD: System sample rate = 48000
+[2018.05.11-15.38.54:204][491]LogFMOD: Matching system sample rate 48000
