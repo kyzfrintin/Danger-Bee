@@ -1,4 +1,4 @@
-﻿Log file open, 05/11/18 10:10:07
+﻿Log file open, 05/11/18 16:28:29
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,16 +7,16 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: GameJam
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-85092100) SRandInit(-85092100).
+LogInit: Display: RandInit(-1613118432) SRandInit(-1613118418).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
-LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.226561
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.539600
 LogD3D11RHI: Aftermath initialized
-LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Nicole/Desktop/Danger-Bee/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudio.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/Nicole/Desktop/Danger-Bee/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudioEditor.dll (API version 3944462).
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogModuleManager: Display: Found up-to-date module file ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudio.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudioEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -127,6 +127,7 @@ LogPluginManager: Mounting plugin DatasmithContent
 LogPluginManager: Mounting plugin AlembicImporter
 LogPluginManager: Mounting plugin CharacterAI
 LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin FMODStudio
 LogPluginManager: Mounting plugin AndroidMedia
 LogPluginManager: Mounting plugin AvfMedia
 LogPluginManager: Mounting plugin ImgMedia
@@ -170,8 +171,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogPluginManager: Mounting plugin FMODStudio
-LogStreaming: Display: Took  0.791s to configure plugins.
+LogStreaming: Display: Took  3.400s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -191,7 +191,7 @@ LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured
 LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
 LogInit:  - LocalHostAddr = Default
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: WinSock: I am DESKTOP-G4STLKH (192.168.1.9:0)
+LogInit: WinSock: I am KYLE-PC (192.168.0.12:0)
 LogInit: Build: ++UE4+Release-4.19-CL-4033788
 LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
 LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
@@ -219,198 +219,362 @@ LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
-LogInit: Command Line: -EpicPortal 
-LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.002s to delete old logs.
+LogStreaming: Display: Took  0.008s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.11-14.10.08:936][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.11-14.10.08:936][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.11-14.10.08:945][  0]LogInit: Computer: DESKTOP-G4STLKH
-[2018.05.11-14.10.08:945][  0]LogInit: User: Nicole
-[2018.05.11-14.10.08:945][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.05.11-14.10.08:945][  0]LogInit: High frequency timer resolution =3.515622 MHz
-[2018.05.11-14.10.08:945][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.05.11-14.10.08:945][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.11-14.10.08:945][  0]LogMemory: Process Physical Memory: 276.61 MB used, 276.61 MB peak
-[2018.05.11-14.10.08:945][  0]LogMemory: Process Virtual Memory: 270.22 MB used, 270.22 MB peak
-[2018.05.11-14.10.08:945][  0]LogMemory: Physical Memory: 8747.96 MB used,  7509.73 MB free, 16257.69 MB total
-[2018.05.11-14.10.08:945][  0]LogMemory: Virtual Memory: 700.78 MB used,  7509.73 MB free, 134217728.00 MB total
-[2018.05.11-14.10.08:960][  0]LogInit: Using OS detected language (en-US).
-[2018.05.11-14.10.08:960][  0]LogInit: Using OS detected locale (en-CA).
-[2018.05.11-14.10.08:962][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.05.11-14.10.09:288][  0]LogStreaming: Display: Took  0.328s to EndInitTextLocalization.
-[2018.05.11-14.10.09:289][  0]LogInit: Setting process to per monitor DPI aware
-[2018.05.11-14.10.09:311][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.05.11-14.10.09:311][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.05.11-14.10.09:442][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.11-14.10.09:483][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2018.05.11-14.10.09:483][  0]LogD3D11RHI:       6052/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.05.11-14.10.09:493][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2018.05.11-14.10.09:493][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.05.11-14.10.09:495][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.11-14.10.09:495][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.11-14.10.09:495][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.11-14.10.09:502][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.11-14.10.09:502][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2018.05.11-14.10.09:502][  0]LogWindows: EnumDisplayDevices:
-[2018.05.11-14.10.09:502][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2018.05.11-14.10.09:502][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.05.11-14.10.09:503][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.05.11-14.10.09:503][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.05.11-14.10.09:503][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2018.05.11-14.10.09:503][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2018.05.11-14.10.09:503][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2018.05.11-14.10.09:503][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.05.11-14.10.09:503][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2018.05.11-14.10.09:503][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.05.11-14.10.09:503][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.05.11-14.10.09:503][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2018.05.11-14.10.09:530][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.05.11-14.10.09:530][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.05.11-14.10.09:530][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.11-14.10.09:555][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.05.11-14.10.09:602][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../Users/Nicole/Desktop/Danger-Bee/Intermediate/Shaders/WorkingDirectory/18644/).
-[2018.05.11-14.10.09:602][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Nicole/AppData/Local/Temp/UnrealShaderWorkingDir/6D73494C4A37C95AD30CF99CE06CE416/'.
-[2018.05.11-14.10.09:774][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.11-14.10.09:785][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.05.11-14.10.09:796][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.11-14.10.09:806][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.05.11-14.10.09:820][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.05.11-14.10.09:831][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.11-14.10.09:842][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.11-14.10.09:852][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.11-14.10.09:858][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.05.11-14.10.09:867][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.11-14.10.09:876][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.11-14.10.09:885][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.11-14.10.09:894][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.05.11-14.10.09:903][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.11-14.10.09:912][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.11-14.10.09:931][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.11-14.10.09:931][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.11-14.10.09:940][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.05.11-14.10.09:941][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.05.11-14.10.09:976][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.05.11-14.10.09:985][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.05.11-14.10.09:994][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.11-14.10.10:003][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.11-14.10.10:013][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.11-14.10.10:022][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.05.11-14.10.10:022][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.05.11-14.10.10:106][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.05.11-14.10.10:106][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.05.11-14.10.10:106][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.05.11-14.10.10:653][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.05.11-14.10.10:708][  0]LogDerivedDataCache: Loaded boot cache 0.05s 74MB C:/Users/Nicole/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.05.11-14.10.10:708][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Nicole/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.05.11-14.10.10:708][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Nicole/Desktop/Danger-Bee/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.11-14.10.10:708][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.11-14.10.10:708][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Nicole/Desktop/Danger-Bee/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.11-14.10.10:708][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.11-14.10.10:720][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.11-14.10.10:732][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nicole/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.11-14.10.10:732][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.05.11-14.10.10:732][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.05.11-14.10.10:741][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.11-14.10.10:741][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.11-14.10.10:741][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.11-14.10.10:741][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.11-14.10.10:849][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
-[2018.05.11-14.10.11:076][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.11-14.10.11:183][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.11-14.10.11:185][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.11-14.10.11:185][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.11-14.10.11:185][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.05.11-14.10.11:185][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.05.11-14.10.11:185][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.05.11-14.10.11:214][  0]LogNetVersion: GameJam , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2281863040)
-[2018.05.11-14.10.11:581][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 2 prioritized culture(s) in 0.057809 seconds
-[2018.05.11-14.10.11:586][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.05.11-14.10.11:586][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
-[2018.05.11-14.10.11:586][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.11-14.10.12:886][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.11-14.10.12:912][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.11-14.10.13:109][  0]LogFMOD: FFMODStudioModule startup
-[2018.05.11-14.10.13:109][  0]LogFMOD:  Lib path = '../../../../../../Users/Nicole/Desktop/Danger-Bee/Plugins/FMODStudio/Binaries'
-[2018.05.11-14.10.13:109][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../../../../Users/Nicole/Desktop/Danger-Bee/Plugins/FMODStudio/Binaries/Win64/fmodL64.dll
-[2018.05.11-14.10.13:111][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../../../../Users/Nicole/Desktop/Danger-Bee/Plugins/FMODStudio/Binaries/Win64/fmodstudioL64.dll
-[2018.05.11-14.10.13:139][  0]LogFMOD: Loading strings bank: ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
-[2018.05.11-14.10.13:141][  0]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank'
-
-[2018.05.11-14.10.13:141][  0]LogFMOD: Warning: Failed to load strings bank: ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
-[2018.05.11-14.10.13:143][  0]LogFMOD: Default sample rate = 48000
-[2018.05.11-14.10.13:143][  0]LogFMOD: System sample rate = 48000
-[2018.05.11-14.10.13:143][  0]LogFMOD: Matching system sample rate 48000
-[2018.05.11-14.10.13:166][  0]LogFMOD: Default sample rate = 48000
-[2018.05.11-14.10.13:166][  0]LogFMOD: System sample rate = 48000
-[2018.05.11-14.10.13:166][  0]LogFMOD: Matching system sample rate 48000
-[2018.05.11-14.10.13:279][  0]SourceControl: Source control is disabled
-[2018.05.11-14.10.13:279][  0]SourceControl: Source control is disabled
-[2018.05.11-14.10.13:293][  0]SourceControl: Source control is disabled
-[2018.05.11-14.10.13:308][  0]SourceControl: Source control is disabled
-[2018.05.11-14.10.13:698][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.11-14.10.13:797][  0]LogOcInput: OculusInput pre-init called
-[2018.05.11-14.10.13:852][  0]LogFMOD: FFMODStudioEditorModule startup
-[2018.05.11-14.10.13:907][  0]LogEngine: Initializing Engine...
-[2018.05.11-14.10.13:928][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2018.05.11-14.10.13:929][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.11-14.10.13:929][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.11-14.10.14:107][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.11-14.10.14:154][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.05.11-14.10.14:159][  0]LogInit: FAudioDevice initialized.
-[2018.05.11-14.10.14:202][  0]LogDerivedDataCache: Saved boot cache 0.04s 74MB C:/Users/Nicole/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.05.11-14.10.14:212][  0]LogInit: Texture streaming: Enabled
-[2018.05.11-14.10.14:229][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.11-14.10.14:243][  0]LogInit: Transaction tracking system initialized
-[2018.05.11-14.10.14:270][  0]BlueprintLog: New page: Editor Load
-[2018.05.11-14.10.14:336][  0]LocalizationService: Localization service is disabled
-[2018.05.11-14.10.14:415][  0]LogConsoleResponse: Display: 
-[2018.05.11-14.10.14:536][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.11-14.10.14:536][  0]LogCook: Display: Mobile HDR setting 1
-[2018.05.11-14.10.14:536][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.05.11-14.10.14:536][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.11-14.10.14:536][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.11-14.10.14:716][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nicole/Desktop/Danger-Bee/Content/' took 0.01s
-[2018.05.11-14.10.14:846][  0]SourceControl: Source control is disabled
-[2018.05.11-14.10.14:846][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Maps/L_Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.11-14.10.14:846][  0]LightingResults: New page: Lighting Build
-[2018.05.11-14.10.14:848][  0]MapCheck: New page: Map Check
-[2018.05.11-14.10.14:848][  0]LightingResults: New page: Lighting Build
-[2018.05.11-14.10.14:947][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002700796f900, Size=1320, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
-[2018.05.11-14.10.14:956][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002700796f900, Size=1320
-[2018.05.11-14.10.14:956][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002700796a400, Size=1320, Default__BP_Bee_Redo_C Function /Engine/Transient.REINST_BP_Bee_Redo_C_5:ExecuteUbergraph_BP_Bee_Redo
-[2018.05.11-14.10.14:962][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000270078db200, Size=1312, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
-[2018.05.11-14.10.15:060][  0]LogAIModule: Creating AISystem for world L_Level01
-[2018.05.11-14.10.15:063][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.11-14.10.15:073][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002700796a400, Size=1320
-[2018.05.11-14.10.15:074][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.11-14.10.15:116][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 41.714ms to complete.
-[2018.05.11-14.10.15:116][  0]LogFileHelpers: Loading map 'L_Level01' took 0.270
-[2018.05.11-14.10.15:218][  0]LogCollectionManager: Loaded 0 collections in 0.001717 seconds
-[2018.05.11-14.10.15:257][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nicole/Desktop/Danger-Bee/Saved/Collections/' took 0.01s
-[2018.05.11-14.10.15:257][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nicole/Desktop/Danger-Bee/Content/Developers/Nicole/Collections/' took 0.01s
-[2018.05.11-14.10.15:257][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Nicole/Desktop/Danger-Bee/Content/Collections/' took 0.01s
-[2018.05.11-14.10.15:257][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.05.11-14.10.15:264][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2469 classes and 565 folders.
-[2018.05.11-14.10.15:269][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.05.11-14.10.15:314][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.05.11-14.10.15:317][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.05.11-14.10.15:333][  0]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.11-14.10.15:335][  0]LogSlate: Took 0.000386 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.11-14.10.15:340][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.11-14.10.15:413][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.05.11-14.10.15:519][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.05.11-14.10.15:519][  0]LogLoad: (Engine Initialization) Total time: 8.45 seconds
-[2018.05.11-14.10.15:519][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.05.11-14.10.15:854][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.11-14.10.15:854][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.11-14.10.15:889][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.05.11-14.10.15:925][  0]LogSlate: Took 0.002311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.05.11-14.10.16:192][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Nicole/Desktop/Danger-Bee/Content/' took 0.32s
-[2018.05.11-14.10.16:207][  1]LogAssetRegistry: Asset discovery search completed in 5.3802 seconds
-[2018.05.11-14.10.16:208][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.05.11-14.10.16:208][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
-[2018.05.11-14.10.16:861][  3]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.05.11-14.11.39:522][251]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.11-15.28.33:585][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.11-15.28.33:585][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.11-15.28.33:635][  0]LogInit: Computer: KYLE-PC
+[2018.05.11-15.28.33:635][  0]LogInit: User: Kyle
+[2018.05.11-15.28.33:636][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.11-15.28.33:636][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2018.05.11-15.28.33:637][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.05.11-15.28.33:637][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.11-15.28.33:637][  0]LogMemory: Process Physical Memory: 273.09 MB used, 273.09 MB peak
+[2018.05.11-15.28.33:637][  0]LogMemory: Process Virtual Memory: 264.63 MB used, 264.63 MB peak
+[2018.05.11-15.28.33:637][  0]LogMemory: Physical Memory: 6078.40 MB used,  10203.83 MB free, 16282.23 MB total
+[2018.05.11-15.28.33:637][  0]LogMemory: Virtual Memory: 642.13 MB used,  10203.83 MB free, 134217728.00 MB total
+[2018.05.11-15.28.33:742][  0]LogInit: Using OS detected language (en-US).
+[2018.05.11-15.28.33:742][  0]LogInit: Using OS detected locale (en-GB).
+[2018.05.11-15.28.33:751][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.05.11-15.28.35:354][  0]LogStreaming: Display: Took  1.612s to EndInitTextLocalization.
+[2018.05.11-15.28.35:355][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.11-15.28.35:449][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.05.11-15.28.35:449][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.05.11-15.28.36:145][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.11-15.28.36:168][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 200 Series' (Feature Level 11_0)
+[2018.05.11-15.28.36:168][  0]LogD3D11RHI:       2027/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2018.05.11-15.28.36:172][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.11-15.28.36:172][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.11-15.28.36:172][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.11-15.28.36:189][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.11-15.28.36:189][  0]LogD3D11RHI:     GPU DeviceId: 0x6811 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.11-15.28.36:189][  0]LogWindows: EnumDisplayDevices:
+[2018.05.11-15.28.36:190][  0]LogWindows:    0. 'AMD Radeon (TM) R9 200 Series' (P:1 D:1)
+[2018.05.11-15.28.36:190][  0]LogWindows:    1. 'AMD Radeon (TM) R9 200 Series' (P:0 D:1)
+[2018.05.11-15.28.36:191][  0]LogWindows:    2. 'AMD Radeon (TM) R9 200 Series' (P:0 D:0)
+[2018.05.11-15.28.36:191][  0]LogWindows:    3. 'AMD Radeon (TM) R9 200 Series' (P:0 D:0)
+[2018.05.11-15.28.36:192][  0]LogWindows:    4. 'AMD Radeon (TM) R9 200 Series' (P:0 D:0)
+[2018.05.11-15.28.36:192][  0]LogWindows:    5. 'AMD Radeon (TM) R9 200 Series' (P:0 D:0)
+[2018.05.11-15.28.36:193][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2018.05.11-15.28.36:193][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 200 Series
+[2018.05.11-15.28.36:193][  0]LogD3D11RHI:   Driver Version: Crimson 16.4.1 (internal:16.150.2211.1001, unified:16.150.2211.1001)
+[2018.05.11-15.28.36:193][  0]LogD3D11RHI:      Driver Date: 4-3-2016
+[2018.05.11-15.28.36:193][  0]LogRHI: Texture pool is 1419 MB (70% of 2027 MB)
+[2018.05.11-15.28.36:300][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.11-15.28.36:326][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.05.11-15.28.36:328][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Intermediate/Shaders/WorkingDirectory/41212/).
+[2018.05.11-15.28.36:329][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kyle/AppData/Local/Temp/UnrealShaderWorkingDir/AFECFDFA4C45D545C5FE49B5092BA763/'.
+[2018.05.11-15.28.37:173][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.11-15.28.37:240][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.11-15.28.37:309][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.11-15.28.37:386][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.11-15.28.37:451][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.11-15.28.37:517][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.11-15.28.37:582][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.11-15.28.37:653][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.11-15.28.37:681][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.11-15.28.37:742][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.11-15.28.37:806][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.11-15.28.37:872][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.11-15.28.37:932][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.05.11-15.28.37:991][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.11-15.28.38:053][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.11-15.28.38:190][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.11-15.28.38:190][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.11-15.28.38:251][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.11-15.28.38:255][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.11-15.28.38:359][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.11-15.28.38:421][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.11-15.28.38:482][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.11-15.28.38:548][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.11-15.28.38:615][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.11-15.28.38:686][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.11-15.28.38:686][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.11-15.28.39:048][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.05.11-15.28.39:049][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.05.11-15.28.39:049][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.11-15.28.42:812][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.11-15.28.43:173][  0]LogDerivedDataCache: Loaded boot cache 0.36s 74MB C:/Users/Kyle/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.11-15.28.43:173][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Kyle/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.05.11-15.28.43:173][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.11-15.28.43:173][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.11-15.28.43:173][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.11-15.28.43:174][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.11-15.28.43:253][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.11-15.28.43:268][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kyle/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.11-15.28.43:268][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.05.11-15.28.43:268][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.05.11-15.28.43:328][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.11-15.28.43:329][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.11-15.28.43:331][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.11-15.28.43:331][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.11-15.28.43:722][  0]LogAssetRegistry: FAssetRegistry took 0.0457 seconds to start up
+[2018.05.11-15.28.45:333][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.11-15.28.45:895][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.11-15.28.45:903][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.11-15.28.45:903][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.11-15.28.45:904][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.11-15.28.45:904][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.11-15.28.45:904][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.11-15.28.46:043][  0]LogNetVersion: GameJam , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2281863040)
+[2018.05.11-15.28.47:819][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 2 prioritized culture(s) in 0.191431 seconds
+[2018.05.11-15.28.47:837][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.05.11-15.28.47:837][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.05.11-15.28.47:837][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.11-15.28.53:643][  0]LogFMOD: FFMODStudioModule startup
+[2018.05.11-15.28.53:643][  0]LogFMOD:  Lib path = '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Plugins/FMODStudio/Binaries'
+[2018.05.11-15.28.53:643][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Plugins/FMODStudio/Binaries/Win64/fmodL64.dll
+[2018.05.11-15.28.53:691][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Plugins/FMODStudio/Binaries/Win64/fmodstudioL64.dll
+[2018.05.11-15.28.53:794][  0]LogFMOD: Loading strings bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.11-15.28.53:819][  0]LogFMOD: Skipping asset: bank:/Master Bank.strings
+[2018.05.11-15.28.53:819][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Buzz
+[2018.05.11-15.28.53:819][  0]LogFMOD: Skipping asset: bus:/
+[2018.05.11-15.28.53:819][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/Master_Bank
+[2018.05.11-15.28.53:820][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Reverb
+[2018.05.11-15.28.53:826][  0]LogFMOD: Default sample rate = 48000
+[2018.05.11-15.28.53:826][  0]LogFMOD: System sample rate = 44100
+[2018.05.11-15.28.53:826][  0]LogFMOD: Matching system sample rate 44100
+[2018.05.11-15.28.53:864][  0]LogFMOD: Default sample rate = 48000
+[2018.05.11-15.28.53:864][  0]LogFMOD: System sample rate = 44100
+[2018.05.11-15.28.53:864][  0]LogFMOD: Matching system sample rate 44100
+[2018.05.11-15.28.53:942][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.11-15.28.54:012][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.11-15.28.54:975][  0]SourceControl: Source control is disabled
+[2018.05.11-15.28.54:976][  0]SourceControl: Source control is disabled
+[2018.05.11-15.28.55:031][  0]SourceControl: Source control is disabled
+[2018.05.11-15.28.55:087][  0]SourceControl: Source control is disabled
+[2018.05.11-15.28.55:916][  0]LogFMOD: FFMODStudioEditorModule startup
+[2018.05.11-15.28.56:580][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.11-15.28.56:965][  0]LogOcInput: OculusInput pre-init called
+[2018.05.11-15.28.57:357][  0]LogEngine: Initializing Engine...
+[2018.05.11-15.28.57:362][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.11-15.28.57:368][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.11-15.28.57:369][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.11-15.28.58:291][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.11-15.28.58:399][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.11-15.28.58:420][  0]LogInit: FAudioDevice initialized.
+[2018.05.11-15.28.58:801][  0]LogDerivedDataCache: Saved boot cache 0.38s 74MB C:/Users/Kyle/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.11-15.28.58:854][  0]LogInit: Texture streaming: Enabled
+[2018.05.11-15.28.58:906][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.11-15.28.58:945][  0]LogInit: Transaction tracking system initialized
+[2018.05.11-15.28.59:031][  0]BlueprintLog: New page: Editor Load
+[2018.05.11-15.28.59:296][  0]LocalizationService: Localization service is disabled
+[2018.05.11-15.28.59:625][  0]LogConsoleResponse: Display: 
+[2018.05.11-15.29.00:205][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.11-15.29.00:205][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.11-15.29.00:205][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.11-15.29.00:205][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.11-15.29.00:205][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.11-15.29.01:259][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kyle/Documents/Unreal Projects/GameJam/Content/' took 0.02s
+[2018.05.11-15.29.01:427][  0]SourceControl: Source control is disabled
+[2018.05.11-15.29.01:427][  0]Cmd: MAP LOAD FILE="../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Maps/L_Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.11-15.29.01:449][  0]LightingResults: New page: Lighting Build
+[2018.05.11-15.29.01:459][  0]MapCheck: New page: Map Check
+[2018.05.11-15.29.01:459][  0]LightingResults: New page: Lighting Build
+[2018.05.11-15.29.02:126][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000099d1f83900, Size=1320, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-15.29.02:188][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000099d1f83900, Size=1320
+[2018.05.11-15.29.02:188][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000099d1f5e400, Size=1320, Default__BP_Bee_Redo_C Function /Engine/Transient.REINST_BP_Bee_Redo_C_5:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-15.29.02:234][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000099d1ee3200, Size=1312, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-15.29.03:192][  0]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.11-15.29.03:213][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.11-15.29.03:285][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000099d1f5e400, Size=1320
+[2018.05.11-15.29.03:408][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.11-15.29.03:607][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 198.898ms to complete.
+[2018.05.11-15.29.03:607][  0]LogFileHelpers: Loading map 'L_Level01' took 2.180
+[2018.05.11-15.29.04:095][  0]LogCollectionManager: Loaded 0 collections in 0.005373 seconds
+[2018.05.11-15.29.04:185][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kyle/Documents/Unreal Projects/GameJam/Saved/Collections/' took 0.02s
+[2018.05.11-15.29.04:186][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kyle/Documents/Unreal Projects/GameJam/Content/Developers/Kyle/Collections/' took 0.01s
+[2018.05.11-15.29.04:186][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kyle/Documents/Unreal Projects/GameJam/Content/Collections/' took 0.01s
+[2018.05.11-15.29.04:186][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.05.11-15.29.04:233][  0]LogContentBrowser: Native class hierarchy populated in 0.0464 seconds. Added 2469 classes and 565 folders.
+[2018.05.11-15.29.04:255][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.05.11-15.29.05:817][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.05.11-15.29.05:856][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.05.11-15.29.05:913][  0]LogSlate: Took 0.000470 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.11-15.29.05:920][  0]LogSlate: Took 0.000459 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.11-15.29.06:001][  0]LogSlate: Took 0.059531 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.11-15.29.06:526][  0]LogRenderer: Reallocating scene render targets to support 1016x576 Format 9 NumSamples 1 (Frame:1).
+[2018.05.11-15.29.07:075][  0]LogSlate: Took 0.012006 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.11-15.29.07:313][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.05.11-15.29.07:313][  0]LogLoad: (Engine Initialization) Total time: 41.06 seconds
+[2018.05.11-15.29.07:313][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.11-15.29.07:720][  0]LogContentStreaming: Texture pool size now 800 MB
+[2018.05.11-15.29.07:897][  1]LogFMOD: File has changed: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.11-15.29.08:000][  1]LogFMOD: Loading strings bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.11-15.29.08:002][  1]LogFMOD: Skipping asset: bank:/Master Bank.strings
+[2018.05.11-15.29.08:002][  1]LogFMOD: Skipping asset: bus:/
+[2018.05.11-15.29.08:007][  1]LogFMOD: Default sample rate = 48000
+[2018.05.11-15.29.08:008][  1]LogFMOD: System sample rate = 44100
+[2018.05.11-15.29.08:008][  1]LogFMOD: Matching system sample rate 44100
+[2018.05.11-15.29.08:247][  1]LogFMOD: Default sample rate = 48000
+[2018.05.11-15.29.08:248][  1]LogFMOD: System sample rate = 44100
+[2018.05.11-15.29.08:248][  1]LogFMOD: Matching system sample rate 44100
+[2018.05.11-15.29.08:356][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Kyle/Documents/Unreal Projects/GameJam/Content/' took 0.68s
+[2018.05.11-15.29.10:053][  6]LogAssetRegistry: Asset discovery search completed in 26.3544 seconds
+[2018.05.11-15.29.10:060][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2018.05.11-15.29.10:060][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000213 seconds (updated 0 objects)
+[2018.05.11-15.29.10:752][  8]LogSlate: Took 0.000792 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.11-15.29.39:385][142]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.11-15.30.04:189][788]AssetReimport: New page: Outstanding source content changes 17:30:04
+[2018.05.11-15.30.04:233][789]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Kyle/Documents/Unreal Projects/GameJam/Content/Import/Bee rigged wing.fbx)
+[2018.05.11-15.30.04:252][789]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.05.11-15.30.04:252][789]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.05.11-15.30.04:252][789]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.05.11-15.30.04:253][789]LogFbx: ItemName: Geometry, ItemCount : 2
+[2018.05.11-15.30.04:253][789]LogFbx: ItemName: Material, ItemCount : 1
+[2018.05.11-15.30.04:253][789]LogFbx: ItemName: Model, ItemCount : 5
+[2018.05.11-15.30.04:253][789]LogFbx: ItemName: NodeAttribute, ItemCount : 3
+[2018.05.11-15.30.04:253][789]LogFbx: ItemName: AnimationCurveNode, ItemCount : 6
+[2018.05.11-15.30.04:253][789]LogFbx: ItemName: Pose, ItemCount : 1
+[2018.05.11-15.30.04:253][789]LogFbx: ItemName: Deformer, ItemCount : 3
+[2018.05.11-15.30.04:279][789]LogFbx: Loading FBX Scene from C:/Users/Kyle/Documents/Unreal Projects/GameJam/Content/Import/Bee rigged wing.fbx
+[2018.05.11-15.30.04:316][789]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-15.30.14:935][789]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.11-15.30.15:142][789]LogFbx: Loading FBX Scene from C:/Users/Kyle/Documents/Unreal Projects/GameJam/Content/Import/Bee rigged wing.fbx
+[2018.05.11-15.30.15:179][789]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-15.30.15:180][789]LogFbx: =================================================
+[2018.05.11-15.30.15:180][789]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-15.30.15:180][789]LogFbx: 	Total Deformer Count -688562544.
+[2018.05.11-15.30.15:181][789]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.30.15:181][789]LogFbx: =================================================
+[2018.05.11-15.30.15:181][789]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.30.15:181][789]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-15.30.15:181][789]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-15.30.15:181][789]LogFbx: =================================================
+[2018.05.11-15.30.15:181][789]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-15.30.15:181][789]LogFbx: 	Total Deformer Count -688562544.
+[2018.05.11-15.30.15:181][789]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-15.30.15:182][789]LogFbx: =================================================
+[2018.05.11-15.30.15:182][789]LogFbx: 	Attribute () Type (4).
+[2018.05.11-15.30.15:182][789]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-15.30.15:182][789]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-15.30.15:183][789]LogFbx: Valid bind pose for Pose (skinCluster1) - SM_BeeWing_R
+[2018.05.11-15.30.15:241][789]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.05.11-15.30.15:539][789]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.05.11-15.30.15:660][789]LogFbx: Triangulating skeletal mesh SM_BeeWing_R
+[2018.05.11-15.30.15:766][789]LogSkeletalMesh: Section 0: 8 vertices, 2 active bones
+[2018.05.11-15.30.15:771][789]LogSkeletalMesh: Section 0: Material=0, 6 triangles
+[2018.05.11-15.30.15:772][789]LogSkeletalMesh: Building Skeletal Mesh Bee_rigged_wing...
+[2018.05.11-15.30.15:865][789]LogSkeletalMesh: Built Skeletal Mesh [0.09s] /Game/Import/Bee_rigged_wing.Bee_rigged_wing
+[2018.05.11-15.30.15:869][789]LogLinker: Can't find file '/Game/Import/Bee_rigged_wing_Skeleton'
+[2018.05.11-15.30.15:869][789]LogLinker: Can't find file '/Game/Import/Bee_rigged_wing_Skeleton'
+[2018.05.11-15.30.16:163][789]LogLinker: Can't find file '/Game/Import/Bee_rigged_wing_PhysicsAsset'
+[2018.05.11-15.30.16:163][789]LogLinker: Can't find file '/Game/Import/Bee_rigged_wing_PhysicsAsset'
+[2018.05.11-15.30.16:342][789]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_1:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2018.05.11-15.30.16:481][789]LogSkeletalMesh: Building Skeletal Mesh Bee_rigged_wing...
+[2018.05.11-15.30.16:482][789]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Import/Bee_rigged_wing.Bee_rigged_wing
+[2018.05.11-15.30.17:089][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Import/Bee_rigged_wing" FILE="../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Import/Bee_rigged_wing.uasset" SILENT=true
+[2018.05.11-15.30.17:112][790]LogSavePackage: Save=21.21ms
+[2018.05.11-15.30.17:112][790]LogSavePackage: Moving '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Saved/Bee_rigged_wing9E61F29B4FDFB36A7EC1818E09D5BD26.tmp' to '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Import/Bee_rigged_wing.uasset'
+[2018.05.11-15.30.17:115][790]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Import/Bee_rigged_wing.uasset
+[2018.05.11-15.30.20:181][800]AssetReimport: Importing new asset /Game/Import/Bee_rigged_wing.
+[2018.05.11-15.30.21:188][804]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.05.11-15.30.21:514][805]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.05.11-15.30.22:522][807]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.05.11-15.30.22:522][807]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.05.11-15.30.23:214][810]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.05.11-15.30.24:851][815]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.11-15.31.30:983][249]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0026 seconds. Added 116 classes and 0 folders.
+[2018.05.11-15.31.32:408][249]LogUObjectGlobals: Created PersistentFrame Addr=0x000000998890b6b8, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.05.11-15.31.32:410][249]LogUObjectGlobals: Created PersistentFrame Addr=0x000000998890b6b0, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.05.11-15.31.34:460][249]LogSlate: Took 0.022971 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.11-15.31.37:935][286]LogSlate: Took 0.019664 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.11-15.31.51:445][483]LogUObjectGlobals: Created PersistentFrame Addr=0x000000998dd99ec0, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.SKEL_BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-15.31.56:074][547]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000998dd99ec0, Size=4
+[2018.05.11-15.31.56:074][547]LogUObjectGlobals: Created PersistentFrame Addr=0x000000998cff6580, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Engine/Transient.REINST_SKEL_BP_Bee_Redo_C_23:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-15.31.56:094][547]LogUObjectGlobals: Created PersistentFrame Addr=0x000000998cff6df8, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.SKEL_BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-15.32.09:880][755]BlueprintLog: New page: Compile BP_Bee_Redo
+[2018.05.11-15.32.09:976][755]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000998cff6df8, Size=4
+[2018.05.11-15.32.09:976][755]LogUObjectGlobals: Created PersistentFrame Addr=0x000000998dd997d8, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Engine/Transient.REINST_SKEL_BP_Bee_Redo_C_25:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-15.32.10:068][755]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000099d1ee3200, Size=1312
+[2018.05.11-15.32.10:068][755]LogUObjectGlobals: Created PersistentFrame Addr=0x000000998d097900, Size=1312, Default__BP_Bee_Redo_C Function /Engine/Transient.REINST_BP_Bee_Redo_C_27:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-15.32.10:102][755]LogUObjectGlobals: Created PersistentFrame Addr=0x00000099d1ee3200, Size=1312, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-15.32.11:118][755]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000998cff6580, Size=4
+[2018.05.11-15.32.11:118][755]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000998dd997d8, Size=4
+[2018.05.11-15.32.32:175][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bee_Redo" FILE="../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Blueprints/BP_Bee_Redo.uasset" SILENT=true
+[2018.05.11-15.32.32:514][ 88]LogSavePackage: Save=321.21ms
+[2018.05.11-15.32.32:514][ 88]LogSavePackage: Moving '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Saved/BP_Bee_Redo701729A34136068CB7A866B184C24A31.tmp' to '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Blueprints/BP_Bee_Redo.uasset'
+[2018.05.11-15.32.32:525][ 88]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Blueprints/BP_Bee_Redo.uasset
+[2018.05.11-15.33.18:193][745]LogUObjectGlobals: Created PersistentFrame Addr=0x00000099915a2448, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.SKEL_BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-15.34.25:671][726]BlueprintLog: New page: Compile BP_Bee_Redo
+[2018.05.11-15.34.25:793][726]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000099915a2448, Size=4
+[2018.05.11-15.34.25:793][726]LogUObjectGlobals: Created PersistentFrame Addr=0x00000099915a2448, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Engine/Transient.REINST_SKEL_BP_Bee_Redo_C_31:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-15.34.25:914][726]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000099d1ee3200, Size=1312
+[2018.05.11-15.34.25:915][726]LogUObjectGlobals: Created PersistentFrame Addr=0x000000998dc25d00, Size=1312, BP_Bee_Redo_C_140 Function /Engine/Transient.REINST_BP_Bee_Redo_C_33:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-15.34.25:958][726]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009996aa5d00, Size=1312, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-15.34.27:072][726]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000998d097900, Size=1312
+[2018.05.11-15.34.27:073][726]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000099915a2448, Size=4
+[2018.05.11-15.34.28:297][737]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.11-15.34.28:435][737]LogFMOD: Creating runtime Studio System
+[2018.05.11-15.34.28:439][737]LogFMOD: Default sample rate = 48000
+[2018.05.11-15.34.28:439][737]LogFMOD: System sample rate = 44100
+[2018.05.11-15.34.28:439][737]LogFMOD: Matching system sample rate 44100
+[2018.05.11-15.34.28:469][737]LogFMOD: Loading Banks
+[2018.05.11-15.34.28:508][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.11-15.34.28:509][737]PIE: New page: PIE session: L_Level01 (11 May 2018 17:34:28)
+[2018.05.11-15.34.28:509][737]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.11-15.34.28:517][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007127s)
+[2018.05.11-15.34.28:518][737]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.11-15.34.28:519][737]LogPlayLevel: PIE: World Init took: (0.001958s)
+[2018.05.11-15.34.28:519][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.009587s)
+[2018.05.11-15.34.28:666][737]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000998dc25d00, Size=1312
+[2018.05.11-15.34.28:695][737]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.11-15.34.28:716][737]LogInit: FAudioDevice initialized.
+[2018.05.11-15.34.28:966][737]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.11-15.34.28:974][737]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-16.34.28
+[2018.05.11-15.34.28:975][737]LogWorld: Bringing up level for play took: 0.002948
+[2018.05.11-15.34.29:002][737]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 11 classes and 0 folders.
+[2018.05.11-15.34.29:002][737]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-15.34.29:003][737]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-15.34.29:003][737]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-15.34.29:009][737]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-15.34.29:052][737]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.778
+[2018.05.11-15.34.29:237][737]LogRenderer: Reallocating scene render targets to support 1124x656 Format 9 NumSamples 1 (Frame:1).
+[2018.05.11-15.34.40:550][886]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.11-15.34.47:619][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bee_Redo" FILE="../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Blueprints/BP_Bee_Redo.uasset" SILENT=true
+[2018.05.11-15.34.48:000][997]LogSavePackage: Save=363.84ms
+[2018.05.11-15.34.48:000][997]LogSavePackage: Moving '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Saved/BP_Bee_Redo623975B14BF7559A690073B9D9D9769A.tmp' to '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Blueprints/BP_Bee_Redo.uasset'
+[2018.05.11-15.34.48:006][997]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Blueprints/BP_Bee_Redo.uasset
+[2018.05.11-15.34.52:017][ 51]BlueprintLog: New page: Compile BP_Bee_Redo
+[2018.05.11-15.34.52:245][ 51]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009996aa5d00, Size=1312
+[2018.05.11-15.34.52:245][ 51]LogUObjectGlobals: Created PersistentFrame Addr=0x00000099d921f200, Size=1312, Default__BP_Bee_Redo_C Function /Engine/Transient.REINST_BP_Bee_Redo_C_37:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-15.34.52:287][ 51]LogUObjectGlobals: Created PersistentFrame Addr=0x000000998d94e400, Size=1312, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-15.35.00:167][120]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.11-15.35.00:292][120]LogFMOD: Creating runtime Studio System
+[2018.05.11-15.35.00:297][120]LogFMOD: Default sample rate = 48000
+[2018.05.11-15.35.00:297][120]LogFMOD: System sample rate = 44100
+[2018.05.11-15.35.00:297][120]LogFMOD: Matching system sample rate 44100
+[2018.05.11-15.35.00:330][120]LogFMOD: Loading Banks
+[2018.05.11-15.35.00:369][120]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.05.11-15.35.00:496][120]LogPlayLevel: [PlayLevel] Compiling BP_Bee_Redo before play...
+[2018.05.11-15.35.00:617][120]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000998d94e400, Size=1312
+[2018.05.11-15.35.00:618][120]LogUObjectGlobals: Created PersistentFrame Addr=0x00000099a0408f00, Size=1312, BP_Bee_Redo_C_275 Function /Engine/Transient.REINST_BP_Bee_Redo_C_41:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-15.35.00:665][120]LogUObjectGlobals: Created PersistentFrame Addr=0x000000999908c100, Size=1312, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-15.35.01:902][120]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000099d921f200, Size=1312
+[2018.05.11-15.35.01:903][120]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000099a0408f00, Size=1312
+[2018.05.11-15.35.01:908][120]LogPlayLevel: PlayLevel: Blueprint regeneration took 1539 ms (1 blueprints)
+[2018.05.11-15.35.01:910][120]PIE: New page: PIE session: L_Level01 (11 May 2018 17:35:01)
+[2018.05.11-15.35.01:910][120]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.11-15.35.01:915][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005943s)
+[2018.05.11-15.35.01:923][120]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.11-15.35.01:924][120]LogPlayLevel: PIE: World Init took: (0.009018s)
+[2018.05.11-15.35.01:924][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.015484s)
+[2018.05.11-15.35.02:102][120]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.11-15.35.02:124][120]LogInit: FAudioDevice initialized.
+[2018.05.11-15.35.02:316][120]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.11-15.35.02:321][120]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-16.35.02
+[2018.05.11-15.35.02:322][120]LogWorld: Bringing up level for play took: 0.002830
+[2018.05.11-15.35.02:324][120]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-15.35.02:324][120]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-15.35.02:325][120]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-15.35.02:362][120]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-15.35.02:382][120]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 2.108
+[2018.05.11-15.35.12:933][250]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.11-15.35.23:061][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bee_Redo" FILE="../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Blueprints/BP_Bee_Redo.uasset" SILENT=true
+[2018.05.11-15.35.23:455][295]LogSavePackage: Save=378.15ms
+[2018.05.11-15.35.23:456][295]LogSavePackage: Moving '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Saved/BP_Bee_Redo02DD0D3C42ED73E805E2CEA77FACDEA8.tmp' to '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Blueprints/BP_Bee_Redo.uasset'
+[2018.05.11-15.35.23:462][295]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Blueprints/BP_Bee_Redo.uasset
