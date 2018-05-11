@@ -1335,3 +1335,191 @@ LogInit: Object subsystem initialized
 [2018.05.11-02.11.52:595][195]LogClass: Warning: In asset 'None', there is an enum property of type 'ECameraProjectionMode' with an invalid value of ''
 [2018.05.11-02.11.52:597][195]LogClass: Warning: In asset 'None', there is an enum property of type 'ECameraProjectionMode' with an invalid value of ''
 [2018.05.11-02.11.52:598][195]LogClass: Warning: In asset 'None', there is an enum property of type 'ECameraProjectionMode' with an invalid value of ''
+[2018.05.11-02.18.31:097][638]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.11-02.18.31:160][639]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.11-02.18.31:281][639]LogFMOD: Creating runtime Studio System
+[2018.05.11-02.18.31:294][639]LogFMOD: Default sample rate = 48000
+[2018.05.11-02.18.31:295][639]LogFMOD: System sample rate = 44100
+[2018.05.11-02.18.31:295][639]LogFMOD: Matching system sample rate 44100
+[2018.05.11-02.18.31:334][639]LogFMOD: Loading Banks
+[2018.05.11-02.18.31:372][639]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.11-02.18.31:373][639]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.11-02.18.31:375][639]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.11-02.18.31:376][639]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.11-02.18.31:377][639]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.11-02.18.31:378][639]PIE: New page: PIE session: L_Level01 (11 May 2018 04:18:31)
+[2018.05.11-02.18.31:378][639]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.11-02.18.31:385][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006209s)
+[2018.05.11-02.18.31:387][639]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.11-02.18.31:388][639]LogPlayLevel: PIE: World Init took: (0.002450s)
+[2018.05.11-02.18.31:389][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.010348s)
+[2018.05.11-02.18.31:590][639]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.11-02.18.31:625][639]LogInit: FAudioDevice initialized.
+[2018.05.11-02.18.31:797][639]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.11-02.18.31:806][639]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-03.18.31
+[2018.05.11-02.18.31:807][639]LogWorld: Bringing up level for play took: 0.003024
+[2018.05.11-02.18.31:810][639]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-02.18.31:811][639]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-02.18.31:811][639]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-02.18.31:815][639]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-02.18.31:833][639]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 1.559
+[2018.05.11-02.19.06:025][197]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.11-02.39.45:377][945]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.05.11-02.39.45:928][946]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GameJam
+[2018.05.11-02.39.45:929][946]LogTemp: CWD: C:\Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.05.11-02.39.45:930][946]LogTemp: Initial Dir: C:\Games\UE_4.19
+[2018.05.11-02.39.45:930][946]LogTemp: Env CWD: C:\Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.05.11-02.39.45:933][946]LogTemp: BranchPath = KYLE-PC/C/Games/UE_4.19/Engine/Binaries --- GameBranchPath = KYLE-PC/C/Games/UE_4.19/Engine/Binaries
+[2018.05.11-02.39.45:934][946]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Kyle\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.05.11-02.40.16:211][307]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.11-02.40.16:333][307]LogFMOD: Creating runtime Studio System
+[2018.05.11-02.40.16:342][307]LogFMOD: Default sample rate = 48000
+[2018.05.11-02.40.16:342][307]LogFMOD: System sample rate = 44100
+[2018.05.11-02.40.16:342][307]LogFMOD: Matching system sample rate 44100
+[2018.05.11-02.40.16:408][307]LogFMOD: Loading Banks
+[2018.05.11-02.40.16:444][307]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.11-02.40.16:445][307]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.11-02.40.16:447][307]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.11-02.40.16:448][307]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.11-02.40.16:449][307]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.11-02.40.16:450][307]PIE: New page: PIE session: L_Level01 (11 May 2018 04:40:16)
+[2018.05.11-02.40.16:450][307]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.11-02.40.16:457][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006269s)
+[2018.05.11-02.40.16:459][307]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.11-02.40.16:460][307]LogPlayLevel: PIE: World Init took: (0.002351s)
+[2018.05.11-02.40.16:461][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.010300s)
+[2018.05.11-02.40.16:650][307]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.11-02.40.16:675][307]LogInit: FAudioDevice initialized.
+[2018.05.11-02.40.16:872][307]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.11-02.40.16:875][307]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-03.40.16
+[2018.05.11-02.40.16:877][307]LogWorld: Bringing up level for play took: 0.002655
+[2018.05.11-02.40.16:879][307]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-02.40.16:880][307]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-02.40.16:880][307]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-02.40.16:884][307]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-02.40.16:898][307]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.624
+[2018.05.11-02.40.31:383][528]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.11-02.40.38:893][680]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.11-02.40.39:018][680]LogFMOD: Creating runtime Studio System
+[2018.05.11-02.40.39:027][680]LogFMOD: Default sample rate = 48000
+[2018.05.11-02.40.39:028][680]LogFMOD: System sample rate = 44100
+[2018.05.11-02.40.39:028][680]LogFMOD: Matching system sample rate 44100
+[2018.05.11-02.40.39:067][680]LogFMOD: Loading Banks
+[2018.05.11-02.40.39:099][680]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.11-02.40.39:100][680]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.11-02.40.39:102][680]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.11-02.40.39:103][680]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.11-02.40.39:104][680]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.11-02.40.39:105][680]PIE: New page: PIE session: L_Level01 (11 May 2018 04:40:39)
+[2018.05.11-02.40.39:106][680]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.11-02.40.39:113][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007082s)
+[2018.05.11-02.40.39:115][680]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.11-02.40.39:116][680]LogPlayLevel: PIE: World Init took: (0.002430s)
+[2018.05.11-02.40.39:117][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.011211s)
+[2018.05.11-02.40.39:301][680]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.11-02.40.39:340][680]LogInit: FAudioDevice initialized.
+[2018.05.11-02.40.39:523][680]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.11-02.40.39:527][680]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-03.40.39
+[2018.05.11-02.40.39:529][680]LogWorld: Bringing up level for play took: 0.003072
+[2018.05.11-02.40.39:531][680]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-02.40.39:531][680]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-02.40.39:532][680]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-02.40.39:536][680]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-02.40.39:550][680]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 1.276
+[2018.05.11-02.40.50:139][846]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.11-02.41.26:921][419]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.11-02.41.27:038][419]LogFMOD: Creating runtime Studio System
+[2018.05.11-02.41.27:048][419]LogFMOD: Default sample rate = 48000
+[2018.05.11-02.41.27:048][419]LogFMOD: System sample rate = 44100
+[2018.05.11-02.41.27:049][419]LogFMOD: Matching system sample rate 44100
+[2018.05.11-02.41.27:088][419]LogFMOD: Loading Banks
+[2018.05.11-02.41.27:119][419]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.11-02.41.27:120][419]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.11-02.41.27:122][419]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.11-02.41.27:123][419]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.11-02.41.27:124][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.11-02.41.27:125][419]PIE: New page: PIE session: L_Level01 (11 May 2018 04:41:27)
+[2018.05.11-02.41.27:126][419]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.11-02.41.27:132][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006059s)
+[2018.05.11-02.41.27:134][419]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.11-02.41.27:135][419]LogPlayLevel: PIE: World Init took: (0.002583s)
+[2018.05.11-02.41.27:136][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.010424s)
+[2018.05.11-02.41.27:341][419]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.11-02.41.27:411][419]LogInit: FAudioDevice initialized.
+[2018.05.11-02.41.27:581][419]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.11-02.41.27:585][419]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-03.41.27
+[2018.05.11-02.41.27:587][419]LogWorld: Bringing up level for play took: 0.003000
+[2018.05.11-02.41.27:589][419]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-02.41.27:590][419]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-02.41.27:591][419]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-02.41.27:596][419]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-02.41.27:611][419]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 1.337
+[2018.05.11-02.41.41:564][632]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.11-02.42.28:350][ 76]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.11-02.42.28:457][ 76]LogFMOD: Creating runtime Studio System
+[2018.05.11-02.42.28:465][ 76]LogFMOD: Default sample rate = 48000
+[2018.05.11-02.42.28:466][ 76]LogFMOD: System sample rate = 44100
+[2018.05.11-02.42.28:466][ 76]LogFMOD: Matching system sample rate 44100
+[2018.05.11-02.42.28:525][ 76]LogFMOD: Loading Banks
+[2018.05.11-02.42.28:559][ 76]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.11-02.42.28:560][ 76]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.11-02.42.28:562][ 76]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.11-02.42.28:563][ 76]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.11-02.42.28:564][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.11-02.42.28:565][ 76]PIE: New page: PIE session: L_Level01 (11 May 2018 04:42:28)
+[2018.05.11-02.42.28:566][ 76]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.11-02.42.28:574][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007867s)
+[2018.05.11-02.42.28:576][ 76]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.11-02.42.28:577][ 76]LogPlayLevel: PIE: World Init took: (0.002377s)
+[2018.05.11-02.42.28:578][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.012299s)
+[2018.05.11-02.42.28:771][ 76]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.11-02.42.28:801][ 76]LogInit: FAudioDevice initialized.
+[2018.05.11-02.42.29:006][ 76]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.11-02.42.29:010][ 76]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-03.42.29
+[2018.05.11-02.42.29:011][ 76]LogWorld: Bringing up level for play took: 0.002976
+[2018.05.11-02.42.29:014][ 76]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-02.42.29:015][ 76]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-02.42.29:015][ 76]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-02.42.29:019][ 76]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-02.42.29:033][ 76]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.76
+[2018.05.11-02.42.32:441][125]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.11-02.44.07:000][ 45]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.11-02.44.07:119][ 45]LogFMOD: Creating runtime Studio System
+[2018.05.11-02.44.07:135][ 45]LogFMOD: Default sample rate = 48000
+[2018.05.11-02.44.07:136][ 45]LogFMOD: System sample rate = 44100
+[2018.05.11-02.44.07:136][ 45]LogFMOD: Matching system sample rate 44100
+[2018.05.11-02.44.07:172][ 45]LogFMOD: Loading Banks
+[2018.05.11-02.44.07:210][ 45]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.11-02.44.07:212][ 45]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.11-02.44.07:214][ 45]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.11-02.44.07:215][ 45]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.11-02.44.07:217][ 45]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.11-02.44.07:218][ 45]PIE: New page: PIE session: L_Level01 (11 May 2018 04:44:07)
+[2018.05.11-02.44.07:218][ 45]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.11-02.44.07:226][ 45]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006547s)
+[2018.05.11-02.44.07:240][ 45]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.11-02.44.07:242][ 45]LogPlayLevel: PIE: World Init took: (0.015059s)
+[2018.05.11-02.44.07:242][ 45]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.023842s)
+[2018.05.11-02.44.07:457][ 45]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.11-02.44.07:488][ 45]LogInit: FAudioDevice initialized.
+[2018.05.11-02.44.07:681][ 45]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.11-02.44.07:686][ 45]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-03.44.07
+[2018.05.11-02.44.07:688][ 45]LogWorld: Bringing up level for play took: 0.003956
+[2018.05.11-02.44.07:691][ 45]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-02.44.07:692][ 45]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-02.44.07:693][ 45]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-02.44.07:698][ 45]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-02.44.07:714][ 45]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 1.441
+[2018.05.11-02.44.24:654][302]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
