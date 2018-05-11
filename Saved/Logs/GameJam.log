@@ -7368,3 +7368,20 @@ Converted Global Transform (-0.000000,-0.140271,-0.000000|0.145299,-0.000007,-13
 [2018.05.11-20.42.30:874][509]LogSkeletalMesh: Building Skeletal Mesh Bee_animation1...
 [2018.05.11-20.42.30:874][509]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Import/Bee_animation1.Bee_animation1
 [2018.05.11-20.42.43:226][ 28]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.05.11-20.43.08:743][311]LogFMOD: File has changed: ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.11-20.43.08:839][311]LogFMOD: Loading strings bank: ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.11-20.43.08:840][311]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience
+[2018.05.11-20.43.08:840][311]LogFMOD: Skipping asset: bank:/Master Bank.strings
+[2018.05.11-20.43.08:840][311]LogFMOD: Constructing asset: /Game/FMOD/Events/Snail_Scream
+[2018.05.11-20.43.08:841][311]LogFMOD: Skipping asset: bus:/
+[2018.05.11-20.43.08:841][311]LogFMOD: Constructing asset: /Game/FMOD/Events/Sprinkler
+[2018.05.11-20.43.08:841][311]LogFMOD: Constructing asset: /Game/FMOD/Events/Snail_Bop
+[2018.05.11-20.43.08:841][311]LogFMOD: Constructing asset: /Game/FMOD/Events/Snail_Squick
+[2018.05.11-20.43.08:841][311]LogFMOD: Constructing asset: /Game/FMOD/Events/Plant_Rustle
+[2018.05.11-20.43.08:843][311]LogFMOD: Default sample rate = 48000
+[2018.05.11-20.43.08:843][311]LogFMOD: System sample rate = 48000
+[2018.05.11-20.43.08:843][311]LogFMOD: Matching system sample rate 48000
+[2018.05.11-20.43.09:010][311]LogFMOD: Default sample rate = 48000
+[2018.05.11-20.43.09:010][311]LogFMOD: System sample rate = 48000
+[2018.05.11-20.43.09:010][311]LogFMOD: Matching system sample rate 48000
+[2018.05.11-20.55.07:404][466]LogSlate: FSceneViewport::OnFocusLost() reason 2
