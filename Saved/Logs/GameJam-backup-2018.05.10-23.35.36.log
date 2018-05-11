@@ -1,0 +1,1207 @@
+﻿Log file open, 05/10/18 22:26:36
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: GameJam
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(2012864310) SRandInit(2012864324).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.490497
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudio.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudioEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin FMODStudio
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  7.851s to configure plugins.
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am KYLE-PC (192.168.0.12:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.05.10-21.26.46:332][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.10-21.26.46:332][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.10-21.26.46:366][  0]LogInit: Computer: KYLE-PC
+[2018.05.10-21.26.46:366][  0]LogInit: User: Kyle
+[2018.05.10-21.26.46:366][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.10-21.26.46:366][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2018.05.10-21.26.46:367][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.05.10-21.26.46:367][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.10-21.26.46:367][  0]LogMemory: Process Physical Memory: 272.52 MB used, 272.52 MB peak
+[2018.05.10-21.26.46:367][  0]LogMemory: Process Virtual Memory: 264.54 MB used, 264.54 MB peak
+[2018.05.10-21.26.46:367][  0]LogMemory: Physical Memory: 8685.90 MB used,  7596.33 MB free, 16282.23 MB total
+[2018.05.10-21.26.46:367][  0]LogMemory: Virtual Memory: 638.18 MB used,  7596.33 MB free, 134217728.00 MB total
+[2018.05.10-21.26.46:798][  0]LogInit: Using OS detected language (en-US).
+[2018.05.10-21.26.46:798][  0]LogInit: Using OS detected locale (en-GB).
+[2018.05.10-21.26.46:807][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.05.10-21.26.48:428][  0]LogStreaming: Display: Took  1.630s to EndInitTextLocalization.
+[2018.05.10-21.26.48:428][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.10-21.26.48:657][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.05.10-21.26.48:657][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.05.10-21.26.49:501][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.10-21.26.49:762][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 200 Series' (Feature Level 11_0)
+[2018.05.10-21.26.49:762][  0]LogD3D11RHI:       2027/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2018.05.10-21.26.49:769][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.10-21.26.49:769][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.10-21.26.49:769][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.10-21.26.49:795][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.10-21.26.49:795][  0]LogD3D11RHI:     GPU DeviceId: 0x6811 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.10-21.26.49:795][  0]LogWindows: EnumDisplayDevices:
+[2018.05.10-21.26.49:796][  0]LogWindows:    0. 'AMD Radeon (TM) R9 200 Series' (P:1 D:1)
+[2018.05.10-21.26.49:798][  0]LogWindows:    1. 'AMD Radeon (TM) R9 200 Series' (P:0 D:1)
+[2018.05.10-21.26.49:799][  0]LogWindows:    2. 'AMD Radeon (TM) R9 200 Series' (P:0 D:0)
+[2018.05.10-21.26.49:801][  0]LogWindows:    3. 'AMD Radeon (TM) R9 200 Series' (P:0 D:0)
+[2018.05.10-21.26.49:802][  0]LogWindows:    4. 'AMD Radeon (TM) R9 200 Series' (P:0 D:0)
+[2018.05.10-21.26.49:804][  0]LogWindows:    5. 'AMD Radeon (TM) R9 200 Series' (P:0 D:0)
+[2018.05.10-21.26.49:805][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2018.05.10-21.26.49:805][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 200 Series
+[2018.05.10-21.26.49:805][  0]LogD3D11RHI:   Driver Version: Crimson 16.4.1 (internal:16.150.2211.1001, unified:16.150.2211.1001)
+[2018.05.10-21.26.49:805][  0]LogD3D11RHI:      Driver Date: 4-3-2016
+[2018.05.10-21.26.49:805][  0]LogRHI: Texture pool is 1419 MB (70% of 2027 MB)
+[2018.05.10-21.26.50:016][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.10-21.26.50:041][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.05.10-21.26.50:042][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Intermediate/Shaders/WorkingDirectory/44952/).
+[2018.05.10-21.26.50:043][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kyle/AppData/Local/Temp/UnrealShaderWorkingDir/95A6D7124F4F550D3BA61FAF91ED03C0/'.
+[2018.05.10-21.26.51:313][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.10-21.26.51:386][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.10-21.26.51:460][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.10-21.26.51:528][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.10-21.26.51:608][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.10-21.26.51:683][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.10-21.26.51:766][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.10-21.26.51:852][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.10-21.26.51:917][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.10-21.26.51:988][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.10-21.26.52:051][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.10-21.26.52:143][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.10-21.26.52:251][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.05.10-21.26.52:351][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.10-21.26.52:460][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.10-21.26.52:677][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.10-21.26.52:678][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.10-21.26.52:786][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.10-21.26.52:837][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.10-21.26.53:074][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.10-21.26.53:182][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.10-21.26.53:301][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.10-21.26.53:421][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.10-21.26.53:528][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.10-21.26.53:644][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.10-21.26.53:644][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.10-21.26.55:760][  0]LogXGEController: Cleaning working directory: C:/Users/Kyle/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.05.10-21.26.55:761][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.05.10-21.26.55:761][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.05.10-21.26.55:761][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.10-21.26.59:964][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.10-21.27.00:443][  0]LogDerivedDataCache: Loaded boot cache 0.48s 74MB C:/Users/Kyle/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.10-21.27.00:443][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Kyle/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.05.10-21.27.00:444][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.10-21.27.00:444][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.10-21.27.00:444][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.10-21.27.00:444][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.10-21.27.00:530][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.10-21.27.00:550][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kyle/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.10-21.27.00:550][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.05.10-21.27.00:550][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.05.10-21.27.00:612][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.10-21.27.00:613][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.10-21.27.00:615][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.10-21.27.00:616][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.10-21.27.01:311][  0]LogAssetRegistry: FAssetRegistry took 0.0553 seconds to start up
+[2018.05.10-21.27.02:398][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.10-21.27.03:274][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.10-21.27.03:324][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.10-21.27.03:324][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.10-21.27.03:324][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.10-21.27.03:324][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.10-21.27.03:324][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.10-21.27.03:472][  0]LogNetVersion: GameJam , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2281863040)
+[2018.05.10-21.27.04:940][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 2 prioritized culture(s) in 0.357730 seconds
+[2018.05.10-21.27.04:953][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.05.10-21.27.04:953][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.05.10-21.27.04:953][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.10-21.27.16:321][  0]LogFMOD: FFMODStudioModule startup
+[2018.05.10-21.27.16:321][  0]LogFMOD:  Lib path = '../../../Engine/Plugins/FMODStudio/Binaries'
+[2018.05.10-21.27.16:321][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../Engine/Plugins/FMODStudio/Binaries/Win64/fmodL64.dll
+[2018.05.10-21.27.16:448][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../Engine/Plugins/FMODStudio/Binaries/Win64/fmodstudioL64.dll
+[2018.05.10-21.27.16:638][  0]LogFMOD: Loading strings bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.10-21.27.16:640][  0]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.10-21.27.16:640][  0]LogFMOD: Warning: Failed to load strings bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.10-21.27.16:656][  0]LogFMOD: Default sample rate = 48000
+[2018.05.10-21.27.16:656][  0]LogFMOD: System sample rate = 44100
+[2018.05.10-21.27.16:656][  0]LogFMOD: Matching system sample rate 44100
+[2018.05.10-21.27.16:735][  0]LogFMOD: Default sample rate = 48000
+[2018.05.10-21.27.16:735][  0]LogFMOD: System sample rate = 44100
+[2018.05.10-21.27.16:735][  0]LogFMOD: Matching system sample rate 44100
+[2018.05.10-21.27.17:029][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.10-21.27.17:241][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.10-21.27.20:461][  0]SourceControl: Source control is disabled
+[2018.05.10-21.27.20:461][  0]SourceControl: Source control is disabled
+[2018.05.10-21.27.20:685][  0]SourceControl: Source control is disabled
+[2018.05.10-21.27.20:865][  0]SourceControl: Source control is disabled
+[2018.05.10-21.27.23:831][  0]LogFMOD: FFMODStudioEditorModule startup
+[2018.05.10-21.27.25:556][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.10-21.27.26:690][  0]LogOcInput: OculusInput pre-init called
+[2018.05.10-21.27.27:649][  0]LogEngine: Initializing Engine...
+[2018.05.10-21.27.27:655][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.10-21.27.27:662][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.10-21.27.27:662][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.10-21.27.28:523][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.10-21.27.28:580][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.10-21.27.28:605][  0]LogInit: FAudioDevice initialized.
+[2018.05.10-21.27.30:257][  0]LogDerivedDataCache: Saved boot cache 1.65s 74MB C:/Users/Kyle/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.10-21.27.30:335][  0]LogInit: Texture streaming: Enabled
+[2018.05.10-21.27.30:641][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.10-21.27.30:779][  0]LogInit: Transaction tracking system initialized
+[2018.05.10-21.27.31:108][  0]BlueprintLog: New page: Editor Load
+[2018.05.10-21.27.32:086][  0]LocalizationService: Localization service is disabled
+[2018.05.10-21.27.33:001][  0]LogConsoleResponse: Display: 
+[2018.05.10-21.27.33:470][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.10-21.27.33:470][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.10-21.27.33:470][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.10-21.27.33:470][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.10-21.27.33:471][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.10-21.27.33:993][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/' took 0.02s
+[2018.05.10-21.27.36:038][  0]SourceControl: Source control is disabled
+[2018.05.10-21.27.36:038][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.10-21.27.36:039][  0]LightingResults: New page: Lighting Build
+[2018.05.10-21.27.36:047][  0]MapCheck: New page: Map Check
+[2018.05.10-21.27.36:048][  0]LightingResults: New page: Lighting Build
+[2018.05.10-21.27.36:476][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.05.10-21.27.36:489][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.10-21.27.36:546][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.10-21.27.36:639][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 92.447ms to complete.
+[2018.05.10-21.27.36:639][  0]LogFileHelpers: Loading map 'Template_Default' took 0.601
+[2018.05.10-21.27.38:246][  0]LogCollectionManager: Loaded 0 collections in 0.006967 seconds
+[2018.05.10-21.27.38:341][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/Collections/' took 0.01s
+[2018.05.10-21.27.38:341][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Developers/Kyle/Collections/' took 0.02s
+[2018.05.10-21.27.38:341][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Collections/' took 0.01s
+[2018.05.10-21.27.38:341][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.05.10-21.27.38:394][  0]LogContentBrowser: Native class hierarchy populated in 0.0518 seconds. Added 2469 classes and 565 folders.
+[2018.05.10-21.27.38:445][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.05.10-21.27.56:749][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.05.10-21.27.57:207][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.05.10-21.27.57:279][  0]LogSlate: Took 0.000654 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.10-21.27.57:287][  0]LogSlate: Took 0.000614 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.10-21.27.57:711][  0]LogSlate: Took 0.189553 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.10-21.28.01:350][  0]LogRenderer: Reallocating scene render targets to support 1016x576 Format 10 NumSamples 1 (Frame:1).
+[2018.05.10-21.28.02:293][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.05.10-21.28.02:293][  0]LogLoad: (Engine Initialization) Total time: 93.96 seconds
+[2018.05.10-21.28.02:293][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.10-21.28.02:657][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.10-21.28.03:751][  3]LogSlate: Took 0.087212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.10-21.28.12:998][ 31]LogSlate: Took 0.001332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.10-21.28.19:317][ 50]LogAssetRegistry: Asset discovery search completed in 78.0305 seconds
+[2018.05.10-21.28.19:344][ 50]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2018.05.10-21.28.19:344][ 50]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000262 seconds (updated 0 objects)
+[2018.05.10-21.30.14:402][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-21.30.17:926][620]LogStaticMesh: Building static mesh SM_BeeBody_01...
+[2018.05.10-21.30.18:065][620]LogStaticMesh: Built static mesh [0.14s] /Game/Assets/Meshes/Bee/SM_BeeBody_01.SM_BeeBody_01
+[2018.05.10-21.30.18:121][620]LogStaticMesh: Building static mesh SM_BeeHead_01...
+[2018.05.10-21.30.18:193][620]LogStaticMesh: Built static mesh [0.07s] /Game/Assets/Meshes/Bee/SM_BeeHead_01.SM_BeeHead_01
+[2018.05.10-21.30.18:291][620]LogStaticMesh: Building static mesh SM_BeeStinger_01...
+[2018.05.10-21.30.18:357][620]LogStaticMesh: Built static mesh [0.11s] /Game/Assets/Meshes/Bee/SM_BeeStinger_01.SM_BeeStinger_01
+[2018.05.10-21.30.18:445][620]LogStaticMesh: Building static mesh SM_BeeWing_01...
+[2018.05.10-21.30.18:510][620]LogStaticMesh: Built static mesh [0.10s] /Game/Assets/Meshes/Bee/SM_BeeWing_01.SM_BeeWing_01
+[2018.05.10-21.30.18:565][620]LogMaterial: Missing cached shader map for material M_Bee, compiling. 
+[2018.05.10-21.30.18:857][620]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.05.10-21.30.18:858][620]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.05.10-21.30.18:858][620]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.05.10-21.30.18:858][620]LogMaterial: Missing cached shader map for material M_Bee, compiling. 
+[2018.05.10-21.30.19:489][624]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.05.10-21.30.26:478][737]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.05.10-21.30.27:240][752]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.05.10-21.36.11:847][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-21.36.13:104][919]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 116 classes and 0 folders.
+[2018.05.10-21.36.14:831][919]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009ba1ee98d8, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.05.10-21.36.14:834][919]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009ba1ee98d0, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.05.10-21.38.03:240][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.05.10-21.38.03:431][352]LogSavePackage: Save=189.27ms
+[2018.05.10-21.38.03:431][352]LogSavePackage: Moving '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/Untitled_1_Auto134030B324FD13F8A1FD42EA23CA1E79B.tmp' to '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2018.05.10-21.38.03:442][352]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2018.05.10-21.38.03:462][352]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.374
+[2018.05.10-21.38.03:462][352]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.374
+[2018.05.10-21.44.06:889][503]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.10-21.44.15:745][614]LogSlate: Took 0.028877 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.10-21.47.34:206][749]LogSlate: Took 0.021802 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.10-21.48.36:902][568]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-21.48.42:693][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CH_Bee" FILE="../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Blueprints/CH_Bee.uasset" SILENT=true
+[2018.05.10-21.48.42:924][642]LogSavePackage: Save=171.76ms
+[2018.05.10-21.48.42:924][642]LogSavePackage: Moving '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/CH_Bee7383F8AE42ECFD432AFAE491C661AA4E.tmp' to '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Blueprints/CH_Bee.uasset'
+[2018.05.10-21.48.42:956][642]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Blueprints/CH_Bee.uasset
+[2018.05.10-21.48.44:380][667]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.10-21.48.44:466][667]LogFMOD: Creating runtime Studio System
+[2018.05.10-21.48.44:471][667]LogFMOD: Default sample rate = 48000
+[2018.05.10-21.48.44:471][667]LogFMOD: System sample rate = 44100
+[2018.05.10-21.48.44:471][667]LogFMOD: Matching system sample rate 44100
+[2018.05.10-21.48.44:495][667]LogFMOD: Loading Banks
+[2018.05.10-21.48.44:527][667]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.10-21.48.44:527][667]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.10-21.48.44:527][667]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.10-21.48.44:527][667]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.10-21.48.44:527][667]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.05.10-21.48.44:534][667]LogPlayLevel: [PlayLevel] Compiling CH_Bee before play...
+[2018.05.10-21.48.44:544][667]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009bad1e1f08, Size=40, Default__CH_Bee_C Function /Game/Blueprints/CH_Bee.CH_Bee_C:ExecuteUbergraph_CH_Bee
+[2018.05.10-21.48.46:407][667]LogPlayLevel: PlayLevel: Blueprint regeneration took 1878 ms (1 blueprints)
+[2018.05.10-21.48.46:409][667]PIE: New page: PIE session: Untitled_1 (10 May 2018 23:48:46)
+[2018.05.10-21.48.46:410][667]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.05.10-21.48.46:424][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014555s)
+[2018.05.10-21.48.46:426][667]LogAIModule: Creating AISystem for world Untitled_1
+[2018.05.10-21.48.46:432][667]LogPlayLevel: PIE: World Init took: (0.007239s)
+[2018.05.10-21.48.46:432][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.022663s)
+[2018.05.10-21.48.46:574][667]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.10-21.48.46:596][667]LogInit: FAudioDevice initialized.
+[2018.05.10-21.48.46:652][667]LogLoad: Game class is 'GameModeBase'
+[2018.05.10-21.48.46:691][667]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.05.10-22.48.46
+[2018.05.10-21.48.46:748][667]LogWorld: Bringing up level for play took: 0.065190
+[2018.05.10-21.48.46:806][667]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2018.05.10-21.48.46:811][667]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 2.535
+[2018.05.10-21.48.47:091][668]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.061425 > MaxSimulationTimeStep (0.050) for 'CH_Bee_177', movement 'Walking'
+[2018.05.10-21.49.29:566][ 24]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-21.49.44:034][ 62]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.05.10-21.49.47:551][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/Autosaves/Temp/Untitled_1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.05.10-21.49.47:707][110]LogSavePackage: Save=155.72ms
+[2018.05.10-21.49.47:707][110]LogSavePackage: Moving '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/Untitled_1_Auto2FC3B27E24B1B5F1849960AB3B0ACF3C6.tmp' to '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2018.05.10-21.49.47:720][110]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/Autosaves/Temp/Untitled_1_Auto2.umap
+[2018.05.10-21.49.47:737][110]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.337
+[2018.05.10-21.49.47:737][110]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.337
+[2018.05.10-21.49.47:769][110]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/GameMode] ([1] browsable assets)...
+[2018.05.10-21.49.47:770][110]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/GameMode]
+[2018.05.10-21.49.47:834][110]LogSavePackage: Save=38.93ms
+[2018.05.10-21.49.47:835][110]LogSavePackage: Moving '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/GameMode_Auto20E28BD354A2EDEA9E39A9FB4627EA241.tmp' to '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/Autosaves/Game/Blueprints/GameMode_Auto2.uasset'
+[2018.05.10-21.49.47:848][110]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/Autosaves/Game/Blueprints/GameMode_Auto2.uasset
+[2018.05.10-21.49.47:848][110]LogFileHelpers: Auto-saving content packages took 0.092
+[2018.05.10-21.49.56:084][206]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.10-21.50.17:711][369]LogSlate: Window 'Save Level As' being destroyed
+[2018.05.10-21.50.25:868][489]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 128X128)
+[2018.05.10-21.50.25:869][489]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.05.10-21.50.25:869][489]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.05.10-21.50.25:869][489]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 128X128)
+[2018.05.10-21.50.25:869][489]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 128X64)
+[2018.05.10-21.50.25:869][489]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2018.05.10-21.50.25:870][489]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 64X64)
+[2018.05.10-21.50.25:870][489]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.05.10-21.50.25:928][489]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.10-21.50.29:729][489]LogSlate: Window 'Save Content' being destroyed
+[2018.05.10-21.50.29:755][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameMode" FILE="../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Blueprints/GameMode.uasset" SILENT=true
+[2018.05.10-21.50.29:823][489]LogSavePackage: Save=46.08ms
+[2018.05.10-21.50.29:824][489]LogSavePackage: Moving '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/GameMode086A425141FF429EE65EA887A070C379.tmp' to '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Blueprints/GameMode.uasset'
+[2018.05.10-21.50.29:868][489]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Blueprints/GameMode.uasset
+[2018.05.10-21.50.31:672][489]LogSlate: Window 'Save Level As' being destroyed
+[2018.05.10-21.50.36:967][528]LogSlate: Window 'Save Content' being destroyed
+[2018.05.10-21.50.37:013][528]Cmd: MAP LOAD FILE="../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Maps/L_Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.10-21.50.37:017][528]LightingResults: New page: Lighting Build
+[2018.05.10-21.50.37:020][528]LoadErrors: New page: Loading map: L_Level01.umap
+[2018.05.10-21.50.37:038][528]MapCheck: New page: Map Check
+[2018.05.10-21.50.37:039][528]LightingResults: New page: Lighting Build
+[2018.05.10-21.50.37:195][528]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.10-21.50.37:437][528]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.10-21.50.37:615][528]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 177.807ms to complete.
+[2018.05.10-21.50.37:620][528]LogFileHelpers: Loading map 'L_Level01' took 0.611
+[2018.05.10-21.50.54:078][813]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-21.50.54:079][813]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.10-21.50.54:173][813]LogFMOD: Creating runtime Studio System
+[2018.05.10-21.50.54:180][813]LogFMOD: Default sample rate = 48000
+[2018.05.10-21.50.54:180][813]LogFMOD: System sample rate = 44100
+[2018.05.10-21.50.54:180][813]LogFMOD: Matching system sample rate 44100
+[2018.05.10-21.50.54:207][813]LogFMOD: Loading Banks
+[2018.05.10-21.50.54:245][813]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.10-21.50.54:245][813]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.10-21.50.54:245][813]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.10-21.50.54:245][813]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.10-21.50.54:245][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.10-21.50.54:246][813]PIE: New page: PIE session: L_Level01 (10 May 2018 23:50:54)
+[2018.05.10-21.50.54:246][813]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.10-21.50.54:250][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004640s)
+[2018.05.10-21.50.54:252][813]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.10-21.50.54:252][813]LogPlayLevel: PIE: World Init took: (0.001878s)
+[2018.05.10-21.50.54:253][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.006824s)
+[2018.05.10-21.50.54:370][813]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.10-21.50.54:387][813]LogInit: FAudioDevice initialized.
+[2018.05.10-21.50.54:432][813]LogLoad: Game class is 'GameModeBase'
+[2018.05.10-21.50.54:435][813]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.10-22.50.54
+[2018.05.10-21.50.54:436][813]LogWorld: Bringing up level for play took: 0.002917
+[2018.05.10-21.50.54:440][813]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.164
+[2018.05.10-21.51.06:900][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-21.51.07:767][ 50]LogEditorActor: Deleted Actor: CH_Bee_C
+[2018.05.10-21.51.07:871][ 50]LogEditorActor: Deleted 1 Actors (0.125 secs)
+[2018.05.10-21.51.09:851][ 82]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.10-21.51.09:991][ 82]LogFMOD: Creating runtime Studio System
+[2018.05.10-21.51.09:999][ 82]LogFMOD: Default sample rate = 48000
+[2018.05.10-21.51.09:999][ 82]LogFMOD: System sample rate = 44100
+[2018.05.10-21.51.09:999][ 82]LogFMOD: Matching system sample rate 44100
+[2018.05.10-21.51.10:037][ 82]LogFMOD: Loading Banks
+[2018.05.10-21.51.10:072][ 82]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.10-21.51.10:072][ 82]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.10-21.51.10:072][ 82]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.10-21.51.10:072][ 82]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.10-21.51.10:072][ 82]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.10-21.51.10:073][ 82]PIE: New page: PIE session: L_Level01 (10 May 2018 23:51:10)
+[2018.05.10-21.51.10:073][ 82]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.10-21.51.10:079][ 82]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005479s)
+[2018.05.10-21.51.10:080][ 82]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.10-21.51.10:081][ 82]LogPlayLevel: PIE: World Init took: (0.002295s)
+[2018.05.10-21.51.10:081][ 82]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.008306s)
+[2018.05.10-21.51.10:264][ 82]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.10-21.51.10:291][ 82]LogInit: FAudioDevice initialized.
+[2018.05.10-21.51.10:350][ 82]LogLoad: Game class is 'GameModeBase'
+[2018.05.10-21.51.10:354][ 82]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.10-22.51.10
+[2018.05.10-21.51.10:354][ 82]LogWorld: Bringing up level for play took: 0.002029
+[2018.05.10-21.51.10:358][ 82]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.082
+[2018.05.10-21.51.17:901][206]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-21.51.27:331][329]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009baf0dfef0, Size=4, Default__SKEL_CH_Bee_C Function /Game/Blueprints/CH_Bee.SKEL_CH_Bee_C:ExecuteUbergraph_CH_Bee
+[2018.05.10-21.51.29:178][351]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.10-21.51.43:339][582]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-21.51.43:404][583]BlueprintLog: New page: Compile CH_Bee
+[2018.05.10-21.51.43:411][583]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009baf0dfef0, Size=4
+[2018.05.10-21.51.43:411][583]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009bbc426b18, Size=4, Default__SKEL_CH_Bee_C Function /Engine/Transient.REINST_SKEL_CH_Bee_C_29:ExecuteUbergraph_CH_Bee
+[2018.05.10-21.51.43:418][583]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009bad1e1f08, Size=40
+[2018.05.10-21.51.43:418][583]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009badf5d9b8, Size=40, CH_Bee_C_365 Function /Engine/Transient.REINST_CH_Bee_C_31:ExecuteUbergraph_CH_Bee
+[2018.05.10-21.51.43:422][583]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009badf5f308, Size=40, Default__CH_Bee_C Function /Game/Blueprints/CH_Bee.CH_Bee_C:ExecuteUbergraph_CH_Bee
+[2018.05.10-21.51.44:451][583]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009bbc426b18, Size=4
+[2018.05.10-21.51.45:783][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CH_Bee" FILE="../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Blueprints/CH_Bee.uasset" SILENT=true
+[2018.05.10-21.51.45:949][593]LogSavePackage: Save=122.49ms
+[2018.05.10-21.51.45:949][593]LogSavePackage: Moving '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/CH_BeeF1DD53FA46129B0C8BAEC99D2C3C41CA.tmp' to '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Blueprints/CH_Bee.uasset'
+[2018.05.10-21.51.45:989][593]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Blueprints/CH_Bee.uasset
+[2018.05.10-21.52.14:502][  0]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.10-21.52.22:957][114]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.10-21.52.23:052][114]LogFMOD: Creating runtime Studio System
+[2018.05.10-21.52.23:059][114]LogFMOD: Default sample rate = 48000
+[2018.05.10-21.52.23:059][114]LogFMOD: System sample rate = 44100
+[2018.05.10-21.52.23:059][114]LogFMOD: Matching system sample rate 44100
+[2018.05.10-21.52.23:087][114]LogFMOD: Loading Banks
+[2018.05.10-21.52.23:124][114]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.10-21.52.23:124][114]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.10-21.52.23:124][114]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.10-21.52.23:124][114]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.10-21.52.23:124][114]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.10-21.52.23:125][114]PIE: New page: PIE session: L_Level01 (10 May 2018 23:52:23)
+[2018.05.10-21.52.23:125][114]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.10-21.52.23:129][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004400s)
+[2018.05.10-21.52.23:131][114]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.10-21.52.23:132][114]LogPlayLevel: PIE: World Init took: (0.002192s)
+[2018.05.10-21.52.23:132][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.006923s)
+[2018.05.10-21.52.23:251][114]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.10-21.52.23:268][114]LogInit: FAudioDevice initialized.
+[2018.05.10-21.52.23:310][114]LogLoad: Game class is 'GameModeBase'
+[2018.05.10-21.52.23:312][114]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.10-22.52.23
+[2018.05.10-21.52.23:313][114]LogWorld: Bringing up level for play took: 0.001770
+[2018.05.10-21.52.23:316][114]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 1.04
+[2018.05.10-21.52.34:253][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-21.52.38:595][346]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.05.10-21.52.40:063][370]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-21.52.40:141][371]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.10-21.52.40:262][371]LogFMOD: Creating runtime Studio System
+[2018.05.10-21.52.40:273][371]LogFMOD: Default sample rate = 48000
+[2018.05.10-21.52.40:273][371]LogFMOD: System sample rate = 44100
+[2018.05.10-21.52.40:273][371]LogFMOD: Matching system sample rate 44100
+[2018.05.10-21.52.40:316][371]LogFMOD: Loading Banks
+[2018.05.10-21.52.40:343][371]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.10-21.52.40:343][371]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.10-21.52.40:344][371]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.10-21.52.40:344][371]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.10-21.52.40:344][371]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.10-21.52.40:345][371]PIE: New page: PIE session: L_Level01 (10 May 2018 23:52:40)
+[2018.05.10-21.52.40:345][371]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.10-21.52.40:353][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007562s)
+[2018.05.10-21.52.40:355][371]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.10-21.52.40:356][371]LogPlayLevel: PIE: World Init took: (0.002894s)
+[2018.05.10-21.52.40:356][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.011096s)
+[2018.05.10-21.52.40:564][371]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.10-21.52.40:596][371]LogInit: FAudioDevice initialized.
+[2018.05.10-21.52.40:655][371]LogLoad: Game class is 'GameModeBase'
+[2018.05.10-21.52.40:658][371]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.10-22.52.40
+[2018.05.10-21.52.40:659][371]LogWorld: Bringing up level for play took: 0.002459
+[2018.05.10-21.52.40:664][371]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.389
+[2018.05.10-21.52.47:853][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-21.52.58:487][658]LogSlate: Took 0.046813 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.05.10-21.53.02:413][712]BlueprintLog: New page: Compile GameMode
+[2018.05.10-21.53.04:437][729]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.10-21.53.04:570][729]LogFMOD: Creating runtime Studio System
+[2018.05.10-21.53.04:579][729]LogFMOD: Default sample rate = 48000
+[2018.05.10-21.53.04:580][729]LogFMOD: System sample rate = 44100
+[2018.05.10-21.53.04:580][729]LogFMOD: Matching system sample rate 44100
+[2018.05.10-21.53.04:618][729]LogFMOD: Loading Banks
+[2018.05.10-21.53.04:651][729]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.10-21.53.04:652][729]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.10-21.53.04:653][729]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.10-21.53.04:655][729]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.10-21.53.04:656][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.10-21.53.04:656][729]PIE: New page: PIE session: L_Level01 (10 May 2018 23:53:04)
+[2018.05.10-21.53.04:657][729]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.10-21.53.04:664][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005943s)
+[2018.05.10-21.53.04:666][729]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.10-21.53.04:667][729]LogPlayLevel: PIE: World Init took: (0.003257s)
+[2018.05.10-21.53.04:668][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.011242s)
+[2018.05.10-21.53.04:872][729]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.10-21.53.04:905][729]LogInit: FAudioDevice initialized.
+[2018.05.10-21.53.04:961][729]LogLoad: Game class is 'GameModeBase'
+[2018.05.10-21.53.04:966][729]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.10-22.53.04
+[2018.05.10-21.53.04:967][729]LogWorld: Bringing up level for play took: 0.002598
+[2018.05.10-21.53.04:970][729]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.695
+[2018.05.10-21.53.19:958][982]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-21.53.28:818][100]LogDirectoryWatcher: Warning: Failed to begin reading directory changes for ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Plugins/. Error: The system cannot find the file specified. (0x00000002)
+[2018.05.10-21.53.32:301][147]LogSlate: Window 'Plugins' being destroyed
+[2018.05.10-21.53.32:378][147]LogSlate: Window 'Plugins' being destroyed
+[2018.05.10-21.53.32:379][147]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2018.05.10-21.53.40:799][188]LogSlate: Window 'Message' being destroyed
+[2018.05.10-21.53.55:392][188]LogSlate: Window 'Message' being destroyed
+[2018.05.10-21.54.05:871][188]LogSlate: Window 'Message' being destroyed
+[2018.05.10-21.54.08:900][188]LogSlate: Window 'Message' being destroyed
+[2018.05.10-21.54.10:593][188]LogSlate: Window 'Message' being destroyed
+[2018.05.10-21.54.28:969][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L_Level01" FILE="../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Maps/L_Level01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.10-21.54.29:239][546]LogSavePackage: Save=67.78ms
+[2018.05.10-21.54.29:240][546]LogSavePackage: Moving '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/L_Level01C20E9EB548B82091CDFB1AAF7B82FADF.tmp' to '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Maps/L_Level01.umap'
+[2018.05.10-21.54.29:280][546]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Maps/L_Level01.umap
+[2018.05.10-21.54.29:386][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L_Level01_BuiltData" FILE="../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Maps/L_Level01_BuiltData.uasset" SILENT=true
+[2018.05.10-21.54.29:503][546]LogSavePackage: Save=69.18ms
+[2018.05.10-21.54.29:504][546]LogSavePackage: Moving '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/L_Level01_BuiltData2ACBCD4242C35DB58CBA70AAB60FFB63.tmp' to '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Maps/L_Level01_BuiltData.uasset'
+[2018.05.10-21.54.29:520][546]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Maps/L_Level01_BuiltData.uasset
+[2018.05.10-21.55.08:244][738]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.10-21.55.13:189][802]LogSynthBenchmark: Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2018.05.10-21.55.13:190][802]LogSynthBenchmark: Display: ===============
+[2018.05.10-21.55.13:190][802]LogSynthBenchmark: Display: Main Processor:
+[2018.05.10-21.55.13:284][802]LogSynthBenchmark: Display:          ... 0.050246 s/Run 'RayIntersect'
+[2018.05.10-21.55.13:285][802]LogSynthBenchmark: Display:          ... 0.044120 s/Run 'Fractal'
+[2018.05.10-21.55.13:286][802]LogSynthBenchmark: Display: 
+[2018.05.10-21.55.13:286][802]LogSynthBenchmark: Display:   CompiledTarget_x_Bits: 64
+[2018.05.10-21.55.13:286][802]LogSynthBenchmark: Display:   UE_BUILD_SHIPPING: 0
+[2018.05.10-21.55.13:286][802]LogSynthBenchmark: Display:   UE_BUILD_TEST: 0
+[2018.05.10-21.55.13:287][802]LogSynthBenchmark: Display:   UE_BUILD_DEBUG: 0
+[2018.05.10-21.55.13:287][802]LogSynthBenchmark: Display:   TotalPhysicalGBRam: 16
+[2018.05.10-21.55.13:287][802]LogSynthBenchmark: Display:   NumberOfCores (physical): 4
+[2018.05.10-21.55.13:288][802]LogSynthBenchmark: Display:   NumberOfCores (logical): 8
+[2018.05.10-21.55.13:288][802]LogSynthBenchmark: Display:   CPU Perf Index 0: 51.0 (weight 1.00)
+[2018.05.10-21.55.13:288][802]LogSynthBenchmark: Display:   CPU Perf Index 1: 64.8 (weight 1.50)
+[2018.05.10-21.55.13:289][802]LogSynthBenchmark: Display:  
+[2018.05.10-21.55.13:289][802]LogSynthBenchmark: Display: Graphics:
+[2018.05.10-21.55.13:289][802]LogSynthBenchmark: Display:   Adapter Name: 'AMD Radeon (TM) R9 200 Series'
+[2018.05.10-21.55.13:290][802]LogSynthBenchmark: Display:   (On Optimus the name might be wrong, memory should be ok)
+[2018.05.10-21.55.13:290][802]LogSynthBenchmark: Display:   Vendor Id: 0x1002
+[2018.05.10-21.55.13:290][802]LogSynthBenchmark: Display:   Device Id: 0x6811
+[2018.05.10-21.55.13:290][802]LogSynthBenchmark: Display:   Device Revision: 0x0
+[2018.05.10-21.55.13:291][802]LogSynthBenchmark: Display:   GPU Memory: 2028/0/3840 MB
+[2018.05.10-21.55.13:473][802]LogSynthBenchmark: Display:   GPU first test: 0.01s
+[2018.05.10-21.55.13:474][802]LogSynthBenchmark: Display:          ... 1.215 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2018.05.10-21.55.13:475][802]LogSynthBenchmark: Display:          ... 1.489 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2018.05.10-21.55.13:479][802]LogSynthBenchmark: Display:          ... 1.405 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2018.05.10-21.55.13:480][802]LogSynthBenchmark: Display:          ... 2.241 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2018.05.10-21.55.13:481][802]LogSynthBenchmark: Display:          ... 0.467 s/GigaPix, Confidence=89% 'Bandwidth' (likely to be very inaccurate)
+[2018.05.10-21.55.13:482][802]LogSynthBenchmark: Display:          ... 1.544 s/GigaVert, Confidence=89% 'VertThroughPut1' (likely to be very inaccurate)
+[2018.05.10-21.55.13:483][802]LogSynthBenchmark: Display:          ... 1.882 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2018.05.10-21.55.13:691][802]LogSynthBenchmark: Display:   GPU second test: 0.05s
+[2018.05.10-21.55.13:692][802]LogSynthBenchmark: Display:          ... 5.047 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2018.05.10-21.55.13:693][802]LogSynthBenchmark: Display:          ... 3.833 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2018.05.10-21.55.13:693][802]LogSynthBenchmark: Display:          ... 3.062 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2018.05.10-21.55.13:693][802]LogSynthBenchmark: Display:          ... 11.381 s/GigaPix, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2018.05.10-21.55.13:694][802]LogSynthBenchmark: Display:          ... 0.541 s/GigaPix, Confidence=89% 'Bandwidth' (likely to be inaccurate)
+[2018.05.10-21.55.13:694][802]LogSynthBenchmark: Display:          ... 1.834 s/GigaVert, Confidence=89% 'VertThroughPut1' (likely to be inaccurate)
+[2018.05.10-21.55.13:695][802]LogSynthBenchmark: Display:          ... 1.892 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
+[2018.05.10-21.55.14:295][802]LogSynthBenchmark: Display:   GPU third test: 0.43s
+[2018.05.10-21.55.14:295][802]LogSynthBenchmark: Display:          ... 6.498 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2018.05.10-21.55.14:296][802]LogSynthBenchmark: Display:          ... 4.592 s/GigaPix, Confidence=89% 'TexHeavy'
+[2018.05.10-21.55.14:297][802]LogSynthBenchmark: Display:          ... 3.287 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2018.05.10-21.55.14:298][802]LogSynthBenchmark: Display:          ... 18.320 s/GigaPix, Confidence=100% 'FillOnly'
+[2018.05.10-21.55.14:299][802]LogSynthBenchmark: Display:          ... 0.528 s/GigaPix, Confidence=100% 'Bandwidth'
+[2018.05.10-21.55.14:300][802]LogSynthBenchmark: Display:          ... 1.886 s/GigaVert, Confidence=89% 'VertThroughPut1'
+[2018.05.10-21.55.14:301][802]LogSynthBenchmark: Display:          ... 1.891 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2018.05.10-21.55.14:301][802]LogSynthBenchmark: Display:   GPU Final Results:
+[2018.05.10-21.55.14:302][802]LogSynthBenchmark: Display:          ... 6.498 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2018.05.10-21.55.14:303][802]LogSynthBenchmark: Display:          ... 4.592 s/GigaPix, Confidence=89% 'TexHeavy'
+[2018.05.10-21.55.14:303][802]LogSynthBenchmark: Display:          ... 3.287 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2018.05.10-21.55.14:304][802]LogSynthBenchmark: Display:          ... 18.320 s/GigaPix, Confidence=100% 'FillOnly'
+[2018.05.10-21.55.14:305][802]LogSynthBenchmark: Display:          ... 0.528 s/GigaPix, Confidence=100% 'Bandwidth'
+[2018.05.10-21.55.14:305][802]LogSynthBenchmark: Display:          ... 1.886 s/GigaVert, Confidence=89% 'VertThroughPut1'
+[2018.05.10-21.55.14:306][802]LogSynthBenchmark: Display:          ... 1.891 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2018.05.10-21.55.14:307][802]LogSynthBenchmark: Display: 
+[2018.05.10-21.55.14:307][802]LogSynthBenchmark: Display:   GPU Perf Index 0: 141.2 (weight 1.00)
+[2018.05.10-21.55.14:308][802]LogSynthBenchmark: Display:   GPU Perf Index 1: 61.7 (weight 0.10)
+[2018.05.10-21.55.14:309][802]LogSynthBenchmark: Display:   GPU Perf Index 2: 85.5 (weight 0.10)
+[2018.05.10-21.55.14:309][802]LogSynthBenchmark: Display:   GPU Perf Index 3: 71.9 (weight 3.00)
+[2018.05.10-21.55.14:310][802]LogSynthBenchmark: Display:   GPU Perf Index 4: 49.3 (weight 1.00)
+[2018.05.10-21.55.14:311][802]LogSynthBenchmark: Display:   GPU Perf Index 5: 122.7 (weight 0.00)
+[2018.05.10-21.55.14:311][802]LogSynthBenchmark: Display:   GPU Perf Index 6: 107.0 (weight 0.00)
+[2018.05.10-21.55.14:312][802]LogSynthBenchmark: Display:   CPUIndex: 59.3
+[2018.05.10-21.55.14:312][802]LogSynthBenchmark: Display:   GPUIndex: 81.0
+[2018.05.10-21.55.14:313][802]LogSynthBenchmark: Display: 
+[2018.05.10-21.55.14:313][802]LogSynthBenchmark: Display:          ... Total Time: 1.123576 sec
+[2018.05.10-21.55.14:475][803]LogRenderer: Reallocating scene render targets to support 1016x576 Format 9 NumSamples 1 (Frame:2751).
+[2018.05.10-21.55.14:813][808]LogContentStreaming: Texture pool size now 800 MB
+[2018.05.10-21.55.15:261][813]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.10-21.55.54:597][402]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.05.10-21.55.55:107][403]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GameJam
+[2018.05.10-21.55.55:107][403]LogTemp: CWD: C:\Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.05.10-21.55.55:107][403]LogTemp: Initial Dir: C:\Games\UE_4.19
+[2018.05.10-21.55.55:108][403]LogTemp: Env CWD: C:\Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.05.10-21.55.55:108][403]LogTemp: BranchPath = KYLE-PC/C/Games/UE_4.19/Engine/Binaries --- GameBranchPath = KYLE-PC/C/Games/UE_4.19/Engine/Binaries
+[2018.05.10-21.55.55:108][403]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Kyle\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.05.10-21.56.26:145][746]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.10-21.56.36:487][870]LogSlate: Window 'Project Settings' being destroyed
+[2018.05.10-21.56.36:550][870]LogSlate: Window 'Project Settings' being destroyed
+[2018.05.10-21.56.39:182][930]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.10-21.56.39:327][930]LogFMOD: Creating runtime Studio System
+[2018.05.10-21.56.39:337][930]LogFMOD: Default sample rate = 48000
+[2018.05.10-21.56.39:337][930]LogFMOD: System sample rate = 44100
+[2018.05.10-21.56.39:337][930]LogFMOD: Matching system sample rate 44100
+[2018.05.10-21.56.39:374][930]LogFMOD: Loading Banks
+[2018.05.10-21.56.39:408][930]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.10-21.56.39:410][930]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.10-21.56.39:412][930]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.10-21.56.39:414][930]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.10-21.56.39:416][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.10-21.56.39:416][930]PIE: New page: PIE session: L_Level01 (10 May 2018 23:56:39)
+[2018.05.10-21.56.39:417][930]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.10-21.56.39:423][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005726s)
+[2018.05.10-21.56.39:426][930]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.10-21.56.39:427][930]LogPlayLevel: PIE: World Init took: (0.002754s)
+[2018.05.10-21.56.39:427][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.010333s)
+[2018.05.10-21.56.39:561][930]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009badf5d9b8, Size=40
+[2018.05.10-21.56.39:607][930]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.10-21.56.39:635][930]LogInit: FAudioDevice initialized.
+[2018.05.10-21.56.39:687][930]LogLoad: Game class is 'GameMode_C'
+[2018.05.10-21.56.39:691][930]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.10-22.56.39
+[2018.05.10-21.56.39:693][930]LogWorld: Bringing up level for play took: 0.002999
+[2018.05.10-21.56.39:696][930]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-21.56.39:696][930]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-21.56.39:697][930]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.10-21.56.39:702][930]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.10-21.56.39:703][930]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 1.427
+[2018.05.10-21.56.41:584][974]PIE: Warning: CH_Bee_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.05.10-21.56.44:234][ 39]PIE: Warning: CH_Bee_C_0.CollisionCylinder has to have 'Simulate Physics' enabled if you'd like to AddForce. 
+[2018.05.10-21.56.51:024][182]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-21.56.56:536][267]LogSlate: Window 'Message Log' being destroyed
+[2018.05.10-21.56.56:610][267]LogSlate: Window 'Message Log' being destroyed
+[2018.05.10-21.57.22:304][842]BlueprintLog: New page: Compile CH_Bee
+[2018.05.10-21.57.22:335][842]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009badf5f308, Size=40
+[2018.05.10-21.57.22:336][842]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009bf7e18180, Size=40, CH_Bee_C_527 Function /Engine/Transient.REINST_CH_Bee_C_39:ExecuteUbergraph_CH_Bee
+[2018.05.10-21.57.22:345][842]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009bf7e18608, Size=40, Default__CH_Bee_C Function /Game/Blueprints/CH_Bee.CH_Bee_C:ExecuteUbergraph_CH_Bee
+[2018.05.10-21.57.24:075][850]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.10-21.57.24:228][850]LogFMOD: Creating runtime Studio System
+[2018.05.10-21.57.24:236][850]LogFMOD: Default sample rate = 48000
+[2018.05.10-21.57.24:237][850]LogFMOD: System sample rate = 44100
+[2018.05.10-21.57.24:237][850]LogFMOD: Matching system sample rate 44100
+[2018.05.10-21.57.24:274][850]LogFMOD: Loading Banks
+[2018.05.10-21.57.24:309][850]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.10-21.57.24:311][850]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.10-21.57.24:312][850]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.10-21.57.24:314][850]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.10-21.57.24:315][850]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.10-21.57.24:316][850]PIE: New page: PIE session: L_Level01 (10 May 2018 23:57:24)
+[2018.05.10-21.57.24:316][850]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.10-21.57.24:323][850]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006086s)
+[2018.05.10-21.57.24:326][850]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.10-21.57.24:326][850]LogPlayLevel: PIE: World Init took: (0.002431s)
+[2018.05.10-21.57.24:327][850]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.010509s)
+[2018.05.10-21.57.24:505][850]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.10-21.57.24:527][850]LogInit: FAudioDevice initialized.
+[2018.05.10-21.57.24:579][850]LogLoad: Game class is 'GameMode_C'
+[2018.05.10-21.57.24:583][850]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.10-22.57.24
+[2018.05.10-21.57.24:584][850]LogWorld: Bringing up level for play took: 0.003321
+[2018.05.10-21.57.24:587][850]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-21.57.24:587][850]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-21.57.24:587][850]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.10-21.57.24:592][850]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.10-21.57.24:593][850]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.318
+[2018.05.10-21.57.35:806][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-21.57.46:425][337]BlueprintLog: New page: Compile CH_Bee
+[2018.05.10-21.57.46:460][337]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009bf7e18608, Size=40
+[2018.05.10-21.57.46:460][337]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009badf5c2c0, Size=40, CH_Bee_C_569 Function /Engine/Transient.REINST_CH_Bee_C_43:ExecuteUbergraph_CH_Bee
+[2018.05.10-21.57.46:469][337]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009badf5c4a0, Size=40, Default__CH_Bee_C Function /Game/Blueprints/CH_Bee.CH_Bee_C:ExecuteUbergraph_CH_Bee
+[2018.05.10-21.57.48:647][359]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.10-21.57.48:792][359]LogFMOD: Creating runtime Studio System
+[2018.05.10-21.57.48:801][359]LogFMOD: Default sample rate = 48000
+[2018.05.10-21.57.48:801][359]LogFMOD: System sample rate = 44100
+[2018.05.10-21.57.48:802][359]LogFMOD: Matching system sample rate 44100
+[2018.05.10-21.57.48:840][359]LogFMOD: Loading Banks
+[2018.05.10-21.57.48:874][359]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.10-21.57.48:875][359]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.10-21.57.48:877][359]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.10-21.57.48:878][359]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.10-21.57.48:879][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.10-21.57.48:880][359]PIE: New page: PIE session: L_Level01 (10 May 2018 23:57:48)
+[2018.05.10-21.57.48:881][359]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.10-21.57.48:888][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006614s)
+[2018.05.10-21.57.48:890][359]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.10-21.57.48:891][359]LogPlayLevel: PIE: World Init took: (0.002568s)
+[2018.05.10-21.57.48:892][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.011171s)
+[2018.05.10-21.57.49:073][359]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.10-21.57.49:105][359]LogInit: FAudioDevice initialized.
+[2018.05.10-21.57.49:161][359]LogLoad: Game class is 'GameMode_C'
+[2018.05.10-21.57.49:165][359]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.10-22.57.49
+[2018.05.10-21.57.49:167][359]LogWorld: Bringing up level for play took: 0.002856
+[2018.05.10-21.57.49:169][359]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-21.57.49:170][359]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-21.57.49:170][359]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.10-21.57.49:175][359]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.10-21.57.49:176][359]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.9
+[2018.05.10-21.59.08:256][726]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-22.04.21:575][414]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.10-22.04.21:712][414]LogFMOD: Creating runtime Studio System
+[2018.05.10-22.04.21:721][414]LogFMOD: Default sample rate = 48000
+[2018.05.10-22.04.21:722][414]LogFMOD: System sample rate = 44100
+[2018.05.10-22.04.21:722][414]LogFMOD: Matching system sample rate 44100
+[2018.05.10-22.04.21:761][414]LogFMOD: Loading Banks
+[2018.05.10-22.04.21:793][414]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.10-22.04.21:794][414]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.10-22.04.21:796][414]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.10-22.04.21:797][414]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.10-22.04.21:798][414]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.05.10-22.04.21:810][414]LogPlayLevel: [PlayLevel] Compiling CH_Bee before play...
+[2018.05.10-22.04.21:821][414]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009badf5c4a0, Size=40
+[2018.05.10-22.04.21:822][414]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009bf971b678, Size=40, CH_Bee_C_651 Function /Engine/Transient.REINST_CH_Bee_C_47:ExecuteUbergraph_CH_Bee
+[2018.05.10-22.04.21:828][414]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009bf9719a08, Size=40, Default__CH_Bee_C Function /Game/Blueprints/CH_Bee.CH_Bee_C:ExecuteUbergraph_CH_Bee
+[2018.05.10-22.04.23:029][414]LogPlayLevel: PlayLevel: Blueprint regeneration took 1231 ms (1 blueprints)
+[2018.05.10-22.04.23:031][414]PIE: New page: PIE session: L_Level01 (11 May 2018 00:04:23)
+[2018.05.10-22.04.23:032][414]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.10-22.04.23:045][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008060s)
+[2018.05.10-22.04.23:047][414]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.10-22.04.23:048][414]LogPlayLevel: PIE: World Init took: (0.003307s)
+[2018.05.10-22.04.23:049][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.017581s)
+[2018.05.10-22.04.23:186][414]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.10-22.04.23:205][414]LogInit: FAudioDevice initialized.
+[2018.05.10-22.04.23:247][414]LogLoad: Game class is 'GameMode_C'
+[2018.05.10-22.04.23:250][414]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.10-23.04.23
+[2018.05.10-22.04.23:251][414]LogWorld: Bringing up level for play took: 0.001905
+[2018.05.10-22.04.23:252][414]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-22.04.23:253][414]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-22.04.23:253][414]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.10-22.04.23:257][414]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.10-22.04.23:258][414]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.983
+[2018.05.10-22.04.39:004][811]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-22.05.34:677][535]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/L_Level01' took 0.143
+[2018.05.10-22.05.34:687][535]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/CH_Bee] ([1] browsable assets)...
+[2018.05.10-22.05.34:755][535]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/CH_Bee.CH_Bee]
+[2018.05.10-22.05.34:756][535]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/CH_Bee]
+[2018.05.10-22.05.34:952][535]LogSavePackage: Save=138.14ms
+[2018.05.10-22.05.34:953][535]LogSavePackage: Moving '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/CH_Bee_Auto332719CD1430809161DA3BE9E11FABC70.tmp' to '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/Autosaves/Game/Blueprints/CH_Bee_Auto3.uasset'
+[2018.05.10-22.05.34:985][535]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/Autosaves/Game/Blueprints/CH_Bee_Auto3.uasset
+[2018.05.10-22.05.34:987][535]LogFileHelpers: Auto-saving content packages took 0.307
+[2018.05.10-22.06.52:508][326]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009be0cbfa48, Size=4, Default__SKEL_CH_Bee_C Function /Game/Blueprints/CH_Bee.SKEL_CH_Bee_C:ExecuteUbergraph_CH_Bee
+[2018.05.10-22.06.54:628][382]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009be0cbfa48, Size=4
+[2018.05.10-22.06.54:629][382]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009be0cbfa48, Size=4, Default__SKEL_CH_Bee_C Function /Engine/Transient.REINST_SKEL_CH_Bee_C_51:ExecuteUbergraph_CH_Bee
+[2018.05.10-22.06.54:632][382]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009be0cbe428, Size=4, Default__SKEL_CH_Bee_C Function /Game/Blueprints/CH_Bee.SKEL_CH_Bee_C:ExecuteUbergraph_CH_Bee
+[2018.05.10-22.06.58:428][474]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009be0cbe428, Size=4
+[2018.05.10-22.06.58:429][474]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009be0cbe428, Size=4, Default__SKEL_CH_Bee_C Function /Engine/Transient.REINST_SKEL_CH_Bee_C_53:ExecuteUbergraph_CH_Bee
+[2018.05.10-22.06.58:435][474]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009be0cbd7f0, Size=4, Default__SKEL_CH_Bee_C Function /Game/Blueprints/CH_Bee.SKEL_CH_Bee_C:ExecuteUbergraph_CH_Bee
+[2018.05.10-22.07.00:397][511]LogSlate: Took 0.030187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.05.10-22.07.02:444][541]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009be0cbd7f0, Size=4
+[2018.05.10-22.07.02:445][541]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009be0cbd7f0, Size=4, Default__SKEL_CH_Bee_C Function /Engine/Transient.REINST_SKEL_CH_Bee_C_55:ExecuteUbergraph_CH_Bee
+[2018.05.10-22.07.02:450][541]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009be0cbcbd8, Size=4, Default__SKEL_CH_Bee_C Function /Game/Blueprints/CH_Bee.SKEL_CH_Bee_C:ExecuteUbergraph_CH_Bee
+[2018.05.10-22.07.59:800][699]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.10-22.07.59:911][699]LogFMOD: Creating runtime Studio System
+[2018.05.10-22.07.59:916][699]LogFMOD: Default sample rate = 48000
+[2018.05.10-22.07.59:916][699]LogFMOD: System sample rate = 44100
+[2018.05.10-22.07.59:916][699]LogFMOD: Matching system sample rate 44100
+[2018.05.10-22.07.59:941][699]LogFMOD: Loading Banks
+[2018.05.10-22.07.59:982][699]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.10-22.07.59:983][699]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.10-22.07.59:983][699]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.10-22.07.59:984][699]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.10-22.07.59:985][699]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.05.10-22.07.59:993][699]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009be0cbcbd8, Size=4
+[2018.05.10-22.07.59:993][699]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009be0cbcbd8, Size=4, Default__SKEL_CH_Bee_C Function /Engine/Transient.REINST_SKEL_CH_Bee_C_57:ExecuteUbergraph_CH_Bee
+[2018.05.10-22.07.59:995][699]LogPlayLevel: [PlayLevel] Compiling CH_Bee before play...
+[2018.05.10-22.08.00:004][699]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009bf9719a08, Size=40
+[2018.05.10-22.08.00:005][699]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009bac4d56e8, Size=40, CH_Bee_C_789 Function /Engine/Transient.REINST_CH_Bee_C_59:ExecuteUbergraph_CH_Bee
+[2018.05.10-22.08.00:009][699]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009bac4d5b70, Size=40, Default__CH_Bee_C Function /Game/Blueprints/CH_Bee.CH_Bee_C:ExecuteUbergraph_CH_Bee
+[2018.05.10-22.08.00:927][699]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009be0cbcbd8, Size=4
+[2018.05.10-22.08.00:931][699]LogPlayLevel: PlayLevel: Blueprint regeneration took 946 ms (1 blueprints)
+[2018.05.10-22.08.00:931][699]PIE: New page: PIE session: L_Level01 (11 May 2018 00:08:00)
+[2018.05.10-22.08.00:932][699]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.10-22.08.00:938][699]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005646s)
+[2018.05.10-22.08.00:940][699]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.10-22.08.00:942][699]LogPlayLevel: PIE: World Init took: (0.003041s)
+[2018.05.10-22.08.00:942][699]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.010123s)
+[2018.05.10-22.08.01:061][699]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.10-22.08.01:083][699]LogInit: FAudioDevice initialized.
+[2018.05.10-22.08.01:129][699]LogLoad: Game class is 'GameMode_C'
+[2018.05.10-22.08.01:132][699]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.10-23.08.01
+[2018.05.10-22.08.01:134][699]LogWorld: Bringing up level for play took: 0.002583
+[2018.05.10-22.08.01:136][699]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-22.08.01:136][699]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-22.08.01:137][699]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.10-22.08.01:140][699]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.10-22.08.01:141][699]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.865
+[2018.05.10-22.08.09:227][908]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-22.08.17:336][ 77]BlueprintLog: New page: Compile CH_Bee
+[2018.05.10-22.08.17:374][ 77]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009bac4d5b70, Size=40
+[2018.05.10-22.08.17:375][ 77]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009badb88ae0, Size=40, CH_Bee_C_847 Function /Engine/Transient.REINST_CH_Bee_C_63:ExecuteUbergraph_CH_Bee
+[2018.05.10-22.08.17:387][ 77]LogUObjectGlobals: Created PersistentFrame Addr=0x0000009badb8b498, Size=40, Default__CH_Bee_C Function /Game/Blueprints/CH_Bee.CH_Bee_C:ExecuteUbergraph_CH_Bee
+[2018.05.10-22.08.21:010][117]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.10-22.08.21:113][117]LogFMOD: Creating runtime Studio System
+[2018.05.10-22.08.21:118][117]LogFMOD: Default sample rate = 48000
+[2018.05.10-22.08.21:119][117]LogFMOD: System sample rate = 44100
+[2018.05.10-22.08.21:121][117]LogFMOD: Matching system sample rate 44100
+[2018.05.10-22.08.21:145][117]LogFMOD: Loading Banks
+[2018.05.10-22.08.21:184][117]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.10-22.08.21:185][117]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.10-22.08.21:185][117]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.10-22.08.21:186][117]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.10-22.08.21:187][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.10-22.08.21:187][117]PIE: New page: PIE session: L_Level01 (11 May 2018 00:08:21)
+[2018.05.10-22.08.21:188][117]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.10-22.08.21:192][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004022s)
+[2018.05.10-22.08.21:194][117]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.10-22.08.21:195][117]LogPlayLevel: PIE: World Init took: (0.002102s)
+[2018.05.10-22.08.21:195][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.007118s)
+[2018.05.10-22.08.21:277][117]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009badb88ae0, Size=40
+[2018.05.10-22.08.21:277][117]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009bac4d56e8, Size=40
+[2018.05.10-22.08.21:315][117]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.10-22.08.21:348][117]LogInit: FAudioDevice initialized.
+[2018.05.10-22.08.21:404][117]LogLoad: Game class is 'GameMode_C'
+[2018.05.10-22.08.21:408][117]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.10-23.08.21
+[2018.05.10-22.08.21:410][117]LogWorld: Bringing up level for play took: 0.003083
+[2018.05.10-22.08.21:412][117]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-22.08.21:413][117]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-22.08.21:413][117]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.10-22.08.21:418][117]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.10-22.08.21:419][117]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 1.144
+[2018.05.10-22.08.37:321][529]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.10-22.08.54:881][941]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-22.08.57:344][995]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.10-22.08.57:470][995]LogFMOD: Creating runtime Studio System
+[2018.05.10-22.08.57:481][995]LogFMOD: Default sample rate = 48000
+[2018.05.10-22.08.57:482][995]LogFMOD: System sample rate = 44100
+[2018.05.10-22.08.57:482][995]LogFMOD: Matching system sample rate 44100
+[2018.05.10-22.08.57:522][995]LogFMOD: Loading Banks
+[2018.05.10-22.08.57:551][995]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.10-22.08.57:552][995]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.10-22.08.57:554][995]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.10-22.08.57:555][995]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.10-22.08.57:556][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.10-22.08.57:557][995]PIE: New page: PIE session: L_Level01 (11 May 2018 00:08:57)
+[2018.05.10-22.08.57:558][995]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.10-22.08.57:566][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007417s)
+[2018.05.10-22.08.57:568][995]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.10-22.08.57:569][995]LogPlayLevel: PIE: World Init took: (0.002830s)
+[2018.05.10-22.08.57:570][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.012087s)
+[2018.05.10-22.08.57:752][995]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.10-22.08.57:782][995]LogInit: FAudioDevice initialized.
+[2018.05.10-22.08.57:838][995]LogLoad: Game class is 'GameMode_C'
+[2018.05.10-22.08.57:841][995]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.10-23.08.57
+[2018.05.10-22.08.57:843][995]LogWorld: Bringing up level for play took: 0.002749
+[2018.05.10-22.08.57:846][995]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-22.08.57:847][995]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-22.08.57:848][995]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.10-22.08.57:853][995]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.10-22.08.57:853][995]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 -0.422
+[2018.05.10-22.09.03:076][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-22.09.05:577][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CH_Bee" FILE="../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Blueprints/CH_Bee.uasset" SILENT=true
+[2018.05.10-22.09.05:755][164]LogSavePackage: Save=140.88ms
+[2018.05.10-22.09.05:756][164]LogSavePackage: Moving '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/CH_BeeEB1F5E11417C8E85B54BB092F9297609.tmp' to '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Blueprints/CH_Bee.uasset'
+[2018.05.10-22.09.05:804][164]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Blueprints/CH_Bee.uasset
+[2018.05.10-22.09.10:631][276]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.10-22.09.10:738][276]LogFMOD: Creating runtime Studio System
+[2018.05.10-22.09.10:742][276]LogFMOD: Default sample rate = 48000
+[2018.05.10-22.09.10:742][276]LogFMOD: System sample rate = 44100
+[2018.05.10-22.09.10:742][276]LogFMOD: Matching system sample rate 44100
+[2018.05.10-22.09.10:764][276]LogFMOD: Loading Banks
+[2018.05.10-22.09.10:798][276]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.10-22.09.10:798][276]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.10-22.09.10:799][276]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.10-22.09.10:799][276]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.10-22.09.10:800][276]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.10-22.09.10:800][276]PIE: New page: PIE session: L_Level01 (11 May 2018 00:09:10)
+[2018.05.10-22.09.10:800][276]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.10-22.09.10:804][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003830s)
+[2018.05.10-22.09.10:807][276]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.10-22.09.10:808][276]LogPlayLevel: PIE: World Init took: (0.003042s)
+[2018.05.10-22.09.10:808][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.007744s)
+[2018.05.10-22.09.10:896][276]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.10-22.09.10:917][276]LogInit: FAudioDevice initialized.
+[2018.05.10-22.09.10:966][276]LogLoad: Game class is 'GameMode_C'
+[2018.05.10-22.09.10:969][276]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.10-23.09.10
+[2018.05.10-22.09.10:971][276]LogWorld: Bringing up level for play took: 0.002379
+[2018.05.10-22.09.10:972][276]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-22.09.10:972][276]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-22.09.10:973][276]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.10-22.09.10:976][276]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.10-22.09.10:976][276]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.7
+[2018.05.10-22.09.18:066][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.05.10-22.09.24:591][597]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-22.09.25:499][612]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.05.10-22.09.29:500][691]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.10-22.09.32:812][738]LogFMOD: Creating runtime Studio System
+[2018.05.10-22.09.32:818][738]LogFMOD: Default sample rate = 48000
+[2018.05.10-22.09.32:818][738]LogFMOD: System sample rate = 44100
+[2018.05.10-22.09.32:818][738]LogFMOD: Matching system sample rate 44100
+[2018.05.10-22.09.32:843][738]LogFMOD: Loading Banks
+[2018.05.10-22.09.32:883][738]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.10-22.09.32:883][738]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.10-22.09.32:884][738]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.10-22.09.32:884][738]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.10-22.09.32:885][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.10-22.09.32:885][738]PIE: New page: SIE session: L_Level01 (11 May 2018 00:09:32)
+[2018.05.10-22.09.32:885][738]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.10-22.09.32:890][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004267s)
+[2018.05.10-22.09.32:891][738]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.10-22.09.32:892][738]LogPlayLevel: PIE: World Init took: (0.002160s)
+[2018.05.10-22.09.32:892][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.007163s)
+[2018.05.10-22.09.32:971][738]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.10-22.09.32:984][738]LogInit: FAudioDevice initialized.
+[2018.05.10-22.09.32:985][738]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.10-22.09.33:030][738]LogLoad: Game class is 'GameMode_C'
+[2018.05.10-22.09.33:032][738]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.10-23.09.33
+[2018.05.10-22.09.33:033][738]LogWorld: Bringing up level for play took: 0.002149
+[2018.05.10-22.09.33:036][738]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-22.09.33:037][738]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-22.09.33:037][738]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.762
+[2018.05.10-22.09.44:074][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-22.10.04:275][173]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.10-22.10.08:063][226]LogFMOD: Creating runtime Studio System
+[2018.05.10-22.10.08:068][226]LogFMOD: Default sample rate = 48000
+[2018.05.10-22.10.08:068][226]LogFMOD: System sample rate = 44100
+[2018.05.10-22.10.08:069][226]LogFMOD: Matching system sample rate 44100
+[2018.05.10-22.10.08:094][226]LogFMOD: Loading Banks
+[2018.05.10-22.10.08:135][226]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.10-22.10.08:136][226]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.10-22.10.08:136][226]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.10-22.10.08:137][226]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.10-22.10.08:137][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.10-22.10.08:138][226]PIE: New page: PIE session: L_Level01 (11 May 2018 00:10:08)
+[2018.05.10-22.10.08:138][226]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.10-22.10.08:142][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003519s)
+[2018.05.10-22.10.08:146][226]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.10-22.10.08:146][226]LogPlayLevel: PIE: World Init took: (0.004284s)
+[2018.05.10-22.10.08:147][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.008602s)
+[2018.05.10-22.10.08:241][226]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.10-22.10.08:258][226]LogInit: FAudioDevice initialized.
+[2018.05.10-22.10.08:278][226]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.10-22.10.08:380][226]LogLoad: Game class is 'GameMode_C'
+[2018.05.10-22.10.08:384][226]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.10-23.10.08
+[2018.05.10-22.10.08:385][226]LogWorld: Bringing up level for play took: 0.001859
+[2018.05.10-22.10.08:386][226]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-22.10.08:387][226]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-22.10.08:387][226]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.10-22.10.08:390][226]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.10-22.10.08:406][226]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.13
+[2018.05.10-22.10.08:476][226]LogRenderer: Reallocating scene render targets to support 1124x656 Format 9 NumSamples 1 (Frame:1).
+[2018.05.10-22.10.21:359][462]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.10-22.10.23:221][504]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-22.12.41:911][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.10-22.12.43:664][107]LogFMOD: Creating runtime Studio System
+[2018.05.10-22.12.43:670][107]LogFMOD: Default sample rate = 48000
+[2018.05.10-22.12.43:670][107]LogFMOD: System sample rate = 44100
+[2018.05.10-22.12.43:671][107]LogFMOD: Matching system sample rate 44100
+[2018.05.10-22.12.43:700][107]LogFMOD: Loading Banks
+[2018.05.10-22.12.43:735][107]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.10-22.12.43:736][107]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.10-22.12.43:737][107]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.10-22.12.43:738][107]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.10-22.12.43:739][107]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.10-22.12.43:740][107]PIE: New page: PIE session: L_Level01 (11 May 2018 00:12:43)
+[2018.05.10-22.12.43:740][107]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.10-22.12.43:747][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006471s)
+[2018.05.10-22.12.43:750][107]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.10-22.12.43:751][107]LogPlayLevel: PIE: World Init took: (0.002865s)
+[2018.05.10-22.12.43:751][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.011072s)
+[2018.05.10-22.12.43:876][107]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.10-22.12.43:897][107]LogInit: FAudioDevice initialized.
+[2018.05.10-22.12.43:898][107]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.10-22.12.43:955][107]LogLoad: Game class is 'GameMode_C'
+[2018.05.10-22.12.43:959][107]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.10-23.12.43
+[2018.05.10-22.12.43:960][107]LogWorld: Bringing up level for play took: 0.002836
+[2018.05.10-22.12.43:962][107]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-22.12.43:963][107]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-22.12.43:963][107]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.10-22.12.43:968][107]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.10-22.12.43:969][107]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 -0.307
+[2018.05.10-22.13.07:901][680]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-22.13.14:198][831]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009bf7e18180, Size=40
+[2018.05.10-22.13.14:199][831]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009be0cbd7f0, Size=4
+[2018.05.10-22.13.14:199][831]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009be0cbe428, Size=4
+[2018.05.10-22.13.14:200][831]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009badf5c2c0, Size=40
+[2018.05.10-22.13.14:200][831]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009bf971b678, Size=40
+[2018.05.10-22.13.14:201][831]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000009be0cbfa48, Size=4
+[2018.05.10-22.13.20:797][995]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.05.10-22.13.25:369][ 91]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.05.10-22.13.26:212][106]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-22.13.26:383][108]LogActorFactory: Actor Factory created Cube
+[2018.05.10-22.13.27:408][128]LogActorFactory: Actor Factory created Cube
+[2018.05.10-22.13.34:393][283]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-22.13.34:443][284]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.10-22.13.34:539][284]LogFMOD: Creating runtime Studio System
+[2018.05.10-22.13.34:543][284]LogFMOD: Default sample rate = 48000
+[2018.05.10-22.13.34:543][284]LogFMOD: System sample rate = 44100
+[2018.05.10-22.13.34:543][284]LogFMOD: Matching system sample rate 44100
+[2018.05.10-22.13.34:572][284]LogFMOD: Loading Banks
+[2018.05.10-22.13.34:601][284]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.10-22.13.34:602][284]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.10-22.13.34:602][284]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.10-22.13.34:603][284]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.10-22.13.34:604][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.10-22.13.34:604][284]PIE: New page: PIE session: L_Level01 (11 May 2018 00:13:34)
+[2018.05.10-22.13.34:605][284]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.10-22.13.34:611][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005854s)
+[2018.05.10-22.13.34:613][284]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.10-22.13.34:614][284]LogPlayLevel: PIE: World Init took: (0.002104s)
+[2018.05.10-22.13.34:614][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.009029s)
+[2018.05.10-22.13.34:709][284]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.10-22.13.34:729][284]LogInit: FAudioDevice initialized.
+[2018.05.10-22.13.34:785][284]LogLoad: Game class is 'GameMode_C'
+[2018.05.10-22.13.34:788][284]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.10-23.13.34
+[2018.05.10-22.13.34:788][284]LogWorld: Bringing up level for play took: 0.001289
+[2018.05.10-22.13.34:789][284]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-22.13.34:790][284]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.10-22.13.34:790][284]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.10-22.13.34:792][284]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.10-22.13.34:792][284]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.517
+[2018.05.10-22.13.45:736][569]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.10-22.13.45:789][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L_Level01" FILE="../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Maps/L_Level01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.10-22.13.45:946][569]LogSavePackage: Save=50.67ms
+[2018.05.10-22.13.45:947][569]LogSavePackage: Moving '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/L_Level014B9FB1EE4222ADEB6C38149BE192F081.tmp' to '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Maps/L_Level01.umap'
+[2018.05.10-22.13.45:972][569]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Maps/L_Level01.umap
+[2018.05.10-22.13.46:073][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L_Level01_BuiltData" FILE="../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Maps/L_Level01_BuiltData.uasset" SILENT=true
+[2018.05.10-22.13.46:164][569]LogSavePackage: Save=44.23ms
+[2018.05.10-22.13.46:165][569]LogSavePackage: Moving '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/L_Level01_BuiltData772031BA4F249FDD15B00DAFDFCB3FAF.tmp' to '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Maps/L_Level01_BuiltData.uasset'
+[2018.05.10-22.13.46:175][569]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Maps/L_Level01_BuiltData.uasset
+[2018.05.10-22.13.47:021][590]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-22.13.55:966][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CH_Bee" FILE="../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Blueprints/CH_Bee.uasset" SILENT=true
+[2018.05.10-22.13.56:101][821]LogSavePackage: Save=68.67ms
+[2018.05.10-22.13.56:102][821]LogSavePackage: Moving '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Saved/CH_BeeF14E3B8A4DF7E81121F116AEE57D0648.tmp' to '../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Blueprints/CH_Bee.uasset'
+[2018.05.10-22.13.56:131][821]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Google Drive/UE4 JAM/Project/GameJam/Content/Blueprints/CH_Bee.uasset
+[2018.05.10-22.13.59:381][901]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.10-22.14.26:737][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
