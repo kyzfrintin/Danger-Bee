@@ -5121,3 +5121,420 @@ Converted Global Transform (-0.000000,-0.140271,-0.000000|0.145299,-0.000007,-13
 [2018.05.11-15.59.56:755][842]LogSavePackage: Save=7.66ms
 [2018.05.11-15.59.56:756][842]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Bee_animation_Anim0752E718465152BAD1524EBA87159372.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee_animation_Anim.uasset'
 [2018.05.11-15.59.56:757][842]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee_animation_Anim.uasset
+[2018.05.11-16.06.13:571][258]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.11-16.06.22:141][992]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.11-16.06.22:220][992]LogSkeletalMesh: Building Skeletal Mesh Bee_animation...
+[2018.05.11-16.06.22:220][992]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Import/Bee_animation.Bee_animation
+[2018.05.11-16.06.22:220][992]LogSkeletalMesh: Building Skeletal Mesh Bee_animation...
+[2018.05.11-16.06.22:220][992]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Import/Bee_animation.Bee_animation
+[2018.05.11-16.06.22:222][992]LogSkeletalMesh: Building Skeletal Mesh Bee_animation...
+[2018.05.11-16.06.22:223][992]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Import/Bee_animation.Bee_animation
+[2018.05.11-16.06.28:693][ 98]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee animation.fbx)
+[2018.05.11-16.06.28:697][ 98]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.05.11-16.06.28:697][ 98]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.05.11-16.06.28:697][ 98]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.05.11-16.06.28:697][ 98]LogFbx: ItemName: Geometry, ItemCount : 4
+[2018.05.11-16.06.28:697][ 98]LogFbx: ItemName: Model, ItemCount : 9
+[2018.05.11-16.06.28:697][ 98]LogFbx: ItemName: NodeAttribute, ItemCount : 5
+[2018.05.11-16.06.28:697][ 98]LogFbx: ItemName: Material, ItemCount : 1
+[2018.05.11-16.06.28:697][ 98]LogFbx: ItemName: AnimationCurveNode, ItemCount : 10
+[2018.05.11-16.06.28:697][ 98]LogFbx: ItemName: AnimationCurve, ItemCount : 4
+[2018.05.11-16.06.28:697][ 98]LogFbx: ItemName: Pose, ItemCount : 3
+[2018.05.11-16.06.28:697][ 98]LogFbx: ItemName: Deformer, ItemCount : 18
+[2018.05.11-16.06.28:700][ 98]LogFbx: Loading FBX Scene from ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee animation.fbx
+[2018.05.11-16.06.28:708][ 98]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-16.06.30:714][ 98]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.11-16.06.30:749][ 98]LogFbx: Loading FBX Scene from ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Import/Bee animation.fbx
+[2018.05.11-16.06.30:756][ 98]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-16.06.30:757][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:757][ 98]LogFbx: Dumping Node START [SM_Bee001] 
+[2018.05.11-16.06.30:757][ 98]LogFbx: 	Total Deformer Count 529482688.
+[2018.05.11-16.06.30:757][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:757][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:757][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:757][ 98]LogFbx: 		[Node Attribute Child 1] SM_Bee001 (Type Mesh).
+[2018.05.11-16.06.30:757][ 98]LogFbx: Dumping Node END [SM_Bee001]
+[2018.05.11-16.06.30:757][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:757][ 98]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-16.06.30:757][ 98]LogFbx: 	Total Deformer Count -1382505264.
+[2018.05.11-16.06.30:757][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:757][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:757][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:757][ 98]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-16.06.30:757][ 98]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-16.06.30:757][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:757][ 98]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-16.06.30:757][ 98]LogFbx: 	Total Deformer Count -1382505264.
+[2018.05.11-16.06.30:757][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:757][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:757][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:757][ 98]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-16.06.30:757][ 98]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-16.06.30:757][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:757][ 98]LogFbx: Dumping Node START [SM_Bee001] 
+[2018.05.11-16.06.30:757][ 98]LogFbx: 	Total Deformer Count -1682031488.
+[2018.05.11-16.06.30:757][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:757][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:757][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:757][ 98]LogFbx: 		[Node Attribute Child 1] SM_Bee001 (Type Mesh).
+[2018.05.11-16.06.30:757][ 98]LogFbx: Dumping Node END [SM_Bee001]
+[2018.05.11-16.06.30:757][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:757][ 98]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-16.06.30:757][ 98]LogFbx: 	Total Deformer Count -1382503104.
+[2018.05.11-16.06.30:757][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:757][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:757][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:757][ 98]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-16.06.30:757][ 98]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-16.06.30:757][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:757][ 98]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-16.06.30:757][ 98]LogFbx: 	Total Deformer Count -1382503104.
+[2018.05.11-16.06.30:757][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:757][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:757][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:757][ 98]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-16.06.30:757][ 98]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-16.06.30:757][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:757][ 98]LogFbx: Dumping Node START [SM_Bee001] 
+[2018.05.11-16.06.30:757][ 98]LogFbx: 	Total Deformer Count -1682031488.
+[2018.05.11-16.06.30:757][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:757][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:757][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:757][ 98]LogFbx: 		[Node Attribute Child 1] SM_Bee001 (Type Mesh).
+[2018.05.11-16.06.30:757][ 98]LogFbx: Dumping Node END [SM_Bee001]
+[2018.05.11-16.06.30:757][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:757][ 98]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-16.06.30:757][ 98]LogFbx: 	Total Deformer Count -1382513504.
+[2018.05.11-16.06.30:757][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:757][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:757][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:757][ 98]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-16.06.30:757][ 98]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-16.06.30:757][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:757][ 98]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-16.06.30:757][ 98]LogFbx: 	Total Deformer Count -1382513504.
+[2018.05.11-16.06.30:757][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:757][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:757][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:757][ 98]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-16.06.30:757][ 98]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-16.06.30:758][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:758][ 98]LogFbx: Dumping Node START [SM_Bee001] 
+[2018.05.11-16.06.30:758][ 98]LogFbx: 	Total Deformer Count -1682031488.
+[2018.05.11-16.06.30:758][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:758][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:758][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:758][ 98]LogFbx: 		[Node Attribute Child 1] SM_Bee001 (Type Mesh).
+[2018.05.11-16.06.30:758][ 98]LogFbx: Dumping Node END [SM_Bee001]
+[2018.05.11-16.06.30:758][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:758][ 98]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-16.06.30:758][ 98]LogFbx: 	Total Deformer Count -1382511184.
+[2018.05.11-16.06.30:758][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:758][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:758][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:758][ 98]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-16.06.30:758][ 98]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-16.06.30:758][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:758][ 98]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-16.06.30:758][ 98]LogFbx: 	Total Deformer Count -1382511184.
+[2018.05.11-16.06.30:758][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:758][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:758][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:758][ 98]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-16.06.30:758][ 98]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-16.06.30:758][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:758][ 98]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-16.06.30:758][ 98]LogFbx: 	Total Deformer Count -1382511184.
+[2018.05.11-16.06.30:758][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:758][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:758][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:758][ 98]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-16.06.30:758][ 98]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-16.06.30:758][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:758][ 98]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-16.06.30:758][ 98]LogFbx: 	Total Deformer Count -1382511184.
+[2018.05.11-16.06.30:758][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:758][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:758][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:758][ 98]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-16.06.30:758][ 98]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-16.06.30:758][ 98]LogFbx: Valid bind pose for Pose (skinCluster1) - SM_Bee001
+[2018.05.11-16.06.30:758][ 98]LogFbx: Valid bind pose for Pose (skinCluster2) - SM_Bee001
+[2018.05.11-16.06.30:758][ 98]LogFbx: Valid bind pose for Pose (skinCluster3) - SM_Bee001
+[2018.05.11-16.06.30:758][ 98]LogMaterial: Warning: Material /Game/Import/lambert1.lambert1 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.05.11-16.06.30:760][ 98]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.05.11-16.06.30:774][ 98]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.05.11-16.06.30:787][ 98]LogFbx: Triangulating skeletal mesh SM_Bee001
+[2018.05.11-16.06.30:788][ 98]LogFbx: Triangulating skeletal mesh SM_BeeWing_R001
+[2018.05.11-16.06.30:788][ 98]LogFbx: Triangulating skeletal mesh SM_BeeWing_R
+[2018.05.11-16.06.30:789][ 98]LogFbx: Warning: Bones digested - 8  Depth of hierarchy - 3
+[2018.05.11-16.06.30:790][ 98]LogSkeletalMesh: Section 0: 50 vertices, 5 active bones
+[2018.05.11-16.06.30:790][ 98]LogSkeletalMesh: Section 0: Material=0, 60 triangles
+[2018.05.11-16.06.30:790][ 98]LogSkeletalMesh: Building Skeletal Mesh Bee_animation...
+[2018.05.11-16.06.30:790][ 98]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Import/Bee_animation.Bee_animation
+[2018.05.11-16.06.30:793][ 98]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.05.11-16.06.30:793][ 98]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.05.11-16.06.30:794][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:794][ 98]LogFbx: Dumping Node START [SM_Bee001] 
+[2018.05.11-16.06.30:794][ 98]LogFbx: 	Total Deformer Count 369164544.
+[2018.05.11-16.06.30:794][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:794][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:794][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:794][ 98]LogFbx: 		[Node Attribute Child 1] SM_Bee001 (Type Mesh).
+[2018.05.11-16.06.30:794][ 98]LogFbx: Dumping Node END [SM_Bee001]
+[2018.05.11-16.06.30:794][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:794][ 98]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-16.06.30:794][ 98]LogFbx: 	Total Deformer Count -1663731664.
+[2018.05.11-16.06.30:794][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:794][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:794][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:794][ 98]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-16.06.30:794][ 98]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-16.06.30:794][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:794][ 98]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-16.06.30:794][ 98]LogFbx: 	Total Deformer Count -1663731664.
+[2018.05.11-16.06.30:794][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:794][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:794][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:794][ 98]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-16.06.30:794][ 98]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-16.06.30:794][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:794][ 98]LogFbx: Dumping Node START [SM_Bee001] 
+[2018.05.11-16.06.30:794][ 98]LogFbx: 	Total Deformer Count 369164544.
+[2018.05.11-16.06.30:794][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:794][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:794][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:794][ 98]LogFbx: 		[Node Attribute Child 1] SM_Bee001 (Type Mesh).
+[2018.05.11-16.06.30:794][ 98]LogFbx: Dumping Node END [SM_Bee001]
+[2018.05.11-16.06.30:794][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:794][ 98]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-16.06.30:794][ 98]LogFbx: 	Total Deformer Count -1663736064.
+[2018.05.11-16.06.30:794][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:794][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:794][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:794][ 98]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-16.06.30:794][ 98]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-16.06.30:794][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:794][ 98]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-16.06.30:794][ 98]LogFbx: 	Total Deformer Count -1663736064.
+[2018.05.11-16.06.30:794][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:794][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:794][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:794][ 98]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-16.06.30:794][ 98]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-16.06.30:795][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:795][ 98]LogFbx: Dumping Node START [SM_Bee001] 
+[2018.05.11-16.06.30:795][ 98]LogFbx: 	Total Deformer Count 369164544.
+[2018.05.11-16.06.30:795][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:795][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:795][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:795][ 98]LogFbx: 		[Node Attribute Child 1] SM_Bee001 (Type Mesh).
+[2018.05.11-16.06.30:795][ 98]LogFbx: Dumping Node END [SM_Bee001]
+[2018.05.11-16.06.30:795][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:795][ 98]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-16.06.30:795][ 98]LogFbx: 	Total Deformer Count -1663743184.
+[2018.05.11-16.06.30:795][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:795][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:795][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:795][ 98]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-16.06.30:795][ 98]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-16.06.30:795][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:795][ 98]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-16.06.30:795][ 98]LogFbx: 	Total Deformer Count -1663743184.
+[2018.05.11-16.06.30:795][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:795][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:795][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:795][ 98]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-16.06.30:795][ 98]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-16.06.30:795][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:795][ 98]LogFbx: Dumping Node START [SM_Bee001] 
+[2018.05.11-16.06.30:795][ 98]LogFbx: 	Total Deformer Count 369164544.
+[2018.05.11-16.06.30:795][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:795][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:795][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:795][ 98]LogFbx: 		[Node Attribute Child 1] SM_Bee001 (Type Mesh).
+[2018.05.11-16.06.30:795][ 98]LogFbx: Dumping Node END [SM_Bee001]
+[2018.05.11-16.06.30:795][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:795][ 98]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-16.06.30:795][ 98]LogFbx: 	Total Deformer Count -1663736544.
+[2018.05.11-16.06.30:795][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:795][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:795][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:795][ 98]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-16.06.30:795][ 98]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-16.06.30:795][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:795][ 98]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-16.06.30:795][ 98]LogFbx: 	Total Deformer Count -1663736544.
+[2018.05.11-16.06.30:795][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:795][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:795][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:795][ 98]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-16.06.30:795][ 98]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-16.06.30:795][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:795][ 98]LogFbx: Dumping Node START [SM_BeeWing_R001] 
+[2018.05.11-16.06.30:795][ 98]LogFbx: 	Total Deformer Count -1663736544.
+[2018.05.11-16.06.30:795][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:795][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:795][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:795][ 98]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R001 (Type Mesh).
+[2018.05.11-16.06.30:795][ 98]LogFbx: Dumping Node END [SM_BeeWing_R001]
+[2018.05.11-16.06.30:795][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:795][ 98]LogFbx: Dumping Node START [SM_BeeWing_R] 
+[2018.05.11-16.06.30:795][ 98]LogFbx: 	Total Deformer Count -1663736544.
+[2018.05.11-16.06.30:795][ 98]LogFbx: 		[Node 1]  (Type Skin).
+[2018.05.11-16.06.30:795][ 98]LogFbx: =================================================
+[2018.05.11-16.06.30:795][ 98]LogFbx: 	Attribute () Type (4).
+[2018.05.11-16.06.30:795][ 98]LogFbx: 		[Node Attribute Child 1] SM_BeeWing_R (Type Mesh).
+[2018.05.11-16.06.30:795][ 98]LogFbx: Dumping Node END [SM_BeeWing_R]
+[2018.05.11-16.06.30:795][ 98]LogFbx: SortedLinks :(0) joint1
+[2018.05.11-16.06.30:795][ 98]LogFbx: SortedLinks :(1) joint2
+[2018.05.11-16.06.30:795][ 98]LogFbx: SortedLinks :(2) joint3
+[2018.05.11-16.06.30:795][ 98]LogFbx: SortedLinks :(3) joint4
+[2018.05.11-16.06.30:795][ 98]LogFbx: SortedLinks :(4) joint5
+[2018.05.11-16.06.30:795][ 98]LogFbx: SortedLinks :(5) SM_Bee001
+[2018.05.11-16.06.30:795][ 98]LogFbx: SortedLinks :(6) SM_BeeWing_R001
+[2018.05.11-16.06.30:795][ 98]LogFbx: SortedLinks :(7) SM_BeeWing_R
+[2018.05.11-16.06.30:796][ 98]LogFbx: Parsing AnimStack Take 001
+[2018.05.11-16.06.30:796][ 98]LogFbx: CurveName : MaxHandle
+[2018.05.11-16.06.30:796][ 98]LogFbx: CurveName : MaxHandle
+[2018.05.11-16.06.30:808][ 98]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Import/Bee_animation_Anim.Bee_animation_Anim
+[2018.05.11-16.06.30:808][ 98]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Bee_animation_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (SM_Bee001:5) 
+Source Global Transform (0.000000,-0.000000,0.140271|0.000000,-179.854691,90.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (-0.000000,-0.140271,-0.000000|-0.145312,179.999985,-180.000000|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (SM_BeeWing_R001:6) 
+Source Global Transform (0.000000,-0.000000,0.140271|0.000000,-179.854691,-44.999992|1.000000,1.000000,1.000000), 
+Converted Global Transform (-0.000000,-0.140271,-0.000000|-0.145312,180.000000,44.999996|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (SM_BeeWing_R:7) 
+Source Global Transform (0.000000,-0.000000,0.140271|0.000000,0.145297,-44.999992|1.000000,1.000000,1.000000), 
+Converted Global Transform (-0.000000,-0.140271,-0.000000|0.145299,-0.000007,-135.000000|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (SM_Bee001:5) 
+Source Global Transform (0.000000,-0.000000,0.140271|0.000000,-179.854691,90.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (-0.000000,-0.140271,-0.000000|-0.145312,179.999985,-180.000000|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (SM_BeeWing_R001:6) 
+Source Global Transform (0.000000,-0.000000,0.140271|0.000000,-179.854691,-44.999992|1.000000,1.000000,1.000000), 
+Converted Global Transform (-0.000000,-0.140271,-0.000000|-0.145312,180.000000,44.999996|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (SM_BeeWing_R:7) 
+Source Global Transform (0.000000,-0.000000,0.140271|0.000000,0.145297,-44.999992|1.000000,1.000000,1.000000), 
+Converted Global Transform (-0.000000,-0.140271,-0.000000|0.145299,-0.000007,-135.000000|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (SM_Bee001:5) 
+Source Global Transform (0.000000,-0.000000,0.140271|0.000000,-179.854691,90.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (-0.000000,-0.140271,-0.000000|-0.145312,179.999985,-180.000000|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (SM_BeeWing_R001:6) 
+Source Global Transform (0.000000,-0.000000,0.140271|0.000000,-179.854691,-44.999992|1.000000,1.000000,1.000000), 
+Converted Global Transform (-0.000000,-0.140271,-0.000000|-0.145312,180.000000,44.999996|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (SM_BeeWing_R:7) 
+Source Global Transform (0.000000,-0.000000,0.140271|0.000000,0.145297,-44.999992|1.000000,1.000000,1.000000), 
+Converted Global Transform (-0.000000,-0.140271,-0.000000|0.145299,-0.000007,-135.000000|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (SM_Bee001:5) 
+Source Global Transform (0.000000,-0.000000,0.140271|0.000000,-179.854691,90.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (-0.000000,-0.140271,-0.000000|-0.145312,179.999985,-180.000000|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (SM_BeeWing_R001:6) 
+Source Global Transform (0.000000,-0.000000,0.140271|0.000000,-179.854691,-44.999992|1.000000,1.000000,1.000000), 
+Converted Global Transform (-0.000000,-0.140271,-0.000000|-0.145312,180.000000,44.999996|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (SM_BeeWing_R:7) 
+Source Global Transform (0.000000,-0.000000,0.140271|0.000000,0.145297,-44.999992|1.000000,1.000000,1.000000), 
+Converted Global Transform (-0.000000,-0.140271,-0.000000|0.145299,-0.000007,-135.000000|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint1:0) 
+Source Global Transform (0.000000,0.000000,-1.025217|90.000000,0.000000,-90.145325|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.000000,1.025217,-0.000000|0.000000,-90.000000,179.854691|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint2:1) 
+Source Global Transform (-0.000000,0.000000,-0.006412|44.867844,-89.854683,-180.000000|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131954,-89.854019,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-16.06.30:809][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint3:2) 
+Source Global Transform (0.031776,-12.529441,12.465405|-45.506340,-89.854698,180.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031776,-12.465400,-12.529436|-44.493446,89.857216,0.203705|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:810][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint4:3) 
+Source Global Transform (-0.000000,-0.000000,-0.006412|-44.867844,-90.145309,0.000005|1.963384,1.000000,1.000000), 
+Converted Global Transform (-0.000000,0.006412,-0.000000|-45.131962,90.145966,179.794022|1.963384,1.000000,1.000000)
+[2018.05.11-16.06.30:810][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (joint5:4) 
+Source Global Transform (0.031776,12.529400,12.465400|45.322742,-90.145302,0.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (0.031772,-12.465398,12.529398|-44.677067,-90.143677,0.204350|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:810][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (SM_Bee001:5) 
+Source Global Transform (0.000000,-0.000000,0.140271|0.000000,-179.854691,90.000000|1.000000,1.000000,1.000000), 
+Converted Global Transform (-0.000000,-0.140271,-0.000000|-0.145312,179.999985,-180.000000|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:810][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (SM_BeeWing_R001:6) 
+Source Global Transform (0.000000,-0.000000,0.140271|0.000000,-179.854691,-44.999992|1.000000,1.000000,1.000000), 
+Converted Global Transform (-0.000000,-0.140271,-0.000000|-0.145312,180.000000,44.999996|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:810][ 98]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (SM_BeeWing_R:7) 
+Source Global Transform (0.000000,-0.000000,0.140271|0.000000,0.145297,-44.999992|1.000000,1.000000,1.000000), 
+Converted Global Transform (-0.000000,-0.140271,-0.000000|0.145299,-0.000007,-135.000000|1.000000,1.000000,1.000000)
+[2018.05.11-16.06.30:813][ 98]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2018.05.11-16.06.30:813][ 98]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.11-16.06.30:813][ 98]FBXImport: Warning: Imported bone transform is different from original. Please check Output Log to see detail of error.  
+[2018.05.11-16.06.30:823][ 98]LogSkeletalMesh: Building Skeletal Mesh Bee_animation...
+[2018.05.11-16.06.30:823][ 98]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Import/Bee_animation.Bee_animation
+[2018.05.11-16.06.32:285][264]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.05.11-16.06.33:004][349]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.05.11-16.06.33:653][427]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.05.11-16.06.34:706][553]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.11-16.06.37:293][860]LogSlate: Window 'Message Log' being destroyed
+[2018.05.11-16.06.37:298][860]LogSlate: Window 'Message Log' being destroyed
+[2018.05.11-16.06.40:178][202]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_48:PersistentLevel.Actor_21.DebugSkelMeshComponent_30) Already registered. Aborting.
+[2018.05.11-16.06.40:198][202]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_48:PersistentLevel.Actor_21.DebugSkelMeshComponent_30) - call TermArticulated first.
+[2018.05.11-16.06.42:186][392]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_49:PersistentLevel.Actor_22.DebugSkelMeshComponent_31) Already registered. Aborting.
+[2018.05.11-16.06.42:199][392]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_49:PersistentLevel.Actor_22.DebugSkelMeshComponent_31) - call TermArticulated first.
+[2018.05.11-16.06.42:450][392]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.05.11-16.07.08:397][901]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.11-16.07.19:587][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.11-16.07.28:760][987]LogSlate: FSceneViewport::OnFocusLost() reason 0
