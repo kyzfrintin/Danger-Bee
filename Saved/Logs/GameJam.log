@@ -1523,3 +1523,517 @@ LogInit: Object subsystem initialized
 [2018.05.11-02.44.07:698][ 45]LogGameState: Match State Changed from WaitingToStart to InProgress
 [2018.05.11-02.44.07:714][ 45]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 1.441
 [2018.05.11-02.44.24:654][302]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.11-02.52.22:571][953]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.05.11-02.52.26:526][984]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.11-03.45.48:124][531]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.11-03.46.27:936][177]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1cfd59d78, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.SKEL_BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.46.30:646][209]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1cfd59d78, Size=4
+[2018.05.11-03.46.30:647][209]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1b22010d0, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Engine/Transient.REINST_SKEL_BP_Bee_Redo_C_129:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.46.30:664][209]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1bbf5a990, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.SKEL_BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.46.34:467][275]BlueprintLog: New page: Compile BP_Bee_Redo
+[2018.05.11-03.46.34:555][275]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1bbf5a990, Size=4
+[2018.05.11-03.46.34:556][275]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1be66d9e0, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Engine/Transient.REINST_SKEL_BP_Bee_Redo_C_131:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.46.34:638][275]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1b176ca00, Size=728
+[2018.05.11-03.46.34:639][275]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c204afae00, Size=728, Default__BP_Bee_Redo_C Function /Engine/Transient.REINST_BP_Bee_Redo_C_133:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.46.34:682][275]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c210efd300, Size=728, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.46.36:131][275]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1b22010d0, Size=4
+[2018.05.11-03.46.36:133][275]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1be66d9e0, Size=4
+[2018.05.11-03.46.58:484][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bee_Redo" FILE="../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Blueprints/BP_Bee_Redo.uasset" SILENT=true
+[2018.05.11-03.46.58:900][634]LogSavePackage: Save=344.04ms
+[2018.05.11-03.46.58:901][634]LogSavePackage: Moving '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Saved/BP_Bee_Redo4B8CD91E4C8C4C03B169E7A00F1C9F09.tmp' to '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Blueprints/BP_Bee_Redo.uasset'
+[2018.05.11-03.46.58:919][634]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Blueprints/BP_Bee_Redo.uasset
+[2018.05.11-03.49.22:137][943]LogSlate: Window 'Delete Variable' being destroyed
+[2018.05.11-03.49.22:173][943]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1c3a55450, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.SKEL_BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.49.30:412][ 50]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1c3a55450, Size=4
+[2018.05.11-03.49.30:413][ 50]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1b13e4ae0, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Engine/Transient.REINST_SKEL_BP_Bee_Redo_C_137:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.49.30:430][ 50]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1b13e4270, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.SKEL_BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.49.47:273][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bee_Redo" FILE="../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Blueprints/BP_Bee_Redo.uasset" SILENT=true
+[2018.05.11-03.49.47:610][317]LogSavePackage: Save=308.26ms
+[2018.05.11-03.49.47:610][317]LogSavePackage: Moving '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Saved/BP_Bee_Redo7610BD8B436720EB96A904B6BEDC8647.tmp' to '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Blueprints/BP_Bee_Redo.uasset'
+[2018.05.11-03.49.47:645][317]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Blueprints/BP_Bee_Redo.uasset
+[2018.05.11-03.49.48:811][337]BlueprintLog: New page: Compile BP_Bee_Redo
+[2018.05.11-03.49.48:909][337]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1b13e4270, Size=4
+[2018.05.11-03.49.48:910][337]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1b13e4270, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Engine/Transient.REINST_SKEL_BP_Bee_Redo_C_139:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.49.49:015][337]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c210efd300, Size=728
+[2018.05.11-03.49.49:015][337]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1ee86b100, Size=728, BP_Bee_Redo_C_3199 Function /Engine/Transient.REINST_BP_Bee_Redo_C_141:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.49.49:044][337]LogBlueprint: Error: [Compiler BP_Bee_Redo] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2018.05.11-03.49.49:046][337]LogBlueprint: Error: [Compiler BP_Bee_Redo] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2018.05.11-03.49.49:057][337]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c217a33200, Size=1312, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.49.49:564][337]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1b13e4270, Size=4
+[2018.05.11-03.49.49:566][337]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c204afae00, Size=728
+[2018.05.11-03.49.49:566][337]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1b13e4ae0, Size=4
+[2018.05.11-03.49.49:648][337]LogBlueprint: Warning: [Compiler BP_Bee_Redo] [9317.42] Compile of BP_Bee_Redo failed. 2 Fatal Issue(s) 0 Warning(s) [in 835 ms] (/Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo)
+[2018.05.11-03.49.50:962][351]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.11-03.49.51:095][351]LogFMOD: Creating runtime Studio System
+[2018.05.11-03.49.51:109][351]LogFMOD: Default sample rate = 48000
+[2018.05.11-03.49.51:109][351]LogFMOD: System sample rate = 44100
+[2018.05.11-03.49.51:109][351]LogFMOD: Matching system sample rate 44100
+[2018.05.11-03.49.51:147][351]LogFMOD: Loading Banks
+[2018.05.11-03.49.51:187][351]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.11-03.49.51:188][351]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.11-03.49.51:190][351]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.11-03.49.51:191][351]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.11-03.49.51:192][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.11-03.49.56:006][351]LogSlate: Window 'Message' being destroyed
+[2018.05.11-03.50.06:106][512]BlueprintLog: New page: Compile BP_Bee_Redo
+[2018.05.11-03.50.06:278][512]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c217a33200, Size=1312
+[2018.05.11-03.50.06:279][512]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1bd525600, Size=1312, Default__BP_Bee_Redo_C Function /Engine/Transient.REINST_BP_Bee_Redo_C_145:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.50.06:318][512]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c2145e4800, Size=1312, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.50.06:772][512]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1ee86b100, Size=728
+[2018.05.11-03.50.09:531][554]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.11-03.50.09:645][554]LogFMOD: Creating runtime Studio System
+[2018.05.11-03.50.09:653][554]LogFMOD: Default sample rate = 48000
+[2018.05.11-03.50.09:653][554]LogFMOD: System sample rate = 44100
+[2018.05.11-03.50.09:654][554]LogFMOD: Matching system sample rate 44100
+[2018.05.11-03.50.09:723][554]LogFMOD: Loading Banks
+[2018.05.11-03.50.09:757][554]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.11-03.50.09:758][554]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.11-03.50.09:760][554]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.11-03.50.09:761][554]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.11-03.50.09:762][554]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.11-03.50.09:763][554]PIE: New page: PIE session: L_Level01 (11 May 2018 05:50:09)
+[2018.05.11-03.50.09:764][554]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.11-03.50.09:773][554]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007692s)
+[2018.05.11-03.50.09:776][554]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.11-03.50.09:778][554]LogPlayLevel: PIE: World Init took: (0.003919s)
+[2018.05.11-03.50.09:778][554]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.013826s)
+[2018.05.11-03.50.09:932][554]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1bd525600, Size=1312
+[2018.05.11-03.50.10:037][554]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.11-03.50.10:070][554]LogInit: FAudioDevice initialized.
+[2018.05.11-03.50.10:300][554]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.11-03.50.10:304][554]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-04.50.10
+[2018.05.11-03.50.10:306][554]LogWorld: Bringing up level for play took: 0.003302
+[2018.05.11-03.50.10:309][554]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-03.50.10:310][554]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-03.50.10:311][554]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-03.50.10:316][554]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-03.50.10:345][554]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.071
+[2018.05.11-03.50.19:489][686]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.11-03.50.41:498][ 98]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.11-03.50.45:914][169]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.11-03.50.46:033][169]LogFMOD: Creating runtime Studio System
+[2018.05.11-03.50.46:041][169]LogFMOD: Default sample rate = 48000
+[2018.05.11-03.50.46:042][169]LogFMOD: System sample rate = 44100
+[2018.05.11-03.50.46:043][169]LogFMOD: Matching system sample rate 44100
+[2018.05.11-03.50.46:083][169]LogFMOD: Loading Banks
+[2018.05.11-03.50.46:115][169]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.11-03.50.46:116][169]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.11-03.50.46:118][169]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.11-03.50.46:119][169]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.11-03.50.46:120][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.11-03.50.46:121][169]PIE: New page: PIE session: L_Level01 (11 May 2018 05:50:46)
+[2018.05.11-03.50.46:122][169]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.11-03.50.46:128][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006067s)
+[2018.05.11-03.50.46:130][169]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.11-03.50.46:132][169]LogPlayLevel: PIE: World Init took: (0.002618s)
+[2018.05.11-03.50.46:132][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.010666s)
+[2018.05.11-03.50.46:334][169]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.11-03.50.46:362][169]LogInit: FAudioDevice initialized.
+[2018.05.11-03.50.46:608][169]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.11-03.50.46:612][169]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-04.50.46
+[2018.05.11-03.50.46:613][169]LogWorld: Bringing up level for play took: 0.002866
+[2018.05.11-03.50.46:616][169]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-03.50.46:616][169]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-03.50.46:617][169]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-03.50.46:620][169]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-03.50.46:649][169]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.376
+[2018.05.11-03.50.57:369][323]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.11-03.51.30:136][914]BlueprintLog: New page: Compile BP_Bee_Redo
+[2018.05.11-03.51.30:325][914]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c2145e4800, Size=1312
+[2018.05.11-03.51.30:326][914]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c278cb8100, Size=1312, Default__BP_Bee_Redo_C Function /Engine/Transient.REINST_BP_Bee_Redo_C_149:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.51.30:374][914]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1be2df200, Size=1312, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.51.33:161][931]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.11-03.51.33:292][931]LogFMOD: Creating runtime Studio System
+[2018.05.11-03.51.33:304][931]LogFMOD: Default sample rate = 48000
+[2018.05.11-03.51.33:304][931]LogFMOD: System sample rate = 44100
+[2018.05.11-03.51.33:305][931]LogFMOD: Matching system sample rate 44100
+[2018.05.11-03.51.33:349][931]LogFMOD: Loading Banks
+[2018.05.11-03.51.33:384][931]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.11-03.51.33:386][931]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.11-03.51.33:387][931]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.11-03.51.33:388][931]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.11-03.51.33:390][931]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.11-03.51.33:390][931]PIE: New page: PIE session: L_Level01 (11 May 2018 05:51:33)
+[2018.05.11-03.51.33:391][931]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.11-03.51.33:398][931]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006163s)
+[2018.05.11-03.51.33:400][931]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.11-03.51.33:401][931]LogPlayLevel: PIE: World Init took: (0.002290s)
+[2018.05.11-03.51.33:401][931]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.010101s)
+[2018.05.11-03.51.33:617][931]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.11-03.51.33:642][931]LogInit: FAudioDevice initialized.
+[2018.05.11-03.51.33:876][931]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.11-03.51.33:879][931]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-04.51.33
+[2018.05.11-03.51.33:881][931]LogWorld: Bringing up level for play took: 0.002976
+[2018.05.11-03.51.33:883][931]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-03.51.33:884][931]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-03.51.33:885][931]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-03.51.33:888][931]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-03.51.33:916][931]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 1.643
+[2018.05.11-03.52.03:530][373]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.11-03.52.21:437][698]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.11-03.52.21:534][698]LogFMOD: Creating runtime Studio System
+[2018.05.11-03.52.21:541][698]LogFMOD: Default sample rate = 48000
+[2018.05.11-03.52.21:541][698]LogFMOD: System sample rate = 44100
+[2018.05.11-03.52.21:541][698]LogFMOD: Matching system sample rate 44100
+[2018.05.11-03.52.21:604][698]LogFMOD: Loading Banks
+[2018.05.11-03.52.21:637][698]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.11-03.52.21:638][698]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.11-03.52.21:639][698]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.11-03.52.21:640][698]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.11-03.52.21:641][698]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.05.11-03.52.21:706][698]LogPlayLevel: [PlayLevel] Compiling BP_Bee_Redo before play...
+[2018.05.11-03.52.21:779][698]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1be2df200, Size=1312
+[2018.05.11-03.52.21:780][698]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c26299a400, Size=1312, BP_Bee_Redo_C_3644 Function /Engine/Transient.REINST_BP_Bee_Redo_C_153:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.52.21:811][698]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1b8a97900, Size=1312, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.52.22:803][698]LogPlayLevel: PlayLevel: Blueprint regeneration took 1162 ms (1 blueprints)
+[2018.05.11-03.52.22:804][698]PIE: New page: PIE session: L_Level01 (11 May 2018 05:52:22)
+[2018.05.11-03.52.22:805][698]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.11-03.52.22:811][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005980s)
+[2018.05.11-03.52.22:813][698]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.11-03.52.22:814][698]LogPlayLevel: PIE: World Init took: (0.002317s)
+[2018.05.11-03.52.22:815][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.010098s)
+[2018.05.11-03.52.23:009][698]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.11-03.52.23:035][698]LogInit: FAudioDevice initialized.
+[2018.05.11-03.52.23:244][698]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.11-03.52.23:248][698]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-04.52.23
+[2018.05.11-03.52.23:249][698]LogWorld: Bringing up level for play took: 0.002771
+[2018.05.11-03.52.23:252][698]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-03.52.23:253][698]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-03.52.23:253][698]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-03.52.23:258][698]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-03.52.23:274][698]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 1
+[2018.05.11-03.52.38:228][914]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.11-03.54.05:242][940]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/L_Level01' took 0.137
+[2018.05.11-03.54.05:258][940]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Bee_Redo] ([1] browsable assets)...
+[2018.05.11-03.54.05:387][940]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo]
+[2018.05.11-03.54.05:387][940]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Bee_Redo]
+[2018.05.11-03.54.05:705][940]LogSavePackage: Save=281.93ms
+[2018.05.11-03.54.05:705][940]LogSavePackage: Moving '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Saved/BP_Bee_Redo_Auto380A4E7DA47FA3547EC39F0A0EDF05EF0.tmp' to '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Saved/Autosaves/Game/Blueprints/BP_Bee_Redo_Auto3.uasset'
+[2018.05.11-03.54.05:716][940]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Saved/Autosaves/Game/Blueprints/BP_Bee_Redo_Auto3.uasset
+[2018.05.11-03.54.05:718][940]LogFileHelpers: Auto-saving content packages took 0.467
+[2018.05.11-03.54.07:740][969]BlueprintLog: New page: Compile BP_Bee_Redo
+[2018.05.11-03.54.07:918][969]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1b8a97900, Size=1312
+[2018.05.11-03.54.07:919][969]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1c9028100, Size=1312, BP_Bee_Redo_C_3781 Function /Engine/Transient.REINST_BP_Bee_Redo_C_157:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.54.07:956][969]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1c9504100, Size=736, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.55.17:197][650]LogEditorTransaction: Undo Move Node
+[2018.05.11-03.55.17:272][650]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c271eb6a88, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.SKEL_BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.55.17:787][651]LogEditorTransaction: Undo Add Node
+[2018.05.11-03.55.17:791][651]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c271eb6a88, Size=4
+[2018.05.11-03.55.17:792][651]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c271ae91c8, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Engine/Transient.REINST_SKEL_BP_Bee_Redo_C_161:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.55.17:810][651]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c271ae8120, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.SKEL_BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.55.18:721][660]LogEditorTransaction: Undo Delete current selection
+[2018.05.11-03.55.18:779][660]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c271ae8120, Size=4
+[2018.05.11-03.55.18:779][660]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1b13e6ff8, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Engine/Transient.REINST_SKEL_BP_Bee_Redo_C_163:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.55.18:796][660]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c2718f1518, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.SKEL_BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.55.53:925][187]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c2718f1518, Size=4
+[2018.05.11-03.55.53:926][187]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1be66cc48, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Engine/Transient.REINST_SKEL_BP_Bee_Redo_C_165:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.55.53:947][187]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1be66ec30, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.SKEL_BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.56.12:870][490]BlueprintLog: New page: Compile BP_Bee_Redo
+[2018.05.11-03.56.12:961][490]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1be66ec30, Size=4
+[2018.05.11-03.56.12:962][490]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1aac42ef0, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Engine/Transient.REINST_SKEL_BP_Bee_Redo_C_167:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.56.13:063][490]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1c9504100, Size=736
+[2018.05.11-03.56.13:064][490]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1afc37d00, Size=736, BP_Bee_Redo_C_4026 Function /Engine/Transient.REINST_BP_Bee_Redo_C_169:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.56.13:102][490]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1b8b16b00, Size=1312, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.56.14:799][490]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c271ae91c8, Size=4
+[2018.05.11-03.56.14:801][490]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1be66cc48, Size=4
+[2018.05.11-03.56.14:802][490]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1c9028100, Size=1312
+[2018.05.11-03.56.14:803][490]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1aac42ef0, Size=4
+[2018.05.11-03.56.14:804][490]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1b13e6ff8, Size=4
+[2018.05.11-03.56.15:964][501]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.11-03.56.16:080][501]LogFMOD: Creating runtime Studio System
+[2018.05.11-03.56.16:089][501]LogFMOD: Default sample rate = 48000
+[2018.05.11-03.56.16:089][501]LogFMOD: System sample rate = 44100
+[2018.05.11-03.56.16:090][501]LogFMOD: Matching system sample rate 44100
+[2018.05.11-03.56.16:186][501]LogFMOD: Loading Banks
+[2018.05.11-03.56.16:222][501]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.11-03.56.16:224][501]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.11-03.56.16:226][501]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.11-03.56.16:227][501]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.11-03.56.16:229][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.11-03.56.16:230][501]PIE: New page: PIE session: L_Level01 (11 May 2018 05:56:16)
+[2018.05.11-03.56.16:230][501]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.11-03.56.16:237][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006031s)
+[2018.05.11-03.56.16:240][501]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.11-03.56.16:241][501]LogPlayLevel: PIE: World Init took: (0.002624s)
+[2018.05.11-03.56.16:241][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.010670s)
+[2018.05.11-03.56.16:349][501]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1afc37d00, Size=736
+[2018.05.11-03.56.16:450][501]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.11-03.56.16:479][501]LogInit: FAudioDevice initialized.
+[2018.05.11-03.56.16:664][501]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.11-03.56.16:669][501]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-04.56.16
+[2018.05.11-03.56.16:671][501]LogWorld: Bringing up level for play took: 0.003217
+[2018.05.11-03.56.16:673][501]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-03.56.16:674][501]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-03.56.16:678][501]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-03.56.16:684][501]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-03.56.16:711][501]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.437
+[2018.05.11-03.56.33:730][755]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.11-03.56.41:092][871]BlueprintLog: New page: Compile BP_Bee_Redo
+[2018.05.11-03.56.41:276][871]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1b8b16b00, Size=1312
+[2018.05.11-03.56.41:277][871]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1cfb2b200, Size=1312, BP_Bee_Redo_C_4145 Function /Engine/Transient.REINST_BP_Bee_Redo_C_173:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.56.41:312][871]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c25328b900, Size=1312, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.56.43:661][879]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.11-03.56.43:763][879]LogFMOD: Creating runtime Studio System
+[2018.05.11-03.56.43:773][879]LogFMOD: Default sample rate = 48000
+[2018.05.11-03.56.43:774][879]LogFMOD: System sample rate = 44100
+[2018.05.11-03.56.43:775][879]LogFMOD: Matching system sample rate 44100
+[2018.05.11-03.56.43:813][879]LogFMOD: Loading Banks
+[2018.05.11-03.56.43:896][879]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.11-03.56.43:898][879]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.11-03.56.43:899][879]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.11-03.56.43:900][879]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.11-03.56.43:901][879]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.11-03.56.43:902][879]PIE: New page: PIE session: L_Level01 (11 May 2018 05:56:43)
+[2018.05.11-03.56.43:903][879]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.11-03.56.43:910][879]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006964s)
+[2018.05.11-03.56.43:912][879]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.11-03.56.43:913][879]LogPlayLevel: PIE: World Init took: (0.002237s)
+[2018.05.11-03.56.43:914][879]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.010929s)
+[2018.05.11-03.56.44:080][879]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.11-03.56.44:135][879]LogInit: FAudioDevice initialized.
+[2018.05.11-03.56.44:323][879]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.11-03.56.44:327][879]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-04.56.44
+[2018.05.11-03.56.44:329][879]LogWorld: Bringing up level for play took: 0.003165
+[2018.05.11-03.56.44:332][879]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-03.56.44:332][879]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-03.56.44:333][879]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-03.56.44:337][879]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-03.56.44:373][879]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.099
+[2018.05.11-03.57.16:201][351]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.11-03.57.20:917][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.11-03.57.26:444][502]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.11-03.57.33:057][610]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.11-03.57.33:190][613]BlueprintLog: New page: Compile BP_Bee_Redo
+[2018.05.11-03.57.33:395][613]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c25328b900, Size=1312
+[2018.05.11-03.57.33:396][613]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c18a443200, Size=1312, BP_Bee_Redo_C_4336 Function /Engine/Transient.REINST_BP_Bee_Redo_C_177:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.57.33:429][613]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1aa84f200, Size=1312, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.57.59:649][123]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.11-03.58.17:349][386]BlueprintLog: New page: Compile BP_Bee_Redo
+[2018.05.11-03.58.17:538][386]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1aa84f200, Size=1312
+[2018.05.11-03.58.17:539][386]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c21459cf00, Size=1312, BP_Bee_Redo_C_4401 Function /Engine/Transient.REINST_BP_Bee_Redo_C_181:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.58.17:572][386]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1d2e94100, Size=1312, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.58.20:145][396]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.11-03.58.20:260][396]LogFMOD: Creating runtime Studio System
+[2018.05.11-03.58.20:272][396]LogFMOD: Default sample rate = 48000
+[2018.05.11-03.58.20:273][396]LogFMOD: System sample rate = 44100
+[2018.05.11-03.58.20:273][396]LogFMOD: Matching system sample rate 44100
+[2018.05.11-03.58.20:319][396]LogFMOD: Loading Banks
+[2018.05.11-03.58.20:353][396]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.11-03.58.20:354][396]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.11-03.58.20:356][396]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.11-03.58.20:357][396]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.11-03.58.20:358][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.11-03.58.20:359][396]PIE: New page: PIE session: L_Level01 (11 May 2018 05:58:20)
+[2018.05.11-03.58.20:360][396]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.11-03.58.20:366][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005857s)
+[2018.05.11-03.58.20:368][396]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.11-03.58.20:369][396]LogPlayLevel: PIE: World Init took: (0.002394s)
+[2018.05.11-03.58.20:370][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.009912s)
+[2018.05.11-03.58.20:576][396]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c21459cf00, Size=1312
+[2018.05.11-03.58.20:620][396]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.11-03.58.20:651][396]LogInit: FAudioDevice initialized.
+[2018.05.11-03.58.20:890][396]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.11-03.58.20:893][396]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-04.58.20
+[2018.05.11-03.58.20:895][396]LogWorld: Bringing up level for play took: 0.002685
+[2018.05.11-03.58.20:897][396]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-03.58.20:898][396]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-03.58.20:898][396]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-03.58.20:902][396]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-03.58.20:932][396]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.659
+[2018.05.11-03.58.33:848][584]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.11-03.58.57:250][988]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.11-03.59.07:581][133]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.11-03.59.18:191][282]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.11-03.59.24:413][380]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.11-03.59.31:324][475]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.11-03.59.35:765][538]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.11-03.59.36:106][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bee_Redo" FILE="../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Blueprints/BP_Bee_Redo.uasset" SILENT=true
+[2018.05.11-03.59.36:459][540]LogSavePackage: Save=319.87ms
+[2018.05.11-03.59.36:459][540]LogSavePackage: Moving '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Saved/BP_Bee_RedoAE629A5B45008991D487B882E31A0C09.tmp' to '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Blueprints/BP_Bee_Redo.uasset'
+[2018.05.11-03.59.36:483][540]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Blueprints/BP_Bee_Redo.uasset
+[2018.05.11-03.59.46:340][718]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.11-03.59.46:443][719]BlueprintLog: New page: Compile BP_Bee_Redo
+[2018.05.11-03.59.46:626][719]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1d2e94100, Size=1312
+[2018.05.11-03.59.46:627][719]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1be480100, Size=1312, BP_Bee_Redo_C_4691 Function /Engine/Transient.REINST_BP_Bee_Redo_C_185:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.59.46:673][719]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c214bc8100, Size=1312, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-03.59.50:665][752]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.11-03.59.50:775][752]LogFMOD: Creating runtime Studio System
+[2018.05.11-03.59.50:783][752]LogFMOD: Default sample rate = 48000
+[2018.05.11-03.59.50:784][752]LogFMOD: System sample rate = 44100
+[2018.05.11-03.59.50:784][752]LogFMOD: Matching system sample rate 44100
+[2018.05.11-03.59.50:823][752]LogFMOD: Loading Banks
+[2018.05.11-03.59.50:856][752]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.11-03.59.50:857][752]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.11-03.59.50:859][752]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.11-03.59.50:860][752]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.11-03.59.50:862][752]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.11-03.59.50:863][752]PIE: New page: PIE session: L_Level01 (11 May 2018 05:59:50)
+[2018.05.11-03.59.50:864][752]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.11-03.59.50:871][752]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007014s)
+[2018.05.11-03.59.50:874][752]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.11-03.59.50:875][752]LogPlayLevel: PIE: World Init took: (0.002602s)
+[2018.05.11-03.59.50:875][752]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.011766s)
+[2018.05.11-03.59.51:028][752]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1be480100, Size=1312
+[2018.05.11-03.59.51:073][752]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.11-03.59.51:105][752]LogInit: FAudioDevice initialized.
+[2018.05.11-03.59.51:275][752]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.11-03.59.51:280][752]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-04.59.51
+[2018.05.11-03.59.51:281][752]LogWorld: Bringing up level for play took: 0.003085
+[2018.05.11-03.59.51:284][752]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-03.59.51:284][752]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-03.59.51:285][752]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-03.59.51:289][752]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-03.59.51:308][752]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 1.035
+[2018.05.11-03.59.58:730][860]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.11-04.00.02:862][932]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.11-04.00.52:352][691]BlueprintLog: New page: Compile BP_Bee_Redo
+[2018.05.11-04.00.52:520][691]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c214bc8100, Size=1312
+[2018.05.11-04.00.52:520][691]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c210a7cf00, Size=1312, BP_Bee_Redo_C_4864 Function /Engine/Transient.REINST_BP_Bee_Redo_C_189:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-04.00.52:552][691]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1b6677200, Size=1312, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-04.00.55:414][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bee_Redo" FILE="../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Blueprints/BP_Bee_Redo.uasset" SILENT=true
+[2018.05.11-04.00.55:753][707]LogSavePackage: Save=302.62ms
+[2018.05.11-04.00.55:754][707]LogSavePackage: Moving '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Saved/BP_Bee_RedoFFC0A1A048BB5A64A2CCD2AB1E483A97.tmp' to '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Blueprints/BP_Bee_Redo.uasset'
+[2018.05.11-04.00.55:775][707]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Blueprints/BP_Bee_Redo.uasset
+[2018.05.11-04.00.57:990][745]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.11-04.00.58:086][745]LogFMOD: Creating runtime Studio System
+[2018.05.11-04.00.58:095][745]LogFMOD: Default sample rate = 48000
+[2018.05.11-04.00.58:095][745]LogFMOD: System sample rate = 44100
+[2018.05.11-04.00.58:096][745]LogFMOD: Matching system sample rate 44100
+[2018.05.11-04.00.58:194][745]LogFMOD: Loading Banks
+[2018.05.11-04.00.58:229][745]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.11-04.00.58:230][745]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.11-04.00.58:232][745]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.11-04.00.58:233][745]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.11-04.00.58:234][745]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.11-04.00.58:235][745]PIE: New page: PIE session: L_Level01 (11 May 2018 06:00:58)
+[2018.05.11-04.00.58:236][745]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.11-04.00.58:243][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006741s)
+[2018.05.11-04.00.58:245][745]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.11-04.00.58:246][745]LogPlayLevel: PIE: World Init took: (0.002607s)
+[2018.05.11-04.00.58:247][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.011292s)
+[2018.05.11-04.00.58:393][745]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c210a7cf00, Size=1312
+[2018.05.11-04.00.58:496][745]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.11-04.00.58:531][745]LogInit: FAudioDevice initialized.
+[2018.05.11-04.00.58:777][745]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.11-04.00.58:781][745]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-05.00.58
+[2018.05.11-04.00.58:784][745]LogWorld: Bringing up level for play took: 0.004161
+[2018.05.11-04.00.58:787][745]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-04.00.58:788][745]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-04.00.58:788][745]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-04.00.58:793][745]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-04.00.58:822][745]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.548
+[2018.05.11-04.01.09:650][903]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.11-04.01.28:441][ 93]LogEditorTransaction: Undo Move Node
+[2018.05.11-04.01.28:462][ 93]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1c3a57b58, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.SKEL_BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-04.01.29:672][104]LogEditorTransaction: Undo Create Pin Link
+[2018.05.11-04.01.29:674][104]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1c3a57b58, Size=4
+[2018.05.11-04.01.29:675][104]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1cfd5bb08, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Engine/Transient.REINST_SKEL_BP_Bee_Redo_C_193:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-04.01.29:701][104]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1cfd58808, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.SKEL_BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-04.01.31:037][117]LogEditorTransaction: Undo Create Pin Link
+[2018.05.11-04.01.31:041][117]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1cfd58808, Size=4
+[2018.05.11-04.01.31:042][117]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1cfd58808, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Engine/Transient.REINST_SKEL_BP_Bee_Redo_C_195:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-04.01.31:066][117]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1cfd585b8, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.SKEL_BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-04.01.31:837][124]LogEditorTransaction: Undo Delete current selection
+[2018.05.11-04.01.31:848][124]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1cfd585b8, Size=4
+[2018.05.11-04.01.31:849][124]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1b13e7908, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Engine/Transient.REINST_SKEL_BP_Bee_Redo_C_197:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-04.01.31:868][124]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1b13e6388, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.SKEL_BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-04.01.41:441][277]BlueprintLog: New page: Compile BP_Bee_Redo
+[2018.05.11-04.01.41:532][277]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1b13e6388, Size=4
+[2018.05.11-04.01.41:533][277]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1b13e6388, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Engine/Transient.REINST_SKEL_BP_Bee_Redo_C_199:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-04.01.41:628][277]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1b6677200, Size=1312
+[2018.05.11-04.01.41:629][277]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c263115600, Size=1312, BP_Bee_Redo_C_5046 Function /Engine/Transient.REINST_BP_Bee_Redo_C_201:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-04.01.41:663][277]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c229ab0100, Size=1312, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-04.01.43:123][277]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1b13e6388, Size=4
+[2018.05.11-04.01.43:124][277]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1b13e7908, Size=4
+[2018.05.11-04.01.43:125][277]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1cfd58808, Size=4
+[2018.05.11-04.01.43:126][277]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1cfd5bb08, Size=4
+[2018.05.11-04.02.07:519][386]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.11-04.02.07:634][386]LogFMOD: Creating runtime Studio System
+[2018.05.11-04.02.07:643][386]LogFMOD: Default sample rate = 48000
+[2018.05.11-04.02.07:644][386]LogFMOD: System sample rate = 44100
+[2018.05.11-04.02.07:644][386]LogFMOD: Matching system sample rate 44100
+[2018.05.11-04.02.07:699][386]LogFMOD: Loading Banks
+[2018.05.11-04.02.07:735][386]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.11-04.02.07:736][386]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.11-04.02.07:738][386]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.11-04.02.07:739][386]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.11-04.02.07:740][386]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.11-04.02.07:741][386]PIE: New page: PIE session: L_Level01 (11 May 2018 06:02:07)
+[2018.05.11-04.02.07:741][386]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.11-04.02.07:749][386]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007253s)
+[2018.05.11-04.02.07:752][386]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.11-04.02.07:753][386]LogPlayLevel: PIE: World Init took: (0.002397s)
+[2018.05.11-04.02.07:753][386]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.011640s)
+[2018.05.11-04.02.07:901][386]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c263115600, Size=1312
+[2018.05.11-04.02.07:989][386]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.11-04.02.08:018][386]LogInit: FAudioDevice initialized.
+[2018.05.11-04.02.08:253][386]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.11-04.02.08:257][386]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-05.02.08
+[2018.05.11-04.02.08:258][386]LogWorld: Bringing up level for play took: 0.002863
+[2018.05.11-04.02.08:261][386]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-04.02.08:261][386]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-04.02.08:262][386]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-04.02.08:266][386]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-04.02.08:295][386]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.022
+[2018.05.11-04.02.14:076][469]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.11-04.02.28:890][741]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1b13e5120, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.SKEL_BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-04.02.52:672][147]BlueprintLog: New page: Compile BP_Bee_Redo
+[2018.05.11-04.02.52:766][147]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1b13e5120, Size=4
+[2018.05.11-04.02.52:766][147]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1b13e5120, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Engine/Transient.REINST_SKEL_BP_Bee_Redo_C_205:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-04.02.52:867][147]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c229ab0100, Size=1312
+[2018.05.11-04.02.52:869][147]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c2792aeb00, Size=1312, BP_Bee_Redo_C_5156 Function /Engine/Transient.REINST_BP_Bee_Redo_C_207:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-04.02.52:908][147]LogUObjectGlobals: Created PersistentFrame Addr=0x000000c1c95f7200, Size=1312, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-04.02.54:395][147]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c1b13e5120, Size=4
+[2018.05.11-04.03.01:649][204]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.11-04.03.01:779][204]LogFMOD: Creating runtime Studio System
+[2018.05.11-04.03.01:788][204]LogFMOD: Default sample rate = 48000
+[2018.05.11-04.03.01:789][204]LogFMOD: System sample rate = 44100
+[2018.05.11-04.03.01:789][204]LogFMOD: Matching system sample rate 44100
+[2018.05.11-04.03.01:828][204]LogFMOD: Loading Banks
+[2018.05.11-04.03.01:861][204]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank'
+
+[2018.05.11-04.03.01:862][204]LogFMOD: Error: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_bankmodel.cpp(163) - Failed to open file '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank'
+
+[2018.05.11-04.03.01:864][204]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.bank (File does not exist)
+[2018.05.11-04.03.01:865][204]LogFMOD: Warning: Failed to bank: ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/FMOD/Desktop/Master Bank.strings.bank (File does not exist)
+[2018.05.11-04.03.01:866][204]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.11-04.03.01:867][204]PIE: New page: PIE session: L_Level01 (11 May 2018 06:03:01)
+[2018.05.11-04.03.01:867][204]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.11-04.03.01:874][204]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006056s)
+[2018.05.11-04.03.01:876][204]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.11-04.03.01:877][204]LogPlayLevel: PIE: World Init took: (0.002575s)
+[2018.05.11-04.03.01:878][204]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.010445s)
+[2018.05.11-04.03.02:032][204]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000000c2792aeb00, Size=1312
+[2018.05.11-04.03.02:078][204]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.11-04.03.02:104][204]LogInit: FAudioDevice initialized.
+[2018.05.11-04.03.02:339][204]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.11-04.03.02:343][204]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-05.03.02
+[2018.05.11-04.03.02:345][204]LogWorld: Bringing up level for play took: 0.003321
+[2018.05.11-04.03.02:348][204]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-04.03.02:349][204]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.11-04.03.02:350][204]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-04.03.02:356][204]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.11-04.03.02:390][204]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.117
+[2018.05.11-04.03.27:366][578]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
