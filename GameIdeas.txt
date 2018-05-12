@@ -33,5 +33,3 @@ you pollonate 10, but only 7 sprout into more flowers
 lower the co2 levels
 make more oxygen
 more co2 makes it hot and cloudy
-
-github webhook
