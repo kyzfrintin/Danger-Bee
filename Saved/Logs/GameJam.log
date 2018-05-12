@@ -1592,3 +1592,255 @@ LogInit: Object subsystem initialized
 [2018.05.12-01.45.54:589][726]MaterialEditorStats: Texture samplers: 3/16
 [2018.05.12-01.45.54:589][726]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
 [2018.05.12-01.46.06:312][922]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-01.54.44:315][422]LogSavePackage: Save=6.27ms
+[2018.05.12-01.54.44:315][422]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/pollen_particles82F94CB5405D4C44A340B3A28D793B59.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/Meshes/ParticleSystems/pollen_particles.uasset'
+[2018.05.12-01.54.44:317][422]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/Meshes/ParticleSystems/pollen_particles.uasset
+[2018.05.12-01.54.49:228][701]LogSlate: Window 'Message' being destroyed
+[2018.05.12-01.54.49:638][701]LogMaterial: Missing cached shader map for material Pollen_Particle_Mat, compiling. 
+[2018.05.12-01.54.49:667][701]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.12-01.54.49:667][701]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.05.12-01.54.49:681][701]LogMaterial: Missing cached shader map for material Pollen_Particle_Mat, compiling. 
+[2018.05.12-01.54.49:711][701]LogMaterial: Missing cached shader map for material Pollen_Particle_Mat, compiling. 
+[2018.05.12-01.54.49:744][701]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Pollen_Particle_Mat, compiling. 
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 108
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 107
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 106
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 105
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 104
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 103
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 102
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 101
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 99
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 98
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 97
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 96
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 95
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 94
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 93
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 92
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 91
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 89
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 88
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 87
+[2018.05.12-01.54.52:056][701]LogShaderCompilers: Display: Shaders left to compile 77
+[2018.05.12-01.54.52:058][701]TextureStreamingBuild: Display: Compiling optional shaders took 2.318 seconds.
+[2018.05.12-01.54.52:073][701]LogSlate: Window 'Pollen_Particle_Mat*' being destroyed
+[2018.05.12-01.54.52:075][701]LogSlate: Window 'Pollen_Particle_Mat*' being destroyed
+[2018.05.12-01.54.52:075][701]LogCascade: Quitting Cascade. FXSystem=0x0000017D0E86DB20
+[2018.05.12-01.54.53:771][859]LogShaderCompilers: Display: Shaders left to compile 67
+[2018.05.12-01.54.54:705][971]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.05.12-01.54.55:971][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d0c1c8720, Size=208, Default__BP_Flower_C Function /Game/Blueprints/BP_Flower.BP_Flower_C:ExecuteUbergraph_BP_Flower
+[2018.05.12-01.54.55:977][122]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d0c1c8720, Size=208
+[2018.05.12-01.54.55:977][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d0c1c8720, Size=208, Default__BP_Flower_C Function /Engine/Transient.REINST_BP_Flower_C_9:ExecuteUbergraph_BP_Flower
+[2018.05.12-01.54.55:979][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d18369360, Size=208, Default__BP_Flower_C Function /Game/Blueprints/BP_Flower.BP_Flower_C:ExecuteUbergraph_BP_Flower
+[2018.05.12-01.54.55:989][122]LogStaticMesh: Building static mesh SM_Stem_01...
+[2018.05.12-01.54.56:000][122]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Meshes/Flowers/SM_Stem_01.SM_Stem_01
+[2018.05.12-01.54.56:216][122]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.05.12-01.54.56:232][122]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.05.12-01.54.56:493][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d24f26d28, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.05.12-01.54.56:494][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d24f26d20, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.05.12-01.54.56:921][123]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.12-01.54.56:962][126]LogShaderCompilers: Display: Shaders left to compile 37
+[2018.05.12-01.54.58:517][278]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.05.12-01.54.59:108][343]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.05.12-01.55.00:613][516]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.05.12-01.55.04:280][926]LogSlate: Window 'BP_Flower' being destroyed
+[2018.05.12-01.55.30:948][737]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.05.12-01.55.31:539][800]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d0c1c8720, Size=208
+[2018.05.12-01.55.31:549][800]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.12-01.55.31:558][800]LogSavePackage: Save=2.19ms
+[2018.05.12-01.55.31:559][800]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Pollen_ParticleDFCC6F10431B55FE1098C883DB70A585.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/Meshes/ParticleSystems/Pollen_Particle.uasset'
+[2018.05.12-01.55.31:560][800]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/Meshes/ParticleSystems/Pollen_Particle.uasset
+[2018.05.12-01.55.31:586][800]LogSavePackage: Save=6.89ms
+[2018.05.12-01.55.31:586][800]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Pollen_Particle_Mat2DD9CEBA4998455238498C8A00A1B140.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/Meshes/ParticleSystems/Pollen_Particle_Mat.uasset'
+[2018.05.12-01.55.31:587][800]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/Meshes/ParticleSystems/Pollen_Particle_Mat.uasset
+[2018.05.12-01.55.47:302][659]LogSavePackage: Save=7.01ms
+[2018.05.12-01.55.47:302][659]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Pollen_Particle_Mat5B5739FF4303DFAF52155D8222D076EC.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/ParticleSystems/Pollen_Particle_Mat.uasset'
+[2018.05.12-01.55.47:304][659]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/ParticleSystems/Pollen_Particle_Mat.uasset
+[2018.05.12-01.55.47:306][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/ParticleSystems/Pollen_Particle" FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/ParticleSystems/Pollen_Particle.uasset" SILENT=true
+[2018.05.12-01.55.47:310][659]LogSavePackage: Save=2.42ms
+[2018.05.12-01.55.47:310][659]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Pollen_Particle5EE44AF0493DA17A83AB299CB3B3B540.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/ParticleSystems/Pollen_Particle.uasset'
+[2018.05.12-01.55.47:312][659]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/ParticleSystems/Pollen_Particle.uasset
+[2018.05.12-01.55.47:320][659]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/ParticleSystems/pollen_particles" FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/ParticleSystems/pollen_particles.uasset" SILENT=true
+[2018.05.12-01.55.47:327][659]LogSavePackage: Save=6.12ms
+[2018.05.12-01.55.47:327][659]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/pollen_particles3ADD0E074E4BF7343A8EB18A1D1BF906.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/ParticleSystems/pollen_particles.uasset'
+[2018.05.12-01.55.47:329][659]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/ParticleSystems/pollen_particles.uasset
+[2018.05.12-01.58.51:308][586]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-01.58.55:783][ 64]LogSlate: Window 'pollen_particles' being destroyed
+[2018.05.12-01.58.55:787][ 64]LogSlate: Window 'pollen_particles' being destroyed
+[2018.05.12-01.58.55:787][ 64]LogCascade: Quitting Cascade. FXSystem=0x0000017D2D7542C0
+[2018.05.12-02.01.17:270][594]Cmd: MAP LOAD FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Maps/L_Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.12-02.01.17:270][594]LightingResults: New page: Lighting Build
+[2018.05.12-02.01.17:270][594]LoadErrors: New page: Loading map: L_Level01.umap
+[2018.05.12-02.01.17:271][594]MapCheck: New page: Map Check
+[2018.05.12-02.01.17:271][594]LightingResults: New page: Lighting Build
+[2018.05.12-02.01.17:300][594]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.12-02.01.17:303][594]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.12-02.01.17:336][594]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.12-02.01.17:385][594]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.321ms to complete.
+[2018.05.12-02.01.17:386][594]LogFileHelpers: Loading map 'L_Level01' took 0.118
+[2018.05.12-02.01.20:320][941]Cmd: MAP LOAD FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Maps/L_Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.12-02.01.20:320][941]LightingResults: New page: Lighting Build
+[2018.05.12-02.01.20:321][941]LoadErrors: New page: Loading map: L_Level01.umap
+[2018.05.12-02.01.20:321][941]MapCheck: New page: Map Check
+[2018.05.12-02.01.20:321][941]LightingResults: New page: Lighting Build
+[2018.05.12-02.01.20:346][941]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.12-02.01.20:348][941]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.12-02.01.20:380][941]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.12-02.01.20:426][941]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 45.902ms to complete.
+[2018.05.12-02.01.20:427][941]LogFileHelpers: Loading map 'L_Level01' took 0.107
+[2018.05.12-02.02.39:887][641]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.12-02.02.39:924][641]LogFMOD: Creating runtime Studio System
+[2018.05.12-02.02.39:926][641]LogFMOD: Default sample rate = 48000
+[2018.05.12-02.02.39:926][641]LogFMOD: System sample rate = 48000
+[2018.05.12-02.02.39:926][641]LogFMOD: Matching system sample rate 48000
+[2018.05.12-02.02.39:933][641]LogFMOD: Loading Banks
+[2018.05.12-02.02.39:976][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.12-02.02.39:976][641]PIE: New page: PIE session: L_Level01 (May 11, 2018, 6:02:39 PM)
+[2018.05.12-02.02.39:976][641]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.12-02.02.39:977][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001536s)
+[2018.05.12-02.02.39:978][641]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.12-02.02.39:978][641]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2018.05.12-02.02.39:978][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.002176s)
+[2018.05.12-02.02.39:997][641]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.12-02.02.40:003][641]LogInit: FAudioDevice initialized.
+[2018.05.12-02.02.40:044][641]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.12-02.02.40:046][641]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-22.02.40
+[2018.05.12-02.02.40:046][641]LogWorld: Bringing up level for play took: 0.001495
+[2018.05.12-02.02.40:047][641]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.12-02.02.40:047][641]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.12-02.02.40:047][641]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.12-02.02.40:048][641]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.12-02.02.40:050][641]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 -0.808
+[2018.05.12-02.03.52:975][369]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.12-02.05.19:959][956]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-02.05.22:588][260]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-02.05.25:204][566]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-02.05.26:793][745]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-02.05.30:342][163]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-02.05.30:425][173]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.12-02.05.30:484][173]LogFMOD: Creating runtime Studio System
+[2018.05.12-02.05.30:485][173]LogFMOD: Default sample rate = 48000
+[2018.05.12-02.05.30:486][173]LogFMOD: System sample rate = 48000
+[2018.05.12-02.05.30:486][173]LogFMOD: Matching system sample rate 48000
+[2018.05.12-02.05.30:492][173]LogFMOD: Loading Banks
+[2018.05.12-02.05.30:536][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.12-02.05.30:536][173]PIE: New page: PIE session: L_Level01 (May 11, 2018, 6:05:30 PM)
+[2018.05.12-02.05.30:536][173]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.12-02.05.30:538][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002131s)
+[2018.05.12-02.05.30:538][173]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.12-02.05.30:539][173]LogPlayLevel: PIE: World Init took: (0.000465s)
+[2018.05.12-02.05.30:539][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.002692s)
+[2018.05.12-02.05.30:566][173]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.12-02.05.30:571][173]LogInit: FAudioDevice initialized.
+[2018.05.12-02.05.30:614][173]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.12-02.05.30:616][173]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-22.05.30
+[2018.05.12-02.05.30:616][173]LogWorld: Bringing up level for play took: 0.001149
+[2018.05.12-02.05.30:617][173]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.12-02.05.30:617][173]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.12-02.05.30:617][173]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.12-02.05.30:617][173]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.12-02.05.30:620][173]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 -0.238
+[2018.05.12-02.06.11:416][ 43]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.12-02.07.11:847][835]LogSlate: Window 'BP_Bee_Redo' being destroyed
+[2018.05.12-02.07.11:852][835]LogSlate: Window 'BP_Bee_Redo' being destroyed
+[2018.05.12-02.07.37:436][269]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-02.07.40:398][619]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017cf1703eb0, Size=112, Default__CH_Bee_C Function /Game/Blueprints/CH_Bee.CH_Bee_C:ExecuteUbergraph_CH_Bee
+[2018.05.12-02.07.40:402][619]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017cf1703eb0, Size=112
+[2018.05.12-02.07.40:402][619]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017cf1703eb0, Size=112, Default__CH_Bee_C Function /Engine/Transient.REINST_CH_Bee_C_23:ExecuteUbergraph_CH_Bee
+[2018.05.12-02.07.40:406][619]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d2bbaa240, Size=112, Default__CH_Bee_C Function /Game/Blueprints/CH_Bee.CH_Bee_C:ExecuteUbergraph_CH_Bee
+[2018.05.12-02.10.00:724][399]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-02.10.00:831][412]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.12-02.10.00:884][412]LogFMOD: Creating runtime Studio System
+[2018.05.12-02.10.00:886][412]LogFMOD: Default sample rate = 48000
+[2018.05.12-02.10.00:886][412]LogFMOD: System sample rate = 48000
+[2018.05.12-02.10.00:886][412]LogFMOD: Matching system sample rate 48000
+[2018.05.12-02.10.00:893][412]LogFMOD: Loading Banks
+[2018.05.12-02.10.00:936][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.12-02.10.00:936][412]PIE: New page: PIE session: L_Level01 (May 11, 2018, 6:10:00 PM)
+[2018.05.12-02.10.00:936][412]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.12-02.10.00:939][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002194s)
+[2018.05.12-02.10.00:939][412]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.12-02.10.00:939][412]LogPlayLevel: PIE: World Init took: (0.000645s)
+[2018.05.12-02.10.00:939][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.002945s)
+[2018.05.12-02.10.00:956][412]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017cf1703eb0, Size=112
+[2018.05.12-02.10.00:963][412]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.12-02.10.00:968][412]LogInit: FAudioDevice initialized.
+[2018.05.12-02.10.01:016][412]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.12-02.10.01:018][412]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-22.10.01
+[2018.05.12-02.10.01:018][412]LogWorld: Bringing up level for play took: 0.000971
+[2018.05.12-02.10.01:018][412]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.12-02.10.01:018][412]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.12-02.10.01:018][412]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.12-02.10.01:019][412]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.12-02.10.01:023][412]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.165
+[2018.05.12-02.10.16:026][ 59]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.12-02.11.15:595][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-02.11.16:932][ 72]LogSlate: Window 'BP_Bee_Redo' being destroyed
+[2018.05.12-02.11.16:936][ 72]LogSlate: Window 'BP_Bee_Redo' being destroyed
+[2018.05.12-02.11.44:707][389]LogEditorViewport: Clicking on Actor (LMB): BP_Flower_C (BP_Flower5)
+[2018.05.12-02.11.45:648][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Flower_01)
+[2018.05.12-02.12.17:534][503]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.12-02.12.48:927][943]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d2ce1ec90, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.SKEL_BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.12-02.12.57:880][823]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-02.12.57:924][828]BlueprintLog: New page: Compile BP_Bee_Redo
+[2018.05.12-02.12.57:940][828]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d2ce1ec90, Size=4
+[2018.05.12-02.12.57:940][828]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d2698a428, Size=4, Default__SKEL_BP_Bee_Redo_C Function /Engine/Transient.REINST_SKEL_BP_Bee_Redo_C_27:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.12-02.12.57:955][828]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017ce9f3f200, Size=1408
+[2018.05.12-02.12.57:955][828]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d229deb00, Size=1408, Default__BP_Bee_Redo_C Function /Engine/Transient.REINST_BP_Bee_Redo_C_29:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.12-02.12.57:962][828]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017ce9f3f200, Size=1408, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.12-02.12.58:154][828]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d2698a428, Size=4
+[2018.05.12-02.12.58:818][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bee_Redo" FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Blueprints/BP_Bee_Redo.uasset" SILENT=true
+[2018.05.12-02.12.58:880][885]LogSavePackage: Save=55.91ms
+[2018.05.12-02.12.58:880][885]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/BP_Bee_Redo53CA2ECD4FC8D20AF869C9A52B190621.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Blueprints/BP_Bee_Redo.uasset'
+[2018.05.12-02.12.58:882][885]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Blueprints/BP_Bee_Redo.uasset
+[2018.05.12-02.13.00:624][ 60]LogSlate: Window 'BP_Bee_Redo' being destroyed
+[2018.05.12-02.13.01:554][163]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.12-02.13.01:594][163]LogFMOD: Creating runtime Studio System
+[2018.05.12-02.13.01:595][163]LogFMOD: Default sample rate = 48000
+[2018.05.12-02.13.01:595][163]LogFMOD: System sample rate = 48000
+[2018.05.12-02.13.01:595][163]LogFMOD: Matching system sample rate 48000
+[2018.05.12-02.13.01:602][163]LogFMOD: Loading Banks
+[2018.05.12-02.13.01:645][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.12-02.13.01:645][163]PIE: New page: PIE session: L_Level01 (May 11, 2018, 6:13:01 PM)
+[2018.05.12-02.13.01:645][163]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.12-02.13.01:647][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002039s)
+[2018.05.12-02.13.01:647][163]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.12-02.13.01:647][163]LogPlayLevel: PIE: World Init took: (0.000465s)
+[2018.05.12-02.13.01:647][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.002590s)
+[2018.05.12-02.13.01:662][163]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d229deb00, Size=1408
+[2018.05.12-02.13.01:668][163]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.12-02.13.01:673][163]LogInit: FAudioDevice initialized.
+[2018.05.12-02.13.01:714][163]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.12-02.13.01:715][163]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-22.13.01
+[2018.05.12-02.13.01:716][163]LogWorld: Bringing up level for play took: 0.001046
+[2018.05.12-02.13.01:716][163]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.12-02.13.01:716][163]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.12-02.13.01:716][163]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.12-02.13.01:717][163]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.12-02.13.01:720][163]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.862
+[2018.05.12-02.13.18:146][115]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.12-02.13.46:151][805]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-02.13.46:225][814]BlueprintLog: New page: Compile BP_Bee_Redo
+[2018.05.12-02.13.46:257][814]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017ce9f3f200, Size=1408
+[2018.05.12-02.13.46:257][814]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d3b6a6b00, Size=1408, Default__BP_Bee_Redo_C Function /Engine/Transient.REINST_BP_Bee_Redo_C_33:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.12-02.13.46:264][814]LogUObjectGlobals: Created PersistentFrame Addr=0x0000017d3bb04800, Size=1408, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.12-02.13.47:379][906]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bee_Redo" FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Blueprints/BP_Bee_Redo.uasset" SILENT=true
+[2018.05.12-02.13.47:439][906]LogSavePackage: Save=55.22ms
+[2018.05.12-02.13.47:439][906]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/BP_Bee_Redo058366A04C931FD0921401B1751315F5.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Blueprints/BP_Bee_Redo.uasset'
+[2018.05.12-02.13.47:441][906]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Blueprints/BP_Bee_Redo.uasset
+[2018.05.12-02.13.59:750][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Bee_Redo" FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Blueprints/BP_Bee_Redo.uasset" SILENT=true
+[2018.05.12-02.13.59:804][298]LogSavePackage: Save=49.34ms
+[2018.05.12-02.13.59:804][298]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/BP_Bee_Redo3C0D2FD341E08611973780A4D0A6247F.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Blueprints/BP_Bee_Redo.uasset'
+[2018.05.12-02.13.59:805][298]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Blueprints/BP_Bee_Redo.uasset
+[2018.05.12-02.14.01:302][467]LogSlate: Window 'BP_Bee_Redo' being destroyed
+[2018.05.12-02.14.01:307][467]LogSlate: Window 'BP_Bee_Redo' being destroyed
+[2018.05.12-02.14.01:997][543]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.05.12-02.14.02:534][600]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.12-02.14.02:590][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/L_Level01" FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Maps/L_Level01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.12-02.14.02:633][600]LogSavePackage: Save=24.32ms
+[2018.05.12-02.14.02:633][600]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/L_Level01D807899D47007C9FD51CBFB575C8699E.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Maps/L_Level01.umap'
+[2018.05.12-02.14.02:635][600]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Maps/L_Level01.umap
+[2018.05.12-02.14.02:653][600]LogFileHelpers: Saving map 'L_Level01' took 0.113
