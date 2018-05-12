@@ -173,7 +173,7 @@
             <value>pitch</value>
         </property>
         <property name="amount">
-            <value>2.5</value>
+            <value>7</value>
         </property>
     </object>
     <object class="FadeCurve" id="{7f8ae7e3-37e7-464b-90e8-dba777c081f5}">

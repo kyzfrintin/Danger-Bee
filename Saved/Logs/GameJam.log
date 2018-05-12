@@ -7389,3 +7389,14 @@ Converted Global Transform (-0.000000,-0.140271,-0.000000|0.145299,-0.000007,-13
 [2018.05.11-20.56.41:412][584]LogSlate: Window 'Snail_Squick' being destroyed
 [2018.05.11-20.56.45:707][ 87]LogSlate: Window 'Snail_Scream' being destroyed
 [2018.05.11-20.56.56:922][414]LogSlate: Window 'Plant_Rustle' being destroyed
+[2018.05.12-01.09.29:801][438]LogFMOD: File has changed: ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.12-01.09.29:902][438]LogFMOD: Loading strings bank: ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.12-01.09.29:904][438]LogFMOD: Skipping asset: bank:/Master Bank.strings
+[2018.05.12-01.09.29:904][438]LogFMOD: Constructing asset: /Game/FMOD/Events/Music
+[2018.05.12-01.09.29:904][438]LogFMOD: Skipping asset: bus:/
+[2018.05.12-01.09.29:906][438]LogFMOD: Default sample rate = 48000
+[2018.05.12-01.09.29:906][438]LogFMOD: System sample rate = 48000
+[2018.05.12-01.09.29:906][438]LogFMOD: Matching system sample rate 48000
+[2018.05.12-01.09.30:053][438]LogFMOD: Default sample rate = 48000
+[2018.05.12-01.09.30:053][438]LogFMOD: System sample rate = 48000
+[2018.05.12-01.09.30:053][438]LogFMOD: Matching system sample rate 48000
