@@ -819,3 +819,63 @@ LogInit: Object subsystem initialized
 [2018.05.12-22.48.15:115][919]SourceControl: fatal: C:/Games/UE_4.19/Engine/Content: 'C:/Games/UE_4.19/Engine/Content' is outside repository
 [2018.05.12-22.48.15:512][919]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/FMODStudio/Content/AnimNotify_FMODPlayEvent.uasset'. Attempt result was '../../../Engine/Plugins/FMODStudio/Content/AnimNotify_FMODPlayEvent', but the path contains illegal characters '.'
 [2018.05.12-22.48.15:516][919]EditorErrors: Warning: No assets to check in!
+[2018.05.12-22.51.19:065][996]LogSlate: Window 'Source Control Login' being destroyed
+[2018.05.12-22.52.53:489][883]LogSavePackage: Save=1082.72ms
+[2018.05.12-22.52.53:490][883]LogSavePackage: Moving '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Saved/L_LevelNicoleBigger2B0B3656B432AF39B0F12FAB6C2080BE1.tmp' to '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Maps/L_LevelNicoleBigger2.umap'
+[2018.05.12-22.52.53:495][883]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Maps/L_LevelNicoleBigger2.umap
+[2018.05.12-22.53.09:870][194]MapCheck: New page: Map Check
+[2018.05.12-22.53.09:896][194]Cmd: MAP REBUILD ALLVISIBLE
+[2018.05.12-22.53.09:896][194]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.05.12-22.53.10:758][194]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.05.12-22.53.10:758][194]MapCheck: New page: L_LevelNicoleBigger2 - 13 May 2018 00:53:10
+[2018.05.12-22.53.10:762][194]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2018.05.12-22.53.10:895][194]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 137.193ms to complete.
+[2018.05.12-22.53.10:930][194]LogEditorBuildUtils: Build time 0:01
+[2018.05.12-22.53.13:006][217]MapCheck: New page: Map Check
+[2018.05.12-22.53.13:777][217]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.05.12-22.53.13:778][217]MapCheck: New page: L_LevelNicoleBigger2 - 13 May 2018 00:53:13
+[2018.05.12-22.53.13:782][217]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2018.05.12-22.53.13:922][217]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 145.136ms to complete.
+[2018.05.12-22.53.13:947][217]LogEditorBuildUtils: Build time 0:00
+[2018.05.12-22.53.17:930][270]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.12-22.53.17:967][270]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/L_LevelNicoleBigger2.L_LevelNicoleBigger2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/L_LevelNicoleBigger2.L_LevelNicoleBigger2:PersistentLevel.L_LevelNicoleBigger2' with GeneratedClass '/Game/Maps/L_LevelNicoleBigger2.L_LevelNicoleBigger2_C' with ClassGeneratedBy '/Game/Maps/L_LevelNicoleBigger2.L_LevelNicoleBigger2:PersistentLevel.L_LevelNicoleBigger2'
+[2018.05.12-22.53.18:006][270]LogFMOD: Creating runtime Studio System
+[2018.05.12-22.53.18:009][270]LogFMOD: Default sample rate = 48000
+[2018.05.12-22.53.18:009][270]LogFMOD: System sample rate = 44100
+[2018.05.12-22.53.18:009][270]LogFMOD: Matching system sample rate 44100
+[2018.05.12-22.53.18:025][270]LogFMOD: Loading Banks
+[2018.05.12-22.53.18:069][270]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.12-22.53.18:069][270]PIE: New page: PIE session: L_LevelNicoleBigger2 (13 May 2018 00:53:18)
+[2018.05.12-22.53.18:070][270]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_LevelNicoleBigger2
+[2018.05.12-22.53.18:126][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056009s)
+[2018.05.12-22.53.18:127][270]LogAIModule: Creating AISystem for world L_LevelNicoleBigger2
+[2018.05.12-22.53.18:128][270]LogPlayLevel: PIE: World Init took: (0.002086s)
+[2018.05.12-22.53.18:128][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_LevelNicoleBigger2.L_LevelNicoleBigger2 to /Game/Maps/UEDPIE_0_L_LevelNicoleBigger2.L_LevelNicoleBigger2 (0.058662s)
+[2018.05.12-22.53.18:183][270]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.12-22.53.18:197][270]LogInit: FAudioDevice initialized.
+[2018.05.12-22.53.18:289][270]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.12-22.53.18:318][270]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_LevelNicoleBigger2.L_LevelNicoleBigger2 up for play (max tick rate 0) at 2018.05.12-23.53.18
+[2018.05.12-22.53.18:322][270]LogWorld: Bringing up level for play took: 0.032280
+[2018.05.12-22.53.18:327][270]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.12-22.53.18:327][270]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.12-22.53.18:327][270]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.12-22.53.18:374][270]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.12-22.53.18:385][270]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_LevelNicoleBigger2 1.125
+[2018.05.12-22.53.18:386][270]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/L_LevelNicoleBigger2.L_LevelNicoleBigger2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/L_LevelNicoleBigger2.L_LevelNicoleBigger2:PersistentLevel.L_LevelNicoleBigger2' with GeneratedClass '/Game/Maps/L_LevelNicoleBigger2.L_LevelNicoleBigger2_C' with ClassGeneratedBy '/Game/Maps/L_LevelNicoleBigger2.L_LevelNicoleBigger2:PersistentLevel.L_LevelNicoleBigger2'
+[2018.05.12-22.53.47:348][657]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/L_LevelNicoleBigger2.L_LevelNicoleBigger2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/L_LevelNicoleBigger2.L_LevelNicoleBigger2:PersistentLevel.L_LevelNicoleBigger2' with GeneratedClass '/Game/Maps/L_LevelNicoleBigger2.L_LevelNicoleBigger2_C' with ClassGeneratedBy '/Game/Maps/L_LevelNicoleBigger2.L_LevelNicoleBigger2:PersistentLevel.L_LevelNicoleBigger2'
+[2018.05.12-22.53.47:478][657]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.12-22.53.47:560][657]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/L_LevelNicoleBigger2.L_LevelNicoleBigger2:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/L_LevelNicoleBigger2.L_LevelNicoleBigger2:PersistentLevel.L_LevelNicoleBigger2' with GeneratedClass '/Game/Maps/L_LevelNicoleBigger2.L_LevelNicoleBigger2_C' with ClassGeneratedBy '/Game/Maps/L_LevelNicoleBigger2.L_LevelNicoleBigger2:PersistentLevel.L_LevelNicoleBigger2'
+[2018.05.12-22.54.08:097][876]LogSlate: Window 'Message Log' being destroyed
+[2018.05.12-22.54.08:100][876]LogSlate: Window 'Message Log' being destroyed
+[2018.05.12-22.54.18:853][ 16]SourceControl: fatal: C:/Games/UE_4.19/Engine/Content: 'C:/Games/UE_4.19/Engine/Content' is outside repository
+[2018.05.12-22.54.19:197][ 16]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/FMODStudio/Content/AnimNotify_FMODPlayEvent.uasset'. Attempt result was '../../../Engine/Plugins/FMODStudio/Content/AnimNotify_FMODPlayEvent', but the path contains illegal characters '.'
+[2018.05.12-22.54.21:653][ 16]LogSlate: Window 'Save Content' being destroyed
+[2018.05.12-22.54.23:249][ 16]LogSavePackage: Save=1133.55ms
+[2018.05.12-22.54.23:249][ 16]LogSavePackage: Moving '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Saved/L_LevelNicoleBigger2E213D6AB4B18F2F866F3929B77CD740F.tmp' to '../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Maps/L_LevelNicoleBigger2.umap'
+[2018.05.12-22.54.23:260][ 16]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Kyle/Documents/Unreal Projects/GameJam/Content/Maps/L_LevelNicoleBigger2.umap
+[2018.05.12-22.54.23:331][ 16]LogFileHelpers: Saving map 'L_LevelNicoleBigger2' took 1.401
+[2018.05.12-22.54.31:792][ 16]LogSlate: Window 'Submit Files' being destroyed
+[2018.05.12-22.54.32:590][ 16]LogSourceControl: commit successful: [master 22d9585] just chillin'
+[2018.05.12-22.54.32:755][ 16]SourceControl: [master 22d9585] just chillin'
+[2018.05.12-22.54.32:755][ 16]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2018.05.12-22.54.32:777][ 16]SourceControl: Commited [master 22d9585] just chillin'.
