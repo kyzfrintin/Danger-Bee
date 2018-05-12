@@ -7400,3 +7400,184 @@ Converted Global Transform (-0.000000,-0.140271,-0.000000|0.145299,-0.000007,-13
 [2018.05.12-01.09.30:053][438]LogFMOD: Default sample rate = 48000
 [2018.05.12-01.09.30:053][438]LogFMOD: System sample rate = 48000
 [2018.05.12-01.09.30:053][438]LogFMOD: Matching system sample rate 48000
+[2018.05.12-01.10.48:121][181]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.12-01.10.48:169][181]LogFMOD: Creating runtime Studio System
+[2018.05.12-01.10.48:171][181]LogFMOD: Default sample rate = 48000
+[2018.05.12-01.10.48:171][181]LogFMOD: System sample rate = 48000
+[2018.05.12-01.10.48:171][181]LogFMOD: Matching system sample rate 48000
+[2018.05.12-01.10.48:182][181]LogFMOD: Loading Banks
+[2018.05.12-01.10.48:221][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.12-01.10.48:222][181]PIE: New page: PIE session: L_Level01 (May 11, 2018, 5:10:48 PM)
+[2018.05.12-01.10.48:222][181]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.12-01.10.48:227][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005176s)
+[2018.05.12-01.10.48:228][181]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.12-01.10.48:229][181]LogPlayLevel: PIE: World Init took: (0.002003s)
+[2018.05.12-01.10.48:229][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.007464s)
+[2018.05.12-01.10.48:247][181]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.12-01.10.48:254][181]LogInit: FAudioDevice initialized.
+[2018.05.12-01.10.48:302][181]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.12-01.10.48:303][181]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-21.10.48
+[2018.05.12-01.10.48:304][181]LogWorld: Bringing up level for play took: 0.000946
+[2018.05.12-01.10.48:306][181]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.12-01.10.48:306][181]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.12-01.10.48:306][181]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.12-01.10.48:307][181]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.12-01.10.48:310][181]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 -0.548
+[2018.05.12-01.11.02:629][878]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.12-01.11.48:773][908]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.12-01.11.48:819][908]LogFMOD: Creating runtime Studio System
+[2018.05.12-01.11.48:821][908]LogFMOD: Default sample rate = 48000
+[2018.05.12-01.11.48:821][908]LogFMOD: System sample rate = 48000
+[2018.05.12-01.11.48:821][908]LogFMOD: Matching system sample rate 48000
+[2018.05.12-01.11.48:828][908]LogFMOD: Loading Banks
+[2018.05.12-01.11.48:869][908]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.12-01.11.48:869][908]PIE: New page: PIE session: L_Level01 (May 11, 2018, 5:11:48 PM)
+[2018.05.12-01.11.48:869][908]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.12-01.11.48:871][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001916s)
+[2018.05.12-01.11.48:872][908]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.12-01.11.48:872][908]LogPlayLevel: PIE: World Init took: (0.000474s)
+[2018.05.12-01.11.48:872][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.002477s)
+[2018.05.12-01.11.48:885][908]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.12-01.11.48:890][908]LogInit: FAudioDevice initialized.
+[2018.05.12-01.11.48:932][908]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.12-01.11.48:933][908]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-21.11.48
+[2018.05.12-01.11.48:933][908]LogWorld: Bringing up level for play took: 0.000589
+[2018.05.12-01.11.48:933][908]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.12-01.11.48:934][908]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.12-01.11.48:934][908]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.12-01.11.48:934][908]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.12-01.11.48:937][908]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.079
+[2018.05.12-01.12.05:190][840]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.12-01.13.23:784][748]LogFMOD: File has changed: ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.12-01.13.23:869][748]LogFMOD: Loading strings bank: ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.12-01.13.23:872][748]LogFMOD: Constructing asset: /Game/FMOD/Events/AMB/Ambience
+[2018.05.12-01.13.23:872][748]LogFMOD: Hiding old asset '/Game/FMOD/Events/Ambience.Ambience'
+[2018.05.12-01.13.23:874][748]LogFMOD: Skipping asset: bank:/Master Bank.strings
+[2018.05.12-01.13.23:874][748]LogFMOD: Constructing asset: /Game/FMOD/Events/MUS/Music
+[2018.05.12-01.13.23:874][748]LogFMOD: Hiding old asset '/Game/FMOD/Events/Music.Music'
+[2018.05.12-01.13.23:876][748]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Buzz
+[2018.05.12-01.13.23:876][748]LogFMOD: Hiding old asset '/Game/FMOD/Events/Buzz.Buzz'
+[2018.05.12-01.13.23:877][748]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Snail_Scream
+[2018.05.12-01.13.23:877][748]LogFMOD: Hiding old asset '/Game/FMOD/Events/Snail_Scream.Snail_Scream'
+[2018.05.12-01.13.23:878][748]LogFMOD: Skipping asset: bus:/
+[2018.05.12-01.13.23:878][748]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Sprinkler
+[2018.05.12-01.13.23:878][748]LogFMOD: Hiding old asset '/Game/FMOD/Events/Sprinkler.Sprinkler'
+[2018.05.12-01.13.23:879][748]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Snail_Bop
+[2018.05.12-01.13.23:879][748]LogFMOD: Hiding old asset '/Game/FMOD/Events/Snail_Bop.Snail_Bop'
+[2018.05.12-01.13.23:881][748]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Snail_Squick
+[2018.05.12-01.13.23:881][748]LogFMOD: Hiding old asset '/Game/FMOD/Events/Snail_Squick.Snail_Squick'
+[2018.05.12-01.13.23:882][748]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Plant_Rustle
+[2018.05.12-01.13.23:882][748]LogFMOD: Hiding old asset '/Game/FMOD/Events/Plant_Rustle.Plant_Rustle'
+[2018.05.12-01.13.23:885][748]LogFMOD: Default sample rate = 48000
+[2018.05.12-01.13.23:885][748]LogFMOD: System sample rate = 48000
+[2018.05.12-01.13.23:885][748]LogFMOD: Matching system sample rate 48000
+[2018.05.12-01.13.24:031][748]LogFMOD: Default sample rate = 48000
+[2018.05.12-01.13.24:031][748]LogFMOD: System sample rate = 48000
+[2018.05.12-01.13.24:031][748]LogFMOD: Matching system sample rate 48000
+[2018.05.12-01.13.26:971][953]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.05.12-01.13.27:010][953]LogFMOD: Creating runtime Studio System
+[2018.05.12-01.13.27:011][953]LogFMOD: Default sample rate = 48000
+[2018.05.12-01.13.27:011][953]LogFMOD: System sample rate = 48000
+[2018.05.12-01.13.27:011][953]LogFMOD: Matching system sample rate 48000
+[2018.05.12-01.13.27:018][953]LogFMOD: Loading Banks
+[2018.05.12-01.13.27:062][953]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.12-01.13.27:062][953]PIE: New page: PIE session: L_Level01 (May 11, 2018, 5:13:27 PM)
+[2018.05.12-01.13.27:062][953]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level01
+[2018.05.12-01.13.27:063][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001658s)
+[2018.05.12-01.13.27:064][953]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.12-01.13.27:064][953]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2018.05.12-01.13.27:064][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level01.L_Level01 to /Game/Maps/UEDPIE_0_L_Level01.L_Level01 (0.002392s)
+[2018.05.12-01.13.27:078][953]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.12-01.13.27:083][953]LogInit: FAudioDevice initialized.
+[2018.05.12-01.13.27:126][953]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.12-01.13.27:127][953]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level01.L_Level01 up for play (max tick rate 0) at 2018.05.11-21.13.27
+[2018.05.12-01.13.27:127][953]LogWorld: Bringing up level for play took: 0.000613
+[2018.05.12-01.13.27:128][953]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.12-01.13.27:128][953]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.12-01.13.27:128][953]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.12-01.13.27:128][953]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.12-01.13.27:132][953]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level01 0.273
+[2018.05.12-01.13.41:350][639]LogSlate: Window 'GameJam Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.05.12-01.14.52:367][238]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Nicole/Desktop/New folder/flower box.FBX)
+[2018.05.12-01.14.52:375][238]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.05.12-01.14.52:375][238]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.05.12-01.14.52:375][238]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.05.12-01.14.52:375][238]LogFbx: ItemName: Model, ItemCount : 1
+[2018.05.12-01.14.52:375][238]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.05.12-01.14.52:379][238]LogFbx: Loading FBX Scene from ../../../../../../Users/Nicole/Desktop/New folder/flower box.FBX
+[2018.05.12-01.14.52:387][238]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.12-01.14.53:867][238]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.12-01.14.53:890][238]LogFbx: Loading FBX Scene from ../../../../../../Users/Nicole/Desktop/New folder/flower box.FBX
+[2018.05.12-01.14.53:896][238]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.12-01.14.53:896][238]LogFbx: Warning: Triangulating static mesh Box001
+[2018.05.12-01.14.53:897][238]LogStaticMesh: Building static mesh flower_box...
+[2018.05.12-01.14.53:899][238]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/flower_box.flower_box
+[2018.05.12-01.14.53:911][238]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Nicole/Desktop/New folder/snail body.FBX)
+[2018.05.12-01.14.55:641][238]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.12-01.14.55:665][238]LogFbx: Loading FBX Scene from ../../../../../../Users/Nicole/Desktop/New folder/snail body.FBX
+[2018.05.12-01.14.55:670][238]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.12-01.14.55:670][238]LogFbx: Warning: Triangulating static mesh Cylinder002
+[2018.05.12-01.14.55:672][238]LogStaticMesh: Building static mesh snail_body...
+[2018.05.12-01.14.55:673][238]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/snail_body.snail_body
+[2018.05.12-01.14.55:683][238]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Nicole/Desktop/New folder/Snail.FBX)
+[2018.05.12-01.15.02:681][238]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.12-01.15.02:710][238]LogFbx: Loading FBX Scene from ../../../../../../Users/Nicole/Desktop/New folder/Snail.FBX
+[2018.05.12-01.15.02:715][238]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.12-01.15.02:716][238]LogStaticMesh: Building static mesh Snail...
+[2018.05.12-01.15.02:717][238]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/Snail.Snail
+[2018.05.12-01.15.02:728][238]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Nicole/Desktop/New folder/sprinkler pipe.FBX)
+[2018.05.12-01.15.03:422][238]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.12-01.15.03:447][238]LogFbx: Loading FBX Scene from ../../../../../../Users/Nicole/Desktop/New folder/sprinkler pipe.FBX
+[2018.05.12-01.15.03:452][238]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.12-01.15.03:453][238]LogFbx: Warning: Triangulating static mesh Box004
+[2018.05.12-01.15.03:454][238]LogStaticMesh: Building static mesh sprinkler_pipe...
+[2018.05.12-01.15.03:455][238]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/sprinkler_pipe.sprinkler_pipe
+[2018.05.12-01.15.06:518][582]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/L_Level01' took 0.008
+[2018.05.12-01.15.06:521][582]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/flower_box] ([1] browsable assets)...
+[2018.05.12-01.15.06:529][582]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/flower_box.flower_box]
+[2018.05.12-01.15.06:529][582]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/flower_box]
+[2018.05.12-01.15.06:539][582]LogSavePackage: Save=9.02ms
+[2018.05.12-01.15.06:539][582]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/flower_box_Auto06B93293641D6BA287A08BCB9B99C1F2C.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/flower_box_Auto0.uasset'
+[2018.05.12-01.15.06:540][582]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/flower_box_Auto0.uasset
+[2018.05.12-01.15.06:541][582]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/snail_body] ([1] browsable assets)...
+[2018.05.12-01.15.06:549][582]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/snail_body.snail_body]
+[2018.05.12-01.15.06:549][582]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/snail_body]
+[2018.05.12-01.15.06:558][582]LogSavePackage: Save=8.23ms
+[2018.05.12-01.15.06:558][582]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/snail_body_Auto0041DFCE5478D5DAE379DE1881F9DB8A6.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/snail_body_Auto0.uasset'
+[2018.05.12-01.15.06:560][582]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/snail_body_Auto0.uasset
+[2018.05.12-01.15.06:560][582]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/Snail] ([1] browsable assets)...
+[2018.05.12-01.15.06:569][582]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/Snail.Snail]
+[2018.05.12-01.15.06:569][582]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/Snail]
+[2018.05.12-01.15.06:569][582]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/Snail" FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/Snail_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-01.15.06:579][582]LogSavePackage: Save=9.13ms
+[2018.05.12-01.15.06:579][582]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Snail_Auto0C1F42C2A4241273BCC2500A317F24AE7.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/Snail_Auto0.uasset'
+[2018.05.12-01.15.06:580][582]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/Snail_Auto0.uasset
+[2018.05.12-01.15.06:580][582]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/sprinkler_pipe] ([1] browsable assets)...
+[2018.05.12-01.15.06:589][582]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/sprinkler_pipe.sprinkler_pipe]
+[2018.05.12-01.15.06:589][582]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/sprinkler_pipe]
+[2018.05.12-01.15.06:599][582]LogSavePackage: Save=8.82ms
+[2018.05.12-01.15.06:599][582]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/sprinkler_pipe_Auto0DE08BCA54409EAB82ACE17902B312B5A.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/sprinkler_pipe_Auto0.uasset'
+[2018.05.12-01.15.06:600][582]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/sprinkler_pipe_Auto0.uasset
+[2018.05.12-01.15.06:600][582]LogFileHelpers: Auto-saving content packages took 0.081
+[2018.05.12-01.15.13:234][319]LogSlate: Window 'flower_box*' being destroyed
+[2018.05.12-01.15.13:239][319]LogSlate: Window 'flower_box*' being destroyed
+[2018.05.12-01.15.31:551][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/SM_SquareFlowerpot_01" FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/Meshes/SM_SquareFlowerpot_01.uasset" SILENT=true
+[2018.05.12-01.15.31:561][495]LogSavePackage: Save=8.49ms
+[2018.05.12-01.15.31:561][495]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/SM_SquareFlowerpot_0173CA0E7C4B03C68C786599A6122E7213.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/Meshes/SM_SquareFlowerpot_01.uasset'
+[2018.05.12-01.15.31:562][495]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/Meshes/SM_SquareFlowerpot_01.uasset
+[2018.05.12-01.15.44:452][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/SM_SnailShell_01" FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/Meshes/SM_SnailShell_01.uasset" SILENT=true
+[2018.05.12-01.15.44:463][ 14]LogSavePackage: Save=9.22ms
+[2018.05.12-01.15.44:463][ 14]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/SM_SnailShell_016BE951CE45A2F8F803B037A630C443BD.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/Meshes/SM_SnailShell_01.uasset'
+[2018.05.12-01.15.44:464][ 14]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/Meshes/SM_SnailShell_01.uasset
+[2018.05.12-01.15.47:785][357]LogSlate: Window 'snail_body*' being destroyed
+[2018.05.12-01.15.47:789][357]LogSlate: Window 'snail_body*' being destroyed
+[2018.05.12-01.15.57:333][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/SM_SnailBody_01" FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/Meshes/SM_SnailBody_01.uasset" SILENT=true
+[2018.05.12-01.15.57:343][480]LogSavePackage: Save=8.32ms
+[2018.05.12-01.15.57:343][480]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/SM_SnailBody_01E4EF4F944472F12A40225491BC6FD406.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/Meshes/SM_SnailBody_01.uasset'
+[2018.05.12-01.15.57:345][480]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/Meshes/SM_SnailBody_01.uasset
+[2018.05.12-01.16.08:329][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/SM_SprinklerPipe_01" FILE="../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/Meshes/SM_SprinklerPipe_01.uasset" SILENT=true
+[2018.05.12-01.16.08:339][772]LogSavePackage: Save=8.69ms
+[2018.05.12-01.16.08:339][772]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/SM_SprinklerPipe_01EA3A6E874DDB18816EEF66B8B3CD3781.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/Meshes/SM_SprinklerPipe_01.uasset'
+[2018.05.12-01.16.08:341][772]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Assets/Meshes/SM_SprinklerPipe_01.uasset
+[2018.05.12-01.16.15:470][292]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.05.12-01.16.17:601][531]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
