@@ -1,0 +1,1080 @@
+﻿Log file open, 05/11/18 19:26:39
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: GameJam
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(993898974) SRandInit(993898974).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.958486
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudio.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudioEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin FMODStudio
+LogStreaming: Display: Took  2.158s to configure plugins.
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-313A1NQ (192.168.2.25:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.05.11-23.26.41:653][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.11-23.26.41:653][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.11-23.26.41:682][  0]LogInit: Computer: DESKTOP-313A1NQ
+[2018.05.11-23.26.41:682][  0]LogInit: User: vikky
+[2018.05.11-23.26.41:682][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.11-23.26.41:682][  0]LogInit: High frequency timer resolution =3.328131 MHz
+[2018.05.11-23.26.41:682][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.05.11-23.26.41:682][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.11-23.26.41:682][  0]LogMemory: Process Physical Memory: 275.59 MB used, 275.59 MB peak
+[2018.05.11-23.26.41:682][  0]LogMemory: Process Virtual Memory: 264.53 MB used, 264.53 MB peak
+[2018.05.11-23.26.41:682][  0]LogMemory: Physical Memory: 7749.54 MB used,  8570.17 MB free, 16319.71 MB total
+[2018.05.11-23.26.41:682][  0]LogMemory: Virtual Memory: 693.29 MB used,  8570.17 MB free, 134217728.00 MB total
+[2018.05.11-23.26.41:986][  0]LogInit: Using OS detected language (en-US).
+[2018.05.11-23.26.41:986][  0]LogInit: Using OS detected locale (en-CA).
+[2018.05.11-23.26.42:049][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.05.11-23.26.42:528][  0]LogStreaming: Display: Took  0.541s to EndInitTextLocalization.
+[2018.05.11-23.26.42:530][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.11-23.26.42:631][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.05.11-23.26.42:631][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.05.11-23.26.44:767][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.11-23.26.44:819][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2018.05.11-23.26.44:819][  0]LogD3D11RHI:       2016/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.05.11-23.26.44:823][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.11-23.26.44:823][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.11-23.26.44:823][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.11-23.26.44:832][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.11-23.26.44:833][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.11-23.26.44:833][  0]LogWindows: EnumDisplayDevices:
+[2018.05.11-23.26.44:833][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2018.05.11-23.26.44:833][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.05.11-23.26.44:833][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.05.11-23.26.44:833][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.05.11-23.26.44:833][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.11-23.26.44:833][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2018.05.11-23.26.44:833][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.11-23.26.44:833][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.11-23.26.44:834][  0]LogRHI: Texture pool is 1411 MB (70% of 2016 MB)
+[2018.05.11-23.26.44:866][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.05.11-23.26.44:866][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.05.11-23.26.44:866][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.11-23.26.44:953][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.05.11-23.26.45:010][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Intermediate/Shaders/WorkingDirectory/11720/).
+[2018.05.11-23.26.45:011][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/vikky/AppData/Local/Temp/UnrealShaderWorkingDir/AE2B1190469F6E5D3764D38CA9E0C053/'.
+[2018.05.11-23.26.45:623][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.11-23.26.45:636][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.11-23.26.45:648][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.11-23.26.45:660][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.11-23.26.45:678][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.11-23.26.45:690][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.11-23.26.45:703][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.11-23.26.45:716][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.11-23.26.45:721][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.11-23.26.45:733][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.11-23.26.45:744][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.11-23.26.45:757][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.11-23.26.45:769][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.05.11-23.26.45:780][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.11-23.26.45:791][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.11-23.26.45:813][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.11-23.26.45:814][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.11-23.26.45:829][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.11-23.26.45:831][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.11-23.26.45:890][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.11-23.26.45:902][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.11-23.26.45:913][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.11-23.26.45:926][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.11-23.26.45:936][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.11-23.26.45:952][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.11-23.26.45:952][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.11-23.26.46:332][  0]LogXGEController: Cleaning working directory: C:/Users/vikky/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.05.11-23.26.46:332][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.05.11-23.26.46:333][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.05.11-23.26.46:333][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.11-23.26.48:102][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.11-23.26.48:409][  0]LogDerivedDataCache: Loaded boot cache 0.31s 74MB C:/Users/vikky/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.11-23.26.48:409][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/vikky/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.05.11-23.26.48:409][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.11-23.26.48:409][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.11-23.26.48:409][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.11-23.26.48:409][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.11-23.26.48:435][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.11-23.26.48:447][  0]LogDerivedDataCache: Using Local data cache path C:/Users/vikky/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.11-23.26.48:447][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.05.11-23.26.48:447][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.05.11-23.26.48:461][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.11-23.26.48:470][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.11-23.26.48:489][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.11-23.26.48:489][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.11-23.26.51:103][  0]LogAssetRegistry: FAssetRegistry took 0.0296 seconds to start up
+[2018.05.11-23.26.51:540][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.11-23.26.51:938][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.11-23.26.51:944][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.11-23.26.51:946][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.11-23.26.51:947][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.11-23.26.51:947][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.11-23.26.51:947][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.11-23.26.52:034][  0]LogNetVersion: GameJam , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2281863040)
+[2018.05.11-23.26.53:388][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 2 prioritized culture(s) in 0.090807 seconds
+[2018.05.11-23.26.53:394][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.05.11-23.26.53:394][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.05.11-23.26.53:394][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.11-23.26.58:636][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.11-23.26.58:663][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.11-23.26.58:890][  0]LogFMOD: FFMODStudioModule startup
+[2018.05.11-23.26.58:890][  0]LogFMOD:  Lib path = '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Plugins/FMODStudio/Binaries'
+[2018.05.11-23.26.58:890][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Plugins/FMODStudio/Binaries/Win64/fmodL64.dll
+[2018.05.11-23.26.58:926][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Plugins/FMODStudio/Binaries/Win64/fmodstudioL64.dll
+[2018.05.11-23.26.59:014][  0]LogFMOD: Loading strings bank: ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.11-23.26.59:025][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Ambience
+[2018.05.11-23.26.59:027][  0]LogFMOD: Skipping asset: bank:/Master Bank.strings
+[2018.05.11-23.26.59:027][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Music
+[2018.05.11-23.26.59:027][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Buzz
+[2018.05.11-23.26.59:027][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Snail_Scream
+[2018.05.11-23.26.59:027][  0]LogFMOD: Skipping asset: bus:/
+[2018.05.11-23.26.59:027][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Sprinkler
+[2018.05.11-23.26.59:027][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Snail_Bop
+[2018.05.11-23.26.59:027][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/Master_Bank
+[2018.05.11-23.26.59:027][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Reverb
+[2018.05.11-23.26.59:027][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Snail_Squick
+[2018.05.11-23.26.59:027][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/Plant_Rustle
+[2018.05.11-23.26.59:029][  0]LogFMOD: Default sample rate = 48000
+[2018.05.11-23.26.59:029][  0]LogFMOD: System sample rate = 48000
+[2018.05.11-23.26.59:029][  0]LogFMOD: Matching system sample rate 48000
+[2018.05.11-23.26.59:044][  0]LogFMOD: Default sample rate = 48000
+[2018.05.11-23.26.59:044][  0]LogFMOD: System sample rate = 48000
+[2018.05.11-23.26.59:044][  0]LogFMOD: Matching system sample rate 48000
+[2018.05.11-23.26.59:249][  0]SourceControl: Source control is disabled
+[2018.05.11-23.26.59:250][  0]SourceControl: Source control is disabled
+[2018.05.11-23.26.59:266][  0]SourceControl: Source control is disabled
+[2018.05.11-23.26.59:282][  0]SourceControl: Source control is disabled
+[2018.05.11-23.26.59:776][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.11-23.26.59:890][  0]LogOcInput: OculusInput pre-init called
+[2018.05.11-23.26.59:955][  0]LogFMOD: FFMODStudioEditorModule startup
+[2018.05.11-23.27.00:084][  0]LogEngine: Initializing Engine...
+[2018.05.11-23.27.00:090][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.11-23.27.00:094][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.11-23.27.00:094][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.11-23.27.00:567][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.11-23.27.00:584][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.11-23.27.00:598][  0]LogInit: FAudioDevice initialized.
+[2018.05.11-23.27.00:673][  0]LogDerivedDataCache: Saved boot cache 0.07s 74MB C:/Users/vikky/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.11-23.27.00:685][  0]LogInit: Texture streaming: Enabled
+[2018.05.11-23.27.00:704][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.11-23.27.00:730][  0]LogInit: Transaction tracking system initialized
+[2018.05.11-23.27.00:790][  0]BlueprintLog: New page: Editor Load
+[2018.05.11-23.27.00:980][  0]LocalizationService: Localization service is disabled
+[2018.05.11-23.27.01:199][  0]LogConsoleResponse: Display: 
+[2018.05.11-23.27.01:621][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.11-23.27.01:621][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vikky/Documents/GitHub/Danger-Bee/Content/' took 0.02s
+[2018.05.11-23.27.01:621][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.11-23.27.01:621][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.11-23.27.01:621][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.11-23.27.01:621][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.11-23.27.02:143][  0]SourceControl: Source control is disabled
+[2018.05.11-23.27.02:147][  0]Cmd: MAP LOAD FILE="../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Maps/L_Level01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.11-23.27.02:149][  0]LightingResults: New page: Lighting Build
+[2018.05.11-23.27.02:160][  0]MapCheck: New page: Map Check
+[2018.05.11-23.27.02:160][  0]LightingResults: New page: Lighting Build
+[2018.05.11-23.27.02:447][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ea13b7900, Size=1312, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-23.27.02:458][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ea13b7900, Size=1312
+[2018.05.11-23.27.02:458][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024ea138e400, Size=1312, Default__BP_Bee_Redo_C Function /Engine/Transient.REINST_BP_Bee_Redo_C_5:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-23.27.02:465][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024e97a56400, Size=1312, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.11-23.27.02:695][  0]LogAIModule: Creating AISystem for world L_Level01
+[2018.05.11-23.27.02:721][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.11-23.27.02:737][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024ea138e400, Size=1312
+[2018.05.11-23.27.02:740][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.11-23.27.02:783][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 43.12ms to complete.
+[2018.05.11-23.27.02:783][  0]LogFileHelpers: Loading map 'L_Level01' took 0.637
+[2018.05.11-23.27.03:042][  0]LogCollectionManager: Loaded 0 collections in 0.001628 seconds
+[2018.05.11-23.27.03:116][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vikky/Documents/GitHub/Danger-Bee/Saved/Collections/' took 0.01s
+[2018.05.11-23.27.03:116][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vikky/Documents/GitHub/Danger-Bee/Content/Developers/vikky/Collections/' took 0.01s
+[2018.05.11-23.27.03:116][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vikky/Documents/GitHub/Danger-Bee/Content/Collections/' took 0.01s
+[2018.05.11-23.27.03:116][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.05.11-23.27.03:127][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2471 classes and 568 folders.
+[2018.05.11-23.27.03:140][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.11-23.27.03:608][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.05.11-23.27.03:629][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.05.11-23.27.03:874][  0]LogSlate: Took 0.004922 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.11-23.27.03:883][  0]LogSlate: Took 0.004691 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.11-23.27.03:891][  0]LogSlate: Took 0.004976 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.11-23.27.04:007][  0]LogRenderer: Reallocating scene render targets to support 1428x572 Format 10 NumSamples 1 (Frame:1).
+[2018.05.11-23.27.04:089][  0]LogSlate: Took 0.008053 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.11-23.27.04:197][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.11-23.27.04:197][  0]LogLoad: (Engine Initialization) Total time: 29.19 seconds
+[2018.05.11-23.27.04:197][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.11-23.27.04:586][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.11-23.27.04:665][  1]LogFMOD: File has changed: ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.11-23.27.04:758][  1]LogFMOD: Loading strings bank: ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.11-23.27.04:760][  1]LogFMOD: Skipping asset: bank:/Master Bank.strings
+[2018.05.11-23.27.04:760][  1]LogFMOD: Skipping asset: bus:/
+[2018.05.11-23.27.04:760][  1]LogFMOD: Default sample rate = 48000
+[2018.05.11-23.27.04:761][  1]LogFMOD: System sample rate = 48000
+[2018.05.11-23.27.04:761][  1]LogFMOD: Matching system sample rate 48000
+[2018.05.11-23.27.04:909][  1]LogFMOD: Default sample rate = 48000
+[2018.05.11-23.27.04:909][  1]LogFMOD: System sample rate = 48000
+[2018.05.11-23.27.04:909][  1]LogFMOD: Matching system sample rate 48000
+[2018.05.11-23.27.04:966][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/vikky/Documents/GitHub/Danger-Bee/Content/' took 0.40s
+[2018.05.11-23.27.04:977][  1]LogAssetRegistry: Asset discovery search completed in 13.8955 seconds
+[2018.05.11-23.27.04:979][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.11-23.27.04:979][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000073 seconds (updated 0 objects)
+[2018.05.11-23.27.06:899][216]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.11-23.27.11:785][793]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.11-23.27.16:191][266]LogSlate: Window 'Music' being destroyed
+[2018.05.11-23.28.11:053][ 27]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(664) - Event {1461c083-6fca-44cf-806e-61843867978b} has waited 10.0 seconds for DSP graph to go idle - check for plugins that may be keeping it active
+
+[2018.05.11-23.40.19:055][241]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_CurvedCeiling_16x16_01.FBX)
+[2018.05.11-23.40.19:090][241]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.05.11-23.40.19:090][241]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.05.11-23.40.19:090][241]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.05.11-23.40.19:090][241]LogFbx: ItemName: Model, ItemCount : 1
+[2018.05.11-23.40.19:090][241]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.05.11-23.40.19:101][241]LogFbx: Loading FBX Scene from ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_CurvedCeiling_16x16_01.FBX
+[2018.05.11-23.40.19:111][241]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-23.40.29:068][241]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.11-23.40.29:133][241]LogFbx: Loading FBX Scene from ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_CurvedCeiling_16x16_01.FBX
+[2018.05.11-23.40.29:139][241]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-23.40.29:143][241]LogStaticMesh: Building static mesh SM_CurvedCeiling_16x16_01...
+[2018.05.11-23.40.29:146][241]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/SM_CurvedCeiling_16x16_01.SM_CurvedCeiling_16x16_01
+[2018.05.11-23.40.29:161][241]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_Wall_16x16_01.FBX)
+[2018.05.11-23.40.30:054][241]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.11-23.40.30:088][241]LogFbx: Loading FBX Scene from ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_Wall_16x16_01.FBX
+[2018.05.11-23.40.30:094][241]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-23.40.30:107][241]LogStaticMesh: Building static mesh SM_Wall_16x16_01...
+[2018.05.11-23.40.30:108][241]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Meshes/SM_Wall_16x16_01.SM_Wall_16x16_01
+[2018.05.11-23.40.30:116][241]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_TulipHead_01.FBX)
+[2018.05.11-23.40.30:129][241]LogFbx: Loading FBX Scene from ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_TulipHead_01.FBX
+[2018.05.11-23.40.30:136][241]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-23.40.30:136][241]LogFbx: Warning: Triangulating static mesh SM_TulipHead_01
+[2018.05.11-23.40.30:141][241]LogStaticMesh: Building static mesh SM_TulipHead_01...
+[2018.05.11-23.40.30:144][241]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/SM_TulipHead_01.SM_TulipHead_01
+[2018.05.11-23.40.30:152][241]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_Tomato_01.FBX)
+[2018.05.11-23.40.30:161][241]LogFbx: Loading FBX Scene from ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_Tomato_01.FBX
+[2018.05.11-23.40.30:166][241]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-23.40.30:166][241]LogFbx: Warning: Triangulating static mesh SM_Tomato_01
+[2018.05.11-23.40.30:169][241]LogStaticMesh: Building static mesh SM_Tomato_01...
+[2018.05.11-23.40.30:171][241]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/SM_Tomato_01.SM_Tomato_01
+[2018.05.11-23.40.30:180][241]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_Table_3x3x6_01.FBX)
+[2018.05.11-23.40.30:190][241]LogFbx: Loading FBX Scene from ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_Table_3x3x6_01.FBX
+[2018.05.11-23.40.30:195][241]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-23.40.30:195][241]LogFbx: Warning: Triangulating static mesh SM_Table_01
+[2018.05.11-23.40.30:196][241]LogStaticMesh: Building static mesh SM_Table_3x3x6_01...
+[2018.05.11-23.40.30:197][241]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/SM_Table_3x3x6_01.SM_Table_3x3x6_01
+[2018.05.11-23.40.30:203][241]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_PollenBit_01.FBX)
+[2018.05.11-23.40.30:216][241]LogFbx: Loading FBX Scene from ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_PollenBit_01.FBX
+[2018.05.11-23.40.30:222][241]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-23.40.30:223][241]LogFbx: Warning: Triangulating static mesh SM_Pollen_01
+[2018.05.11-23.40.30:224][241]LogStaticMesh: Building static mesh SM_PollenBit_01...
+[2018.05.11-23.40.30:226][241]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/SM_PollenBit_01.SM_PollenBit_01
+[2018.05.11-23.40.30:230][241]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.05.11-23.40.30:248][241]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_GrassMeshes_01.FBX)
+[2018.05.11-23.40.30:259][241]LogFbx: Loading FBX Scene from ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_GrassMeshes_01.FBX
+[2018.05.11-23.40.30:266][241]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-23.40.30:267][241]LogFbx: Warning: Triangulating static mesh SM_GrassBlade_Med_01
+[2018.05.11-23.40.30:268][241]LogStaticMesh: Building static mesh SM_GrassMeshes_01_SM_GrassBlade_Med_01...
+[2018.05.11-23.40.30:269][241]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Med_01.SM_GrassMeshes_01_SM_GrassBlade_Med_01
+[2018.05.11-23.40.30:271][241]LogStaticMesh: Building static mesh SM_GrassMeshes_01_SM_GrassBlade_Sm_01...
+[2018.05.11-23.40.30:272][241]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Sm_01.SM_GrassMeshes_01_SM_GrassBlade_Sm_01
+[2018.05.11-23.40.30:273][241]LogStaticMesh: Building static mesh SM_GrassMeshes_01_SM_GrassBlade_Sm_02...
+[2018.05.11-23.40.30:274][241]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Sm_02.SM_GrassMeshes_01_SM_GrassBlade_Sm_02
+[2018.05.11-23.40.30:275][241]LogFbx: Warning: Triangulating static mesh SM_GrassBlade_Long_01
+[2018.05.11-23.40.30:277][241]LogStaticMesh: Building static mesh SM_GrassMeshes_01_SM_GrassBlade_Long_01...
+[2018.05.11-23.40.30:277][241]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Long_01.SM_GrassMeshes_01_SM_GrassBlade_Long_01
+[2018.05.11-23.40.30:290][241]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_FlowerHead_01.FBX)
+[2018.05.11-23.40.30:301][241]LogFbx: Loading FBX Scene from ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_FlowerHead_01.FBX
+[2018.05.11-23.40.30:306][241]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-23.40.30:306][241]LogFbx: Warning: Triangulating static mesh SM_FlowerHead_01
+[2018.05.11-23.40.30:309][241]LogStaticMesh: Building static mesh SM_FlowerHead_01_SM_FlowerHead_01...
+[2018.05.11-23.40.30:313][241]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Meshes/SM_FlowerHead_01_SM_FlowerHead_01.SM_FlowerHead_01_SM_FlowerHead_01
+[2018.05.11-23.40.30:320][241]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_Flower_02.FBX)
+[2018.05.11-23.40.30:328][241]LogFbx: Loading FBX Scene from ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_Flower_02.FBX
+[2018.05.11-23.40.30:333][241]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-23.40.30:333][241]LogFbx: Warning: Triangulating static mesh SM_Flower2
+[2018.05.11-23.40.30:337][241]LogStaticMesh: Building static mesh SM_Flower_02_SM_Flower2...
+[2018.05.11-23.40.30:342][241]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Meshes/SM_Flower_02_SM_Flower2.SM_Flower_02_SM_Flower2
+[2018.05.11-23.40.30:350][241]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_Flower_01.FBX)
+[2018.05.11-23.40.30:358][241]LogFbx: Loading FBX Scene from ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_Flower_01.FBX
+[2018.05.11-23.40.30:363][241]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-23.40.30:364][241]LogFbx: Warning: Triangulating static mesh SM_Flower1
+[2018.05.11-23.40.30:366][241]LogStaticMesh: Building static mesh SM_Flower_01_SM_Flower1...
+[2018.05.11-23.40.30:370][241]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/SM_Flower_01_SM_Flower1.SM_Flower_01_SM_Flower1
+[2018.05.11-23.40.30:378][241]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_Cucumber_01.FBX)
+[2018.05.11-23.40.30:386][241]LogFbx: Loading FBX Scene from ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_Cucumber_01.FBX
+[2018.05.11-23.40.30:392][241]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-23.40.30:392][241]LogFbx: Warning: Triangulating static mesh SM_Cucumber_01
+[2018.05.11-23.40.30:393][241]LogStaticMesh: Building static mesh SM_Cucumber_01_SM_Cucumber_01...
+[2018.05.11-23.40.30:396][241]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/SM_Cucumber_01_SM_Cucumber_01.SM_Cucumber_01_SM_Cucumber_01
+[2018.05.11-23.40.30:404][241]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_BeeWing_02.FBX)
+[2018.05.11-23.40.30:412][241]LogFbx: Loading FBX Scene from ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_BeeWing_02.FBX
+[2018.05.11-23.40.30:417][241]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-23.40.30:417][241]LogFbx: Warning: Triangulating static mesh SM_BeeWing_R
+[2018.05.11-23.40.30:418][241]LogStaticMesh: Building static mesh SM_BeeWing_02_SM_BeeWing_R...
+[2018.05.11-23.40.30:418][241]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/SM_BeeWing_02_SM_BeeWing_R.SM_BeeWing_02_SM_BeeWing_R
+[2018.05.11-23.40.30:427][241]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_BeeBody_02.FBX)
+[2018.05.11-23.40.30:439][241]LogFbx: Loading FBX Scene from ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_BeeBody_02.FBX
+[2018.05.11-23.40.30:444][241]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-23.40.30:445][241]LogFbx: Warning: Triangulating static mesh SM_Bee001
+[2018.05.11-23.40.30:448][241]LogStaticMesh: Building static mesh SM_BeeBody_02_SM_Bee001...
+[2018.05.11-23.40.30:451][241]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/SM_BeeBody_02_SM_Bee001.SM_BeeBody_02_SM_Bee001
+[2018.05.11-23.40.30:463][241]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_BeeBody_01.FBX)
+[2018.05.11-23.40.30:470][241]LogFbx: Loading FBX Scene from ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_BeeBody_01.FBX
+[2018.05.11-23.40.30:476][241]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-23.40.30:477][241]LogStaticMesh: Building static mesh SM_BeeBody_01_SM_Bee...
+[2018.05.11-23.40.30:479][241]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/SM_BeeBody_01_SM_Bee.SM_BeeBody_01_SM_Bee
+[2018.05.11-23.40.30:491][241]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_BeeHead_01.FBX)
+[2018.05.11-23.40.30:498][241]LogFbx: Loading FBX Scene from ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_BeeHead_01.FBX
+[2018.05.11-23.40.30:504][241]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-23.40.30:505][241]LogFbx: Warning: Triangulating static mesh SM_Bee001
+[2018.05.11-23.40.30:506][241]LogStaticMesh: Building static mesh SM_BeeHead_01_SM_Bee001...
+[2018.05.11-23.40.30:508][241]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/SM_BeeHead_01_SM_Bee001.SM_BeeHead_01_SM_Bee001
+[2018.05.11-23.40.30:512][241]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.05.11-23.40.30:520][241]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_BeeStinger_01.FBX)
+[2018.05.11-23.40.30:528][241]LogFbx: Loading FBX Scene from ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_BeeStinger_01.FBX
+[2018.05.11-23.40.30:532][241]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-23.40.30:533][241]LogFbx: Warning: Triangulating static mesh SM_Stinger
+[2018.05.11-23.40.30:535][241]LogStaticMesh: Building static mesh SM_BeeStinger_01_SM_Stinger...
+[2018.05.11-23.40.30:537][241]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/SM_BeeStinger_01_SM_Stinger.SM_BeeStinger_01_SM_Stinger
+[2018.05.11-23.40.30:548][241]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_BeeWing_01.FBX)
+[2018.05.11-23.40.30:556][241]LogFbx: Loading FBX Scene from ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_BeeWing_01.FBX
+[2018.05.11-23.40.30:561][241]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-23.40.30:562][241]LogFbx: Warning: Triangulating static mesh SM_BeeWing_L
+[2018.05.11-23.40.30:562][241]LogStaticMesh: Building static mesh SM_BeeWing_01_SM_BeeWing_L...
+[2018.05.11-23.40.30:563][241]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/SM_BeeWing_01_SM_BeeWing_L.SM_BeeWing_01_SM_BeeWing_L
+[2018.05.11-23.40.30:574][241]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_Stem_01.FBX)
+[2018.05.11-23.40.30:583][241]LogFbx: Loading FBX Scene from ../../../../../../Users/vikky/Desktop/GameJam/ExternalModels/SM_Stem_01.FBX
+[2018.05.11-23.40.30:588][241]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.11-23.40.30:588][241]LogFbx: Warning: Triangulating static mesh SM_Stem
+[2018.05.11-23.40.30:590][241]LogStaticMesh: Building static mesh SM_Stem_01_SM_Stem...
+[2018.05.11-23.40.30:590][241]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Meshes/SM_Stem_01_SM_Stem.SM_Stem_01_SM_Stem
+[2018.05.11-23.40.33:053][472]LogSlate: Window 'Message Log' being destroyed
+[2018.05.11-23.40.33:693][533]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/L_Level01' took 0.009
+[2018.05.11-23.40.33:696][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/SM_CurvedCeiling_16x16_01] ([1] browsable assets)...
+[2018.05.11-23.40.33:709][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/SM_CurvedCeiling_16x16_01.SM_CurvedCeiling_16x16_01]
+[2018.05.11-23.40.33:709][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/SM_CurvedCeiling_16x16_01]
+[2018.05.11-23.40.33:727][533]LogSavePackage: Save=15.64ms
+[2018.05.11-23.40.33:727][533]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_CurvedCeiling_16x16_01_Auto1190085E3451CF7CE994EC1A34FA3CE40.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_CurvedCeiling_16x16_01_Auto1.uasset'
+[2018.05.11-23.40.33:729][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_CurvedCeiling_16x16_01_Auto1.uasset
+[2018.05.11-23.40.33:730][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/SM_Wall_16x16_01] ([1] browsable assets)...
+[2018.05.11-23.40.33:741][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/SM_Wall_16x16_01.SM_Wall_16x16_01]
+[2018.05.11-23.40.33:741][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/SM_Wall_16x16_01]
+[2018.05.11-23.40.33:755][533]LogSavePackage: Save=12.24ms
+[2018.05.11-23.40.33:755][533]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_Wall_16x16_01_Auto109D97D7B450F19440107469F9D372B1B.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_Wall_16x16_01_Auto1.uasset'
+[2018.05.11-23.40.33:757][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_Wall_16x16_01_Auto1.uasset
+[2018.05.11-23.40.33:757][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/SM_TulipHead_01] ([1] browsable assets)...
+[2018.05.11-23.40.33:769][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/SM_TulipHead_01.SM_TulipHead_01]
+[2018.05.11-23.40.33:769][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/SM_TulipHead_01]
+[2018.05.11-23.40.33:783][533]LogSavePackage: Save=12.76ms
+[2018.05.11-23.40.33:783][533]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_TulipHead_01_Auto19885B4984C50344B6AB2529489FD54DE.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_TulipHead_01_Auto1.uasset'
+[2018.05.11-23.40.33:785][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_TulipHead_01_Auto1.uasset
+[2018.05.11-23.40.33:786][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/SM_Tomato_01] ([1] browsable assets)...
+[2018.05.11-23.40.33:797][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/SM_Tomato_01.SM_Tomato_01]
+[2018.05.11-23.40.33:798][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/SM_Tomato_01]
+[2018.05.11-23.40.33:812][533]LogSavePackage: Save=12.84ms
+[2018.05.11-23.40.33:813][533]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_Tomato_01_Auto183B2AD234CAA37E43F00888428638870.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_Tomato_01_Auto1.uasset'
+[2018.05.11-23.40.33:814][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_Tomato_01_Auto1.uasset
+[2018.05.11-23.40.33:814][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/SM_Table_3x3x6_01] ([1] browsable assets)...
+[2018.05.11-23.40.33:826][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/SM_Table_3x3x6_01.SM_Table_3x3x6_01]
+[2018.05.11-23.40.33:827][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/SM_Table_3x3x6_01]
+[2018.05.11-23.40.33:841][533]LogSavePackage: Save=12.54ms
+[2018.05.11-23.40.33:841][533]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_Table_3x3x6_01_Auto1E9E41EF1437749F1C829DB90D3230949.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_Table_3x3x6_01_Auto1.uasset'
+[2018.05.11-23.40.33:842][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_Table_3x3x6_01_Auto1.uasset
+[2018.05.11-23.40.33:843][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/SM_PollenBit_01] ([1] browsable assets)...
+[2018.05.11-23.40.33:855][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/SM_PollenBit_01.SM_PollenBit_01]
+[2018.05.11-23.40.33:855][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/SM_PollenBit_01]
+[2018.05.11-23.40.33:869][533]LogSavePackage: Save=13.06ms
+[2018.05.11-23.40.33:870][533]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_PollenBit_01_Auto15254AC654F3D36BC4FB583B56346A802.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_PollenBit_01_Auto1.uasset'
+[2018.05.11-23.40.33:871][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_PollenBit_01_Auto1.uasset
+[2018.05.11-23.40.33:871][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Med_01] ([1] browsable assets)...
+[2018.05.11-23.40.33:883][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Med_01.SM_GrassMeshes_01_SM_GrassBlade_Med_01]
+[2018.05.11-23.40.33:883][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Med_01]
+[2018.05.11-23.40.33:903][533]LogSavePackage: Save=17.53ms
+[2018.05.11-23.40.33:903][533]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_GrassMeshes_01_SM_GrassBlade_FCE0BC624F43703FD760348394C5C4BC.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Med_01_Auto1.uasset'
+[2018.05.11-23.40.33:904][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Med_01_Auto1.uasset
+[2018.05.11-23.40.33:905][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Sm_01] ([1] browsable assets)...
+[2018.05.11-23.40.33:916][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Sm_01.SM_GrassMeshes_01_SM_GrassBlade_Sm_01]
+[2018.05.11-23.40.33:917][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Sm_01]
+[2018.05.11-23.40.33:932][533]LogSavePackage: Save=13.47ms
+[2018.05.11-23.40.33:932][533]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_GrassMeshes_01_SM_GrassBlade_FE38C0DD4697DC599E8D0C9F93CBFDAB.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Sm_01_Auto1.uasset'
+[2018.05.11-23.40.33:933][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Sm_01_Auto1.uasset
+[2018.05.11-23.40.33:934][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Sm_02] ([1] browsable assets)...
+[2018.05.11-23.40.33:946][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Sm_02.SM_GrassMeshes_01_SM_GrassBlade_Sm_02]
+[2018.05.11-23.40.33:946][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Sm_02]
+[2018.05.11-23.40.33:960][533]LogSavePackage: Save=12.23ms
+[2018.05.11-23.40.33:960][533]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_GrassMeshes_01_SM_GrassBlade_BB37973D4DC0488AC693DFB6CA8489A5.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Sm_02_Auto1.uasset'
+[2018.05.11-23.40.33:962][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Sm_02_Auto1.uasset
+[2018.05.11-23.40.33:962][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Long_01] ([1] browsable assets)...
+[2018.05.11-23.40.33:974][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Long_01.SM_GrassMeshes_01_SM_GrassBlade_Long_01]
+[2018.05.11-23.40.33:974][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Long_01]
+[2018.05.11-23.40.33:988][533]LogSavePackage: Save=12.24ms
+[2018.05.11-23.40.33:988][533]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_GrassMeshes_01_SM_GrassBlade_14D4B76C451F1477A195E99C8691BBBD.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Long_01_Auto1.uasset'
+[2018.05.11-23.40.33:989][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Long_01_Auto1.uasset
+[2018.05.11-23.40.33:990][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/SM_FlowerHead_01_SM_FlowerHead_01] ([1] browsable assets)...
+[2018.05.11-23.40.34:002][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/SM_FlowerHead_01_SM_FlowerHead_01.SM_FlowerHead_01_SM_FlowerHead_01]
+[2018.05.11-23.40.34:002][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/SM_FlowerHead_01_SM_FlowerHead_01]
+[2018.05.11-23.40.34:016][533]LogSavePackage: Save=12.15ms
+[2018.05.11-23.40.34:016][533]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_FlowerHead_01_SM_FlowerHead_0D20654FB49207094C3870F90619A0B83.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_FlowerHead_01_SM_FlowerHead_01_Auto1.uasset'
+[2018.05.11-23.40.34:017][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_FlowerHead_01_SM_FlowerHead_01_Auto1.uasset
+[2018.05.11-23.40.34:018][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/SM_Flower_02_SM_Flower2] ([1] browsable assets)...
+[2018.05.11-23.40.34:030][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/SM_Flower_02_SM_Flower2.SM_Flower_02_SM_Flower2]
+[2018.05.11-23.40.34:030][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/SM_Flower_02_SM_Flower2]
+[2018.05.11-23.40.34:045][533]LogSavePackage: Save=12.98ms
+[2018.05.11-23.40.34:045][533]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_Flower_02_SM_Flower2_Auto13A88CD0C4044185C094DD0A8B15C50DA.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_Flower_02_SM_Flower2_Auto1.uasset'
+[2018.05.11-23.40.34:046][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_Flower_02_SM_Flower2_Auto1.uasset
+[2018.05.11-23.40.34:047][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/SM_Flower_01_SM_Flower1] ([1] browsable assets)...
+[2018.05.11-23.40.34:059][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/SM_Flower_01_SM_Flower1.SM_Flower_01_SM_Flower1]
+[2018.05.11-23.40.34:059][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/SM_Flower_01_SM_Flower1]
+[2018.05.11-23.40.34:075][533]LogSavePackage: Save=13.13ms
+[2018.05.11-23.40.34:075][533]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_Flower_01_SM_Flower1_Auto1EAAE6CE34D4CEDD7C7DAED82AA0FE4F8.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_Flower_01_SM_Flower1_Auto1.uasset'
+[2018.05.11-23.40.34:077][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_Flower_01_SM_Flower1_Auto1.uasset
+[2018.05.11-23.40.34:078][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/SM_Cucumber_01_SM_Cucumber_01] ([1] browsable assets)...
+[2018.05.11-23.40.34:090][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/SM_Cucumber_01_SM_Cucumber_01.SM_Cucumber_01_SM_Cucumber_01]
+[2018.05.11-23.40.34:090][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/SM_Cucumber_01_SM_Cucumber_01]
+[2018.05.11-23.40.34:106][533]LogSavePackage: Save=14.47ms
+[2018.05.11-23.40.34:106][533]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_Cucumber_01_SM_Cucumber_01_Au1927DFD242E1172E5D3776B34421880D.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_Cucumber_01_SM_Cucumber_01_Auto1.uasset'
+[2018.05.11-23.40.34:107][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_Cucumber_01_SM_Cucumber_01_Auto1.uasset
+[2018.05.11-23.40.34:108][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/SM_BeeWing_02_SM_BeeWing_R] ([1] browsable assets)...
+[2018.05.11-23.40.34:120][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/SM_BeeWing_02_SM_BeeWing_R.SM_BeeWing_02_SM_BeeWing_R]
+[2018.05.11-23.40.34:120][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/SM_BeeWing_02_SM_BeeWing_R]
+[2018.05.11-23.40.34:135][533]LogSavePackage: Save=12.86ms
+[2018.05.11-23.40.34:135][533]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_BeeWing_02_SM_BeeWing_R_Auto1B22BA9DE47FDA291B1F989A364C0B299.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_BeeWing_02_SM_BeeWing_R_Auto1.uasset'
+[2018.05.11-23.40.34:137][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_BeeWing_02_SM_BeeWing_R_Auto1.uasset
+[2018.05.11-23.40.34:138][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/SM_BeeBody_02_SM_Bee001] ([1] browsable assets)...
+[2018.05.11-23.40.34:150][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/SM_BeeBody_02_SM_Bee001.SM_BeeBody_02_SM_Bee001]
+[2018.05.11-23.40.34:150][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/SM_BeeBody_02_SM_Bee001]
+[2018.05.11-23.40.34:165][533]LogSavePackage: Save=13.14ms
+[2018.05.11-23.40.34:165][533]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_BeeBody_02_SM_Bee001_Auto1FC449252461D95823FAA0C94470AD5C0.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_BeeBody_02_SM_Bee001_Auto1.uasset'
+[2018.05.11-23.40.34:167][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_BeeBody_02_SM_Bee001_Auto1.uasset
+[2018.05.11-23.40.34:168][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/SM_BeeBody_01_SM_Bee] ([1] browsable assets)...
+[2018.05.11-23.40.34:180][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/SM_BeeBody_01_SM_Bee.SM_BeeBody_01_SM_Bee]
+[2018.05.11-23.40.34:180][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/SM_BeeBody_01_SM_Bee]
+[2018.05.11-23.40.34:194][533]LogSavePackage: Save=12.47ms
+[2018.05.11-23.40.34:194][533]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_BeeBody_01_SM_Bee_Auto14EF16EBE496CF11B809464B94CBE7C0F.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_BeeBody_01_SM_Bee_Auto1.uasset'
+[2018.05.11-23.40.34:196][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_BeeBody_01_SM_Bee_Auto1.uasset
+[2018.05.11-23.40.34:196][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/SM_BeeHead_01_SM_Bee001] ([1] browsable assets)...
+[2018.05.11-23.40.34:208][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/SM_BeeHead_01_SM_Bee001.SM_BeeHead_01_SM_Bee001]
+[2018.05.11-23.40.34:208][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/SM_BeeHead_01_SM_Bee001]
+[2018.05.11-23.40.34:222][533]LogSavePackage: Save=12.41ms
+[2018.05.11-23.40.34:222][533]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_BeeHead_01_SM_Bee001_Auto1CF52EC034558EC4B080A7397A75C62BA.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_BeeHead_01_SM_Bee001_Auto1.uasset'
+[2018.05.11-23.40.34:224][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_BeeHead_01_SM_Bee001_Auto1.uasset
+[2018.05.11-23.40.34:224][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/SM_BeeStinger_01_SM_Stinger] ([1] browsable assets)...
+[2018.05.11-23.40.34:236][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/SM_BeeStinger_01_SM_Stinger.SM_BeeStinger_01_SM_Stinger]
+[2018.05.11-23.40.34:236][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/SM_BeeStinger_01_SM_Stinger]
+[2018.05.11-23.40.34:251][533]LogSavePackage: Save=12.59ms
+[2018.05.11-23.40.34:251][533]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_BeeStinger_01_SM_Stinger_AutoE51D7B904F530769FA0DBFA3FFC63120.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_BeeStinger_01_SM_Stinger_Auto1.uasset'
+[2018.05.11-23.40.34:252][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_BeeStinger_01_SM_Stinger_Auto1.uasset
+[2018.05.11-23.40.34:253][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/SM_BeeWing_01_SM_BeeWing_L] ([1] browsable assets)...
+[2018.05.11-23.40.34:264][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/SM_BeeWing_01_SM_BeeWing_L.SM_BeeWing_01_SM_BeeWing_L]
+[2018.05.11-23.40.34:264][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/SM_BeeWing_01_SM_BeeWing_L]
+[2018.05.11-23.40.34:278][533]LogSavePackage: Save=12.01ms
+[2018.05.11-23.40.34:278][533]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_BeeWing_01_SM_BeeWing_L_Auto1DD35D3D046BF288AC221F5BBDE3580CD.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_BeeWing_01_SM_BeeWing_L_Auto1.uasset'
+[2018.05.11-23.40.34:280][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_BeeWing_01_SM_BeeWing_L_Auto1.uasset
+[2018.05.11-23.40.34:280][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Meshes/SM_Stem_01_SM_Stem] ([1] browsable assets)...
+[2018.05.11-23.40.34:292][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Meshes/SM_Stem_01_SM_Stem.SM_Stem_01_SM_Stem]
+[2018.05.11-23.40.34:292][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Meshes/SM_Stem_01_SM_Stem]
+[2018.05.11-23.40.34:308][533]LogSavePackage: Save=12.52ms
+[2018.05.11-23.40.34:308][533]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_Stem_01_SM_Stem_Auto1A67A598448446166B0C00C8376F756CD.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_Stem_01_SM_Stem_Auto1.uasset'
+[2018.05.11-23.40.34:310][533]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/Autosaves/Game/Assets/Meshes/SM_Stem_01_SM_Stem_Auto1.uasset
+[2018.05.11-23.40.34:310][533]LogFileHelpers: Auto-saving content packages took 0.616
+[2018.05.11-23.41.35:672][740]LogSlate: Window 'Save Content' being destroyed
+[2018.05.11-23.41.35:743][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/SM_BeeBody_01_SM_Bee" FILE="../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_BeeBody_01_SM_Bee.uasset" SILENT=true
+[2018.05.11-23.41.35:758][740]LogSavePackage: Save=12.75ms
+[2018.05.11-23.41.35:758][740]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_BeeBody_01_SM_BeeBE5311B245D7A74171EB0AB13ECA3B05.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_BeeBody_01_SM_Bee.uasset'
+[2018.05.11-23.41.35:766][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_BeeBody_01_SM_Bee.uasset
+[2018.05.11-23.41.35:806][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/SM_BeeBody_02_SM_Bee001" FILE="../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_BeeBody_02_SM_Bee001.uasset" SILENT=true
+[2018.05.11-23.41.35:821][740]LogSavePackage: Save=12.73ms
+[2018.05.11-23.41.35:821][740]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_BeeBody_02_SM_Bee001136E6F1C438CDB192334048449672520.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_BeeBody_02_SM_Bee001.uasset'
+[2018.05.11-23.41.35:828][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_BeeBody_02_SM_Bee001.uasset
+[2018.05.11-23.41.35:866][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/SM_BeeHead_01_SM_Bee001" FILE="../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_BeeHead_01_SM_Bee001.uasset" SILENT=true
+[2018.05.11-23.41.35:880][740]LogSavePackage: Save=11.86ms
+[2018.05.11-23.41.35:880][740]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_BeeHead_01_SM_Bee0014898312643001CE44594768D23723C70.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_BeeHead_01_SM_Bee001.uasset'
+[2018.05.11-23.41.35:887][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_BeeHead_01_SM_Bee001.uasset
+[2018.05.11-23.41.35:938][740]LogSavePackage: Save=11.69ms
+[2018.05.11-23.41.35:938][740]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_BeeStinger_01_SM_StingerB3A7BE624B530F0E66721D96681B23F5.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_BeeStinger_01_SM_Stinger.uasset'
+[2018.05.11-23.41.35:945][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_BeeStinger_01_SM_Stinger.uasset
+[2018.05.11-23.41.35:994][740]LogSavePackage: Save=11.69ms
+[2018.05.11-23.41.35:994][740]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_BeeWing_01_SM_BeeWing_L4CDFF7DC40C22C4D66896290303EC86F.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_BeeWing_01_SM_BeeWing_L.uasset'
+[2018.05.11-23.41.36:001][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_BeeWing_01_SM_BeeWing_L.uasset
+[2018.05.11-23.41.36:050][740]LogSavePackage: Save=12.82ms
+[2018.05.11-23.41.36:050][740]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_BeeWing_02_SM_BeeWing_RBBC0C5F64783FB6221A5E1B22E64232F.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_BeeWing_02_SM_BeeWing_R.uasset'
+[2018.05.11-23.41.36:057][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_BeeWing_02_SM_BeeWing_R.uasset
+[2018.05.11-23.41.36:111][740]LogSavePackage: Save=13.40ms
+[2018.05.11-23.41.36:111][740]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_Cucumber_01_SM_Cucumber_017B5924764F0282E4437C9FB64671A7E9.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_Cucumber_01_SM_Cucumber_01.uasset'
+[2018.05.11-23.41.36:118][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_Cucumber_01_SM_Cucumber_01.uasset
+[2018.05.11-23.41.36:167][740]LogSavePackage: Save=12.41ms
+[2018.05.11-23.41.36:167][740]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_CurvedCeiling_16x16_01106E39E04D7972DED8EF9D827A06773A.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_CurvedCeiling_16x16_01.uasset'
+[2018.05.11-23.41.36:174][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_CurvedCeiling_16x16_01.uasset
+[2018.05.11-23.41.36:207][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/SM_Flower_01_SM_Flower1" FILE="../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_Flower_01_SM_Flower1.uasset" SILENT=true
+[2018.05.11-23.41.36:224][740]LogSavePackage: Save=14.63ms
+[2018.05.11-23.41.36:224][740]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_Flower_01_SM_Flower1C7DF68C04A9836BBE2C781BB612A607B.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_Flower_01_SM_Flower1.uasset'
+[2018.05.11-23.41.36:231][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_Flower_01_SM_Flower1.uasset
+[2018.05.11-23.41.36:263][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/SM_Flower_02_SM_Flower2" FILE="../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_Flower_02_SM_Flower2.uasset" SILENT=true
+[2018.05.11-23.41.36:277][740]LogSavePackage: Save=12.53ms
+[2018.05.11-23.41.36:277][740]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_Flower_02_SM_Flower29BA099BD4C6030629235B9A0D800E37C.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_Flower_02_SM_Flower2.uasset'
+[2018.05.11-23.41.36:284][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_Flower_02_SM_Flower2.uasset
+[2018.05.11-23.41.36:334][740]LogSavePackage: Save=12.26ms
+[2018.05.11-23.41.36:334][740]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_FlowerHead_01_SM_FlowerHead_02E17F91E458AC7F35F21EC91918E3E71.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_FlowerHead_01_SM_FlowerHead_01.uasset'
+[2018.05.11-23.41.36:341][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_FlowerHead_01_SM_FlowerHead_01.uasset
+[2018.05.11-23.41.36:389][740]LogSavePackage: Save=11.84ms
+[2018.05.11-23.41.36:390][740]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_GrassMeshes_01_SM_GrassBlade_1D9191D94D5A9EBCEDDEEE88013F213C.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Long_01.uasset'
+[2018.05.11-23.41.36:396][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Long_01.uasset
+[2018.05.11-23.41.36:444][740]LogSavePackage: Save=12.03ms
+[2018.05.11-23.41.36:444][740]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_GrassMeshes_01_SM_GrassBlade_62B51C6942CA407CBD7231AC072AB3F3.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Med_01.uasset'
+[2018.05.11-23.41.36:451][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Med_01.uasset
+[2018.05.11-23.41.36:498][740]LogSavePackage: Save=11.99ms
+[2018.05.11-23.41.36:498][740]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_GrassMeshes_01_SM_GrassBlade_72BE69E2493D84AC0E9018B69E0FC8E9.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Sm_01.uasset'
+[2018.05.11-23.41.36:505][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Sm_01.uasset
+[2018.05.11-23.41.36:551][740]LogSavePackage: Save=12.27ms
+[2018.05.11-23.41.36:551][740]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_GrassMeshes_01_SM_GrassBlade_FC46B6244ED5BD17D1D163B0A4359A06.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Sm_02.uasset'
+[2018.05.11-23.41.36:558][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_GrassMeshes_01_SM_GrassBlade_Sm_02.uasset
+[2018.05.11-23.41.36:592][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/SM_PollenBit_01" FILE="../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_PollenBit_01.uasset" SILENT=true
+[2018.05.11-23.41.36:606][740]LogSavePackage: Save=11.99ms
+[2018.05.11-23.41.36:606][740]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_PollenBit_011D19D22B4606B46F6148B6A2BC3C2FC7.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_PollenBit_01.uasset'
+[2018.05.11-23.41.36:613][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_PollenBit_01.uasset
+[2018.05.11-23.41.36:645][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/SM_Stem_01_SM_Stem" FILE="../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_Stem_01_SM_Stem.uasset" SILENT=true
+[2018.05.11-23.41.36:660][740]LogSavePackage: Save=12.32ms
+[2018.05.11-23.41.36:660][740]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_Stem_01_SM_StemE9054054444F5D3B9CDACF867BFC33F5.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_Stem_01_SM_Stem.uasset'
+[2018.05.11-23.41.36:667][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_Stem_01_SM_Stem.uasset
+[2018.05.11-23.41.36:695][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/SM_Table_3x3x6_01" FILE="../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_Table_3x3x6_01.uasset" SILENT=true
+[2018.05.11-23.41.36:710][740]LogSavePackage: Save=12.81ms
+[2018.05.11-23.41.36:710][740]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_Table_3x3x6_0122FA80DF4FAE6A024048D0BF6BFE9EFA.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_Table_3x3x6_01.uasset'
+[2018.05.11-23.41.36:717][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_Table_3x3x6_01.uasset
+[2018.05.11-23.41.36:748][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/SM_Tomato_01" FILE="../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_Tomato_01.uasset" SILENT=true
+[2018.05.11-23.41.36:762][740]LogSavePackage: Save=13.23ms
+[2018.05.11-23.41.36:762][740]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_Tomato_01C29F7F7643B65BEA38252DBC0E1D3A8F.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_Tomato_01.uasset'
+[2018.05.11-23.41.36:768][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_Tomato_01.uasset
+[2018.05.11-23.41.36:799][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/SM_TulipHead_01" FILE="../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_TulipHead_01.uasset" SILENT=true
+[2018.05.11-23.41.36:814][740]LogSavePackage: Save=12.66ms
+[2018.05.11-23.41.36:814][740]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_TulipHead_01830C5AE140CF781DB28216BE20C016F0.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_TulipHead_01.uasset'
+[2018.05.11-23.41.36:820][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_TulipHead_01.uasset
+[2018.05.11-23.41.36:848][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Meshes/SM_Wall_16x16_01" FILE="../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_Wall_16x16_01.uasset" SILENT=true
+[2018.05.11-23.41.36:861][740]LogSavePackage: Save=11.61ms
+[2018.05.11-23.41.36:862][740]LogSavePackage: Moving '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Saved/SM_Wall_16x16_015E64A3F24956906171FC73840EB7CF85.tmp' to '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_Wall_16x16_01.uasset'
+[2018.05.11-23.41.36:867][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Assets/Meshes/SM_Wall_16x16_01.uasset
+[2018.05.11-23.41.38:154][874]LogSlate: Window 'GameJam - Unreal Editor' being destroyed
+[2018.05.11-23.41.38:155][874]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.11-23.41.38:156][874]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.11-23.41.38:338][875]Cmd: QUIT_EDITOR
+[2018.05.11-23.41.38:375][875]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.05.11-23.41.38:375][875]LogExit: Preparing to exit.
+[2018.05.11-23.41.39:033][875]LogDirectoryWatcher: A directory notification for 'C:/Users/vikky/Documents/GitHub/Danger-Bee/Content/' was aborted.
+[2018.05.11-23.41.39:049][875]LogExit: Editor shut down
+[2018.05.11-23.41.39:052][875]LogExit: Transaction tracking system shut down
+[2018.05.11-23.41.39:053][875]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024e97a56400, Size=1312
+[2018.05.11-23.41.39:150][875]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.05.11-23.41.39:151][875]LogDirectoryWatcher: A directory notification for '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/' was aborted.
+[2018.05.11-23.41.39:151][875]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.05.11-23.41.39:151][875]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.05.11-23.41.39:151][875]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.05.11-23.41.39:151][875]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.05.11-23.41.39:151][875]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.05.11-23.41.39:151][875]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.05.11-23.41.39:151][875]LogDirectoryWatcher: A directory notification for '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Plugins/FMODStudio/Content/' was aborted.
+[2018.05.11-23.41.39:221][875]LogExit: Object subsystem successfully closed.
+[2018.05.11-23.41.39:243][875]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.05.11-23.41.39:246][875]LogD3D11RHI: Shutdown
+[2018.05.11-23.41.39:246][875]LogD3D11RHI: CleanupD3DDevice
+[2018.05.11-23.41.39:252][875]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.05.11-23.41.39:277][875]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (580)
+[2018.05.11-23.41.39:277][875]LogModuleManager: Shutting down and abandoning module SceneOutliner (578)
+[2018.05.11-23.41.39:277][875]LogModuleManager: Shutting down and abandoning module AddContentDialog (576)
+[2018.05.11-23.41.39:277][875]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
+[2018.05.11-23.41.39:277][875]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/Enterprise/FeaturePacks/' was aborted.
+[2018.05.11-23.41.39:278][875]LogModuleManager: Shutting down and abandoning module WidgetCarousel (575)
+[2018.05.11-23.41.39:278][875]LogModuleManager: Shutting down and abandoning module EditorWidgets (572)
+[2018.05.11-23.41.39:278][875]LogModuleManager: Shutting down and abandoning module CollectionManager (570)
+[2018.05.11-23.41.39:278][875]LogDirectoryWatcher: A directory notification for 'C:/Users/vikky/Documents/GitHub/Danger-Bee/Content/Collections/' was aborted.
+[2018.05.11-23.41.39:278][875]LogDirectoryWatcher: A directory notification for 'C:/Users/vikky/Documents/GitHub/Danger-Bee/Content/Developers/vikky/Collections/' was aborted.
+[2018.05.11-23.41.39:278][875]LogDirectoryWatcher: A directory notification for 'C:/Users/vikky/Documents/GitHub/Danger-Bee/Saved/Collections/' was aborted.
+[2018.05.11-23.41.39:278][875]LogModuleManager: Shutting down and abandoning module WorldBrowser (568)
+[2018.05.11-23.41.39:278][875]LogModuleManager: Shutting down and abandoning module StatsViewer (566)
+[2018.05.11-23.41.39:278][875]LogModuleManager: Shutting down and abandoning module FoliageEdit (564)
+[2018.05.11-23.41.39:278][875]LogModuleManager: Shutting down and abandoning module LandscapeEditor (562)
+[2018.05.11-23.41.39:279][875]LogModuleManager: Shutting down and abandoning module MeshPaintMode (560)
+[2018.05.11-23.41.39:279][875]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (558)
+[2018.05.11-23.41.39:279][875]LogModuleManager: Shutting down and abandoning module ActorPickerMode (556)
+[2018.05.11-23.41.39:279][875]LogModuleManager: Shutting down and abandoning module GeometryMode (554)
+[2018.05.11-23.41.39:279][875]LogModuleManager: Shutting down and abandoning module TextureAlignMode (552)
+[2018.05.11-23.41.39:279][875]LogModuleManager: Shutting down and abandoning module BspMode (550)
+[2018.05.11-23.41.39:279][875]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (548)
+[2018.05.11-23.41.39:279][875]LogModuleManager: Shutting down and abandoning module HardwareSurvey (546)
+[2018.05.11-23.41.39:279][875]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (544)
+[2018.05.11-23.41.39:279][875]LogModuleManager: Shutting down and abandoning module AutomationWorker (542)
+[2018.05.11-23.41.39:279][875]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (540)
+[2018.05.11-23.41.39:279][875]LogModuleManager: Shutting down and abandoning module SequenceRecorder (539)
+[2018.05.11-23.41.39:279][875]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (536)
+[2018.05.11-23.41.39:279][875]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (534)
+[2018.05.11-23.41.39:280][875]LogModuleManager: Shutting down and abandoning module PlacementMode (533)
+[2018.05.11-23.41.39:280][875]LogModuleManager: Shutting down and abandoning module MaterialEditor (532)
+[2018.05.11-23.41.39:285][875]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (528)
+[2018.05.11-23.41.39:285][875]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (526)
+[2018.05.11-23.41.39:285][875]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (524)
+[2018.05.11-23.41.39:285][875]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (522)
+[2018.05.11-23.41.39:285][875]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (520)
+[2018.05.11-23.41.39:285][875]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (518)
+[2018.05.11-23.41.39:285][875]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (516)
+[2018.05.11-23.41.39:285][875]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (514)
+[2018.05.11-23.41.39:285][875]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (512)
+[2018.05.11-23.41.39:285][875]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (510)
+[2018.05.11-23.41.39:285][875]LogModuleManager: Shutting down and abandoning module CharacterAI (508)
+[2018.05.11-23.41.39:285][875]LogModuleManager: Shutting down and abandoning module SmartSnapping (506)
+[2018.05.11-23.41.39:285][875]LogModuleManager: Shutting down and abandoning module SessionServices (504)
+[2018.05.11-23.41.39:285][875]LogModuleManager: Shutting down and abandoning module ViewportSnapping (502)
+[2018.05.11-23.41.39:285][875]LogModuleManager: Shutting down and abandoning module ViewportInteraction (500)
+[2018.05.11-23.41.39:285][875]LogModuleManager: Shutting down and abandoning module ClothPainter (498)
+[2018.05.11-23.41.39:285][875]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (497)
+[2018.05.11-23.41.39:287][875]LogModuleManager: Shutting down and abandoning module LogVisualizer (494)
+[2018.05.11-23.41.39:287][875]LogModuleManager: Shutting down and abandoning module IntroTutorials (492)
+[2018.05.11-23.41.39:287][875]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (491)
+[2018.05.11-23.41.39:288][875]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (488)
+[2018.05.11-23.41.39:288][875]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (486)
+[2018.05.11-23.41.39:288][875]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (484)
+[2018.05.11-23.41.39:288][875]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (483)
+[2018.05.11-23.41.39:428][875]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (480)
+[2018.05.11-23.41.39:428][875]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (478)
+[2018.05.11-23.41.39:428][875]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (476)
+[2018.05.11-23.41.39:428][875]LogModuleManager: Shutting down and abandoning module InputBindingEditor (474)
+[2018.05.11-23.41.39:428][875]LogModuleManager: Shutting down and abandoning module MergeActors (472)
+[2018.05.11-23.41.39:429][875]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (470)
+[2018.05.11-23.41.39:430][875]LogModuleManager: Shutting down and abandoning module LocalizationService (469)
+[2018.05.11-23.41.39:430][875]LogModuleManager: Shutting down and abandoning module HardwareTargeting (466)
+[2018.05.11-23.41.39:430][875]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (464)
+[2018.05.11-23.41.39:430][875]LogModuleManager: Shutting down and abandoning module UndoHistory (462)
+[2018.05.11-23.41.39:430][875]LogModuleManager: Shutting down and abandoning module XmlParser (460)
+[2018.05.11-23.41.39:430][875]LogModuleManager: Shutting down and abandoning module Blutility (458)
+[2018.05.11-23.41.39:430][875]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (456)
+[2018.05.11-23.41.39:430][875]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (455)
+[2018.05.11-23.41.39:430][875]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (452)
+[2018.05.11-23.41.39:430][875]LogModuleManager: Shutting down and abandoning module SettingsEditor (450)
+[2018.05.11-23.41.39:431][875]LogModuleManager: Shutting down and abandoning module ProjectLauncher (448)
+[2018.05.11-23.41.39:431][875]LogModuleManager: Shutting down and abandoning module SessionFrontend (446)
+[2018.05.11-23.41.39:431][875]LogModuleManager: Shutting down and abandoning module ProfilerClient (444)
+[2018.05.11-23.41.39:432][875]LogModuleManager: Shutting down and abandoning module DeviceManager (442)
+[2018.05.11-23.41.39:432][875]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (441)
+[2018.05.11-23.41.39:485][875]LogModuleManager: Shutting down and abandoning module AutomationController (438)
+[2018.05.11-23.41.39:485][875]LogModuleManager: Shutting down and abandoning module AutomationWindow (436)
+[2018.05.11-23.41.39:487][875]LogModuleManager: Shutting down and abandoning module Layers (434)
+[2018.05.11-23.41.39:487][875]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (432)
+[2018.05.11-23.41.39:487][875]LogModuleManager: Shutting down and abandoning module DetailCustomizations (430)
+[2018.05.11-23.41.39:487][875]LogModuleManager: Shutting down and abandoning module PackagesDialog (428)
+[2018.05.11-23.41.39:487][875]LogModuleManager: Shutting down and abandoning module Persona (426)
+[2018.05.11-23.41.39:488][875]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (425)
+[2018.05.11-23.41.39:488][875]LogModuleManager: Shutting down and abandoning module AnimGraph (423)
+[2018.05.11-23.41.39:488][875]LogModuleManager: Shutting down and abandoning module Kismet (420)
+[2018.05.11-23.41.39:489][875]LogModuleManager: Shutting down and abandoning module GraphEditor (418)
+[2018.05.11-23.41.39:491][875]LogModuleManager: Shutting down and abandoning module ClassViewer (416)
+[2018.05.11-23.41.39:491][875]LogModuleManager: Shutting down and abandoning module Toolbox (414)
+[2018.05.11-23.41.39:491][875]LogModuleManager: Shutting down and abandoning module ModuleUI (412)
+[2018.05.11-23.41.39:492][875]LogModuleManager: Shutting down and abandoning module MovieSceneTools (410)
+[2018.05.11-23.41.39:492][875]LogModuleManager: Shutting down and abandoning module OutputLog (408)
+[2018.05.11-23.41.39:492][875]LogModuleManager: Shutting down and abandoning module GammaUI (406)
+[2018.05.11-23.41.39:492][875]LogModuleManager: Shutting down and abandoning module Documentation (404)
+[2018.05.11-23.41.39:492][875]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (402)
+[2018.05.11-23.41.39:493][875]LogModuleManager: Shutting down and abandoning module MovieScene (400)
+[2018.05.11-23.41.39:493][875]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (398)
+[2018.05.11-23.41.39:493][875]LogModuleManager: Shutting down and abandoning module LauncherPlatform (396)
+[2018.05.11-23.41.39:493][875]LogModuleManager: Shutting down and abandoning module AnalyticsET (394)
+[2018.05.11-23.41.39:493][875]LogModuleManager: Shutting down and abandoning module PortalServices (392)
+[2018.05.11-23.41.39:493][875]LogModuleManager: Shutting down and abandoning module PortalRpc (390)
+[2018.05.11-23.41.39:493][875]LogModuleManager: Shutting down and abandoning module MessagingRpc (388)
+[2018.05.11-23.41.39:493][875]LogModuleManager: Shutting down and abandoning module AIModule (386)
+[2018.05.11-23.41.39:493][875]LogModuleManager: Shutting down and abandoning module GameplayDebugger (385)
+[2018.05.11-23.41.39:493][875]LogModuleManager: Shutting down and abandoning module AITestSuite (383)
+[2018.05.11-23.41.39:493][875]LogModuleManager: Shutting down and abandoning module DesktopPlatform (380)
+[2018.05.11-23.41.39:493][875]LogModuleManager: Shutting down and abandoning module ProfilerService (378)
+[2018.05.11-23.41.39:543][875]LogModuleManager: Shutting down and abandoning module TaskGraph (376)
+[2018.05.11-23.41.39:543][875]LogModuleManager: Shutting down and abandoning module FMODStudioEditor (374)
+[2018.05.11-23.41.39:543][875]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
+[2018.05.11-23.41.39:543][875]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
+[2018.05.11-23.41.39:543][875]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
+[2018.05.11-23.41.39:543][875]LogModuleManager: Shutting down and abandoning module OculusInput (366)
+[2018.05.11-23.41.39:543][875]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
+[2018.05.11-23.41.39:543][875]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
+[2018.05.11-23.41.39:543][875]LogModuleManager: Shutting down and abandoning module CableComponent (360)
+[2018.05.11-23.41.39:543][875]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
+[2018.05.11-23.41.39:543][875]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
+[2018.05.11-23.41.39:543][875]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
+[2018.05.11-23.41.39:543][875]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
+[2018.05.11-23.41.39:543][875]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
+[2018.05.11-23.41.39:543][875]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
+[2018.05.11-23.41.39:543][875]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
+[2018.05.11-23.41.39:543][875]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
+[2018.05.11-23.41.39:543][875]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
+[2018.05.11-23.41.39:548][875]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
+[2018.05.11-23.41.39:548][875]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
+[2018.05.11-23.41.39:548][875]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
+[2018.05.11-23.41.39:549][875]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
+[2018.05.11-23.41.39:549][875]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
+[2018.05.11-23.41.39:549][875]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
+[2018.05.11-23.41.39:549][875]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
+[2018.05.11-23.41.39:549][875]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
+[2018.05.11-23.41.39:549][875]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
+[2018.05.11-23.41.39:549][875]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
+[2018.05.11-23.41.39:549][875]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
+[2018.05.11-23.41.39:549][875]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
+[2018.05.11-23.41.39:549][875]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
+[2018.05.11-23.41.39:549][875]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
+[2018.05.11-23.41.39:549][875]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
+[2018.05.11-23.41.39:549][875]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
+[2018.05.11-23.41.39:549][875]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
+[2018.05.11-23.41.39:549][875]LogModuleManager: Shutting down and abandoning module SourceControl (305)
+[2018.05.11-23.41.39:549][875]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
+[2018.05.11-23.41.39:549][875]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
+[2018.05.11-23.41.39:549][875]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
+[2018.05.11-23.41.39:549][875]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
+[2018.05.11-23.41.39:549][875]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
+[2018.05.11-23.41.39:549][875]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
+[2018.05.11-23.41.39:549][875]LogModuleManager: Shutting down and abandoning module FMODStudio (290)
+[2018.05.11-23.41.39:752][875]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2018.05.11-23.41.39:752][875]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2018.05.11-23.41.39:752][875]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2018.05.11-23.41.39:752][875]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2018.05.11-23.41.39:752][875]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2018.05.11-23.41.39:752][875]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2018.05.11-23.41.39:752][875]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2018.05.11-23.41.39:752][875]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2018.05.11-23.41.39:752][875]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2018.05.11-23.41.39:853][875]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2018.05.11-23.41.40:006][875]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2018.05.11-23.41.40:006][875]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2018.05.11-23.41.40:006][875]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2018.05.11-23.41.40:006][875]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2018.05.11-23.41.40:006][875]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2018.05.11-23.41.40:006][875]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2018.05.11-23.41.40:006][875]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2018.05.11-23.41.40:006][875]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2018.05.11-23.41.40:007][875]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.05.11-23.41.40:007][875]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.05.11-23.41.40:007][875]LogDirectoryWatcher: A directory notification for 'C:/Users/vikky/Documents/GitHub/Danger-Bee/Plugins/FMODStudio/Binaries/Win64' was aborted.
+[2018.05.11-23.41.40:007][875]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2018.05.11-23.41.40:008][875]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2018.05.11-23.41.40:008][875]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2018.05.11-23.41.40:008][875]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2018.05.11-23.41.40:008][875]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2018.05.11-23.41.40:431][875]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2018.05.11-23.41.40:431][875]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2018.05.11-23.41.40:431][875]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2018.05.11-23.41.40:435][875]LogModuleManager: Shutting down and abandoning module Media (233)
+[2018.05.11-23.41.40:440][875]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2018.05.11-23.41.40:441][875]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2018.05.11-23.41.40:441][875]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2018.05.11-23.41.40:441][875]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2018.05.11-23.41.40:441][875]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2018.05.11-23.41.40:441][875]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2018.05.11-23.41.40:441][875]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2018.05.11-23.41.40:442][875]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2018.05.11-23.41.40:442][875]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2018.05.11-23.41.40:442][875]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2018.05.11-23.41.40:443][875]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2018.05.11-23.41.40:443][875]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2018.05.11-23.41.40:443][875]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2018.05.11-23.41.40:443][875]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2018.05.11-23.41.40:444][875]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2018.05.11-23.41.40:446][875]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2018.05.11-23.41.40:447][875]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2018.05.11-23.41.40:447][875]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2018.05.11-23.41.40:449][875]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2018.05.11-23.41.40:449][875]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2018.05.11-23.41.40:451][875]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2018.05.11-23.41.40:451][875]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2018.05.11-23.41.40:451][875]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2018.05.11-23.41.40:451][875]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2018.05.11-23.41.40:451][875]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2018.05.11-23.41.40:451][875]LogModuleManager: Shutting down and abandoning module Core (178)
+[2018.05.11-23.41.40:451][875]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2018.05.11-23.41.40:451][875]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2018.05.11-23.41.40:451][875]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2018.05.11-23.41.40:451][875]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2018.05.11-23.41.40:451][875]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2018.05.11-23.41.40:451][875]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2018.05.11-23.41.40:451][875]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2018.05.11-23.41.40:451][875]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2018.05.11-23.41.40:451][875]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2018.05.11-23.41.40:451][875]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2018.05.11-23.41.40:452][875]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2018.05.11-23.41.40:454][875]LogDerivedDataCache: Shutdown
+[2018.05.11-23.41.40:454][875]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2018.05.11-23.41.40:454][875]LogXGEController: Cleaning working directory: C:/Users/vikky/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.05.11-23.41.40:454][875]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2018.05.11-23.41.40:454][875]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2018.05.11-23.41.40:454][875]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2018.05.11-23.41.40:455][875]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2018.05.11-23.41.40:456][875]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2018.05.11-23.41.40:457][875]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2018.05.11-23.41.40:457][875]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2018.05.11-23.41.40:457][875]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.05.11-23.41.40:457][875]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.05.11-23.41.40:457][875]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.05.11-23.41.40:457][875]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2018.05.11-23.41.40:457][875]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.05.11-23.41.40:457][875]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.05.11-23.41.40:457][875]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.05.11-23.41.40:457][875]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.05.11-23.41.40:457][875]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.05.11-23.41.40:457][875]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.05.11-23.41.40:457][875]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.05.11-23.41.40:458][875]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.05.11-23.41.40:458][875]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.05.11-23.41.40:458][875]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B40A500DA-42F6-0D1F-6070-C489D93A61D9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=1e255916459df4bccc19bf86a02a43e0%7C4d6f8b13ba44426789b0048b21ea908a%7C61bda5fd-dd5f-4826-9d32-1643ac4daf4f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.05.11-23.41.40:475][875]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.05.11-23.41.40:476][875]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.05.11-23.41.40:477][875]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.05.11-23.41.40:478][875]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.05.11-23.41.40:478][875]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.05.11-23.41.40:479][875]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.05.11-23.41.40:479][875]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.05.11-23.41.40:479][875]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.05.11-23.41.40:480][875]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.05.11-23.41.40:481][875]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.05.11-23.41.40:481][875]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.05.11-23.41.40:481][875]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.05.11-23.41.40:481][875]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.05.11-23.41.40:481][875]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.05.11-23.41.40:481][875]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.05.11-23.41.40:481][875]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.05.11-23.41.40:481][875]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.05.11-23.41.40:481][875]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.05.11-23.41.40:481][875]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.05.11-23.41.40:487][875]LogExit: Exiting.
+[2018.05.11-23.41.40:501][875]Log file closed, 05/11/18 19:41:40
