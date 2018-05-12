@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.10.00">
     <object class="AudioFile" id="{27f60acd-fe1b-472b-8816-6d6295dee11c}">
         <property name="assetPath">
-            <value>snd_plant_bloomchime.wav</value>
+            <value>FX/snd_plant_bloomchime.wav</value>
         </property>
         <property name="frequencyInKHz">
             <value>44.0999985</value>
