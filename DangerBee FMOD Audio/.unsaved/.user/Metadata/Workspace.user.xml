@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="Workspace" id="{1fd775a3-59de-466c-bf08-9761ffa86e1b}">
+        <relationship name="projectSettings">
+            <destination>{2cda5183-ad01-4911-9b15-bae7ab63c868}</destination>
+        </relationship>
+        <relationship name="changelist">
+            <destination>{80dddec5-6649-4587-9820-cd8c14fd1c1e}</destination>
+        </relationship>
+        <relationship name="profilerSessionFolder">
+            <destination>{f1ddcc77-6b32-4050-8b24-78cdec4fcb7b}</destination>
+        </relationship>
+    </object>
+    <object class="ProjectSettings" id="{2cda5183-ad01-4911-9b15-bae7ab63c868}">
+        <relationship name="activePlatform">
+            <destination>{50f489ba-b8c8-4c17-9630-55e656db3bd2}</destination>
+        </relationship>
+    </object>
+    <object class="WorkspaceChangelist" id="{80dddec5-6649-4587-9820-cd8c14fd1c1e}"/>
+</objects>
