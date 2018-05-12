@@ -1867,3 +1867,7 @@ LogInit: Object subsystem initialized
 [2018.05.12-02.16.08:037][204]LogFMOD: Default sample rate = 48000
 [2018.05.12-02.16.08:037][204]LogFMOD: System sample rate = 48000
 [2018.05.12-02.16.08:037][204]LogFMOD: Matching system sample rate 48000
+[2018.05.12-02.18.09:067][734]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.05.12-02.18.09:789][817]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000017d3b6a6b00, Size=1408
+[2018.05.12-02.18.11:919][ 67]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.05.12-02.18.12:598][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Flower_01)
