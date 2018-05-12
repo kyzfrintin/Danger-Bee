@@ -1844,3 +1844,26 @@ LogInit: Object subsystem initialized
 [2018.05.12-02.14.02:633][600]LogSavePackage: Moving '../../../../../../Users/Nicole/Desktop/Danger-Bee/Saved/L_Level01D807899D47007C9FD51CBFB575C8699E.tmp' to '../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Maps/L_Level01.umap'
 [2018.05.12-02.14.02:635][600]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/Maps/L_Level01.umap
 [2018.05.12-02.14.02:653][600]LogFileHelpers: Saving map 'L_Level01' took 0.113
+[2018.05.12-02.15.01:433][  5]LogFMOD: File has changed: ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.12-02.15.01:537][  5]LogFMOD: Loading strings bank: ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.12-02.15.01:539][  5]LogFMOD: Skipping asset: bank:/Master Bank.strings
+[2018.05.12-02.15.01:539][  5]LogFMOD: Constructing asset: /Game/FMOD/Events/Buzz
+[2018.05.12-02.15.01:539][  5]LogFMOD: Hiding old asset '/Game/FMOD/Events/FX/Buzz.Buzz'
+[2018.05.12-02.15.01:541][  5]LogFMOD: Skipping asset: bus:/
+[2018.05.12-02.15.01:542][  5]LogFMOD: Default sample rate = 48000
+[2018.05.12-02.15.01:542][  5]LogFMOD: System sample rate = 48000
+[2018.05.12-02.15.01:543][  5]LogFMOD: Matching system sample rate 48000
+[2018.05.12-02.15.01:708][  5]LogFMOD: Default sample rate = 48000
+[2018.05.12-02.15.01:708][  5]LogFMOD: System sample rate = 48000
+[2018.05.12-02.15.01:708][  5]LogFMOD: Matching system sample rate 48000
+[2018.05.12-02.16.07:775][204]LogFMOD: File has changed: ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.12-02.16.07:866][204]LogFMOD: Loading strings bank: ../../../../../../Users/Nicole/Desktop/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.12-02.16.07:868][204]LogFMOD: Skipping asset: bank:/Master Bank.strings
+[2018.05.12-02.16.07:868][204]LogFMOD: Hiding old asset '/Game/FMOD/Events/Buzz.Buzz'
+[2018.05.12-02.16.07:868][204]LogFMOD: Skipping asset: bus:/
+[2018.05.12-02.16.07:869][204]LogFMOD: Default sample rate = 48000
+[2018.05.12-02.16.07:869][204]LogFMOD: System sample rate = 48000
+[2018.05.12-02.16.07:869][204]LogFMOD: Matching system sample rate 48000
+[2018.05.12-02.16.08:037][204]LogFMOD: Default sample rate = 48000
+[2018.05.12-02.16.08:037][204]LogFMOD: System sample rate = 48000
+[2018.05.12-02.16.08:037][204]LogFMOD: Matching system sample rate 48000
