@@ -1429,3 +1429,166 @@ LogInit: Object subsystem initialized
 [2018.05.12-01.44.02:858][832]MaterialEditorStats: Vertex shader: 113 instructions
 [2018.05.12-01.44.02:858][832]MaterialEditorStats: Texture samplers: 7/16
 [2018.05.12-01.44.02:858][832]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.12-01.45.14:410][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-01.45.21:383][880]LogMaterial: Missing cached shader map for material Pollen_Particle_Mat, compiling. 
+[2018.05.12-01.45.21:399][881]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.12-01.45.21:399][881]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.05.12-01.45.21:783][925]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.05.12-01.45.21:783][925]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.05.12-01.45.21:893][938]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.05.12-01.45.21:893][938]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.05.12-01.45.22:116][961]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.12-01.45.22:132][963]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.05.12-01.45.22:312][984]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.05.12-01.45.22:514][  8]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.05.12-01.45.22:521][  9]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.12-01.45.22:728][ 33]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.05.12-01.45.22:903][ 54]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.12-01.45.22:903][ 54]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.05.12-01.45.23:101][ 77]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.05.12-01.45.23:109][ 78]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.05.12-01.45.23:274][ 97]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.05.12-01.45.23:468][120]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.05.12-01.45.23:493][123]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.05.12-01.45.23:769][154]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.05.12-01.45.23:921][172]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.12-01.45.23:929][173]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.05.12-01.45.24:187][202]MaterialEditorStats: Base pass shader: 63 instructions
+[2018.05.12-01.45.24:187][202]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 84 instructions
+[2018.05.12-01.45.24:187][202]MaterialEditorStats: Vertex shader: 113 instructions
+[2018.05.12-01.45.24:187][202]MaterialEditorStats: Texture samplers: 3/16
+[2018.05.12-01.45.24:187][202]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.12-01.45.36:534][677]LogMaterial: Missing cached shader map for material Pollen_Particle_Mat, compiling. 
+[2018.05.12-01.45.36:542][677]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.12-01.45.36:542][677]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.05.12-01.45.36:544][677]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.05.12-01.45.36:647][683]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.12-01.45.36:647][683]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.05.12-01.45.36:771][697]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.05.12-01.45.36:771][697]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.05.12-01.45.36:970][719]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.05.12-01.45.36:995][722]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.05.12-01.45.37:163][741]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.12-01.45.37:368][764]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.05.12-01.45.37:378][765]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.05.12-01.45.37:580][787]LogMaterial: Missing cached shader map for material Pollen_Particle_Mat, compiling. 
+[2018.05.12-01.45.37:602][788]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.05.12-01.45.37:743][805]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.05.12-01.45.37:753][806]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.12-01.45.37:848][817]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.05.12-01.45.37:881][821]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.05.12-01.45.37:931][827]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.05.12-01.45.37:982][833]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.05.12-01.45.38:032][839]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.05.12-01.45.38:165][855]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.12-01.45.38:232][863]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.05.12-01.45.38:381][881]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.05.12-01.45.38:499][895]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.05.12-01.45.38:574][904]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.12-01.45.38:679][916]LogMaterial: Missing cached shader map for material Pollen_Particle_Mat, compiling. 
+[2018.05.12-01.45.38:689][916]LogMaterial: Missing cached shader map for material Pollen_Particle_Mat, compiling. 
+[2018.05.12-01.45.38:698][916]LogMaterial: Missing cached shader map for material Pollen_Particle_Mat, compiling. 
+[2018.05.12-01.45.38:732][917]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.12-01.45.38:820][927]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.05.12-01.45.38:914][938]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.05.12-01.45.38:955][943]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.05.12-01.45.39:025][951]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.05.12-01.45.39:074][957]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.05.12-01.45.39:234][975]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.12-01.45.39:284][981]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.05.12-01.45.39:447][  0]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.05.12-01.45.39:485][  4]LogMaterial: Missing cached shader map for material Pollen_Particle_Mat, compiling. 
+[2018.05.12-01.45.39:597][ 16]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.12-01.45.39:648][ 22]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.05.12-01.45.39:682][ 26]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.05.12-01.45.39:732][ 32]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.05.12-01.45.39:783][ 38]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.05.12-01.45.39:834][ 44]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.05.12-01.45.39:978][ 61]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.12-01.45.40:035][ 68]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.05.12-01.45.40:185][ 86]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.05.12-01.45.40:311][101]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.05.12-01.45.40:378][109]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.12-01.45.40:511][125]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.05.12-01.45.40:664][143]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.12-01.45.40:675][144]LogMaterial: Missing cached shader map for material Pollen_Particle_Mat, compiling. 
+[2018.05.12-01.45.40:686][144]LogMaterial: Missing cached shader map for material Pollen_Particle_Mat, compiling. 
+[2018.05.12-01.45.40:691][144]LogMaterial: Missing cached shader map for material Pollen_Particle_Mat, compiling. 
+[2018.05.12-01.45.40:734][145]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.05.12-01.45.40:809][153]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.05.12-01.45.40:868][160]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.05.12-01.45.40:905][164]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.05.12-01.45.40:991][174]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.05.12-01.45.41:032][179]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.05.12-01.45.41:158][193]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.12-01.45.41:213][199]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.05.12-01.45.41:530][234]MaterialEditorStats: Base pass shader without light map: 45 instructions
+[2018.05.12-01.45.41:531][234]MaterialEditorStats: Vertex shader: 113 instructions
+[2018.05.12-01.45.41:531][234]MaterialEditorStats: Texture samplers: 3/16
+[2018.05.12-01.45.41:531][234]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.12-01.45.45:765][727]LogMaterial: Missing cached shader map for material Pollen_Particle_Mat, compiling. 
+[2018.05.12-01.45.45:774][727]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.12-01.45.45:782][728]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.05.12-01.45.45:782][728]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.05.12-01.45.45:875][739]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.05.12-01.45.45:875][739]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.05.12-01.45.45:979][751]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.05.12-01.45.45:987][752]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.05.12-01.45.46:151][771]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.12-01.45.46:151][771]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.05.12-01.45.47:165][892]LogMaterial: Missing cached shader map for material Pollen_Particle_Mat, compiling. 
+[2018.05.12-01.45.47:170][892]LogMaterial: Missing cached shader map for material Pollen_Particle_Mat, compiling. 
+[2018.05.12-01.45.47:175][892]LogMaterial: Missing cached shader map for material Pollen_Particle_Mat, compiling. 
+[2018.05.12-01.45.47:208][893]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.05.12-01.45.47:208][893]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.05.12-01.45.47:289][902]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.05.12-01.45.47:290][902]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.05.12-01.45.47:401][915]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.05.12-01.45.47:401][915]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.05.12-01.45.47:576][935]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.12-01.45.47:586][936]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.05.12-01.45.47:948][975]MaterialEditorStats: Base pass shader without light map: 43 instructions
+[2018.05.12-01.45.47:948][975]MaterialEditorStats: Vertex shader: 113 instructions
+[2018.05.12-01.45.47:948][975]MaterialEditorStats: Texture samplers: 3/16
+[2018.05.12-01.45.47:948][975]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.12-01.45.51:252][361]LogMaterial: Missing cached shader map for material Pollen_Particle_Mat, compiling. 
+[2018.05.12-01.45.51:261][361]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.12-01.45.51:269][362]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.05.12-01.45.51:269][362]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.05.12-01.45.51:365][373]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.05.12-01.45.51:365][373]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.05.12-01.45.51:488][387]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.05.12-01.45.51:488][387]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.05.12-01.45.51:655][406]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.12-01.45.51:655][406]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.05.12-01.45.52:027][450]LogMaterial: Missing cached shader map for material Pollen_Particle_Mat, compiling. 
+[2018.05.12-01.45.52:042][450]LogMaterial: Missing cached shader map for material Pollen_Particle_Mat, compiling. 
+[2018.05.12-01.45.52:051][450]LogMaterial: Missing cached shader map for material Pollen_Particle_Mat, compiling. 
+[2018.05.12-01.45.52:101][451]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.12-01.45.52:101][451]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.05.12-01.45.52:173][459]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.05.12-01.45.52:173][459]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.05.12-01.45.52:285][472]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.05.12-01.45.52:293][473]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.05.12-01.45.52:510][497]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.05.12-01.45.52:529][499]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.05.12-01.45.52:697][516]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.05.12-01.45.52:925][541]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.05.12-01.45.52:933][542]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.12-01.45.53:170][569]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.05.12-01.45.53:309][585]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.12-01.45.53:335][588]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.05.12-01.45.53:521][608]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.05.12-01.45.53:578][614]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.05.12-01.45.53:740][632]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.05.12-01.45.53:905][650]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.05.12-01.45.53:973][658]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.05.12-01.45.54:155][677]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.05.12-01.45.54:313][695]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.12-01.45.54:342][698]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.05.12-01.45.54:589][726]MaterialEditorStats: Base pass shader: 65 instructions
+[2018.05.12-01.45.54:589][726]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 92 instructions
+[2018.05.12-01.45.54:589][726]MaterialEditorStats: Vertex shader: 113 instructions
+[2018.05.12-01.45.54:589][726]MaterialEditorStats: Texture samplers: 3/16
+[2018.05.12-01.45.54:589][726]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.12-01.46.06:312][922]LogSlate: FSceneViewport::OnFocusLost() reason 0
