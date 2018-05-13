@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{37982066-749e-46e8-96a4-5e542eb083bf}">
+        <property name="assetPath">
+            <value>FX/snd_snail_chomp2.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.17571428571428571</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{7f191828-dda3-4e47-b6c3-c1957a4c969d}</destination>
+        </relationship>
+    </object>
+</objects>
