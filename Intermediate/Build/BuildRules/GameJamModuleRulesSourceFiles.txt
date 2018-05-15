@@ -1,0 +1,3 @@
+C:\Users\Kyle\Documents\Unreal Projects\GameJam\Plugins\FMODStudio\Source\FMODStudio\FMODStudio.Build.cs
+C:\Users\Kyle\Documents\Unreal Projects\GameJam\Plugins\FMODStudio\Source\FMODStudioEditor\FMODStudioEditor.Build.cs
+C:\Users\Kyle\Documents\Unreal Projects\GameJam\Intermediate\Source\GameJam.Target.cs

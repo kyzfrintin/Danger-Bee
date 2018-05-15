@@ -1,0 +1,229 @@
+/Zc:inline
+/nologo
+/Oi
+/c
+/Gy
+/Zm850
+/wd4819
+/D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
+/D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
+/source-charset:utf-8 /execution-charset:utf-8
+/Ox
+/Ot
+/Ob2
+/errorReport:prompt
+/Z7
+/MD
+/bigobj
+/fp:fast
+/Zo
+/Zp8
+/wd4463
+/wd4838
+/w44668
+/I C:\Games\UE_4.19\Engine\Source
+/I "C:\Users\Kyle\Documents\Unreal Projects\GameJam\Plugins\FMODStudio\Source\FMODStudio\Private"
+/I "C:\Users\Kyle\Documents\Unreal Projects\GameJam\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD"
+/I "C:\Users\Kyle\Documents\Unreal Projects\GameJam\Plugins\FMODStudio\Source"
+/I "C:\Users\Kyle\Documents\Unreal Projects\GameJam\Plugins\FMODStudio\Source\FMODStudio\Classes"
+/I "C:\Users\Kyle\Documents\Unreal Projects\GameJam\Plugins\FMODStudio\Source\FMODStudio\Public"
+/I "C:\Users\Kyle\Documents\Unreal Projects\GameJam\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD"
+/I "C:\Users\Kyle\Documents\Unreal Projects\GameJam\Plugins\FMODStudio\Intermediate\Build\Win64\UE4\Inc\FMODStudio"
+/I "C:\Users\Kyle\Documents\Unreal Projects\GameJam\Plugins\FMODStudio\Source\FMODStudio"
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Core\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\Internationalization
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\Async
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\Containers
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\Delegates
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\GenericPlatform
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\HAL
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\Logging
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\Math
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\Misc
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\Modules
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\Modules\Boilerplate
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\ProfilingDebugging
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\Serialization
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\Serialization\Csv
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\Stats
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\Templates
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\UObject
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Core\Public\Windows
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Core
+/I C:\Games\UE_4.19\Engine\Source\Runtime\CoreUObject\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\Blueprint
+/I C:\Games\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\Internationalization
+/I C:\Games\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\Misc
+/I C:\Games\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\Serialization
+/I C:\Games\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\Serialization\Formatters
+/I C:\Games\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\Templates
+/I C:\Games\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\UObject
+/I C:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\CoreUObject
+/I C:\Games\UE_4.19\Engine\Source\Runtime\CoreUObject
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Engine\Classes
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Engine\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Engine\Public\AI
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Engine\Public\AI\Navigation
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Engine\Public\Animation
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Engine\Public\Curves
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Engine\Public\EdGraph
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Engine\Public\Internationalization
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Engine\Public\Net
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Engine\Public\PacketHandlers
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Engine\Public\Performance
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Engine\Public\Physics
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Engine\Public\ProfilingDebugging
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Engine\Public\Rendering
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Engine\Public\Slate
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Engine\Public\Tests
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Engine\Public\VisualLogger
+/I C:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\Engine
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Engine
+/I C:\Games\UE_4.19\Engine\Source\Runtime\ApplicationCore\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform
+/I C:\Games\UE_4.19\Engine\Source\Runtime\ApplicationCore\Public\HAL
+/I C:\Games\UE_4.19\Engine\Source\Runtime\ApplicationCore\Public\Windows
+/I C:\Games\UE_4.19\Engine\Source\Runtime\ApplicationCore
+/I C:\Games\UE_4.19\Engine\Source\Runtime\RHI\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\RHI
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Json\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Json\Public\Dom
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Json\Public\Policies
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Json\Public\Serialization
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Json
+/I C:\Games\UE_4.19\Engine\Source\Runtime\SlateCore\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Animation
+/I C:\Games\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Application
+/I C:\Games\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Brushes
+/I C:\Games\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Fonts
+/I C:\Games\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Input
+/I C:\Games\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Layout
+/I C:\Games\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Logging
+/I C:\Games\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Rendering
+/I C:\Games\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Sound
+/I C:\Games\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Stats
+/I C:\Games\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Styling
+/I C:\Games\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Textures
+/I C:\Games\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Types
+/I C:\Games\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Widgets
+/I C:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\SlateCore
+/I C:\Games\UE_4.19\Engine\Source\Runtime\SlateCore
+/I C:\Games\UE_4.19\Engine\Source\Runtime\InputCore\Classes
+/I C:\Games\UE_4.19\Engine\Source\Runtime\InputCore\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\InputCore\Public\GenericPlatform
+/I C:\Games\UE_4.19\Engine\Source\Runtime\InputCore\Public\HAL
+/I C:\Games\UE_4.19\Engine\Source\Runtime\InputCore\Public\Windows
+/I C:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\InputCore
+/I C:\Games\UE_4.19\Engine\Source\Runtime\InputCore
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Application
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Commands
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Docking
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Layout
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\MetaData
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\MultiBox
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Notifications
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Styling
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Text
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Views
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Colors
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Docking
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Images
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Input
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Layout
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Navigation
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Notifications
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Text
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Views
+/I C:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\Slate
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Slate
+/I C:\Games\UE_4.19\Engine\Source\Runtime\ImageWrapper\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\ImageWrapper
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Messaging\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Messaging
+/I C:\Games\UE_4.19\Engine\Source\Runtime\MessagingCommon\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\MessagingCommon
+/I C:\Games\UE_4.19\Engine\Source\Runtime\RenderCore\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\RenderCore
+/I C:\Games\UE_4.19\Engine\Source\Runtime\ShaderCore\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\ShaderCore
+/I C:\Games\UE_4.19\Engine\Source\Runtime\UtilityShaders\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\UtilityShaders
+/I C:\Games\UE_4.19\Engine\Source\Runtime\AssetRegistry\Public
+/I C:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\AssetRegistry
+/I C:\Games\UE_4.19\Engine\Source\Runtime\AssetRegistry
+/I C:\Games\UE_4.19\Engine\Source\Runtime\EngineMessages\Public
+/I C:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\EngineMessages
+/I C:\Games\UE_4.19\Engine\Source\Runtime\EngineMessages
+/I C:\Games\UE_4.19\Engine\Source\Runtime\EngineSettings\Classes
+/I C:\Games\UE_4.19\Engine\Source\Runtime\EngineSettings\Public
+/I C:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\EngineSettings
+/I C:\Games\UE_4.19\Engine\Source\Runtime\EngineSettings
+/I C:\Games\UE_4.19\Engine\Source\Runtime\SynthBenchmark\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\SynthBenchmark
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Renderer\Public
+/I C:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\Renderer
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Renderer
+/I C:\Games\UE_4.19\Engine\Source\Runtime\GameplayTags\Classes
+/I C:\Games\UE_4.19\Engine\Source\Runtime\GameplayTags\Public
+/I C:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\GameplayTags
+/I C:\Games\UE_4.19\Engine\Source\Runtime\GameplayTags
+/I C:\Games\UE_4.19\Engine\Source\Runtime\AIModule\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\AIModule\Classes
+/I C:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\AIModule
+/I C:\Games\UE_4.19\Engine\Source\Runtime\AIModule
+/I C:\Games\UE_4.19\Engine\Source\Runtime\GameplayTasks\Classes
+/I C:\Games\UE_4.19\Engine\Source\Runtime\GameplayTasks\Public
+/I C:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\GameplayTasks
+/I C:\Games\UE_4.19\Engine\Source\Runtime\GameplayTasks
+/I C:\Games\UE_4.19\Engine\Source\Runtime\DatabaseSupport\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\DatabaseSupport
+/I C:\Games\UE_4.19\Engine\Source\Runtime\PacketHandlers\PacketHandler\Classes
+/I C:\Games\UE_4.19\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public
+/I C:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\PacketHandler
+/I C:\Games\UE_4.19\Engine\Source\Runtime\PacketHandlers\PacketHandler
+/I C:\Games\UE_4.19\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent
+/I C:\Games\UE_4.19\Engine\Source\Runtime\HardwareSurvey\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\HardwareSurvey
+/I C:\Games\UE_4.19\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public
+/I C:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\ClothingSystemRuntimeInterface
+/I C:\Games\UE_4.19\Engine\Source\Runtime\ClothingSystemRuntimeInterface
+/I C:\Games\UE_4.19\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming
+/I C:\Games\UE_4.19\Engine\Source\Runtime\AudioMixer\Classes
+/I C:\Games\UE_4.19\Engine\Source\Runtime\AudioMixer\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\AudioMixer\Public\Components
+/I C:\Games\UE_4.19\Engine\Source\Runtime\AudioMixer\Public\DSP
+/I C:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\AudioMixer
+/I C:\Games\UE_4.19\Engine\Source\Runtime\AudioMixer
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Projects\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Projects\Public\Interfaces
+/I C:\Games\UE_4.19\Engine\Source\Runtime\Projects
+/I C:\Games\UE_4.19\Engine\Source\Runtime\MovieScene\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\MovieScene\Public\Compilation
+/I C:\Games\UE_4.19\Engine\Source\Runtime\MovieScene\Public\Evaluation
+/I C:\Games\UE_4.19\Engine\Source\Runtime\MovieScene\Public\Evaluation\Blending
+/I C:\Games\UE_4.19\Engine\Source\Runtime\MovieScene\Public\Generators
+/I C:\Games\UE_4.19\Engine\Source\Runtime\MovieScene\Public\Sections
+/I C:\Games\UE_4.19\Engine\Source\Runtime\MovieScene\Public\Tracks
+/I C:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\MovieScene
+/I C:\Games\UE_4.19\Engine\Source\Runtime\MovieScene
+/I C:\Games\UE_4.19\Engine\Source\Runtime\MovieSceneTracks\Public
+/I C:\Games\UE_4.19\Engine\Source\Runtime\MovieSceneTracks\Public\Evaluation
+/I C:\Games\UE_4.19\Engine\Source\Runtime\MovieSceneTracks\Public\Sections
+/I C:\Games\UE_4.19\Engine\Source\Runtime\MovieSceneTracks\Public\Tracks
+/I C:\Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4\Inc\MovieSceneTracks
+/I C:\Games\UE_4.19\Engine\Source\Runtime\MovieSceneTracks
+/D_HAS_EXCEPTIONS=0
+/FI"C:\Users\Kyle\Documents\Unreal Projects\GameJam\Plugins\FMODStudio\Intermediate\Build\Win64\UE4\Development\FMODStudio\PCH.FMODStudio.h"
+/Yu"C:\Users\Kyle\Documents\Unreal Projects\GameJam\Plugins\FMODStudio\Intermediate\Build\Win64\UE4\Development\FMODStudio\PCH.FMODStudio.h"
+/Fp"C:\Users\Kyle\Documents\Unreal Projects\GameJam\Plugins\FMODStudio\Intermediate\Build\Win64\UE4\Development\FMODStudio\PCH.FMODStudio.h.pch"
+"C:\Users\Kyle\Documents\Unreal Projects\GameJam\Plugins\FMODStudio\Source\FMODStudio\Private\FMODListener.cpp"
+/Fo"C:\Users\Kyle\Documents\Unreal Projects\GameJam\Plugins\FMODStudio\Intermediate\Build\Win64\UE4\Development\FMODStudio\FMODListener.cpp.obj"
+/TP
+/GR-
+/W4
