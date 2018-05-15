@@ -1,4 +1,4 @@
-﻿Log file open, 05/13/18 17:04:37
+﻿Log file open, 05/15/18 11:01:03
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: GameJam
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1308932465) SRandInit(1308932465).
+LogInit: Display: RandInit(-340131659) SRandInit(-340131659).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.262872
+LogStats: Stats thread started at 0.272727
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudio.dll (API version 3944462).
@@ -171,7 +171,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
 LogPluginManager: Mounting plugin FMODStudio
-LogStreaming: Display: Took  0.982s to configure plugins.
+LogStreaming: Display: Took  1.016s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -219,662 +219,1040 @@ LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
-LogInit: Command Line:  
+LogInit: Command Line:  /Game/Maps/MainMenu -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.002s to delete old logs.
+LogStreaming: Display: Took  0.004s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.13-21.04.38:911][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.13-21.04.38:911][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.13-21.04.38:922][  0]LogInit: Computer: DESKTOP-313A1NQ
-[2018.05.13-21.04.38:922][  0]LogInit: User: vikky
-[2018.05.13-21.04.38:922][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.05.13-21.04.38:922][  0]LogInit: High frequency timer resolution =3.328128 MHz
-[2018.05.13-21.04.38:922][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.05.13-21.04.38:922][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.13-21.04.38:923][  0]LogMemory: Process Physical Memory: 276.27 MB used, 276.27 MB peak
-[2018.05.13-21.04.38:923][  0]LogMemory: Process Virtual Memory: 276.82 MB used, 276.82 MB peak
-[2018.05.13-21.04.38:923][  0]LogMemory: Physical Memory: 6335.07 MB used,  9984.63 MB free, 16319.71 MB total
-[2018.05.13-21.04.38:923][  0]LogMemory: Virtual Memory: 705.29 MB used,  9984.63 MB free, 134217728.00 MB total
-[2018.05.13-21.04.38:938][  0]LogInit: Using OS detected language (en-US).
-[2018.05.13-21.04.38:938][  0]LogInit: Using OS detected locale (en-CA).
-[2018.05.13-21.04.38:940][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.05.13-21.04.39:338][  0]LogStreaming: Display: Took  0.400s to EndInitTextLocalization.
-[2018.05.13-21.04.39:338][  0]LogInit: Setting process to per monitor DPI aware
-[2018.05.13-21.04.39:376][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.05.13-21.04.39:376][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.05.13-21.04.39:547][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.13-21.04.39:590][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
-[2018.05.13-21.04.39:590][  0]LogD3D11RHI:       2016/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.05.13-21.04.39:591][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.13-21.04.39:591][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.13-21.04.39:591][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.13-21.04.39:597][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.13-21.04.39:597][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
-[2018.05.13-21.04.39:597][  0]LogWindows: EnumDisplayDevices:
-[2018.05.13-21.04.39:597][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
-[2018.05.13-21.04.39:598][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2018.05.13-21.04.39:598][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2018.05.13-21.04.39:598][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2018.05.13-21.04.39:598][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.05.13-21.04.39:598][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
-[2018.05.13-21.04.39:598][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.05.13-21.04.39:598][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.05.13-21.04.39:598][  0]LogRHI: Texture pool is 1411 MB (70% of 2016 MB)
-[2018.05.13-21.04.39:624][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.05.13-21.04.39:624][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.05.13-21.04.39:624][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.13-21.04.39:677][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.05.13-21.04.39:725][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Intermediate/Shaders/WorkingDirectory/7796/).
-[2018.05.13-21.04.39:725][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/vikky/AppData/Local/Temp/UnrealShaderWorkingDir/AC1FB3FC4DAE1D5CC214A386B3EBB366/'.
-[2018.05.13-21.04.39:868][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.13-21.04.39:881][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.05.13-21.04.39:893][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.13-21.04.39:905][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.05.13-21.04.39:918][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.05.13-21.04.39:930][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.13-21.04.39:942][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.13-21.04.39:955][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.13-21.04.39:961][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.05.13-21.04.39:972][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.13-21.04.39:982][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.13-21.04.39:995][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.13-21.04.40:005][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.05.13-21.04.40:015][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.13-21.04.40:026][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.13-21.04.40:050][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.13-21.04.40:050][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.13-21.04.40:061][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.05.13-21.04.40:062][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.05.13-21.04.40:098][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.05.13-21.04.40:109][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.05.13-21.04.40:122][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.13-21.04.40:133][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.13-21.04.40:145][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.13-21.04.40:157][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.05.13-21.04.40:157][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.05.13-21.04.40:265][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.05.13-21.04.40:265][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.05.13-21.04.40:265][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.05.13-21.04.40:920][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.05.13-21.04.40:985][  0]LogDerivedDataCache: Loaded boot cache 0.06s 74MB C:/Users/vikky/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.05.13-21.04.40:985][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/vikky/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.05.13-21.04.40:985][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.13-21.04.40:985][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.13-21.04.40:985][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.13-21.04.40:985][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.13-21.04.41:000][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.13-21.04.41:013][  0]LogDerivedDataCache: Using Local data cache path C:/Users/vikky/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.13-21.04.41:013][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.05.13-21.04.41:013][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.05.13-21.04.41:022][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.13-21.04.41:023][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.13-21.04.41:023][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.13-21.04.41:023][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.13-21.04.41:143][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
-[2018.05.13-21.04.41:429][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.13-21.04.41:570][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.13-21.04.41:572][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.13-21.04.41:572][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.13-21.04.41:572][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.05.13-21.04.41:572][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.05.13-21.04.41:572][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.05.13-21.04.41:601][  0]LogNetVersion: GameJam , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2281863040)
-[2018.05.13-21.04.42:007][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 2 prioritized culture(s) in 0.078385 seconds
-[2018.05.13-21.04.42:012][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.05.13-21.04.42:012][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2018.05.13-21.04.42:013][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.13-21.04.43:527][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.13-21.04.43:555][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.13-21.04.43:784][  0]LogFMOD: FFMODStudioModule startup
-[2018.05.13-21.04.43:784][  0]LogFMOD:  Lib path = '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Plugins/FMODStudio/Binaries'
-[2018.05.13-21.04.43:784][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Plugins/FMODStudio/Binaries/Win64/fmodL64.dll
-[2018.05.13-21.04.43:786][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Plugins/FMODStudio/Binaries/Win64/fmodstudioL64.dll
-[2018.05.13-21.04.43:807][  0]LogFMOD: Loading strings bank: ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
-[2018.05.13-21.04.43:809][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/AMB/Ambience
-[2018.05.13-21.04.43:809][  0]LogFMOD: Skipping asset: bank:/Master Bank.strings
-[2018.05.13-21.04.43:809][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/MUS/Music
-[2018.05.13-21.04.43:809][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Buzz
-[2018.05.13-21.04.43:809][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Snail_Scream
-[2018.05.13-21.04.43:809][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Plant_Sprout
-[2018.05.13-21.04.43:809][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Plant_Bloom
-[2018.05.13-21.04.43:809][  0]LogFMOD: Skipping asset: bus:/
-[2018.05.13-21.04.43:809][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Sprinkler
-[2018.05.13-21.04.43:809][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Snail_Bop
-[2018.05.13-21.04.43:809][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/Master_Bank
-[2018.05.13-21.04.43:809][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Snail_Chomp
-[2018.05.13-21.04.43:809][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Reverb
-[2018.05.13-21.04.43:810][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Snail_Squick
-[2018.05.13-21.04.43:810][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Plant_Rustle
-[2018.05.13-21.04.43:811][  0]LogFMOD: Default sample rate = 48000
-[2018.05.13-21.04.43:811][  0]LogFMOD: System sample rate = 48000
-[2018.05.13-21.04.43:811][  0]LogFMOD: Matching system sample rate 48000
-[2018.05.13-21.04.43:841][  0]LogFMOD: Default sample rate = 48000
-[2018.05.13-21.04.43:841][  0]LogFMOD: System sample rate = 48000
-[2018.05.13-21.04.43:841][  0]LogFMOD: Matching system sample rate 48000
-[2018.05.13-21.04.43:992][  0]SourceControl: Source control is disabled
-[2018.05.13-21.04.43:992][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.43:992][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
-[2018.05.13-21.04.43:992][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.43:992][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
-[2018.05.13-21.04.43:992][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.43:992][  0]LogWindows: Warning: URL: C:\Users\vikky\AppData\Local/Programs/Git/cmd/git.exe version
-[2018.05.13-21.04.43:992][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.43:992][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
-[2018.05.13-21.04.43:992][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.43:992][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
-[2018.05.13-21.04.43:993][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.43:993][  0]LogWindows: Warning: URL: C:\Users\vikky\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
-[2018.05.13-21.04.43:993][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.43:993][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
-[2018.05.13-21.04.44:011][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.44:011][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
-[2018.05.13-21.04.44:011][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.44:011][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
-[2018.05.13-21.04.44:012][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.44:012][  0]LogWindows: Warning: URL: C:\Users\vikky\AppData\Local/Programs/Git/cmd/git.exe version
-[2018.05.13-21.04.44:012][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.44:012][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
-[2018.05.13-21.04.44:012][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.44:012][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
-[2018.05.13-21.04.44:012][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.44:012][  0]LogWindows: Warning: URL: C:\Users\vikky\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
-[2018.05.13-21.04.44:012][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.44:012][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
-[2018.05.13-21.04.44:029][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.44:030][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
-[2018.05.13-21.04.44:030][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.44:030][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
-[2018.05.13-21.04.44:030][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.44:030][  0]LogWindows: Warning: URL: C:\Users\vikky\AppData\Local/Programs/Git/cmd/git.exe version
-[2018.05.13-21.04.44:030][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.44:030][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
-[2018.05.13-21.04.44:030][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.44:030][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
-[2018.05.13-21.04.44:030][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.44:030][  0]LogWindows: Warning: URL: C:\Users\vikky\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
-[2018.05.13-21.04.44:030][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.44:030][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
-[2018.05.13-21.04.44:537][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.13-21.04.44:659][  0]LogOcInput: OculusInput pre-init called
-[2018.05.13-21.04.44:736][  0]LogFMOD: FFMODStudioEditorModule startup
-[2018.05.13-21.04.44:800][  0]LogEngine: Initializing Engine...
-[2018.05.13-21.04.44:801][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.05.13-21.04.44:802][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.13-21.04.44:802][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.13-21.04.45:010][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.13-21.04.45:027][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.13-21.04.45:036][  0]LogInit: FAudioDevice initialized.
-[2018.05.13-21.04.45:052][  0]LogDerivedDataCache: Error: Could not save memory cache C:/Users/vikky/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.05.13-21.04.45:058][  0]LogInit: Texture streaming: Enabled
-[2018.05.13-21.04.45:072][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.13-21.04.45:090][  0]LogInit: Transaction tracking system initialized
-[2018.05.13-21.04.45:113][  0]BlueprintLog: New page: Editor Load
-[2018.05.13-21.04.45:190][  0]LocalizationService: Localization service is disabled
-[2018.05.13-21.04.45:289][  0]LogConsoleResponse: Display: 
-[2018.05.13-21.04.45:434][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.13-21.04.45:434][  0]LogCook: Display: Mobile HDR setting 1
-[2018.05.13-21.04.45:434][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.05.13-21.04.45:434][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.13-21.04.45:434][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.13-21.04.45:466][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vikky/Documents/GitHub/Danger-Bee/Content/' took 0.01s
-[2018.05.13-21.04.45:825][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.45:825][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
-[2018.05.13-21.04.45:825][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.45:825][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
-[2018.05.13-21.04.45:825][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.45:825][  0]LogWindows: Warning: URL: C:\Users\vikky\AppData\Local/Programs/Git/cmd/git.exe version
-[2018.05.13-21.04.45:825][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.45:825][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
-[2018.05.13-21.04.45:825][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.45:825][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
-[2018.05.13-21.04.45:825][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.45:825][  0]LogWindows: Warning: URL: C:\Users\vikky\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
-[2018.05.13-21.04.45:826][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2018.05.13-21.04.45:826][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
-[2018.05.13-21.04.45:826][  0]Cmd: MAP LOAD FILE="../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.13-21.04.45:826][  0]LightingResults: New page: Lighting Build
-[2018.05.13-21.04.45:830][  0]MapCheck: New page: Map Check
-[2018.05.13-21.04.45:830][  0]LightingResults: New page: Lighting Build
-[2018.05.13-21.04.45:850][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023bf8dc65c8, Size=4, Default__UI_Menu_C Function /Game/Blueprints/UI/UI_Menu.UI_Menu_C:ExecuteUbergraph_UI_Menu
-[2018.05.13-21.04.45:853][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023bf8dc65c8, Size=4
-[2018.05.13-21.04.45:853][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023bf8dc65c8, Size=4, Default__UI_Menu_C Function /Engine/Transient.REINST_UI_Menu_C_0:ExecuteUbergraph_UI_Menu
-[2018.05.13-21.04.45:855][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023bf8dc6508, Size=4, Default__UI_Menu_C Function /Game/Blueprints/UI/UI_Menu.UI_Menu_C:ExecuteUbergraph_UI_Menu
-[2018.05.13-21.04.45:856][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023ba26056d8, Size=24, Default__MainMenu_C Function /Game/Maps/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu
-[2018.05.13-21.04.45:857][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023ba26056d8, Size=24
-[2018.05.13-21.04.45:857][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023ba26056d8, Size=24, Default__MainMenu_C Function /Engine/Transient.REINST_MainMenu_C_2:ExecuteUbergraph_MainMenu
-[2018.05.13-21.04.45:858][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023ba2604b98, Size=24, Default__MainMenu_C Function /Game/Maps/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu
-[2018.05.13-21.04.45:865][  0]LogAIModule: Creating AISystem for world MainMenu
-[2018.05.13-21.04.45:866][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.13-21.04.45:875][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023bf8dc65c8, Size=4
-[2018.05.13-21.04.45:876][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023ba26056d8, Size=24
-[2018.05.13-21.04.45:876][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.13-21.04.45:926][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.347ms to complete.
-[2018.05.13-21.04.45:926][  0]LogFileHelpers: Loading map 'MainMenu' took 0.101
-[2018.05.13-21.04.45:986][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.13-21.04.45:987][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.13-21.04.46:046][  0]LogCollectionManager: Loaded 0 collections in 0.002383 seconds
-[2018.05.13-21.04.46:086][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vikky/Documents/GitHub/Danger-Bee/Saved/Collections/' took 0.01s
-[2018.05.13-21.04.46:086][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vikky/Documents/GitHub/Danger-Bee/Content/Developers/vikky/Collections/' took 0.01s
-[2018.05.13-21.04.46:086][  0]LogFileCache: Scanning file cache for directory 'C:/Users/vikky/Documents/GitHub/Danger-Bee/Content/Collections/' took 0.01s
-[2018.05.13-21.04.46:086][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.05.13-21.04.46:094][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2469 classes and 565 folders.
-[2018.05.13-21.04.46:101][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.05.13-21.04.46:145][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.05.13-21.04.46:151][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.05.13-21.04.47:222][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.05.13-21.04.47:242][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.13-21.04.47:248][  0]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.13-21.04.47:252][  0]LogSlate: Took 0.000341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.13-21.04.47:506][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GameJam
-[2018.05.13-21.04.47:507][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.05.13-21.04.47:507][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
-[2018.05.13-21.04.47:507][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.05.13-21.04.47:507][  0]LogTemp: BranchPath = DESKTOP-313A1NQ/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = DESKTOP-313A1NQ/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
-[2018.05.13-21.04.47:507][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\vikky\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.05.13-21.04.47:507][  0]LogRenderer: Reallocating scene render targets to support 1576x612 Format 10 NumSamples 1 (Frame:1).
-[2018.05.13-21.04.47:556][  0]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.05.13-21.04.47:635][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.05.13-21.04.47:635][  0]LogLoad: (Engine Initialization) Total time: 11.08 seconds
-[2018.05.13-21.04.47:635][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.05.13-21.04.47:680][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.05.13-21.04.47:714][  1]LogFMOD: File has changed: ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
-[2018.05.13-21.04.47:787][  1]LogFMOD: Loading strings bank: ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
-[2018.05.13-21.04.47:788][  1]LogFMOD: Skipping asset: bank:/Master Bank.strings
-[2018.05.13-21.04.47:788][  1]LogFMOD: Skipping asset: bus:/
-[2018.05.13-21.04.47:789][  1]LogFMOD: Default sample rate = 48000
-[2018.05.13-21.04.47:789][  1]LogFMOD: System sample rate = 48000
-[2018.05.13-21.04.47:789][  1]LogFMOD: Matching system sample rate 48000
-[2018.05.13-21.04.47:952][  1]LogFMOD: Default sample rate = 48000
-[2018.05.13-21.04.47:952][  1]LogFMOD: System sample rate = 48000
-[2018.05.13-21.04.47:952][  1]LogFMOD: Matching system sample rate 48000
-[2018.05.13-21.04.48:023][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/vikky/Documents/GitHub/Danger-Bee/Content/' took 0.37s
-[2018.05.13-21.04.48:031][  1]LogAssetRegistry: Asset discovery search completed in 6.9114 seconds
-[2018.05.13-21.04.48:034][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.05.13-21.04.48:034][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
-[2018.05.13-21.04.48:665][ 68]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.05.13-21.05.48:436][231]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.05.13-21.05.49:933][399]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023bc1b85300, Size=384, Default__BP_Flower_C Function /Game/Blueprints/BP_Flower.BP_Flower_C:ExecuteUbergraph_BP_Flower
-[2018.05.13-21.05.49:937][399]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023bc1b85300, Size=384
-[2018.05.13-21.05.49:938][399]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023bb1add900, Size=384, Default__BP_Flower_C Function /Engine/Transient.REINST_BP_Flower_C_6:ExecuteUbergraph_BP_Flower
-[2018.05.13-21.05.49:940][399]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023bb1ac2800, Size=384, Default__BP_Flower_C Function /Game/Blueprints/BP_Flower.BP_Flower_C:ExecuteUbergraph_BP_Flower
-[2018.05.13-21.05.49:942][399]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023bea511860, Size=4, Default__AIC_SnailAIController_C Function /Game/Blueprints/AIC_SnailAIController.AIC_SnailAIController_C:ExecuteUbergraph_AIC_SnailAIController
-[2018.05.13-21.05.49:944][399]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023bea511860, Size=4
-[2018.05.13-21.05.49:944][399]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023bea511860, Size=4, Default__AIC_SnailAIController_C Function /Engine/Transient.REINST_AIC_SnailAIController_C_8:ExecuteUbergraph_AIC_SnailAIController
-[2018.05.13-21.05.49:944][399]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023bea510350, Size=4, Default__AIC_SnailAIController_C Function /Game/Blueprints/AIC_SnailAIController.AIC_SnailAIController_C:ExecuteUbergraph_AIC_SnailAIController
-[2018.05.13-21.05.49:959][399]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023bef692940, Size=208, Default__BP_SnailPawn_C Function /Game/Blueprints/BP_SnailPawn.BP_SnailPawn_C:ExecuteUbergraph_BP_SnailPawn
-[2018.05.13-21.05.49:972][399]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023bef692940, Size=208
-[2018.05.13-21.05.49:972][399]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023beb37c640, Size=208, Default__BP_SnailPawn_C Function /Engine/Transient.REINST_BP_SnailPawn_C_10:ExecuteUbergraph_BP_SnailPawn
-[2018.05.13-21.05.49:981][399]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023beb37ecc0, Size=208, Default__BP_SnailPawn_C Function /Game/Blueprints/BP_SnailPawn.BP_SnailPawn_C:ExecuteUbergraph_BP_SnailPawn
-[2018.05.13-21.05.50:043][399]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023beac74ce8, Size=4, Default__BP_Snail_C Function /Game/Blueprints/BP_Snail.BP_Snail_C:ExecuteUbergraph_BP_Snail
-[2018.05.13-21.05.50:044][399]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023beac74ce8, Size=4
-[2018.05.13-21.05.50:044][399]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023beac74ce8, Size=4, Default__BP_Snail_C Function /Engine/Transient.REINST_BP_Snail_C_14:ExecuteUbergraph_BP_Snail
-[2018.05.13-21.05.50:045][399]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023beac74d48, Size=4, Default__BP_Snail_C Function /Game/Blueprints/BP_Snail.BP_Snail_C:ExecuteUbergraph_BP_Snail
-[2018.05.13-21.05.50:060][399]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023bad1a7b00, Size=520, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
-[2018.05.13-21.05.50:078][399]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023bad1a7b00, Size=520
-[2018.05.13-21.05.50:078][399]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023bad1a7b00, Size=520, Default__BP_Bee_Redo_C Function /Engine/Transient.REINST_BP_Bee_Redo_C_16:ExecuteUbergraph_BP_Bee_Redo
-[2018.05.13-21.05.50:093][399]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023bd48fd800, Size=520, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
-[2018.05.13-21.05.50:439][399]LogAIModule: Creating AISystem for world L_Level02
-[2018.05.13-21.05.50:467][399]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023bb1add900, Size=384
-[2018.05.13-21.05.50:467][399]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023bea511860, Size=4
-[2018.05.13-21.05.50:467][399]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023beb37c640, Size=208
-[2018.05.13-21.05.50:467][399]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023beac74ce8, Size=4
-[2018.05.13-21.05.50:467][399]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023bad1a7b00, Size=520
-[2018.05.13-21.05.50:470][399]Cmd: MAP LOAD FILE="../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/Maps/L_Level02.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.13-21.05.50:470][399]LightingResults: New page: Lighting Build
-[2018.05.13-21.05.50:470][399]LoadErrors: New page: Loading map: L_Level02.umap
-[2018.05.13-21.05.50:471][399]MapCheck: New page: Map Check
-[2018.05.13-21.05.50:471][399]LightingResults: New page: Lighting Build
-[2018.05.13-21.05.50:480][399]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023ba2604b98, Size=24
-[2018.05.13-21.05.50:539][399]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.13-21.05.50:591][399]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.13-21.05.50:648][399]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.559ms to complete.
-[2018.05.13-21.05.50:648][399]LogFileHelpers: Loading map 'L_Level02' took 0.179
-[2018.05.13-21.05.51:796][507]LogFMOD: Creating runtime Studio System
-[2018.05.13-21.05.51:797][507]LogFMOD: Default sample rate = 48000
-[2018.05.13-21.05.51:797][507]LogFMOD: System sample rate = 48000
-[2018.05.13-21.05.51:797][507]LogFMOD: Matching system sample rate 48000
-[2018.05.13-21.05.51:808][507]LogFMOD: Loading Banks
-[2018.05.13-21.05.51:848][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.13-21.05.51:848][507]PIE: New page: SIE session: L_Level02 (May 13, 2018, 1:05:51 PM)
-[2018.05.13-21.05.51:848][507]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_L_Level02
-[2018.05.13-21.05.51:852][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003884s)
-[2018.05.13-21.05.51:853][507]LogAIModule: Creating AISystem for world L_Level02
-[2018.05.13-21.05.51:853][507]LogPlayLevel: PIE: World Init took: (0.000634s)
-[2018.05.13-21.05.51:853][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/L_Level02.L_Level02 to /Game/Maps/UEDPIE_0_L_Level02.L_Level02 (0.004629s)
-[2018.05.13-21.05.51:865][507]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.13-21.05.51:874][507]LogInit: FAudioDevice initialized.
-[2018.05.13-21.05.51:919][507]LogLoad: Game class is 'GM_DangerBee_C'
-[2018.05.13-21.05.51:923][507]LogWorld: Bringing World /Game/Maps/UEDPIE_0_L_Level02.L_Level02 up for play (max tick rate 0) at 2018.05.13-17.05.51
-[2018.05.13-21.05.51:923][507]LogWorld: Bringing up level for play took: 0.002656
-[2018.05.13-21.05.51:927][507]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
-[2018.05.13-21.05.51:927][507]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2018.05.13-21.05.51:928][507]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2018.05.13-21.05.51:928][507]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_L_Level02 -0.748
-[2018.05.13-21.44.22:780][795]LogSlate: Window 'GameJam - Unreal Editor' being destroyed
-[2018.05.13-21.44.22:781][795]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.13-21.44.22:781][795]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.13-21.44.23:001][796]Cmd: QUIT_EDITOR
-[2018.05.13-21.44.24:024][796]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.05.13-21.44.24:024][796]LogExit: Preparing to exit.
-[2018.05.13-21.44.24:535][796]LogDirectoryWatcher: A directory notification for 'C:/Users/vikky/Documents/GitHub/Danger-Bee/Content/' was aborted.
-[2018.05.13-21.44.24:553][796]LogExit: Editor shut down
-[2018.05.13-21.44.24:556][796]LogExit: Transaction tracking system shut down
-[2018.05.13-21.44.24:557][796]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023bf8dc6508, Size=4
-[2018.05.13-21.44.24:557][796]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023bb1ac2800, Size=384
-[2018.05.13-21.44.24:557][796]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023bea510350, Size=4
-[2018.05.13-21.44.24:557][796]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023beb37ecc0, Size=208
-[2018.05.13-21.44.24:557][796]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023beac74d48, Size=4
-[2018.05.13-21.44.24:557][796]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023bd48fd800, Size=520
-[2018.05.13-21.44.24:689][796]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.05.13-21.44.24:689][796]LogDirectoryWatcher: A directory notification for '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/' was aborted.
-[2018.05.13-21.44.24:689][796]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
-[2018.05.13-21.44.24:689][796]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
-[2018.05.13-21.44.24:689][796]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.05.13-21.44.24:689][796]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.05.13-21.44.24:689][796]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.05.13-21.44.24:689][796]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.05.13-21.44.24:689][796]LogDirectoryWatcher: A directory notification for '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Plugins/FMODStudio/Content/' was aborted.
-[2018.05.13-21.44.24:745][796]LogExit: Object subsystem successfully closed.
-[2018.05.13-21.44.24:765][796]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.05.13-21.44.24:769][796]LogD3D11RHI: Shutdown
-[2018.05.13-21.44.24:769][796]LogD3D11RHI: CleanupD3DDevice
-[2018.05.13-21.44.24:771][796]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.05.13-21.44.24:786][796]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (582)
-[2018.05.13-21.44.24:786][796]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (580)
-[2018.05.13-21.44.24:786][796]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (578)
-[2018.05.13-21.44.24:786][796]LogModuleManager: Shutting down and abandoning module SceneOutliner (576)
-[2018.05.13-21.44.24:786][796]LogModuleManager: Shutting down and abandoning module AddContentDialog (574)
-[2018.05.13-21.44.24:786][796]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
-[2018.05.13-21.44.24:786][796]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/Enterprise/FeaturePacks/' was aborted.
-[2018.05.13-21.44.24:787][796]LogModuleManager: Shutting down and abandoning module WidgetCarousel (573)
-[2018.05.13-21.44.24:787][796]LogModuleManager: Shutting down and abandoning module EditorWidgets (570)
-[2018.05.13-21.44.24:787][796]LogModuleManager: Shutting down and abandoning module CollectionManager (568)
-[2018.05.13-21.44.24:787][796]LogDirectoryWatcher: A directory notification for 'C:/Users/vikky/Documents/GitHub/Danger-Bee/Content/Collections/' was aborted.
-[2018.05.13-21.44.24:787][796]LogDirectoryWatcher: A directory notification for 'C:/Users/vikky/Documents/GitHub/Danger-Bee/Content/Developers/vikky/Collections/' was aborted.
-[2018.05.13-21.44.24:787][796]LogDirectoryWatcher: A directory notification for 'C:/Users/vikky/Documents/GitHub/Danger-Bee/Saved/Collections/' was aborted.
-[2018.05.13-21.44.24:787][796]LogModuleManager: Shutting down and abandoning module StatsViewer (566)
-[2018.05.13-21.44.24:787][796]LogModuleManager: Shutting down and abandoning module FoliageEdit (564)
-[2018.05.13-21.44.24:787][796]LogModuleManager: Shutting down and abandoning module LandscapeEditor (562)
-[2018.05.13-21.44.24:787][796]LogModuleManager: Shutting down and abandoning module MeshPaintMode (560)
-[2018.05.13-21.44.24:787][796]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (558)
-[2018.05.13-21.44.24:787][796]LogModuleManager: Shutting down and abandoning module ActorPickerMode (556)
-[2018.05.13-21.44.24:787][796]LogModuleManager: Shutting down and abandoning module GeometryMode (554)
-[2018.05.13-21.44.24:787][796]LogModuleManager: Shutting down and abandoning module TextureAlignMode (552)
-[2018.05.13-21.44.24:787][796]LogModuleManager: Shutting down and abandoning module BspMode (550)
-[2018.05.13-21.44.24:787][796]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (548)
-[2018.05.13-21.44.24:787][796]LogModuleManager: Shutting down and abandoning module HardwareSurvey (546)
-[2018.05.13-21.44.24:787][796]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (544)
-[2018.05.13-21.44.24:787][796]LogModuleManager: Shutting down and abandoning module AutomationWorker (542)
-[2018.05.13-21.44.24:787][796]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (540)
-[2018.05.13-21.44.24:787][796]LogModuleManager: Shutting down and abandoning module SequenceRecorder (539)
-[2018.05.13-21.44.24:787][796]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (536)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (534)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module PlacementMode (533)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module MaterialEditor (532)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (528)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (526)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (524)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (522)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (520)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (518)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (516)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (514)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (512)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (510)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module CharacterAI (508)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module SmartSnapping (506)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module SessionServices (504)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module ViewportSnapping (502)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module ViewportInteraction (500)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module ClothPainter (498)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (497)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module LogVisualizer (494)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module IntroTutorials (492)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (491)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (488)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (486)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (484)
-[2018.05.13-21.44.24:788][796]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (483)
-[2018.05.13-21.44.25:227][796]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (480)
-[2018.05.13-21.44.25:227][796]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (478)
-[2018.05.13-21.44.25:227][796]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (476)
-[2018.05.13-21.44.25:227][796]LogModuleManager: Shutting down and abandoning module InputBindingEditor (474)
-[2018.05.13-21.44.25:227][796]LogModuleManager: Shutting down and abandoning module MergeActors (472)
-[2018.05.13-21.44.25:227][796]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (470)
-[2018.05.13-21.44.25:227][796]LogModuleManager: Shutting down and abandoning module LocalizationService (469)
-[2018.05.13-21.44.25:227][796]LogModuleManager: Shutting down and abandoning module HardwareTargeting (466)
-[2018.05.13-21.44.25:227][796]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (464)
-[2018.05.13-21.44.25:227][796]LogModuleManager: Shutting down and abandoning module UndoHistory (462)
-[2018.05.13-21.44.25:227][796]LogModuleManager: Shutting down and abandoning module XmlParser (460)
-[2018.05.13-21.44.25:227][796]LogModuleManager: Shutting down and abandoning module Blutility (458)
-[2018.05.13-21.44.25:227][796]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (456)
-[2018.05.13-21.44.25:227][796]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (455)
-[2018.05.13-21.44.25:227][796]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (452)
-[2018.05.13-21.44.25:228][796]LogModuleManager: Shutting down and abandoning module SettingsEditor (450)
-[2018.05.13-21.44.25:228][796]LogModuleManager: Shutting down and abandoning module ProjectLauncher (448)
-[2018.05.13-21.44.25:228][796]LogModuleManager: Shutting down and abandoning module SessionFrontend (446)
-[2018.05.13-21.44.25:228][796]LogModuleManager: Shutting down and abandoning module ProfilerClient (444)
-[2018.05.13-21.44.25:228][796]LogModuleManager: Shutting down and abandoning module DeviceManager (442)
-[2018.05.13-21.44.25:228][796]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (441)
-[2018.05.13-21.44.25:280][796]LogModuleManager: Shutting down and abandoning module AutomationController (438)
-[2018.05.13-21.44.25:280][796]LogModuleManager: Shutting down and abandoning module AutomationWindow (436)
-[2018.05.13-21.44.25:280][796]LogModuleManager: Shutting down and abandoning module Layers (434)
-[2018.05.13-21.44.25:280][796]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (432)
-[2018.05.13-21.44.25:280][796]LogModuleManager: Shutting down and abandoning module DetailCustomizations (430)
-[2018.05.13-21.44.25:280][796]LogModuleManager: Shutting down and abandoning module PackagesDialog (428)
-[2018.05.13-21.44.25:280][796]LogModuleManager: Shutting down and abandoning module Persona (426)
-[2018.05.13-21.44.25:280][796]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (425)
-[2018.05.13-21.44.25:280][796]LogModuleManager: Shutting down and abandoning module AnimGraph (423)
-[2018.05.13-21.44.25:280][796]LogModuleManager: Shutting down and abandoning module Kismet (420)
-[2018.05.13-21.44.25:281][796]LogModuleManager: Shutting down and abandoning module GraphEditor (418)
-[2018.05.13-21.44.25:281][796]LogModuleManager: Shutting down and abandoning module ClassViewer (416)
-[2018.05.13-21.44.25:281][796]LogModuleManager: Shutting down and abandoning module Toolbox (414)
-[2018.05.13-21.44.25:281][796]LogModuleManager: Shutting down and abandoning module ModuleUI (412)
-[2018.05.13-21.44.25:281][796]LogModuleManager: Shutting down and abandoning module MovieSceneTools (410)
-[2018.05.13-21.44.25:281][796]LogModuleManager: Shutting down and abandoning module OutputLog (408)
-[2018.05.13-21.44.25:281][796]LogModuleManager: Shutting down and abandoning module GammaUI (406)
-[2018.05.13-21.44.25:281][796]LogModuleManager: Shutting down and abandoning module Documentation (404)
-[2018.05.13-21.44.25:281][796]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (402)
-[2018.05.13-21.44.25:281][796]LogModuleManager: Shutting down and abandoning module MovieScene (400)
-[2018.05.13-21.44.25:281][796]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (398)
-[2018.05.13-21.44.25:281][796]LogModuleManager: Shutting down and abandoning module LauncherPlatform (396)
-[2018.05.13-21.44.25:281][796]LogModuleManager: Shutting down and abandoning module AnalyticsET (394)
-[2018.05.13-21.44.25:281][796]LogModuleManager: Shutting down and abandoning module PortalServices (392)
-[2018.05.13-21.44.25:281][796]LogModuleManager: Shutting down and abandoning module PortalRpc (390)
-[2018.05.13-21.44.25:281][796]LogModuleManager: Shutting down and abandoning module MessagingRpc (388)
-[2018.05.13-21.44.25:281][796]LogModuleManager: Shutting down and abandoning module AIModule (386)
-[2018.05.13-21.44.25:281][796]LogModuleManager: Shutting down and abandoning module GameplayDebugger (385)
-[2018.05.13-21.44.25:281][796]LogModuleManager: Shutting down and abandoning module AITestSuite (383)
-[2018.05.13-21.44.25:281][796]LogModuleManager: Shutting down and abandoning module DesktopPlatform (380)
-[2018.05.13-21.44.25:281][796]LogModuleManager: Shutting down and abandoning module ProfilerService (378)
-[2018.05.13-21.44.25:473][796]LogModuleManager: Shutting down and abandoning module TaskGraph (376)
-[2018.05.13-21.44.25:473][796]LogModuleManager: Shutting down and abandoning module FMODStudioEditor (374)
-[2018.05.13-21.44.25:473][796]LogModuleManager: Shutting down and abandoning module SteamVRController (372)
-[2018.05.13-21.44.25:473][796]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (370)
-[2018.05.13-21.44.25:473][796]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (368)
-[2018.05.13-21.44.25:473][796]LogModuleManager: Shutting down and abandoning module OculusInput (366)
-[2018.05.13-21.44.25:473][796]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (364)
-[2018.05.13-21.44.25:473][796]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
-[2018.05.13-21.44.25:473][796]LogModuleManager: Shutting down and abandoning module CableComponent (360)
-[2018.05.13-21.44.25:473][796]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
-[2018.05.13-21.44.25:473][796]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (356)
-[2018.05.13-21.44.25:473][796]LogModuleManager: Shutting down and abandoning module AndroidPermission (354)
-[2018.05.13-21.44.25:474][796]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (350)
-[2018.05.13-21.44.25:474][796]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (348)
-[2018.05.13-21.44.25:474][796]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (346)
-[2018.05.13-21.44.25:474][796]LogModuleManager: Shutting down and abandoning module MediaCompositing (344)
-[2018.05.13-21.44.25:474][796]LogModuleManager: Shutting down and abandoning module LinearTimecode (342)
-[2018.05.13-21.44.25:474][796]LogModuleManager: Shutting down and abandoning module ImgMedia (340)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module HTML5Networking (338)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module AlembicImporter (336)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module AlembicLibrary (335)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module GeometryCache (334)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (333)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module DatasmithContent (328)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (326)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module PluginBrowser (324)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (322)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (320)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module CryptoKeys (318)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (316)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (314)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module UObjectPlugin (312)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (310)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (308)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module GitSourceControl (306)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module SourceControl (305)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (300)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (298)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (296)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module Paper2DEditor (294)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module MeshPaint (293)
-[2018.05.13-21.44.25:477][796]LogModuleManager: Shutting down and abandoning module FMODStudio (290)
-[2018.05.13-21.44.25:685][796]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
-[2018.05.13-21.44.25:685][796]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
-[2018.05.13-21.44.25:685][796]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
-[2018.05.13-21.44.25:685][796]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
-[2018.05.13-21.44.25:685][796]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
-[2018.05.13-21.44.25:685][796]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
-[2018.05.13-21.44.25:685][796]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
-[2018.05.13-21.44.25:685][796]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
-[2018.05.13-21.44.25:685][796]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
-[2018.05.13-21.44.25:786][796]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
-[2018.05.13-21.44.25:886][796]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
-[2018.05.13-21.44.25:886][796]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
-[2018.05.13-21.44.25:886][796]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
-[2018.05.13-21.44.25:886][796]LogModuleManager: Shutting down and abandoning module DataValidation (262)
-[2018.05.13-21.44.25:886][796]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
-[2018.05.13-21.44.25:887][796]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
-[2018.05.13-21.44.25:887][796]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
-[2018.05.13-21.44.25:887][796]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
-[2018.05.13-21.44.25:887][796]LogModuleManager: Shutting down and abandoning module MainFrame (254)
-[2018.05.13-21.44.25:888][796]LogModuleManager: Shutting down and abandoning module HotReload (253)
-[2018.05.13-21.44.25:888][796]LogDirectoryWatcher: A directory notification for 'C:/Users/vikky/Documents/GitHub/Danger-Bee/Plugins/FMODStudio/Binaries/Win64' was aborted.
-[2018.05.13-21.44.25:888][796]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
-[2018.05.13-21.44.25:889][796]LogModuleManager: Shutting down and abandoning module TreeMap (247)
-[2018.05.13-21.44.25:889][796]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
-[2018.05.13-21.44.25:889][796]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
-[2018.05.13-21.44.25:889][796]LogModuleManager: Shutting down and abandoning module LiveLink (240)
-[2018.05.13-21.44.26:226][796]LogModuleManager: Shutting down and abandoning module Paper2D (238)
-[2018.05.13-21.44.26:226][796]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
-[2018.05.13-21.44.26:226][796]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
-[2018.05.13-21.44.26:227][796]LogModuleManager: Shutting down and abandoning module Media (233)
-[2018.05.13-21.44.26:234][796]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
-[2018.05.13-21.44.26:235][796]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
-[2018.05.13-21.44.26:235][796]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
-[2018.05.13-21.44.26:235][796]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
-[2018.05.13-21.44.26:235][796]LogModuleManager: Shutting down and abandoning module Overlay (222)
-[2018.05.13-21.44.26:235][796]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
-[2018.05.13-21.44.26:235][796]LogModuleManager: Shutting down and abandoning module VREditor (218)
-[2018.05.13-21.44.26:235][796]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
-[2018.05.13-21.44.26:235][796]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
-[2018.05.13-21.44.26:235][796]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
-[2018.05.13-21.44.26:235][796]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
-[2018.05.13-21.44.26:235][796]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
-[2018.05.13-21.44.26:235][796]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
-[2018.05.13-21.44.26:235][796]LogModuleManager: Shutting down and abandoning module UMG (204)
-[2018.05.13-21.44.26:235][796]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
-[2018.05.13-21.44.26:236][796]LogModuleManager: Shutting down and abandoning module Sequencer (202)
-[2018.05.13-21.44.26:236][796]LogModuleManager: Shutting down and abandoning module MessageLog (199)
-[2018.05.13-21.44.26:236][796]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
-[2018.05.13-21.44.26:236][796]LogModuleManager: Shutting down and abandoning module Slate (192)
-[2018.05.13-21.44.26:236][796]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
-[2018.05.13-21.44.26:238][796]LogModuleManager: Shutting down and abandoning module MRMesh (188)
-[2018.05.13-21.44.26:238][796]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
-[2018.05.13-21.44.26:238][796]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
-[2018.05.13-21.44.26:238][796]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
-[2018.05.13-21.44.26:238][796]LogModuleManager: Shutting down and abandoning module Networking (180)
-[2018.05.13-21.44.26:238][796]LogModuleManager: Shutting down and abandoning module Core (178)
-[2018.05.13-21.44.26:238][796]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
-[2018.05.13-21.44.26:238][796]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
-[2018.05.13-21.44.26:238][796]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
-[2018.05.13-21.44.26:238][796]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
-[2018.05.13-21.44.26:238][796]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
-[2018.05.13-21.44.26:238][796]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
-[2018.05.13-21.44.26:238][796]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
-[2018.05.13-21.44.26:238][796]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
-[2018.05.13-21.44.26:238][796]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
-[2018.05.13-21.44.26:238][796]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
-[2018.05.13-21.44.26:239][796]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
-[2018.05.13-21.44.26:259][796]LogDerivedDataCache: Shutdown
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module XGEController (152)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module Messaging (109)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
-[2018.05.13-21.44.26:259][796]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
-[2018.05.13-21.44.26:260][796]LogModuleManager: Shutting down and abandoning module InputCore (66)
-[2018.05.13-21.44.26:260][796]LogModuleManager: Shutting down and abandoning module Settings (64)
-[2018.05.13-21.44.26:260][796]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
-[2018.05.13-21.44.26:260][796]LogModuleManager: Shutting down and abandoning module SteamVR (60)
-[2018.05.13-21.44.26:260][796]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
-[2018.05.13-21.44.26:260][796]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
-[2018.05.13-21.44.26:260][796]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
-[2018.05.13-21.44.26:260][796]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.05.13-21.44.26:260][796]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.05.13-21.44.26:260][796]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.05.13-21.44.26:260][796]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.05.13-21.44.26:260][796]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.05.13-21.44.26:260][796]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.05.13-21.44.26:260][796]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBFE0AC37-4E56-0FAE-59DD-F485F5BA2F2B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=1e255916459df4bccc19bf86a02a43e0%7C4d6f8b13ba44426789b0048b21ea908a%7C61bda5fd-dd5f-4826-9d32-1643ac4daf4f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.05.13-21.44.26:275][796]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.05.13-21.44.26:276][796]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.05.13-21.44.26:276][796]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.05.13-21.44.26:276][796]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.05.13-21.44.26:276][796]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.05.13-21.44.26:276][796]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.05.13-21.44.26:276][796]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.05.13-21.44.26:276][796]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.05.13-21.44.26:276][796]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.05.13-21.44.26:276][796]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.05.13-21.44.26:276][796]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.05.13-21.44.26:276][796]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.05.13-21.44.26:277][796]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.05.13-21.44.26:277][796]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.05.13-21.44.26:277][796]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.05.13-21.44.26:277][796]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.05.13-21.44.26:277][796]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.05.13-21.44.26:277][796]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.05.13-21.44.26:277][796]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.05.13-21.44.26:282][796]LogExit: Exiting.
-[2018.05.13-21.44.26:300][796]Log file closed, 05/13/18 17:44:26
+[2018.05.15-15.01.05:187][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.15-15.01.05:187][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.15-15.01.05:191][  0]LogInit: Computer: DESKTOP-313A1NQ
+[2018.05.15-15.01.05:191][  0]LogInit: User: vikky
+[2018.05.15-15.01.05:191][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.15-15.01.05:191][  0]LogInit: High frequency timer resolution =3.328125 MHz
+[2018.05.15-15.01.05:191][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.05.15-15.01.05:191][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.15-15.01.05:191][  0]LogMemory: Process Physical Memory: 275.82 MB used, 275.82 MB peak
+[2018.05.15-15.01.05:191][  0]LogMemory: Process Virtual Memory: 264.88 MB used, 264.88 MB peak
+[2018.05.15-15.01.05:191][  0]LogMemory: Physical Memory: 8282.19 MB used,  8037.52 MB free, 16319.71 MB total
+[2018.05.15-15.01.05:191][  0]LogMemory: Virtual Memory: 693.29 MB used,  8037.52 MB free, 134217728.00 MB total
+[2018.05.15-15.01.05:209][  0]LogInit: Using OS detected language (en-US).
+[2018.05.15-15.01.05:209][  0]LogInit: Using OS detected locale (en-CA).
+[2018.05.15-15.01.05:209][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2018.05.15-15.01.05:209][  0]LogTextLocalizationManager: No localization for 'en-CA' exists, so 'en' will be used for the locale.
+[2018.05.15-15.01.05:631][  0]LogStreaming: Display: Took  0.422s to EndInitTextLocalization.
+[2018.05.15-15.01.05:651][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.05.15-15.01.05:651][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.05.15-15.01.05:653][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.15-15.01.05:694][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2018.05.15-15.01.05:694][  0]LogD3D11RHI:       2016/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.05.15-15.01.05:696][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.15-15.01.05:696][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.15-15.01.05:696][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.15-15.01.05:702][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.15-15.01.05:702][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.15-15.01.05:702][  0]LogWindows: EnumDisplayDevices:
+[2018.05.15-15.01.05:702][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2018.05.15-15.01.05:702][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.05.15-15.01.05:703][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.05.15-15.01.05:703][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.05.15-15.01.05:703][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.15-15.01.05:703][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2018.05.15-15.01.05:703][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.15-15.01.05:703][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.15-15.01.05:703][  0]LogRHI: Texture pool is 1411 MB (70% of 2016 MB)
+[2018.05.15-15.01.05:726][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.05.15-15.01.05:726][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.05.15-15.01.05:726][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.15-15.01.05:783][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.05.15-15.01.05:830][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Intermediate/Shaders/WorkingDirectory/16516/).
+[2018.05.15-15.01.05:830][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/vikky/AppData/Local/Temp/UnrealShaderWorkingDir/EFA140B947810032979F0D8160E21938/'.
+[2018.05.15-15.01.06:029][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.15-15.01.06:041][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.15-15.01.06:053][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.15-15.01.06:066][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.15-15.01.06:066][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.15-15.01.06:161][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.05.15-15.01.06:161][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.05.15-15.01.06:161][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.15-15.01.06:775][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.15-15.01.06:832][  0]LogDerivedDataCache: Loaded boot cache 0.06s 74MB C:/Users/vikky/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.15-15.01.06:832][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/vikky/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.05.15-15.01.06:832][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.15-15.01.06:832][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.15-15.01.06:832][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.15-15.01.06:832][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.15-15.01.06:846][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.15-15.01.06:858][  0]LogDerivedDataCache: Using Local data cache path C:/Users/vikky/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.15-15.01.06:858][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.05.15-15.01.06:858][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.05.15-15.01.06:867][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.15-15.01.06:867][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.15-15.01.06:868][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.15-15.01.06:868][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.15-15.01.06:955][  0]LogAssetRegistry: FAssetRegistry took 0.0041 seconds to start up
+[2018.05.15-15.01.07:127][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.007472 seconds
+[2018.05.15-15.01.07:216][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.15-15.01.07:345][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.15-15.01.07:347][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.15-15.01.07:347][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.15-15.01.07:347][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.15-15.01.07:347][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.15-15.01.07:347][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.15-15.01.07:373][  0]LogNetVersion: GameJam , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2281863040)
+[2018.05.15-15.01.07:918][  0]LogMoviePlayer: Initializing movie player
+[2018.05.15-15.01.07:973][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.15-15.01.07:973][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.15-15.01.08:185][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.15-15.01.08:212][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.15-15.01.08:408][  0]LogFMOD: FFMODStudioModule startup
+[2018.05.15-15.01.08:408][  0]LogFMOD:  Lib path = '../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Plugins/FMODStudio/Binaries'
+[2018.05.15-15.01.08:408][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Plugins/FMODStudio/Binaries/Win64/fmodL64.dll
+[2018.05.15-15.01.08:410][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Plugins/FMODStudio/Binaries/Win64/fmodstudioL64.dll
+[2018.05.15-15.01.08:431][  0]LogFMOD: Loading strings bank: ../../../../../../Users/vikky/Documents/GitHub/Danger-Bee/Content/FMOD/Desktop/Master Bank.strings.bank
+[2018.05.15-15.01.08:433][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/AMB/Ambience
+[2018.05.15-15.01.08:433][  0]LogFMOD: Skipping asset: bank:/Master Bank.strings
+[2018.05.15-15.01.08:433][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/FX
+[2018.05.15-15.01.08:433][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/MUS/Music
+[2018.05.15-15.01.08:433][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Buzz
+[2018.05.15-15.01.08:433][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Snail_Scream
+[2018.05.15-15.01.08:433][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Plant_Sprout
+[2018.05.15-15.01.08:433][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Plant_Bloom
+[2018.05.15-15.01.08:434][  0]LogFMOD: Skipping asset: bus:/
+[2018.05.15-15.01.08:434][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Sprinkler
+[2018.05.15-15.01.08:434][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Snail_Bop
+[2018.05.15-15.01.08:434][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/Master_Bank
+[2018.05.15-15.01.08:434][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Snail_Chomp
+[2018.05.15-15.01.08:434][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Reverb
+[2018.05.15-15.01.08:434][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Snail_Squick
+[2018.05.15-15.01.08:434][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/FX/Plant_Rustle
+[2018.05.15-15.01.08:441][  0]LogFMOD: Creating runtime Studio System
+[2018.05.15-15.01.08:443][  0]LogFMOD: Default sample rate = 48000
+[2018.05.15-15.01.08:443][  0]LogFMOD: System sample rate = 48000
+[2018.05.15-15.01.08:443][  0]LogFMOD: Matching system sample rate 48000
+[2018.05.15-15.01.08:456][  0]LogFMOD: Loading Banks
+[2018.05.15-15.01.08:538][  0]SourceControl: Source control is disabled
+[2018.05.15-15.01.08:538][  0]SourceControl: Source control is disabled
+[2018.05.15-15.01.08:554][  0]SourceControl: Source control is disabled
+[2018.05.15-15.01.08:881][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.15-15.01.08:990][  0]LogOcInput: OculusInput pre-init called
+[2018.05.15-15.01.09:027][  0]LogUObjectArray: 40430 objects as part of root set at end of initial load.
+[2018.05.15-15.01.09:027][  0]LogUObjectAllocator: 8421720 out of 0 bytes used by permanent object pool.
+[2018.05.15-15.01.09:027][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.15-15.01.09:073][  0]LogEngine: Initializing Engine...
+[2018.05.15-15.01.09:074][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.15-15.01.09:086][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.15-15.01.09:086][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.15-15.01.09:234][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.15-15.01.09:243][  0]LogInit: FAudioDevice initialized.
+[2018.05.15-15.01.09:262][  0]LogInit: Texture streaming: Enabled
+[2018.05.15-15.01.09:373][  0]LogInit: Display: Game Engine Initialized.
+[2018.05.15-15.01.09:373][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.15-15.01.09:373][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.15-15.01.09:373][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.15-15.01.09:459][  0]LogInit: Display: Starting Game.
+[2018.05.15-15.01.09:459][  0]LogNet: Browse: /Game/Maps/MainMenu?Name=Player
+[2018.05.15-15.01.09:459][  0]LogLoad: LoadMap: /Game/Maps/MainMenu?Name=Player
+[2018.05.15-15.01.09:471][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f3a3efc40, Size=24, Default__MainMenu_C Function /Game/Maps/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu
+[2018.05.15-15.01.09:472][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f2e1f4ca8, Size=4, Default__UI_Menu_C Function /Game/Blueprints/UI/UI_Menu.UI_Menu_C:ExecuteUbergraph_UI_Menu
+[2018.05.15-15.01.09:476][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f2e1f4ca8, Size=4
+[2018.05.15-15.01.09:476][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f2e1f4ca8, Size=4, Default__UI_Menu_C Function /Engine/Transient.REINST_UI_Menu_C_0:ExecuteUbergraph_UI_Menu
+[2018.05.15-15.01.09:477][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f2e1f4d80, Size=4, Default__UI_Menu_C Function /Game/Blueprints/UI/UI_Menu.UI_Menu_C:ExecuteUbergraph_UI_Menu
+[2018.05.15-15.01.09:479][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f3a3efc40, Size=24
+[2018.05.15-15.01.09:479][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f3a3efc40, Size=24, Default__MainMenu_C Function /Engine/Transient.REINST_MainMenu_C_2:ExecuteUbergraph_MainMenu
+[2018.05.15-15.01.09:479][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f3a3ef220, Size=24, Default__MainMenu_C Function /Game/Maps/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu
+[2018.05.15-15.01.09:491][  0]LogAIModule: Creating AISystem for world MainMenu
+[2018.05.15-15.01.09:492][  0]LogLoad: Game class is 'GameMode'
+[2018.05.15-15.01.09:492][  0]LogWorld: Bringing World /Game/Maps/MainMenu.MainMenu up for play (max tick rate 0) at 2018.05.15-11.01.09
+[2018.05.15-15.01.09:492][  0]LogWorld: Bringing up level for play took: 0.000293
+[2018.05.15-15.01.09:493][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.05.15-15.01.09:494][  0]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.15-15.01.09:494][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.15-15.01.09:494][  0]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.15-15.01.09:495][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.15-15.01.09:495][  0]LogLoad: Took 0.036128 seconds to LoadMap(/Game/Maps/MainMenu)
+[2018.05.15-15.01.09:542][  0]LogLoad: (Engine Initialization) Total time: 6.67 seconds
+[2018.05.15-15.01.09:543][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.15-15.01.09:579][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2018.05.15-15.01.09:621][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.15-15.01.11:570][116]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.15-15.01.11:741][122]LogPackageName: SearchForPackageOnDisk took   0.075s to resolve L_LevelNicoleBigger2.umap.
+[2018.05.15-15.01.11:742][122]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2018.05.15-15.01.11:742][122]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.05.15-15.01.11:816][122]LogPackageName: SearchForPackageOnDisk took   0.074s to resolve L_LevelNicoleBigger2.umap.
+[2018.05.15-15.01.11:816][122]LogNet: Browse: /Game/Maps/L_LevelNicoleBigger2
+[2018.05.15-15.01.11:817][122]LogLoad: LoadMap: /Game/Maps/L_LevelNicoleBigger2
+[2018.05.15-15.01.11:827][122]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f3a3efc40, Size=24
+[2018.05.15-15.01.11:827][122]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f2e1f4ca8, Size=4
+[2018.05.15-15.01.11:827][122]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f2e1f4d80, Size=4
+[2018.05.15-15.01.11:827][122]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f3a3ef220, Size=24
+[2018.05.15-15.01.11:833][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f2e1f4e90, Size=8, Default__L_LevelNicoleBigger2_C Function /Game/Maps/L_LevelNicoleBigger2.L_LevelNicoleBigger2_C:ExecuteUbergraph_L_LevelNicoleBigger2
+[2018.05.15-15.01.11:837][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f23284b80, Size=296, Default__BP_SnailPawn_C Function /Game/Blueprints/BP_SnailPawn.BP_SnailPawn_C:ExecuteUbergraph_BP_SnailPawn
+[2018.05.15-15.01.11:838][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f2e1f4d20, Size=4, Default__AIC_SnailAIController_C Function /Game/Blueprints/AIC_SnailAIController.AIC_SnailAIController_C:ExecuteUbergraph_AIC_SnailAIController
+[2018.05.15-15.01.11:841][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f28367e00, Size=256, Default__BP_Flower_C Function /Game/Blueprints/BP_Flower.BP_Flower_C:ExecuteUbergraph_BP_Flower
+[2018.05.15-15.01.11:843][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f28350d40, Size=216, Default__GM_DangerBee_C Function /Game/Blueprints/GM_DangerBee.GM_DangerBee_C:ExecuteUbergraph_GM_DangerBee
+[2018.05.15-15.01.11:852][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f232fef60, Size=112, Default__UI_BloomCounter_C Function /Game/Blueprints/UI/UI_BloomCounter.UI_BloomCounter_C:ExecuteUbergraph_UI_BloomCounter
+[2018.05.15-15.01.11:871][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f3a3d9600, Size=1312, Default__BP_Flying_Bee_C Function /Game/Blueprints/BP_Flying_Bee.BP_Flying_Bee_C:ExecuteUbergraph_BP_Flying_Bee
+[2018.05.15-15.01.11:884][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f2313ccc0, Size=80, Default__PC_PlayerController_C Function /Game/Blueprints/PC_PlayerController.PC_PlayerController_C:ExecuteUbergraph_PC_PlayerController
+[2018.05.15-15.01.11:885][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f12309b10, Size=24, Default__UI_PauseMenu_C Function /Game/Blueprints/UI/UI_PauseMenu.UI_PauseMenu_C:ExecuteUbergraph_UI_PauseMenu
+[2018.05.15-15.01.11:901][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f440cb380, Size=520, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.15-15.01.11:962][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f45c37d80, Size=288, Default__BP_Flower_Spawner_C Function /Game/Blueprints/BP_Flower_Spawner.BP_Flower_Spawner_C:ExecuteUbergraph_BP_Flower_Spawner
+[2018.05.15-15.01.11:967][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f45cca5c0, Size=432, Default__BP_HangingFlower_Spawner_C Function /Game/Blueprints/BP_HangingFlower_Spawner.BP_HangingFlower_Spawner_C:ExecuteUbergraph_BP_HangingFlower_Spawner
+[2018.05.15-15.01.11:978][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f468afa00, Size=384, Default__BP_StandingFlower_Spawner_C Function /Game/Blueprints/BP_StandingFlower_Spawner.BP_StandingFlower_Spawner_C:ExecuteUbergraph_BP_StandingFlower_Spawner
+[2018.05.15-15.01.12:026][122]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f28367e00, Size=256
+[2018.05.15-15.01.12:026][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f45cc1e00, Size=256, Default__BP_Flower_C Function /Engine/Transient.REINST_BP_Flower_C_5:ExecuteUbergraph_BP_Flower
+[2018.05.15-15.01.12:026][122]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f45c37d80, Size=288
+[2018.05.15-15.01.12:026][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f46865800, Size=288, Default__BP_Flower_Spawner_C Function /Engine/Transient.REINST_BP_Flower_Spawner_C_6:ExecuteUbergraph_BP_Flower_Spawner
+[2018.05.15-15.01.12:027][122]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f45cca5c0, Size=432
+[2018.05.15-15.01.12:027][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f46303e40, Size=432, Default__BP_HangingFlower_Spawner_C Function /Engine/Transient.REINST_BP_HangingFlower_Spawner_C_7:ExecuteUbergraph_BP_HangingFlower_Spawner
+[2018.05.15-15.01.12:027][122]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f468afa00, Size=384
+[2018.05.15-15.01.12:027][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f46308e80, Size=384, Default__BP_StandingFlower_Spawner_C Function /Engine/Transient.REINST_BP_StandingFlower_Spawner_C_9:ExecuteUbergraph_BP_StandingFlower_Spawner
+[2018.05.15-15.01.12:029][122]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f440cb380, Size=520
+[2018.05.15-15.01.12:029][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f46850680, Size=520, Default__BP_Bee_Redo_C Function /Engine/Transient.REINST_BP_Bee_Redo_C_10:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.15-15.01.12:029][122]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f3a3d9600, Size=1312
+[2018.05.15-15.01.12:029][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f462d7900, Size=1312, Default__BP_Flying_Bee_C Function /Engine/Transient.REINST_BP_Flying_Bee_C_11:ExecuteUbergraph_BP_Flying_Bee
+[2018.05.15-15.01.12:029][122]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f2e1f4d20, Size=4
+[2018.05.15-15.01.12:029][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f4642a5f0, Size=4, Default__AIC_SnailAIController_C Function /Engine/Transient.REINST_AIC_SnailAIController_C_12:ExecuteUbergraph_AIC_SnailAIController
+[2018.05.15-15.01.12:030][122]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f23284b80, Size=296
+[2018.05.15-15.01.12:030][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f46865940, Size=296, Default__BP_SnailPawn_C Function /Engine/Transient.REINST_BP_SnailPawn_C_13:ExecuteUbergraph_BP_SnailPawn
+[2018.05.15-15.01.12:030][122]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f2313ccc0, Size=80
+[2018.05.15-15.01.12:031][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f462f8db0, Size=80, Default__PC_PlayerController_C Function /Engine/Transient.REINST_PC_PlayerController_C_14:ExecuteUbergraph_PC_PlayerController
+[2018.05.15-15.01.12:031][122]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f232fef60, Size=112
+[2018.05.15-15.01.12:031][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f463dc950, Size=112, Default__UI_BloomCounter_C Function /Engine/Transient.REINST_UI_BloomCounter_C_1:ExecuteUbergraph_UI_BloomCounter
+[2018.05.15-15.01.12:031][122]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f12309b10, Size=24
+[2018.05.15-15.01.12:031][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f45c6c628, Size=24, Default__UI_PauseMenu_C Function /Engine/Transient.REINST_UI_PauseMenu_C_2:ExecuteUbergraph_UI_PauseMenu
+[2018.05.15-15.01.12:031][122]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f28350d40, Size=216
+[2018.05.15-15.01.12:031][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f462e8720, Size=216, Default__GM_DangerBee_C Function /Engine/Transient.REINST_GM_DangerBee_C_16:ExecuteUbergraph_GM_DangerBee
+[2018.05.15-15.01.12:088][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f45f2c800, Size=256, Default__BP_Flower_C Function /Game/Blueprints/BP_Flower.BP_Flower_C:ExecuteUbergraph_BP_Flower
+[2018.05.15-15.01.12:089][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f460b5800, Size=288, Default__BP_Flower_Spawner_C Function /Game/Blueprints/BP_Flower_Spawner.BP_Flower_Spawner_C:ExecuteUbergraph_BP_Flower_Spawner
+[2018.05.15-15.01.12:090][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f4607c480, Size=432, Default__BP_HangingFlower_Spawner_C Function /Game/Blueprints/BP_HangingFlower_Spawner.BP_HangingFlower_Spawner_C:ExecuteUbergraph_BP_HangingFlower_Spawner
+[2018.05.15-15.01.12:093][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f45ecf400, Size=384, Default__BP_StandingFlower_Spawner_C Function /Game/Blueprints/BP_StandingFlower_Spawner.BP_StandingFlower_Spawner_C:ExecuteUbergraph_BP_StandingFlower_Spawner
+[2018.05.15-15.01.12:096][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f45e67b00, Size=520, Default__BP_Bee_Redo_C Function /Game/Blueprints/BP_Bee_Redo.BP_Bee_Redo_C:ExecuteUbergraph_BP_Bee_Redo
+[2018.05.15-15.01.12:099][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f45e5d600, Size=1312, Default__BP_Flying_Bee_C Function /Game/Blueprints/BP_Flying_Bee.BP_Flying_Bee_C:ExecuteUbergraph_BP_Flying_Bee
+[2018.05.15-15.01.12:099][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f46101d78, Size=4, Default__AIC_SnailAIController_C Function /Game/Blueprints/AIC_SnailAIController.AIC_SnailAIController_C:ExecuteUbergraph_AIC_SnailAIController
+[2018.05.15-15.01.12:102][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f460b5440, Size=296, Default__BP_SnailPawn_C Function /Game/Blueprints/BP_SnailPawn.BP_SnailPawn_C:ExecuteUbergraph_BP_SnailPawn
+[2018.05.15-15.01.12:103][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f45dbbe20, Size=80, Default__PC_PlayerController_C Function /Game/Blueprints/PC_PlayerController.PC_PlayerController_C:ExecuteUbergraph_PC_PlayerController
+[2018.05.15-15.01.12:104][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f45db4640, Size=112, Default__UI_BloomCounter_C Function /Game/Blueprints/UI/UI_BloomCounter.UI_BloomCounter_C:ExecuteUbergraph_UI_BloomCounter
+[2018.05.15-15.01.12:105][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f45e62b48, Size=24, Default__UI_PauseMenu_C Function /Game/Blueprints/UI/UI_PauseMenu.UI_PauseMenu_C:ExecuteUbergraph_UI_PauseMenu
+[2018.05.15-15.01.12:106][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f45f42da0, Size=208, Default__GM_DangerBee_C Function /Game/Blueprints/GM_DangerBee.GM_DangerBee_C:ExecuteUbergraph_GM_DangerBee
+[2018.05.15-15.01.12:124][122]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f2e1f4e90, Size=8
+[2018.05.15-15.01.12:124][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f46101a18, Size=8, Default__L_LevelNicoleBigger2_C Function /Engine/Transient.REINST_L_LevelNicoleBigger2_C_32:ExecuteUbergraph_L_LevelNicoleBigger2
+[2018.05.15-15.01.12:125][122]LogUObjectGlobals: Created PersistentFrame Addr=0x0000023f461019d8, Size=8, Default__L_LevelNicoleBigger2_C Function /Game/Maps/L_LevelNicoleBigger2.L_LevelNicoleBigger2_C:ExecuteUbergraph_L_LevelNicoleBigger2
+[2018.05.15-15.01.12:475][122]LogAIModule: Creating AISystem for world L_LevelNicoleBigger2
+[2018.05.15-15.01.12:476][122]LogLoad: Game class is 'GM_DangerBee_C'
+[2018.05.15-15.01.12:593][122]LogWorld: Bringing World /Game/Maps/L_LevelNicoleBigger2.L_LevelNicoleBigger2 up for play (max tick rate 0) at 2018.05.15-11.01.12
+[2018.05.15-15.01.12:599][122]LogWorld: Bringing up level for play took: 0.122283
+[2018.05.15-15.01.12:601][122]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.15-15.01.12:601][122]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.05.15-15.01.12:601][122]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.05.15-15.01.12:835][122]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_asynccommandbuffer.cpp(139) - Growing command buffer to 669087722 bytes. Initial command buffer size can be tuned to avoid dynamic growth using Studio::System::setAdvancedSettings()
+
+[2018.05.15-15.01.12:990][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:990][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:990][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:990][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:990][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:991][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:992][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:993][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:994][122]LogBlueprintUserMessages: [GM_DangerBee_C_0] visibility set:GM
+[2018.05.15-15.01.12:995][122]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.05.15-15.01.13:000][122]LogLoad: Took 1.183537 seconds to LoadMap(/Game/Maps/L_LevelNicoleBigger2)
+[2018.05.15-15.01.13:108][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {06575b3e-b19a-44a3-9633-a4b69ef6c990} waited 89 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:109][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 89 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:109][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 89 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:109][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 89 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:109][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 89 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:109][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 88 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:109][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 88 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:109][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 88 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:109][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 87 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:109][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 87 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:109][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 87 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:109][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 87 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:109][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 86 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:109][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 86 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:109][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 86 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:109][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 85 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:109][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 86 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:110][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 86 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:110][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 85 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:110][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 85 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:110][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 85 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:110][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 84 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:110][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 84 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:110][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 84 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:110][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 84 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:110][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 83 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:110][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 83 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:110][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 83 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:110][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 82 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:110][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 82 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:110][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 82 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:110][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 82 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:110][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 82 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:111][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 79 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:111][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 79 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:111][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 79 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:111][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 77 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:111][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 77 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:111][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 77 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:111][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 77 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:111][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 77 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:111][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 76 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:111][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 76 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:111][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 76 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:111][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 76 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:111][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 76 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:111][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 75 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:111][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 75 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:112][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 76 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:112][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 76 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:112][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 75 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:112][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 75 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:112][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 75 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:112][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 75 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:112][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 74 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:112][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 74 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:112][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 73 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:112][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 73 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:112][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 73 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:113][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 74 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:113][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 73 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:113][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 73 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:113][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 73 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:113][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 73 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:113][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 72 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:113][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 72 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:113][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 72 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:113][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 72 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:113][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 71 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:113][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 71 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:113][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 71 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:113][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 71 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:114][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 72 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:114][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 71 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:114][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 71 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:114][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 71 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:114][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 71 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:114][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 71 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:114][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 71 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:114][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 70 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:114][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 70 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:114][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 69 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:116][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 70 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:116][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 69 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:116][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 69 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:116][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 69 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:116][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 68 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:116][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 68 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:116][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 68 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:116][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 67 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:116][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 67 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:116][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 67 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:116][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 66 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:116][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 66 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:116][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 66 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:116][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 66 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:116][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 66 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:116][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 66 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:116][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 65 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:116][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 65 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:116][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 65 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:117][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 64 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:117][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 64 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:117][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 64 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:117][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 64 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:117][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 64 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:117][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 64 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:117][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 63 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:117][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 63 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:117][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 63 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:117][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 62 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:118][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 62 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:118][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 62 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:118][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 61 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:118][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 61 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:118][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 61 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:118][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 60 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:118][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 61 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:118][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 60 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:118][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 60 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:118][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 60 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:118][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 59 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:118][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 59 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:118][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 59 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:118][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 58 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:118][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 58 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:118][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 58 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:118][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 57 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:118][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 57 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:118][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 57 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:119][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 57 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:119][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 57 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:119][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 57 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:119][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 57 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:119][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 57 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:119][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 56 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:119][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 56 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:119][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 56 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:119][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 56 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:119][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 56 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:119][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 56 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:120][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 56 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:120][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 56 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:120][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 56 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:120][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 55 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:120][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 55 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:120][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 54 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:120][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 54 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:120][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 54 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:120][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 53 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:120][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 53 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:120][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 53 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:122][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 53 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:122][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 53 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:122][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 52 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:122][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 52 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:122][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 52 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:122][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 52 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:122][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 51 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:122][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 51 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:122][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 51 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:122][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 51 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:122][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 50 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:122][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 50 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:122][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 50 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:122][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 51 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:122][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 50 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:122][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 50 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:122][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\studio_api\src\fmod_playback_event.cpp(240) - Event {657a98ed-1235-4346-8a7a-f42e52acf664} waited 50 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+
+[2018.05.15-15.01.13:131][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\lowlevel_api\src\fmod_dspi.cpp(1258) - DSP JobList expanding job from 1024 entries to 2048 entries.
+
+[2018.05.15-15.01.13:133][124]LogFMOD: Warning: f:\jk\workspace\1.10_UE4.19_Win64\lowlevel_api\src\fmod_dspi.cpp(1258) - DSP JobList expanding job from 2048 entries to 3072 entries.
+
+[2018.05.15-15.01.19:687][357]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.15-15.01.22:086][441]LogBlueprintUserMessages: [GM_DangerBee_C_0] Hello
+[2018.05.15-15.01.25:770][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.15-15.01.25:906][578]Closing by request
+[2018.05.15-15.01.25:906][578]LogWindows: FPlatformMisc::RequestExit(0)
+[2018.05.15-15.01.26:108][579]LogSlate: Window 'GameJam (64-bit, PCD3D_SM5) ' being destroyed
+[2018.05.15-15.01.26:109][579]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.15-15.01.26:109][579]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.15-15.01.26:113][579]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.15-15.01.26:113][579]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.15-15.01.26:114][579]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.05.15-15.01.26:114][579]LogExit: Preparing to exit.
+[2018.05.15-15.01.26:114][579]LogMoviePlayer: Shutting down movie player
+[2018.05.15-15.01.27:258][579]LogExit: Game engine shut down
+[2018.05.15-15.01.27:261][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f4642a5f0, Size=4
+[2018.05.15-15.01.27:261][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f46865940, Size=296
+[2018.05.15-15.01.27:261][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f46101a18, Size=8
+[2018.05.15-15.01.27:262][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f45cc1e00, Size=256
+[2018.05.15-15.01.27:262][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f462e8720, Size=216
+[2018.05.15-15.01.27:262][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f463dc950, Size=112
+[2018.05.15-15.01.27:262][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f462d7900, Size=1312
+[2018.05.15-15.01.27:262][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f462f8db0, Size=80
+[2018.05.15-15.01.27:262][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f45c6c628, Size=24
+[2018.05.15-15.01.27:262][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f46850680, Size=520
+[2018.05.15-15.01.27:262][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f46865800, Size=288
+[2018.05.15-15.01.27:262][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f46303e40, Size=432
+[2018.05.15-15.01.27:262][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f46308e80, Size=384
+[2018.05.15-15.01.27:262][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f45f2c800, Size=256
+[2018.05.15-15.01.27:262][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f460b5800, Size=288
+[2018.05.15-15.01.27:262][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f4607c480, Size=432
+[2018.05.15-15.01.27:262][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f45ecf400, Size=384
+[2018.05.15-15.01.27:262][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f45e67b00, Size=520
+[2018.05.15-15.01.27:262][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f45e5d600, Size=1312
+[2018.05.15-15.01.27:262][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f46101d78, Size=4
+[2018.05.15-15.01.27:262][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f460b5440, Size=296
+[2018.05.15-15.01.27:262][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f45dbbe20, Size=80
+[2018.05.15-15.01.27:263][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f45db4640, Size=112
+[2018.05.15-15.01.27:263][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f45e62b48, Size=24
+[2018.05.15-15.01.27:263][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f45f42da0, Size=208
+[2018.05.15-15.01.27:263][579]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000023f461019d8, Size=8
+[2018.05.15-15.01.27:313][579]LogExit: Object subsystem successfully closed.
+[2018.05.15-15.01.27:331][579]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.05.15-15.01.27:334][579]LogD3D11RHI: Shutdown
+[2018.05.15-15.01.27:334][579]LogD3D11RHI: CleanupD3DDevice
+[2018.05.15-15.01.27:336][579]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (334)
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module SequenceRecorder (332)
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module AutomationController (330)
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module AutomationWorker (328)
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module AIModule (326)
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module GameplayDebugger (325)
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module AITestSuite (323)
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (320)
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (318)
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (316)
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (314)
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module CharacterAI (312)
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module SessionServices (310)
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (308)
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (306)
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module MovieScene (304)
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module GeometryCache (302)
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (301)
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (298)
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module PortalServices (296)
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module PortalRpc (294)
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module MessagingRpc (292)
+[2018.05.15-15.01.27:345][579]LogModuleManager: Shutting down and abandoning module ProfilerService (290)
+[2018.05.15-15.01.27:555][579]LogModuleManager: Shutting down and abandoning module TaskGraph (288)
+[2018.05.15-15.01.27:555][579]LogModuleManager: Shutting down and abandoning module SteamVRController (286)
+[2018.05.15-15.01.27:555][579]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (284)
+[2018.05.15-15.01.27:555][579]LogModuleManager: Shutting down and abandoning module OculusInput (282)
+[2018.05.15-15.01.27:555][579]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (280)
+[2018.05.15-15.01.27:555][579]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (278)
+[2018.05.15-15.01.27:555][579]LogModuleManager: Shutting down and abandoning module CableComponent (276)
+[2018.05.15-15.01.27:555][579]LogModuleManager: Shutting down and abandoning module AudioCapture (274)
+[2018.05.15-15.01.27:555][579]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (272)
+[2018.05.15-15.01.27:555][579]LogModuleManager: Shutting down and abandoning module AndroidPermission (270)
+[2018.05.15-15.01.27:555][579]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (266)
+[2018.05.15-15.01.27:555][579]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (264)
+[2018.05.15-15.01.27:555][579]LogModuleManager: Shutting down and abandoning module MediaCompositing (262)
+[2018.05.15-15.01.27:555][579]LogModuleManager: Shutting down and abandoning module LinearTimecode (260)
+[2018.05.15-15.01.27:555][579]LogModuleManager: Shutting down and abandoning module ImgMedia (258)
+[2018.05.15-15.01.27:557][579]LogModuleManager: Shutting down and abandoning module HTML5Networking (256)
+[2018.05.15-15.01.27:557][579]LogModuleManager: Shutting down and abandoning module DatasmithContent (254)
+[2018.05.15-15.01.27:557][579]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (252)
+[2018.05.15-15.01.27:557][579]LogModuleManager: Shutting down and abandoning module CryptoKeys (250)
+[2018.05.15-15.01.27:557][579]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (248)
+[2018.05.15-15.01.27:557][579]LogModuleManager: Shutting down and abandoning module HotReload (247)
+[2018.05.15-15.01.27:557][579]LogDirectoryWatcher: A directory notification for 'C:/Users/vikky/Documents/GitHub/Danger-Bee/Plugins/FMODStudio/Binaries/Win64' was aborted.
+[2018.05.15-15.01.27:558][579]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (246)
+[2018.05.15-15.01.27:558][579]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (242)
+[2018.05.15-15.01.27:558][579]LogModuleManager: Shutting down and abandoning module UObjectPlugin (240)
+[2018.05.15-15.01.27:558][579]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (238)
+[2018.05.15-15.01.27:558][579]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (236)
+[2018.05.15-15.01.27:558][579]LogModuleManager: Shutting down and abandoning module SourceControl (235)
+[2018.05.15-15.01.27:558][579]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (232)
+[2018.05.15-15.01.27:558][579]LogModuleManager: Shutting down and abandoning module FMODStudio (230)
+[2018.05.15-15.01.27:645][579]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (228)
+[2018.05.15-15.01.27:645][579]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (226)
+[2018.05.15-15.01.27:645][579]LogModuleManager: Shutting down and abandoning module PhysXVehicles (224)
+[2018.05.15-15.01.27:645][579]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (222)
+[2018.05.15-15.01.27:645][579]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (220)
+[2018.05.15-15.01.27:645][579]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (218)
+[2018.05.15-15.01.27:645][579]LogModuleManager: Shutting down and abandoning module ActorSequence (216)
+[2018.05.15-15.01.27:645][579]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
+[2018.05.15-15.01.27:747][579]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
+[2018.05.15-15.01.28:192][579]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
+[2018.05.15-15.01.28:193][579]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2018.05.15-15.01.28:193][579]LogModuleManager: Shutting down and abandoning module DataValidation (206)
+[2018.05.15-15.01.28:193][579]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (204)
+[2018.05.15-15.01.28:193][579]LogModuleManager: Shutting down and abandoning module TreeMap (203)
+[2018.05.15-15.01.28:193][579]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (200)
+[2018.05.15-15.01.28:193][579]LogModuleManager: Shutting down and abandoning module LiveLink (198)
+[2018.05.15-15.01.29:066][579]LogModuleManager: Shutting down and abandoning module Paper2D (196)
+[2018.05.15-15.01.29:066][579]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (194)
+[2018.05.15-15.01.29:066][579]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (192)
+[2018.05.15-15.01.29:066][579]LogModuleManager: Shutting down and abandoning module WmfMedia (190)
+[2018.05.15-15.01.29:067][579]LogModuleManager: Shutting down and abandoning module Media (189)
+[2018.05.15-15.01.29:073][579]LogModuleManager: Shutting down and abandoning module PacketHandler (186)
+[2018.05.15-15.01.29:073][579]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (184)
+[2018.05.15-15.01.29:073][579]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (182)
+[2018.05.15-15.01.29:073][579]LogModuleManager: Shutting down and abandoning module MediaAssets (180)
+[2018.05.15-15.01.29:073][579]LogModuleManager: Shutting down and abandoning module Overlay (178)
+[2018.05.15-15.01.29:073][579]LogModuleManager: Shutting down and abandoning module OverlayEditor (177)
+[2018.05.15-15.01.29:073][579]LogModuleManager: Shutting down and abandoning module VREditor (174)
+[2018.05.15-15.01.29:073][579]LogModuleManager: Shutting down and abandoning module StringTableEditor (172)
+[2018.05.15-15.01.29:073][579]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (170)
+[2018.05.15-15.01.29:073][579]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (168)
+[2018.05.15-15.01.29:073][579]LogModuleManager: Shutting down and abandoning module FunctionalTesting (166)
+[2018.05.15-15.01.29:073][579]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (164)
+[2018.05.15-15.01.29:073][579]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (163)
+[2018.05.15-15.01.29:073][579]LogModuleManager: Shutting down and abandoning module UMG (160)
+[2018.05.15-15.01.29:073][579]LogModuleManager: Shutting down and abandoning module UMGEditor (159)
+[2018.05.15-15.01.29:073][579]LogModuleManager: Shutting down and abandoning module Sequencer (158)
+[2018.05.15-15.01.29:073][579]LogModuleManager: Shutting down and abandoning module MessageLog (155)
+[2018.05.15-15.01.29:073][579]LogModuleManager: Shutting down and abandoning module SlateReflector (150)
+[2018.05.15-15.01.29:073][579]LogModuleManager: Shutting down and abandoning module Slate (148)
+[2018.05.15-15.01.29:073][579]LogModuleManager: Shutting down and abandoning module EditorStyle (146)
+[2018.05.15-15.01.29:075][579]LogModuleManager: Shutting down and abandoning module MRMesh (144)
+[2018.05.15-15.01.29:075][579]LogModuleManager: Shutting down and abandoning module Messaging (142)
+[2018.05.15-15.01.29:075][579]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (140)
+[2018.05.15-15.01.29:075][579]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (138)
+[2018.05.15-15.01.29:075][579]LogModuleManager: Shutting down and abandoning module XAudio2 (136)
+[2018.05.15-15.01.29:075][579]LogModuleManager: Shutting down and abandoning module Networking (134)
+[2018.05.15-15.01.29:075][579]LogModuleManager: Shutting down and abandoning module Core (132)
+[2018.05.15-15.01.29:075][579]LogModuleManager: Shutting down and abandoning module LevelSequence (130)
+[2018.05.15-15.01.29:075][579]LogModuleManager: Shutting down and abandoning module KismetCompiler (128)
+[2018.05.15-15.01.29:075][579]LogModuleManager: Shutting down and abandoning module MeshUtilities (126)
+[2018.05.15-15.01.29:075][579]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (125)
+[2018.05.15-15.01.29:075][579]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (124)
+[2018.05.15-15.01.29:075][579]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (123)
+[2018.05.15-15.01.29:075][579]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (121)
+[2018.05.15-15.01.29:075][579]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (119)
+[2018.05.15-15.01.29:075][579]LogModuleManager: Shutting down and abandoning module MaterialBaking (115)
+[2018.05.15-15.01.29:075][579]LogModuleManager: Shutting down and abandoning module DerivedDataCache (110)
+[2018.05.15-15.01.29:378][579]LogDerivedDataCache: Shutdown
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module XGEController (108)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module TargetPlatform (106)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (105)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (103)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (101)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (99)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (97)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (95)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (93)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (91)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (89)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (87)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module ImageWrapper (86)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (83)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (81)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (79)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (77)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (75)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (73)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (71)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (69)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.05.15-15.01.29:378][579]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.05.15-15.01.29:379][579]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2018.05.15-15.01.29:379][579]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.05.15-15.01.29:379][579]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.05.15-15.01.29:379][579]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.05.15-15.01.29:379][579]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.05.15-15.01.29:379][579]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.05.15-15.01.29:379][579]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.05.15-15.01.29:379][579]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.05.15-15.01.29:379][579]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.05.15-15.01.29:409][579]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.05.15-15.01.29:410][579]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.05.15-15.01.29:410][579]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.05.15-15.01.29:410][579]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.05.15-15.01.29:410][579]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.05.15-15.01.29:410][579]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.05.15-15.01.29:411][579]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.05.15-15.01.29:411][579]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.05.15-15.01.29:411][579]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.05.15-15.01.29:411][579]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.05.15-15.01.29:411][579]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.05.15-15.01.29:411][579]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.05.15-15.01.29:411][579]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.05.15-15.01.29:411][579]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.05.15-15.01.29:411][579]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.05.15-15.01.29:411][579]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.05.15-15.01.29:411][579]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.05.15-15.01.29:411][579]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.05.15-15.01.29:411][579]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.05.15-15.01.29:415][579]LogExit: Exiting.
+[2018.05.15-15.01.29:416][579]Log file closed, 05/15/18 11:01:29
