@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{506d2c5b-44d7-4b84-834a-9ae4bd33ac3d}">
+        <property name="assetPath">
+            <value>Music/mus_main_MelodyLight.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>213.81818594104308</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{7f191828-dda3-4e47-b6c3-c1957a4c969d}</destination>
+        </relationship>
+    </object>
+</objects>

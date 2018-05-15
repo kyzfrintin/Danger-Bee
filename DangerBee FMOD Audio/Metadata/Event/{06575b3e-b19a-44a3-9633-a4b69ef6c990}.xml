@@ -174,9 +174,6 @@
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{43f53be8-b2b3-4953-8398-8317378c80a9}">
-        <property name="volume">
-            <value>-13</value>
-        </property>
         <property name="name">
             <value>WindBase</value>
         </property>
@@ -212,7 +209,7 @@
     </object>
     <object class="EventMixerGroup" id="{1edb68eb-3242-445f-b78d-d6c7ac92f5b1}">
         <property name="volume">
-            <value>6.5</value>
+            <value>10</value>
         </property>
         <property name="name">
             <value>WindTop</value>
@@ -232,7 +229,7 @@
             <value>true</value>
         </property>
         <property name="triggerProbability">
-            <value>49</value>
+            <value>63.5</value>
         </property>
         <property name="length">
             <value>9.4155555555555566</value>
@@ -257,6 +254,9 @@
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{0027265a-c03f-48f2-8000-fce375f8e492}">
+        <property name="volume">
+            <value>10</value>
+        </property>
         <property name="name">
             <value>Creaks</value>
         </property>
@@ -288,6 +288,7 @@
         <relationship name="effects">
             <destination>{d044aabc-25eb-4b42-93a4-289ff77b0301}</destination>
             <destination>{6e771445-12cd-4789-a5d7-0fb8b19ec41c}</destination>
+            <destination>{4d53c82a-ef5f-43bc-8357-3f3aa9d93ecd}</destination>
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{32226d5e-d50b-4217-a99b-8dee7ff85f3d}"/>
@@ -376,6 +377,17 @@
         </property>
     </object>
     <object class="MixerBusFader" id="{6e771445-12cd-4789-a5d7-0fb8b19ec41c}"/>
+    <object class="MixerSend" id="{4d53c82a-ef5f-43bc-8357-3f3aa9d93ecd}">
+        <property name="level">
+            <value>-11</value>
+        </property>
+        <property name="inputFormat">
+            <value>1</value>
+        </property>
+        <relationship name="mixerReturn">
+            <destination>{dd60d8a8-3ad5-4b71-969f-c3e53d2c1110}</destination>
+        </relationship>
+    </object>
     <object class="AutomationPoint" id="{5d7237af-7684-4d23-b657-c55e966463ed}">
         <property name="position">
             <value>3</value>
